@@ -58,6 +58,8 @@ def extract_paper_titles_with_details(input_file_path, output_file_path,output_j
                             'affiliations': td_elements[5].get_text(strip=True) if len(td_elements) > 5 else '',
                             'presentation_type': td_elements[7].get_text(strip=True) if len(td_elements) > 7 else ''
                         }
+                        if paper_info['presentation_type'] == 'Reject':
+                            continue
                         papers.append(paper_info)
 
                         # 将详细信息写入文件
@@ -84,11 +86,11 @@ def extract_paper_titles_with_details(input_file_path, output_file_path,output_j
 
 # 使用示例
 if __name__ == "__main__":
-    conference = "ICML"
+    conference = "ICLR"
     year = "2025"
     input_file_path = f"{conference}/{conference}_{year}.html"
-    output_file_path = f"{conference}/{conference}_{year}_accepted_titles.txt"
-    output_json_path = f"{conference}/{conference}_{year}_accepted_titles.json"
+    output_file_path = f"{conference}/{conference}_{year}_accepted.txt"
+    output_json_path = f"{conference}/{conference}_{year}_accepted.json"
 
     detailed_papers = extract_paper_titles_with_details(input_file_path, output_file_path,output_json_path)
 
