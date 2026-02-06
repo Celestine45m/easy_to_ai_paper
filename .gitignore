@@ -25,6 +25,8 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+
+.idea/*
 src/*
 ICML/*
 NeurIPS/*

@@ -18,7 +18,7 @@ def extract_paper_titles_with_details(input_file_path, output_file_path,output_j
     
     index = 0
     # 查找所有表格行
-    for tr in soup.find_all('tr')[:10]:
+    for tr in soup.find_all('tr')[:]:
         try:
             # 查找该行中的所有<td>元素
             td_elements = tr.find_all('td')
@@ -70,13 +70,13 @@ def extract_paper_titles_with_details(input_file_path, output_file_path,output_j
                             f.write(f"   机构: {paper_info['affiliations']}\n")
                             f.write(f"   类型: {paper_info['presentation_type']}\n")
                             f.write("\n")  # 空行分隔
-                        print(f"\n📝 已保存 {len(papers)} 篇论文的详细信息到 {output_file_path}")
+                        # print(f"\n📝 已保存 {len(papers)} 篇论文的详细信息到 {output_file_path}")
 
                         
                         # 将详细信息写入文件
                         with open(output_json_path, "a", encoding="utf-8") as f:
                             f.write(json.dumps(paper_info, ensure_ascii=False) + "\n")  # 空行分隔
-                        print(f"\n📝 已保存 {len(papers)} 篇论文的详细信息到 {output_json_path}")
+                        print(f"\n📝 已保存 {len(papers)} 篇论文的详细信息到 {output_file_path}, {output_json_path}")
         except Exception as e:
             print(f"Error: {e}")
             continue
