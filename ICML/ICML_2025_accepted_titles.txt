@@ -1,0 +1,1288 @@
+No.1. $Q\sharp$: Provably Optimal Distributional RL for LLM Post-Training
+   标题: 证明最优性的分布强化学习在大语言模型后训练中的应用
+   链接: https://openreview.net/forum?id=1J1Kju4rto
+   类别: reinforcement learning
+   作者: Jin Peng Zhou;Kaiwen Wang;Jonathan Daniel Chang;Zhaolin Gao;Nathan Kallus;Kilian Q Weinberger;Kianté Brantley;Wen Sun;
+   机构: Cornell University;Databricks;Netflix;ASAPP Inc.;;
+   类型: Reject
+
+No.2. Stochastic Regret Guarantees for Online Zeroth- and First-Order Bilevel Optimization
+   标题: 零阶和一阶在线 bilevel 优化的随机后悔保证
+   链接: https://openreview.net/forum?id=nYrj9ZwgYk
+   类别: general machine learning->online learning active learning and bandits
+   作者: Parvin Nazari;Bojian Hou;Davoud Ataee Tarzanagh;Li Shen;George Michailidis;
+   机构: Amirkabir University of Technology;;University of Pennsylvania;University of California, Los Angeles;
+   类型: Reject
+
+No.3. The Minimal Search Space for Conditional Causal Bandits
+   标题: 条件因果多臂问题中的最小搜索空间
+   链接: https://openreview.net/forum?id=GOWRex7nOA
+   类别: general machine learning->causality
+   作者: Francisco N. F. Q. Simoes;Itai Feigenbaum;Mehdi Dastani;Thijs van Ommen;
+   机构: Utrecht University;;
+   类型: Reject
+
+No.4. On the Geometry of Regularization in Adversarial Training: High-Dimensional Asymptotics and Generalization Bounds
+   标题: 正则化在对抗训练中的几何学：高维渐近性质与泛化界
+   链接: https://openreview.net/forum?id=9Mxi4pMe4G
+   类别: theory->learning theory
+   作者: Matteo Vilucchio;Nikolaos Tsilivis;Bruno Loureiro;Julia Kempe;
+   机构: EPFL;Meta;New York University;Ecole Normale Supérieure de Paris;;
+   类型: Reject
+
+No.5. Sample-efficient diffusion-based control of complex nonlinear systems
+   标题: 高效采样扩散基础控制复杂非线性系统
+   链接: https://openreview.net/forum?id=rUXTjhFMG5
+   类别: applications->chemistry physics and earth sciences
+   作者: Hongyi Chen;Jingtao Ding;Jianhai Shu;Xinchun Yu;Xiaojun Liang;Yong Li;Xiao-Ping Zhang;
+   机构: Tsinghua University;;Pengcheng Laboratory;
+   类型: Reject
+
+No.6. Spectral Informed Neural Networks
+   标题: 谱引导神经网络
+   链接: https://openreview.net/forum?id=MZyfS1cf0u
+   类别: applications->chemistry physics and earth sciences
+   作者: Tianchi Yu;Yiming Qi;Ivan Oseledets;Shiyi Chen;
+   机构: Skolkovo Institute of Science and Technology;Peking University;Artificial Intelligence Research Institute;Institute of Numerical Mathematics;;
+   类型: Reject
+
+No.7. Pruning Spurious Subgraphs for Graph Out-of-Distribtuion Generalization
+   标题: 剪枝虚假子图以实现图的域外泛化
+   链接: https://openreview.net/forum?id=5yeBvI1qtf
+   类别: deep learning->graph neural networks
+   作者: Tianjun Yao;Haoxuan Li;Yongqiang Chen;Tongliang Liu;Le Song;Eric P. Xing;Zhiqiang Shen;
+   机构: Mohamed bin Zayed University of Artificial Intelligence;Georgia Institute of Technology;Peking University;Carnegie Mellon University;University of Sydney;RIKEN;Mohamed bin Zayed Univeristy of AI;;
+   类型: Reject
+
+No.8. Regression Trees Know Calculus
+   标题: 回归树掌握微积分
+   链接: https://openreview.net/forum?id=S5v9UheAhP
+   类别: general machine learning->supervised learning
+   作者: Nathan Wycoff;
+   机构: University of Massachusetts Amherst;
+   类型: Reject
+
+No.9. Convergence Analysis of Natural Gradient Descent for Over-parameterized Physics-Informed Neural Networks
+   标题: 物理信息神经网络过参数化情况下自然梯度下降的收敛性分析
+   链接: https://openreview.net/forum?id=DM2aCc6LzI
+   类别: optimization
+   作者: Xianliang Xu;Ting Du;Wang Kong;Bin Shan;Ye Li;Zhongyi Huang;
+   机构: Tsinghua University;;Nanjing University of Aeronautics and Astronautics;
+   类型: Reject
+
+No.10. Debiased Orthogonal Boundary-driven Efficient Noise Mitigation
+   标题: 去偏置正交边界驱动高效噪声抑制
+   链接: https://openreview.net/forum?id=kLOoc8a3bc
+   类别: applications->computer vision
+   作者: Hao Li;Jiayang Gu;Jingkuan Song;An Zhang;Lianli Gao;
+   机构: ;University of Warwick;University of Electronic Science and Technology of China;
+   类型: Reject
+
+No.11. Pose Prior Learner: Unsupervised Categorical Prior Learning for Pose Estimation
+   标题: 姿态先验学习者：无监督分类先验学习在姿态估计中的应用
+   链接: https://openreview.net/forum?id=0OdIwdiFb7
+   类别: applications->computer vision
+   作者: Ziyu Wang;Shuangpeng Han;Mengmi Zhang;
+   机构: National University of Singapore;;Nanyang Technological University;Agency for Science, Technology and Research;
+   类型: Reject
+
+No.12. Multivariate Conformal Prediction using Optimal Transport
+   标题: 多变量最优传输 conformal prediction
+   链接: https://openreview.net/forum?id=haEAhTexqm
+   类别: probabilistic methods
+   作者: Michal Klein;Louis Béthune;Eugene Ndiaye;marco cuturi;
+   机构: Apple;;ENSAE ParisTech;
+   类型: Reject
+
+No.13. Temporal-Difference Variational Continual Learning
+   标题: 时差变分持续学习
+   链接: https://openreview.net/forum?id=6Uh73Wl8Je
+   类别: probabilistic methods
+   作者: Luckeciano Carvalho Melo;Alessandro Abate;Yarin Gal;
+   机构: University of Oxford;
+   类型: Reject
+
+No.14. Semi-gradient DICE for Offline Constrained Reinforcement Learning
+   标题: 离线约束强化学习中的半梯度DICE算法
+   链接: https://openreview.net/forum?id=wtcRXLaFrJ
+   类别: reinforcement learning->batchoffline
+   作者: Woosung Kim;JunHo Seo;Jongmin Lee;Byung-Jun Lee;
+   机构: Korea University;Yonsei University;University of California, Berkeley;Gauss Labs Inc.;
+   类型: Reject
+
+No.15. Unsupervised Transfer Learning via Adversarial Contrastive Training
+   标题: 无监督迁移学习通过对抗对比训练实现
+   链接: https://openreview.net/forum?id=90ghmFUwIT
+   类别: theory->domain adaptation and transfer learning
+   作者: Chenguang Duan;Yuling Jiao;Huazhen Lin;Wensen Ma;Jerry Zhijian Yang;
+   机构: Wuhan University;Southwest University of Finance and Economics;
+   类型: Reject
+
+No.16. A standard transformer and attention with linear biases for molecular conformer generation
+   标题: 标准变压器和具有线性偏置的注意力机制在分子构象生成中的应用
+   链接: https://openreview.net/forum?id=BjjerMYL3F
+   类别: applications->chemistry physics and earth sciences
+   作者: Viatcheslav Gurev;Timothy Rumbell;
+   机构: International Business Machines Corporation;;
+   类型: Reject
+
+No.17. An Architecture Built for Federated Learning: Addressing Data Heterogeneity through Adaptive Normalization-Free Feature Recalibration
+   标题: 面向联邦学习的架构：通过自适应归一化自由特征重标定解决数据异质性问题
+   链接: https://openreview.net/forum?id=CUJcSQ19ao
+   类别: deep learning->everything else
+   作者: Vasilis Siomos;Jonathan Passerat-Palmbach;Giacomo Tarroni;
+   机构: ;City, University of London;
+   类型: Reject
+
+No.18. Multi-Agent Design: Optimizing Agents with Better Prompts and Topologies
+   标题: 多智能体设计：通过更好的提示和拓扑结构优化智能体
+   链接: https://openreview.net/forum?id=uCKvHweh1g
+   类别: deep learning->large language models
+   作者: Han Zhou;Xingchen Wan;Ruoxi Sun;Hamid Palangi;Shariq Iqbal;Ivan Vulić;Anna Korhonen;Sercan O Arik;
+   机构: University of Cambridge;Google;
+   类型: Reject
+
+No.19. Manipulation Inversion by Adversarial Learning on Latent Statistical Manifold
+   标题: 基于潜在统计流形对抗学习的操纵反转
+   链接: https://openreview.net/forum?id=qyGurHI4As
+   类别: deep learning->other representation learning
+   作者: Jialu Zhang;yifei li;Mai Xu;Shengxi Li;Shuting Liu;Lai Jiang;Shuhang Gu;
+   机构: Beihang University;University of Electronic Science and Technology of China;
+   类型: Reject
+
+No.20. ASCENSION: Autoencoder-Based Latent Space Class Expansion for Time Series Data Augmentation
+   标题: 升维：基于自动编码器的潜在空间类别扩展时间序列数据增强
+   链接: https://openreview.net/forum?id=pkdA4gC4p2
+   类别: deep learning->sequential models time series
+   作者: Matthieu OLEKHNOVITCH;Dorian Joubaud;Adrien Bolling;Evgeny Zotov;Sylvain KUBLER;Maxime Cordy;Mike Papadakis;YVES LE TRAON;
+   机构: ;University of Luxembourg;
+   类型: Reject
+
+No.21. Enhancing Pruned Models by Input Compensation
+   标题: 通过输入补偿增强剪枝模型
+   链接: https://openreview.net/forum?id=omSoakIsr6
+   类别: general machine learning
+   作者: Weisen Jiang;Shuhao Chen;Baijiong Lin;James Kwok;Yu Zhang;
+   机构: Chinese University of Hong Kong;Southern University of Science and Technology;Hong Kong University of Science and Technology;;
+   类型: Reject
+
+No.22. Gated Integration of Low-Rank Adaptation for Continual Learning of Language Models
+   标题: 基于门控机制的低秩适应集成用于语言模型的持续学习
+   链接: https://openreview.net/forum?id=vmfRdANa6a
+   类别: general machine learning
+   作者: Yan-Shuo Liang;Wu-Jun Li;
+   机构: Nanjing University;
+   类型: Reject
+
+No.23. Learning Multiple Initial Solutions to Optimization Problems
+   标题: 学习优化问题的多个初始解
+   链接: https://openreview.net/forum?id=EMQfiikGRJ
+   类别: optimization
+   作者: Elad Sharony;Heng Yang;Tong Che;Marco Pavone;Shie Mannor;Peter Karkus;
+   机构: Technion - Israel Institute of Technology;Harvard University;NVIDIA;Stanford University;
+   类型: Reject
+
+No.24. Mixed Likelihood Variational Gaussian Processes
+   标题: 混合似然变分高斯过程
+   链接: https://openreview.net/forum?id=6vsAh1qBJb
+   类别: probabilistic methods->gaussian processes
+   作者: Kaiwen Wu;Craig Sanders;Benjamin Letham;Phillip Guan;
+   机构: ;Meta;
+   类型: Reject
+
+No.25. $DPOT_{L_0}$: Concealing Backdoored model updates in Federated Learning by Data Poisoning with $L_0$-norm-bounded Optimized Triggers
+   标题: $DPOT_{L_0}$: 使用$L_0$范数有界优化触发器的数据中毒在联邦学习中隐藏被篡改的模型更新
+   链接: https://openreview.net/forum?id=O6OugpQ1Pq
+   类别: social aspects->security
+   作者: Yujie Zhang;Neil Zhenqiang Gong;Michael K. Reiter;
+   机构: Duke University;;
+   类型: Reject
+
+No.26. Risk Quadrangle and Robust Optimization Based on Extended $\varphi$-Divergence
+   标题: 基于扩展$\varphi$-散度的风险四边形与稳健优化
+   链接: https://openreview.net/forum?id=UycrIxt96b
+   类别: theory
+   作者: Cheng Peng;Anton Malandii;Stan Uryasev;
+   机构: State University of New York at Stony Brook;
+   类型: Reject
+
+No.27. Tensor Product Attention Is All You Need
+   标题: 张量积注意力，一切尽在其中。
+   链接: https://openreview.net/forum?id=IEDkPrCLtE
+   类别: theory->deep learning
+   作者: Yifan Zhang;Yifeng Liu;Huizhuo Yuan;Zhen Qin;Yang Yuan;Quanquan Gu;Andrew C Yao;
+   机构: ;University of California, Los Angeles;TapTap;Tsinghua University;ByteDance;Chinese University of Hong Kong;
+   类型: Reject
+
+No.28. Robust Federated Finetuning of LLMs via Alternating Optimization of LoRA
+   标题: 通过交替优化LoRA的稳健联邦微调大语言模型
+   链接: https://openreview.net/forum?id=u4mobiHTJl
+   类别: applications
+   作者: Shuangyi Chen;Yuanxin Guo;Yue Ju;Hardik Dalal;Ashish J Khisti;
+   机构: University of Toronto;;Ericsson;
+   类型: Reject
+
+No.29. Unified (Semi) Unbalanced and Classic Optimal Transport with Equivalent Transformation Mechanism and KKT-Multiplier Regularization
+   标题: 统一封半不平衡与经典最优传输机制等价转换方法及KKT乘子正则化
+   链接: https://openreview.net/forum?id=6hmQt7dTX3
+   类别: applications
+   作者: Weiming Liu;Xinting Liao;Jun Dan;Fan Wang;Hua Yu;Junhao Dong;Shunjie Dong;Lianyong Qi;Yew-Soon Ong;
+   机构: ;Zhejiang University;Nanyang Technological University;Shanghai Jiao Tong University;China University of Petroleum;
+   类型: Reject
+
+No.30. A Physics-preserved Transfer Learning Method for Differential Equations
+   标题: 一种保留物理特性的迁移学习方法用于微分方程
+   链接: https://openreview.net/forum?id=a9VfggyjQa
+   类别: applications->chemistry physics and earth sciences
+   作者: Hao-Ran Yang;Chuan-Xian Ren;
+   机构: Sun Yat-sen University;
+   类型: Reject
+
+No.31. OD³: Optimization-free Dataset Distillation for Object Detection
+   标题: OD³：无需优化的数据集蒸馏ForObject Detection
+   链接: https://openreview.net/forum?id=w6imoBZT0F
+   类别: applications->computer vision
+   作者: Salwa K. Al Khatib;Ahmed Elhagry;Shitong Shao;Zhiqiang Shen;
+   机构: Mohamed bin Zayed University of Artificial Intelligence;Hong Kong University of Science and Technology;;
+   类型: Reject
+
+No.32. It's Not Just a Phase: On Investigating Phase Transitions in Deep Learning-based Side-channel Analysis
+   标题: 不仅仅是某个阶段：关于基于深度学习的侧信道分析中的相变研究
+   链接: https://openreview.net/forum?id=IhGc3ZM5zN
+   类别: applications->everything else
+   作者: Sengim Karayalcin;Marina Krček;Stjepan Picek;
+   机构: Leiden University;Radboud University;University of Zagreb;
+   类型: Reject
+
+No.33. Likelihood-based Finetuning of Protein Language Models for Few-shot Fitness Prediction and Design
+   标题: 基于likelihood的蛋白质语言模型微调以实现少样本 fitness 预测与设计
+   链接: https://openreview.net/forum?id=QUZ1xpU3P0
+   类别: applications->everything else
+   作者: Alex Hawkins-Hooker;Shikha Surana;Jakub Kmec;Oliver Bent;Paul Duckworth;
+   机构: ;InstaDeep;
+   类型: Reject
+
+No.34. Screener: Self-supervised Pathology Segmentation Model for 3D Medical Images
+   标题: 筛选器：用于三维医学图像的自我监督病理分割模型
+   链接: https://openreview.net/forum?id=fNyfV5otuV
+   类别: applications->health medicine
+   作者: Mikhail Goncharov;Eugenia Soboleva;Mariia Donskova;Ivan Oseledets;Marina Munkhoeva;Maxim Panov;
+   机构: Skolkovo Institute of Science and Technology;;Institute for Information Transmission Problems;Artificial Intelligence Research Institute;Institute of Numerical Mathematics;Mohamed bin Zayed University of Artificial Intelligence;
+   类型: Reject
+
+No.35. msf-CNN: Multi-Stage Fusion with Convolutional Neural Networks for TinyML
+   标题: msf-CNN：基于卷积神经网络的小样本机器学习多阶段融合算法
+   链接: https://openreview.net/forum?id=YEm8MV6b6X
+   类别: deep learning
+   作者: Zhaolan Huang;Emmanel Baccelli;
+   机构: Freie Universität Berlin;INRIA;
+   类型: Reject
+
+No.36. Varying Manifolds in Diffusion: From Time-varying Geometries to Visual Saliency
+   标题: 扩散中的可变流形：从时间变化的几何结构到视觉显著性
+   链接: https://openreview.net/forum?id=mIGCz3ZmmX
+   类别: deep learning->generative models and autoencoders
+   作者: Junhao Chen;Manyi Li;zherong pan;Xifeng Gao;Changhe Tu;
+   机构: Shandong University;;Tencent;
+   类型: Reject
+
+No.37. ULPT: Prompt Tuning with Ultra-Low-Dimensional Optimization
+   标题: 超低维度优化的提示调优（ULPT：Prompt Tuning with Ultra-Low-Dimensional Optimization）
+   链接: https://openreview.net/forum?id=ypweyCzJRT
+   类别: deep learning->large language models
+   作者: Zijun Wu;Yongchang Hao;Lili Mou;
+   机构: University of Alberta;
+   类型: Reject
+
+No.38. Light as Deception: GPT-driven Natural Relighting Against Vision-Language Pre-training Models
+   标题: 轻如 deception：由GPT驱动的自然光照再现对抗视觉-语言预训练模型
+   链接: https://openreview.net/forum?id=ORUVYM8OaJ
+   类别: deep learning->robustness
+   作者: Ying Yang;Jie Zhang;Xiao Lv;Di Lin;Tao Xiang;Qing Guo;
+   机构: Agency for Science, Technology and Research;Singapore Management University;Chongqing University;Tianjin University;National University of Singapore;
+   类型: Reject
+
+No.39. What is Adversarial Training for Diffusion Models?
+   标题: 什么是对抗训练在扩散模型中的应用？
+   链接: https://openreview.net/forum?id=xCrgcGytLR
+   类别: deep learning->robustness
+   作者: Maria Rosaria Briglia;Mujtaba Hussain Mirza;Giuseppe Lisanti;Iacopo Masi;
+   机构: University of Rome La Sapienza;University of Bologna;University of Rome;
+   类型: Reject
+
+No.40. Explainable Multi-modal Time Series Prediction with LLM-in-the-Loop
+   标题: 带有LLM参与循环的可解释多模态时间序列预测
+   链接: https://openreview.net/forum?id=DHRUMwDOXy
+   类别: deep learning->sequential models time series
+   作者: Yushan Jiang;Wenchao Yu;Geon Lee;Dongjin Song;Kijung Shin;Wei Cheng;Yanchi Liu;Haifeng Chen;
+   机构: University of Connecticut;University of California, Los Angeles;Korea Advanced Institute of Science and Technology;NEC Laboratories;
+   类型: Reject
+
+No.41. TS-RAG: Retrieval-Augmented Generation based Time Series Foundation Models are Stronger Zero-Shot Forecaster
+   标题: 基于检索增强生成的时间序列基础模型在零样本预测方面更为强大
+   链接: https://openreview.net/forum?id=TJuUelhGQr
+   类别: deep learning->sequential models time series
+   作者: Kanghui Ning;Zijie Pan;Yu Liu;Yushan Jiang;James Y. Zhang;Kashif Rasul;Anderson Schneider;Lintao Ma;Yuriy Nevmyvaka;Dongjin Song;
+   机构: University of Connecticut;Ant Group;Zalando SE;;Morgan Stanley;
+   类型: Reject
+
+No.42. Zero-Shot Learning of Causal Models
+   标题: 零样本学习因果模型
+   链接: https://openreview.net/forum?id=S2XD3gIgzc
+   类别: general machine learning->causality
+   作者: Divyat Mahajan;Jannes Gladrow;Agrin Hilmkil;Cheng Zhang;Meyer Scetbon;
+   机构: Montreal Institute of Learning Algorithms;Microsoft;;Meta;
+   类型: Reject
+
+No.43. Robust Online Conformal Prediction under Uniform Label Noise
+   标题: 稳健的在线自适应预测方法在均匀标签噪声下的应用
+   链接: https://openreview.net/forum?id=UWXB0MJ43M
+   类别: general machine learning->everything else
+   作者: HuaJun Xi;Kangdao Liu;Hao Zeng;Wenguang Sun;Hongxin Wei;
+   机构: Southern University of Science and Technology;University of Macau;Zhejiang University;
+   类型: Reject
+
+No.44. Scaling Embedding Layers in Language Models
+   标题: 语言模型中嵌入层的缩放
+   链接: https://openreview.net/forum?id=ZjrId3p45T
+   类别: general machine learning->scalable algorithms
+   作者: Da Yu;Edith Cohen;Badih Ghazi;Yangsibo Huang;Pritish Kamath;Ravi Kumar;Daogao Liu;Chiyuan Zhang;
+   机构: Google;Tel Aviv University;
+   类型: Reject
+
+No.45. Learning to Plan with Personalized Preferences
+   标题: 根据个人偏好的学习规划
+   链接: https://openreview.net/forum?id=r53lwSSfcI
+   类别: general machine learning->transfer multitask and metalearning
+   作者: Manjie Xu;Xinyi Yang;Wei Liang;Chi Zhang;Yixin Zhu;
+   机构: Beijing Institute of Technology;;Peking University;
+   类型: Reject
+
+No.46. Using Unsupervised Dynamic Feature Selection to Enhance Latent Representations
+   标题: 使用无监督动态特征选择来增强潜在表示
+   链接: https://openreview.net/forum?id=3g6ktAQn32
+   类别: general machine learning->unsupervised and semisupervised learning
+   作者: Bruno Corcuera Sánchez;Carlos Eiras-Franco;Brais Cancela;
+   机构: University of A Coruña;
+   类型: Reject
+
+No.47. A Proximal Operator for Inducing 2:4-Sparsity
+   标题: 诱导2:4-稀疏性的近端算子
+   链接: https://openreview.net/forum?id=jFC8SS8kWU
+   类别: optimization
+   作者: Jonas M. Kübler;Yu-Xiang Wang;Shoham Sabach;Navid Ansari;Matthäus Kleindessner;Kailash Budhathoki;Volkan Cevher;George Karypis;
+   机构: ;University of California, San Diego;Amazon;Technion - Israel Institute of Technology;Max-Planck Institute;EPFL;University of Minnesota;
+   类型: Reject
+
+No.48. Adaptive Constrained Optimization for Neural Vehicle Routing
+   标题: 自适应约束优化在神经网络车辆路径规划中的应用
+   链接: https://openreview.net/forum?id=cCIQSqhuo2
+   类别: optimization->discrete and combinatorial optimization
+   作者: Chengrui Gao;Haopu Shang;Yuyang Jiang;Ke Xue;Chao Qian;
+   机构: Nanjing University;
+   类型: Reject
+
+No.49. Online Uniform Sampling: Randomized Learning-Augmented Approximation Algorithms with Application to Digital Health
+   标题: 在线均匀采样：随机化学习辅助近似算法及其在数字健康领域的应用
+   链接: https://openreview.net/forum?id=T2HxvNtDfJ
+   类别: optimization->everything else
+   作者: Xueqing Liu;Kyra Gan;Esmaeil Keyvanshokooh;Susan Murphy;
+   机构: National University of Singapore;;Texas A&M University;Harvard University;
+   类型: Reject
+
+No.50. Smoothed Normalization for Efficient Distributed Private Optimization
+   标题: 平滑归一化以实现高效的分布式隐私优化
+   链接: https://openreview.net/forum?id=F3hjbhyyRI
+   类别: optimization->large scale parallel and distributed
+   作者: Egor Shulgin;Sarit Khirirat;Peter Richtárik;
+   机构: King Abdullah University of Science and Technology;;
+   类型: Reject
+
+No.51. Uncertainty-aware Preference Alignment for Diffusion Policies
+   标题: 不确定性意识下的偏好对齐在扩散政策中的应用
+   链接: https://openreview.net/forum?id=zKbQUkh6qe
+   类别: reinforcement learning
+   作者: Runqing Miao;Sheng Xu;Wai Kin Victor Chan;Guiliang Liu;
+   机构: Tsinghua University;Chinese University of Hong Kong;;
+   类型: Reject
+
+No.52. Hadamard Representations: Augmenting Hyperbolic Tangents in RL
+   标题: 哈达玛表示：增强强化学习中的双曲正切函数
+   链接: https://openreview.net/forum?id=ZCcIah9IZo
+   类别: reinforcement learning->deep rl
+   作者: Jacob Eeuwe Kooi;Mark Hoogendoorn;Vincent Francois-Lavet;
+   机构: Vrije Universiteit Amsterdam;VU University Amsterdam;
+   类型: Reject
+
+No.53. Scaling Off-Policy Reinforcement Learning with Batch and Weight Normalization
+   标题: 基于批量和权重规范化扩展离策强化学习
+   链接: https://openreview.net/forum?id=Pr2fNUGU06
+   类别: reinforcement learning->deep rl
+   作者: Daniel Palenicek;Florian Vogt;Jan Peters;
+   机构: Technische Universität Darmstadt;Albert-Ludwigs-Universität Freiburg;German Research Center for Artificial Intelligence;
+   类型: Reject
+
+No.54. Fair Class-Incremental Learning using Sample Weighting
+   标题: 公平的类增量学习使用样本加权
+   链接: https://openreview.net/forum?id=0iwwSdla9m
+   类别: social aspects->fairness
+   作者: Jaeyoung Park;Minsu Kim;Steven Euijong Whang;
+   机构: Korea Advanced Institute of Science and Technology;
+   类型: Reject
+
+No.55. DictPFL: Efficient and Private Federated Learning on Encrypted Gradients
+   标题: DictPFL：高效且私密的加密梯度联邦学习
+   链接: https://openreview.net/forum?id=lSTJ628SXl
+   类别: social aspects->privacy
+   作者: Jiaqi Xue;Mayank Kumar;Yuzhang Shang;Shangqian Gao;Mengxin Zheng;Xiaoqian Jiang;Qian Lou;
+   机构: University of Central Florida;Illinois Institute of Technology;Florida State University;University of Texas Health Science Center;
+   类型: Reject
+
+No.56. EA-PS: Estimated Attack Effectiveness based Poisoning Defense in Federated Learning under Parameter Constraint Strategy
+   标题: 基于估计攻击有效性并毒化防护的参数约束策略联邦学习
+   链接: https://openreview.net/forum?id=mZOeaIWBpR
+   类别: social aspects->security
+   作者: Yidong Li;Zikai Zhang;Naiyue Chen;ziyi li;
+   机构: Beijing Jiao Tong University;
+   类型: Reject
+
+No.57. On the Robustness of Transformers against Context Hijacking for Linear Classification
+   标题: 关于Transformer在线性分类中对抗上下文劫持的鲁棒性
+   链接: https://openreview.net/forum?id=C0RNxlDvFE
+   类别: theory->learning theory
+   作者: Tianle Li;Chenyang Zhang;Xingwu Chen;Yuan Cao;Difan Zou;
+   机构: University of Hong Kong;
+   类型: Reject
+
+No.58. PAC-Bayes Bounds for Multivariate Linear Regression and Linear Autoencoders
+   标题: 多变量线性回归和线性自编码器的PAC-贝叶斯界
+   链接: https://openreview.net/forum?id=1ueDWPv7j9
+   类别: theory->learning theory
+   作者: Ruixin Guo;Ruoming Jin;Xinyu Li;Yang Zhou;
+   机构: Kent State University;;Auburn University;
+   类型: Reject
+
+No.59. PASER: Post-Training Data Selection for Efficient Pruned Large Language Model Recovery
+   标题: PASER：高效剪枝大型语言模型训练后数据选择方法
+   链接: https://openreview.net/forum?id=ub44gZJNhk
+   类别: deep learning->large language models
+   作者: Bowei He;Lihao Yin;Huiling Zhen;Xiaokun Zhang;Mingxuan Yuan;Chen Ma;
+   机构: City University of Hong Kong;Huawei;
+   类型: Reject
+
+No.60. Covariances for Free: Exploiting Mean Distributions for Federated Learning with Pre-trained Models
+   标题: 免费的协方差：利用预训练模型中的均值分布进行联邦学习
+   链接: https://openreview.net/forum?id=723VXasfGq
+   类别: general machine learning->transfer multitask and metalearning
+   作者: Dipam Goswami;Simone Magistri;Kai Wang;Bartłomiej Twardowski;Andrew D. Bagdanov;Joost van de Weijer;
+   机构: Universitat Autónoma de Barcelona;University of Florence;Institute for Development, Economic Analysis, and Simulation (IDEAS);Universitat Autònoma de Barcelona;;
+   类型: Reject
+
+No.61. Analysis of an Idealized Stochastic Polyak Method and its Application to Black-Box Model Distillation
+   标题: 理想化的随机Polyak方法的分析及其在黑盒模型蒸馏中的应用
+   链接: https://openreview.net/forum?id=Wgx6w9BALm
+   类别: optimization
+   作者: Robert M. Gower;Guillaume Garrigos;Nicolas Loizou;Konstantin Mishchenko;Dimitris Oikonomou;Fabian Schaipp;
+   机构: Flatiron Institute;Université Paris Cité;Johns Hopkins University;Meta;INRIA;
+   类型: Reject
+
+No.62. STNet: Spectral Transformation Network for Solving Operator Eigenvalue Problem
+   标题: STNet：谱变换网络求解算子特征值问题
+   链接: https://openreview.net/forum?id=2UpXNbZDyt
+   类别: applications->chemistry physics and earth sciences
+   作者: Hong Wang;Jiang Yixuan;Jie Wang;Xinyi Li;Jian Luo;huanshuo dong;
+   机构: University of Science and Technology of China;State University of New York at Stony Brook;;
+   类型: Reject
+
+No.63. SymMaP: Improving Computational Efficiency in Linear Solvers through Symbolic Preconditioning
+   标题: SymMaP：通过符号预处理提高线性求解器的计算效率
+   链接: https://openreview.net/forum?id=5sb0tv9MVn
+   类别: applications->chemistry physics and earth sciences
+   作者: Hong Wang;Jie Wang;Minghao Ma;Haoran Shao;Haoyang Liu;
+   机构: University of Science and Technology of China;
+   类型: Reject
+
+No.64. Improved Convex Decomposition with Ensembling and Boolean Primitives
+   标题: 改进的凸分解与集成及布尔原始函数结合的方法
+   链接: https://openreview.net/forum?id=nHaaNf5cOM
+   类别: applications->computer vision
+   作者: Vaibhav Vavilala;Florian Kluger;Seemandhar Jain;Bodo Rosenhahn;David Forsyth;
+   机构: University of Illinois Urbana-Champaign;Leibniz Universität Hannover;;Institut für Informationsverarbeitung;University of Illinois;
+   类型: Reject
+
+No.65. TableMaster: A Recipe to Advance Table Understanding with Language Models
+   标题: TableMaster：利用语言模型提升表格理解的食谱
+   链接: https://openreview.net/forum?id=6RNBm37sVe
+   类别: applications->language speech and dialog
+   作者: Lang Cao;
+   机构: University of Illinois Urbana-Champaign;
+   类型: Reject
+
+No.66. LEAD: Large Foundation Model for EEG-Based Alzheimer’s Disease Detection
+   标题: 大型基础模型用于基于EEG的阿尔茨海默病检测
+   链接: https://openreview.net/forum?id=cz4EevJGHf
+   类别: applications->neuroscience cognitive science
+   作者: Yihe Wang;Nan Huang;Nadia Mammone;Marco Cecchi;Xiang Zhang;
+   机构: University of North Carolina at Charlotte;University of Reggio Calabria;Cognision;
+   类型: Reject
+
+No.67. Communication Efficient Federated Learning via Model-Agnostic Projection Adaptation
+   标题: 基于模型无关投影适应的高效联邦学习
+   链接: https://openreview.net/forum?id=ZUHo1WHVl1
+   类别: deep learning->everything else
+   作者: Mohammad Mahdi Rahimi;Younghyun Park;Humaira Kousar;Hasnain Irshad Bhatti;Dong-Jun Han;Jaekyun Moon;
+   机构: Korea Advanced Institute of Science and Technology;Yonsei University;
+   类型: Reject
+
+No.68. Oscillations Make Neural Networks Robust to Quantization
+   标题: 振荡使神经网络对量化更具鲁棒性
+   链接: https://openreview.net/forum?id=gqqKARGb8s
+   类别: deep learning->everything else
+   作者: Jonathan Wenshøj;Bob Pepin;Raghavendra Selvan;
+   机构: University of Copenhagen;
+   类型: Reject
+
+No.69. RSMerge: Bridging Head and Tail Classes via Subsampled Model Merging
+   标题: RSMerge：通过子采样模型合并连接头部和尾部类别的方法
+   链接: https://openreview.net/forum?id=UcRPCN2Tvf
+   类别: deep learning->foundation models
+   作者: Masih Aminbeidokhti;Subhankar Roy;Eric Granger;Elisa Ricci;Marco Pedersoli;
+   机构: Université du Québec;University of Bergamo;University of Trento;École de technologie supérieure;Fondazione Bruno Kessler;
+   类型: Reject
+
+No.70. Discrete Spatial Diffusion: Intensity-Preserving Diffusion Modeling
+   标题: 离散空间扩散：保持强度的扩散建模
+   链接: https://openreview.net/forum?id=VkqKOc0j9w
+   类别: deep learning->generative models and autoencoders
+   作者: Javier E. Santos;Roman Colman;Agnese Marcato;Nicholas Lubbers;Yen Ting Lin;
+   机构: Los Alamos National Laboratory;University of New Mexico;;
+   类型: Reject
+
+No.71. Disturbance-based Discretization, Differentiable IDS Channel, and an IDS-Correcting Code for DNA Storage
+   标题: 基于扰动的离散化、可微分IDS通道以及用于DNA存储的IDS校正码
+   链接: https://openreview.net/forum?id=3EOll1fd1z
+   类别: deep learning->generative models and autoencoders
+   作者: Alan J.X. Guo;Mengyi Wei;Yufan Dai;Yali Wei;Pengchen Zhang;
+   机构: ;Tianjin University;
+   类型: Reject
+
+No.72. IO-LVM: Inverse Optimization Latent Variable Models with Graph-based Planning Applications
+   标题: 逆优化潜在变量模型及其在图基计划应用中的研究
+   链接: https://openreview.net/forum?id=k8wsUSPGgZ
+   类别: deep learning->generative models and autoencoders
+   作者: Alan Lahoud;Erik Schaffernicht;Johannes A. Stork;
+   机构: Örebro University;;
+   类型: Reject
+
+No.73. House of Cards: Massive Weights in LLMs
+   标题: 纸牌屋：大规模语言模型中的重要权重
+   链接: https://openreview.net/forum?id=uVuyDdHuZ0
+   类别: deep learning->large language models
+   作者: Jaehoon Oh;Seungjun Shin;Dokwan Oh;
+   机构: Samsung;
+   类型: Reject
+
+No.74. Large Language Diffusion Models
+   标题: 大型语言扩散模型
+   链接: https://openreview.net/forum?id=W2tWu0aikL
+   类别: deep learning->large language models
+   作者: Shen Nie;Fengqi Zhu;Zebin You;Xiaolu Zhang;Jingyang Ou;Jun Hu;JUN ZHOU;Yankai Lin;Ji-Rong Wen;Chongxuan Li;
+   机构: Renmin University of China;;Ant Group;
+   类型: Reject
+
+No.75. Risk-aware Direct Preference Optimization under Nested Risk Measure
+   标题: 基于嵌套风险度量的风险意识直接偏好优化
+   链接: https://openreview.net/forum?id=jssraGlHtK
+   类别: deep learning->large language models
+   作者: Lijun Zhang;Lin Li;Yajie Qi;Huizhong Song;Yaodong Yang;Jun Wang;Wei Wei;
+   机构: Shanxi University;;Peking University;University College London;
+   类型: Reject
+
+No.76. Training Large Language Models to Reason Efficiently
+   标题: 训练大型语言模型进行高效推理
+   链接: https://openreview.net/forum?id=hSAlC1SgcY
+   类别: deep learning->large language models
+   作者: Daman Arora;Andrea Zanette;
+   机构: Carnegie Mellon University;;
+   类型: Reject
+
+No.77. A New Rejection Sampling Approach to $k\text{-}\mathtt{means}$++ with Improved Tradeoffs
+   标题: 一种新的拒绝采样方法实现$k$-means++聚类，并改进了权衡关系
+   链接: https://openreview.net/forum?id=FswxmvMOSG
+   类别: general machine learning->clustering
+   作者: Poojan Chetan Shah;Shashwat Agrawal;Ragesh Jaiswal;
+   机构: Indian Institute of Technology Delhi;
+   类型: Reject
+
+No.78. MoE-Infinity: Efficient MoE Inference on Personal Machines with Sparsity-Aware Expert Cache
+   标题: MoE-Infinity：具有稀疏意识专家缓存的个人机器高效MoE推理
+   链接: https://openreview.net/forum?id=BL7WMLJKZM
+   类别: general machine learning->hardware and software
+   作者: Leyang Xue;Yao Fu;Zhan Lu;Chuanhao Sun;Luo Mai;Mahesh K. Marina;
+   机构: University of Edinburgh;Huawei;
+   类型: Reject
+
+No.79. ShapeEmbed: a self-supervised learning framework for shape quantification
+   标题: ShapeEmbed：一种用于形状量化自我监督学习框架
+   链接: https://openreview.net/forum?id=P0bQIvwnEZ
+   类别: general machine learning->representation learning
+   作者: Anna Foix Romero;Craig Russell;Alexander Krull;Virginie Uhlmann;
+   机构: EMBL's European Bioinformatics Institute;University of Cambridge;European Bioinformatics Institute - EMBL;University of Birmingham;;
+   类型: Reject
+
+No.80. Sign Operator for Coping with Heavy-Tailed Noise: High Probability Convergence Bounds with Extensions to Distributed Optimization and Comparison Oracle
+   标题: 处理重尾噪声的操作符：高概率收敛界及其在分布式优化和比较查询中的扩展
+   链接: https://openreview.net/forum?id=chmWoDwwqk
+   类别: optimization->stochastic
+   作者: Nikita Maksimovich Kornilov;Philip Zmushko;Andrei Semenov;Alexander Gasnikov;Aleksandr Beznosikov;
+   机构: ;Moscow Institute of Physics and Technology;EPFL;
+   类型: Reject
+
+No.81. Bayesian Parameter Shift Rules in Variational Quantum Eigensolvers
+   标题: 贝叶斯参数转移规则在变分量子特征值求解器中的应用
+   链接: https://openreview.net/forum?id=NjOAQ2nJuL
+   类别: probabilistic methods->gaussian processes
+   作者: Samuele Pedrielli;Christopher J. Anders;Lena Funcke;Karl Jansen;Kim Andrea Nicoli;Shinichi Nakajima;
+   机构: Technische Universität Berlin;RIKEN;Rheinische Friedrich-Wilhelms Universität Bonn;Deutsches Elektronen-Synchrotron;
+   类型: Reject
+
+No.82. The Meta-Representation Hypothesis
+   标题: 元表征假设
+   链接: https://openreview.net/forum?id=P1krvpwfW6
+   类别: reinforcement learning->online
+   作者: Zhengpeng Xie;Jiahang Cao;Qiang Zhang;Jianxiong Zhang;Changwei Wang;Renjing Xu;
+   机构: Hong Kong University of Science and Technology;;Sichuan University;
+   类型: Reject
+
+No.83. Fisher Divergence for Attribution through Stochastic Differential Equations
+   标题: 基于随机微分方程的归因 Fisher 散度
+   链接: https://openreview.net/forum?id=eHIc7SL0sr
+   类别: social aspects->accountability transparency and interpretability
+   作者: XIONGREN CHEN;Jiuyong Li;Jixue Liu;Lin Liu;Stefan Peters;Thuc Duy Le;Wentao Gao;Xiaojing Du;
+   机构: University of South Australia;
+   类型: Reject
+
+No.84. Understanding the learned look-ahead behavior of chess neural networks
+   标题: 理解国际象棋神经网络学习的前瞻行为
+   链接: https://openreview.net/forum?id=OcBAd0JPxv
+   类别: social aspects->accountability transparency and interpretability
+   作者: Diogo Cruz;
+   机构: Instituto Superior Técnico;
+   类型: Reject
+
+No.85. Reliable Image Quality Evaluation and Mitigation of Quality Bias in Generative Models
+   标题: 可靠的图像质量评估及生成模型中的质量偏见缓解
+   链接: https://openreview.net/forum?id=zC0ZxjXixH
+   类别: social aspects->fairness
+   作者: Hoin Jung;Shenyu Lu;De Wang;Xiaoqian Wang;
+   机构: Purdue University;Apple;
+   类型: Reject
+
+No.86. Text-Image Dual Consistency-Guided OOD Detection with Pretrained Vision-Language Models
+   标题: 基于文本-图像双重一致性引导的OOD检测与预训练的视觉-语言模型
+   链接: https://openreview.net/forum?id=jiJAGTW98t
+   类别: social aspects->robustness
+   作者: Fayi Le;Wenwu He;Chentao Cao;Dong Liang;Zhuo-Xu Cui;
+   机构: Fujian University of Technology;;Hong Kong Baptist University;Chinese Academy of Sciences;
+   类型: Reject
+
+No.87. Test-Time Immunization: A Universal Defense Framework Against Jailbreaks for (Multimodal) Large Language Models
+   标题: 测试时免疫化：一种针对（多模态）大型语言模型脱逃攻击的通用防御框架
+   链接: https://openreview.net/forum?id=YaUyLKQGk0
+   类别: social aspects->security
+   作者: Yongcan Yu;Yanbo Wang;Ran He;Jian Liang;
+   机构: Chinese Academy of Sciences;
+   类型: Reject
+
+No.88. Continuous machine learning on Euclidean graphs with unordered vertices
+   标题: 在无序顶点的欧几里得图上进行连续机器学习
+   链接: https://openreview.net/forum?id=DhgofViQyk
+   类别: applications->chemistry physics and earth sciences
+   作者: Yury Elkin;Vitaliy Kurlin;
+   机构: ;University of Liverpool;
+   类型: Reject
+
+No.89. Learning Encoding-Decoding Direction Pairs to Unveil Concepts of Influence in Deep Vision Networks
+   标题: 学习编码-解码方向对以揭示深度视觉网络中的影响概念
+   链接: https://openreview.net/forum?id=g7wLilhGhh
+   类别: deep learning
+   作者: Alexandros Doumanoglou;Kurt Driessens;Dimitrios Zarpalas;
+   机构: ;Maastricht University;Centre for Research and Technology Hellas;
+   类型: Reject
+
+No.90. GraphFLEx: Structure Learning $\underline{\text{F}}$ramework for $\underline{\text{L}}$arge $\underline{\text{Ex}}$panding $\underline{\text{Graph}}$s
+   标题: GraphFLEx：大型扩展图的结构学习框架
+   链接: https://openreview.net/forum?id=dwBBhbueYk
+   类别: deep learning->graph neural networks
+   作者: Mohit Kataria;Nikita Malik;Sandeep Kumar;Jayadeva Jayadeva;
+   机构: Indian Institute of Technology Delhi;
+   类型: Reject
+
+No.91. Holes in Latent Space: Topological Signatures Under Adversarial Influence
+   标题: 潜在空间中的漏洞：对抗性影响下的拓扑特征
+   链接: https://openreview.net/forum?id=Q3yOTl0Ajo
+   类别: deep learning->large language models
+   作者: Aideen Fay;Inés García-Redondo;Qiquan Wang;Haim Dubossarsky;Anthea Monod;
+   机构: Imperial College London;Microsoft;Queen Mary University of London;
+   类型: Reject
+
+No.92. Big Cooperative Learning to Conquer Local Optima
+   标题: 大规模协作学习以克服局部最优解
+   链接: https://openreview.net/forum?id=mg4ANJcd0d
+   类别: general machine learning
+   作者: Yulai Cong;
+   机构: Sun Yat-sen University;
+   类型: Reject
+
+No.93. Consistent Multigroup Low-rank Approximation
+   标题: 一致多组低秩逼近
+   链接: https://openreview.net/forum?id=zLMOug6hHj
+   类别: general machine learning->representation learning
+   作者: Antonis Matakos;Martino Ciaperoni;Heikki Mannila;
+   机构: Aalto University;
+   类型: Reject
+
+No.94. The Choice of Normalization Influences Shrinkage in Regularized Regression
+   标题: 归一化选择影响正则化回归中的收缩效应
+   链接: https://openreview.net/forum?id=XyudeZXHn3
+   类别: general machine learning->supervised learning
+   作者: Johan Larsson;Jonas Wallin;
+   机构: University of Copenhagen;University Affiliation Not Specified;
+   类型: Reject
+
+No.95. Hot PATE: Private Aggregation of Distributions for Diverse Tasks
+   标题: 热PATE：多样化任务的私有分布聚合
+   链接: https://openreview.net/forum?id=T2ujAPFA4C
+   类别: social aspects->privacy
+   作者: Edith Cohen;Benjamin Cohen-Wang;Xin Lyu;Jelani Nelson;Tamas Sarlos;Uri Stemmer;
+   机构: Tel Aviv University;Google;Massachusetts Institute of Technology;University of California, Berkeley;;
+   类型: Reject
+
+No.96. Towards Efficient and Scalable Implementation of Differentially Private Deep Learning
+   标题: 面向高效可扩展的差分隐私深度学习实现
+   链接: https://openreview.net/forum?id=uiuwlZ3cPe
+   类别: social aspects->privacy
+   作者: Sebastian Rodriguez Beltran;Marlon Tobaben;Joonas Jälkö;Niki Andreas Loppi;Antti Honkela;
+   机构: ;University of Helsinki;NVIDIA;
+   类型: Reject
+
+No.97. A Scalable Solver for 2p0s Differential Games with One-Sided Payoff Information and Continuous Actions, States, and Time
+   标题: 一种适用于具有单向收益信息和连续行动、状态和时间的2p0s差分博弈的可扩展求解器
+   链接: https://openreview.net/forum?id=iDnwpbn20h
+   类别: theory->game theory
+   作者: Mukesh Ghimire;Lei Zhang;Zhe Xu;Yi Ren;
+   机构: Arizona State University;Purdue University;
+   类型: Reject
+
+No.98. SatFlow: Generative model based framework for producing High Resolution Gap Free Remote Sensing Imagery.
+   标题: SatFlow：基于生成模型的高分辨率无缺隙遥感影像生产框架。
+   链接: https://openreview.net/forum?id=0ePi13LA5p
+   类别: applications->chemistry physics and earth sciences
+   作者: Bharath Chandra Reddy Irigireddy;varaprasad bandaru;
+   机构: United States Department of Agriculture;University of Maryland;
+   类型: Reject
+
+No.99. Canonic Signed Spike Coding for Efficient Spiking Neural Networks
+   标题: 规范符号脉冲编码：高效脉冲神经网络方法
+   链接: https://openreview.net/forum?id=8Y50Exn2YL
+   类别: applications->neuroscience cognitive science
+   作者: Yiwen Gu;Junchuan Gu;Haibin Shen;Kejie Huang;
+   机构: Zhejiang University;;
+   类型: Reject
+
+No.100. Hyperflows: Pruning Reveals the Importance of Weights
+   标题: 超流模型：剪枝凸显权重的重要性
+   链接: https://openreview.net/forum?id=vkltBcQgrL
+   类别: deep learning->algorithms
+   作者: Barbulescu Eugen;Antonio Alexoaie;
+   机构: Technical University of Cluj-Napoca;Robert Bosch GmbH;
+   类型: Reject
+
+No.101. Graph Transformers Get the GIST: Graph Invariant Structural Trait for Refined Graph Encoding
+   标题: 图变压器获取关键信息：图形不变结构特征以改进图编码
+   链接: https://openreview.net/forum?id=Ck6WljG6ZM
+   类别: deep learning->everything else
+   作者: Hoang Anh Duy Le;Shaochen Zhong;Jerry Xiao;Jiamu Zhang;Yu-Neng Chuang;Li Li;Rui Chen;Shuai Xu;Zirui Liu;Kaixiong Zhou;Vipin Chaudhary;Zhaozhuo Xu;Xia Hu;
+   机构: ;Rice University;Samsung;Case Western Reserve University;University of Minnesota;North Carolina State University;Stevens Institute of Technology;
+   类型: Reject
+
+No.102. Toward Foundation Model for Multivariate Wearable Sensing of Physiological Signals
+   标题: 多变量可穿戴生理信号基础模型的研究
+   链接: https://openreview.net/forum?id=4x83oH6Oy6
+   类别: deep learning->foundation models
+   作者: Yunfei Luo;Yuliang Chen;Asif Salekin;Tauhidur Rahman;
+   机构: University of California, San Diego;Arizona State University;
+   类型: Reject
+
+No.103. Mean-Shift Distillation for Diffusion Mode Seeking
+   标题: 均值迁移蒸馏以寻求扩散模式
+   链接: https://openreview.net/forum?id=USAKSVAwIc
+   类别: deep learning->generative models and autoencoders
+   作者: Vikas Thamizharasan;Nikitas Chatzis;Iliyan Georgiev;Matthew Fisher;Difan Liu;Nanxuan Zhao;Evangelos Kalogerakis;Michal Lukáč;
+   机构: Adobe;University of Massachusetts Amherst;Technical University of Crete;National Technical University of Athens;;
+   类型: Reject
+
+No.104. Jakiro: Boosting Speculative Decoding with Decoupled Multi-Head via MoE
+   标题: Jakiro: 利用MoE实现推测性解码的分拆多头注意力增强
+   链接: https://openreview.net/forum?id=fNIsoDWzGk
+   类别: deep learning->large language models
+   作者: Haiduo Huang;Fuwei Yang;Zhenhua Liu;Yixing Xu;Jinze Li;Yang Liu;Xuanwu Yin;Dong Li;Pengju Ren;Emad Barsoum;
+   机构: Xi'an Jiao Tong University;AMD Inc.;Advanced Micro Devices, Inc.;;
+   类型: Reject
+
+No.105. Thoughts Are All Over the Place: On the Underthinking of o1-Like LLMs
+   标题: 思绪纷乱：关于o1型语言模型的欠思考问题
+   链接: https://openreview.net/forum?id=bNJyu7JHUO
+   类别: deep learning->large language models
+   作者: Yue Wang;Qiuzhi Liu;Jiahao Xu;Tian Liang;Xingyu Chen;Zhiwei He;Linfeng Song;Dian Yu;Juntao Li;Zhuosheng Zhang;Rui Wang;Zhaopeng Tu;Haitao Mi;Dong Yu;
+   机构: Soochow University;Tencent;Shanghai Jiao Tong University;;
+   类型: Reject
+
+No.106. Theoretical Analysis of Contrastive Learning in Vision-Language Model Pretraining: The Role of Synthetic Text Captions for Feature Alignment
+   标题: 视觉语言模型预训练中的对比学习理论分析：合成文本描述在特征对齐中的作用
+   链接: https://openreview.net/forum?id=hgAAXdv8q8
+   类别: deep learning->theory
+   作者: Jiawei Sun;Shuai Zhang;Hongkang Li;Meng Wang;
+   机构: Rensselaer Polytechnic Institute;New Jersey Institute of Technology;University of Pennsylvania;
+   类型: Reject
+
+No.107. EBMaC: Empirical Bayes and Matrix Constraints for Label Shift
+   标题: EBMaC：经验贝叶斯和矩阵约束用于标签偏移
+   链接: https://openreview.net/forum?id=GL6AJXT4R4
+   类别: general machine learning
+   作者: Mushan Li;Kihyun Han;YANYUAN MA;
+   机构: ;Pennsylvania State University;
+   类型: Reject
+
+No.108. Constrained Optimization From a Control Perspective via Feedback Linearization
+   标题: 基于反馈线性化的控制视角下的约束优化
+   链接: https://openreview.net/forum?id=bV8Nd99mek
+   类别: optimization
+   作者: Runyu Zhang;Arvind Raghunathan;Jeff S Shamma;Na Li;
+   机构: Harvard University;;University of Illinois Urbana-Champaign;
+   类型: Reject
+
+No.109. Dynamic Range Reduction via Branch-and-Bound
+   标题: 动态范围缩减通过分支定界方法
+   链接: https://openreview.net/forum?id=yaqjXxbtSB
+   类别: optimization->discrete and combinatorial optimization
+   作者: Thore Gerlach;Nico Piatkowski;
+   机构: Rheinische Friedrich-Wilhelms Universität Bonn;Fraunhofer Institute for Intelligent Analysis and Information Systems;Fraunhofer Institute for Applied Information Technology;
+   类型: Reject
+
+No.110. Memory Efficient Block Coordinate Descent Method for Forward-Only Second-Order Finetuning of LLM Models
+   标题: 面向未来的高效块坐标下降方法：仅前向二次微调LLM模型的记忆优化策略
+   链接: https://openreview.net/forum?id=rqT21nfAJ0
+   类别: optimization->zeroorder and blackbox optimization
+   作者: Zhiyuan Yu;Yifei Cheng;Liang Ding;Xinmei Tian;Li Shen;Dacheng Tao;
+   机构: ;Sun Yat-sen University;Zhejiang University;University of Science and Technology of China;
+   类型: Reject
+
+No.111. Conformal Prediction for Hierarchical Data
+   标题: 层次数据的同构预测
+   链接: https://openreview.net/forum?id=JtsxqKYOIC
+   类别: probabilistic methods->everything else
+   作者: Guillaume Principato;Gilles Stoltz;Yvenn Amara-Ouali;Yannig Goude;Bachir Hamrouche;Jean-Michel Poggi;
+   机构: Université Paris-Saclay;Université Paris Saclay;HEC Paris;Centre National de la Recherche Scientifique;;Électricité de France;Université Paris Cité;
+   类型: Reject
+
+No.112. Fisher-Guided Selective Forgetting: Mitigating Primacy Bias in Deep Reinforcement Learning
+   标题: 基于费舍尔引导的选择性遗忘：减轻深度强化学习中的首因效应偏差
+   链接: https://openreview.net/forum?id=uOGK8zwgvc
+   类别: reinforcement learning->deep rl
+   作者: Massimiliano Falzari;Matthia Sabatelli;
+   机构: Engineering Ingegneria Informatica;University of Groningen;
+   类型: Reject
+
+No.113. Transforming Visual Classifiers for Zero-Shot Text-Based Interpretability
+   标题: 视觉分类器的零样本文本可解释性转换
+   链接: https://openreview.net/forum?id=VOTeRb9AU1
+   类别: social aspects->accountability transparency and interpretability
+   作者: Fawaz Sammani;Jonas Fischer;Nikos Deligiannis;
+   机构: Vrije Universiteit Brussel;Max-Planck Institute;;IMEC;
+   类型: Reject
+
+No.114. Modification-Considering Value Learning for Reward Hacking Mitigation in RL
+   标题: 修改：考虑价值学习以减轻RL中的奖励作弊问题
+   链接: https://openreview.net/forum?id=OmYqzp8NO7
+   类别: social aspects->alignment
+   作者: Evgenii Opryshko;Umangi Jain;Igor Gilitschenski;
+   机构: University of Toronto;Samsung;
+   类型: Reject
+
+No.115. Locally Differentially Private Graph Clustering via the Power Iteration Method
+   标题: 本地差异隐私图聚类的幂迭代方法
+   链接: https://openreview.net/forum?id=RKlnPO5bii
+   类别: social aspects->privacy
+   作者: Sayan Mukherjee;Vorapong Suppakitpaisarn;
+   机构: University of Tokyo;
+   类型: Reject
+
+No.116. On Bitrates of Very Sparse Superposition Codes
+   标题: 非常稀疏叠加码的比特率
+   链接: https://openreview.net/forum?id=peR9HAdJnk
+   类别: theory->deep learning
+   作者: Christopher Neil Gadzinski;Decebal Constantin Mocanu;
+   机构: University of Luxembourg;Eindhoven University of Technology;
+   类型: Reject
+
+No.117. Approximating Nash Equilibria in General-Sum Games via Meta-Learning
+   标题: 通过元学习近似一般和博弈中的纳什均衡
+   链接: https://openreview.net/forum?id=OEKs42CZBJ
+   类别: theory->game theory
+   作者: David Sychrovský;Christopher Solinas;Revan MacQueen;Kevin A. Wang;James R. Wright;Nathan R. Sturtevant;Michael Bowling;
+   机构: Charles University;University of Alberta;RL Core Technologies;;
+   类型: Reject
+
+No.118. Accelerating Eigenvalue Dataset Generation via Chebyshev Subspace Filter
+   标题: 通过切比雪夫子空间滤波加速特征值数据集生成
+   链接: https://openreview.net/forum?id=NslNp4sGmE
+   类别: applications->chemistry physics and earth sciences
+   作者: Hong Wang;Jie Wang;Jian Luo;huanshuo dong;Yeqiu Chen;Runmin Jiang;Zhen huang;
+   机构: University of Science and Technology of China;State University of New York at Stony Brook;;Carnegie Mellon University;
+   类型: Reject
+
+No.119. Non-invasive electromyographic speech neuroprosthesis: a geometric perspective
+   标题: 非侵入式电磁肌电言语神经假体：从几何学视角看
+   链接: https://openreview.net/forum?id=fk5a8tUCSJ
+   类别: applications->health medicine
+   作者: Harshavardhana T Gowda;Ferdous Rahimi;Lee M. Miller;
+   机构: University of California, Davis;
+   类型: Reject
+
+No.120. How Classifiers Extract General Features for Downstream Tasks: An Asymptotic Analysis in Two-Layer Models
+   标题: 分类器如何从双层模型中提取通用特征以供下游任务使用：渐近分析
+   链接: https://openreview.net/forum?id=vlRd3GeJEq
+   类别: deep learning->theory
+   作者: HEE BIN YOO;Sungyoon Lee;Cheongjae Jang;Dong-Sig Han;Jaein Kim;Seunghyeon Lim;Byoung-Tak Zhang;
+   机构: Seoul National University;Hanyang University;;
+   类型: Reject
+
+No.121. Universal Approximation Theorem of Networks Activated by Normalization
+   标题: 网络采用归一化激活的普遍逼近定理
+   链接: https://openreview.net/forum?id=fGflKXfEP1
+   类别: deep learning->theory
+   作者: Yunhao Ni;Yuhe Liu;WenXin Sun;Yitong Tang;Peilin Feng;Yuxin Guo;wenjun wu;Lei Huang;
+   机构: Beihang University;
+   类型: Reject
+
+No.122. Achieve Performatively Optimal Policy for Performative Reinforcement Learning
+   标题: 实现表现最优的政策以应用于表现强化学习
+   链接: https://openreview.net/forum?id=iHu3oAA5lJ
+   类别: reinforcement learning
+   作者: Ziyi Chen;Heng Huang;
+   机构: University of Maryland;University of Maryland, College Park;
+   类型: Reject
+
+No.123. Fixing Value Function Decomposition for Multi-Agent Reinforcement Learning
+   标题: 多智能体强化学习中的价值函数分解修正
+   链接: https://openreview.net/forum?id=qUtxbtsfwp
+   类别: reinforcement learning->multiagent
+   作者: Andrea Baisero;Rupali Bhati;Shuo Liu;Aathira Sunil Pillai;Christopher Amato;
+   机构: Northeastern University;
+   类型: Reject
+
+No.124. It Takes Two to Tango: Directly Optimizing for Constrained Synthesizability in Generative Molecular Design
+   标题: 共舞需要双方：直接优化受限合成性进行生成分子设计
+   链接: https://openreview.net/forum?id=Im90Ziq4M1
+   类别: applications->chemistry physics and earth sciences
+   作者: Jeff Guo;Philippe Schwaller;
+   机构: EPFL;Swiss Federal Institute of Technology Lausanne;
+   类型: Reject
+
+No.125. Beyond KL-Regularization: Achieving Unbiased Direct Alignment through Diffusion $f_{\chi^n}$-Preference Optimization
+   标题: 超越KL正则化：通过扩散 \( f_{\chi^n} \)-偏好优化实现无偏直接对齐
+   链接: https://openreview.net/forum?id=dZehp9p5Jt
+   类别: deep learning->generative models and autoencoders
+   作者: Xinjian Zhang;Wei Xiang;
+   机构: Beijing Information Science and Technology University;La Trobe University;
+   类型: Reject
+
+No.126. Conditional Lagrangian Wasserstein Flow for Time Series Imputation
+   标题: 基于条件拉格朗日 Wasserstein 流的时间序列插补
+   链接: https://openreview.net/forum?id=yK6yb16vRe
+   类别: deep learning->generative models and autoencoders
+   作者: Weizhu Qian;Dalin Zhang;Yan Zhao;Yunyao Cheng;
+   机构: Suzhou University;;University of Electronic Science and Technology of China;Aalborg University;
+   类型: Reject
+
+No.127. Wide & Deep Learning for Node Classification
+   标题: 节点分类中的宽深学习方法
+   链接: https://openreview.net/forum?id=MaP5KdgbID
+   类别: deep learning->graph neural networks
+   作者: Yancheng Chen;Wenguo Yang;Zhipeng Jiang;
+   机构: University of Chinese Academy of Sciences;;
+   类型: Reject
+
+No.128. Provably Mitigating Corruption, Overoptimization, and Verbosity Simultaneously in Offline and Online RLHF/DPO Alignment
+   标题: 同时在离线和在线RLHF/DPO对齐中可证明地减轻腐败、过度优化和冗余问题
+   链接: https://openreview.net/forum?id=MJ2iChsvhs
+   类别: deep learning->large language models
+   作者: Ziyi Chen;Junyi Li;Peiran Yu;Heng Huang;
+   机构: University of Maryland;Amazon;University of Texas at Arlington;University of Maryland, College Park;
+   类型: Reject
+
+No.129. Temporally Sparse Attack for Fooling Large Language Models in Time Series Forecasting
+   标题: 时间稀疏攻击：欺骗时间序列预测中的大型语言模型
+   链接: https://openreview.net/forum?id=wEvAJFYXXN
+   类别: deep learning->large language models
+   作者: Fuqiang Liu;Sicong Jiang;
+   机构: McGill University;
+   类型: Reject
+
+No.130. ASRC-SNN: Adaptive Skip Recurrent Connection Spiking Neural Network
+   标题: 自适应跳过循环连接神经元网络（自适应跳过循环连接.spike神经网络）
+   链接: https://openreview.net/forum?id=KsIhAcB84m
+   类别: deep learning->sequential models time series
+   作者: Shang Xu;Jiayu Zhang;Ziming Wang;Runhao Jiang;Rui Yan;Huajin Tang;
+   机构: Zhejiang University;Zhejiang University of Technology;
+   类型: Reject
+
+No.131. Off-Policy Evaluation of Ranking Policies for Large Action Spaces via Embeddings and User Behavior Assumption
+   标题: 通过嵌入和用户行为假设对大型动作空间排序策略的离策评估
+   链接: https://openreview.net/forum?id=BJ0i8JfECt
+   类别: general machine learning->causality
+   作者: Tatsuki Takahashi;Chihiro Maru;Hiroko Shoji;
+   机构: Chuo University;;
+   类型: Reject
+
+No.132. Locality-Sensitive Hashing for Efficient Hard Negative Sampling in Contrastive Learning
+   标题: 基于局部敏感哈希的有效对比学习中难负样本采样方法
+   链接: https://openreview.net/forum?id=OmfdOTVfWI
+   类别: deep learning->other representation learning
+   作者: Fabian Deuser;Philipp Hausenblas;Hannah Schieber;Daniel Roth;Martin Werner;Norbert Oswald;
+   机构: Universität der Bundeswehr München;Technische Universität München;Friedrich-Alexander University Erlangen-Nürnberg;;
+   类型: Reject
+
+No.133. Reinforcement Learning with learned gadgets to tackle hard quantum problems on real hardware
+   标题: 使用学习到的小工具解决实际硬件上的难题量子问题的强化学习
+   链接: https://openreview.net/forum?id=NYlKnjmYJB
+   类别: applications->chemistry physics and earth sciences
+   作者: Akash Kundu;Leopoldo Sarra;
+   机构: University of Helsinki;Axiomatic AI;
+   类型: Reject
+
+No.134. Compression for Better: A General and Loss-Driven Compression Framework
+   标题: 更好压缩：一种通用且基于损失的压缩框架
+   链接: https://openreview.net/forum?id=b1g2jVGmjb
+   类别: applications->everything else
+   作者: Boyang Zhang;Daning Cheng;Yunquan Zhang;Jiake Tian;Fangming Liu;
+   机构: University of Chinese Academy of Sciences;Chinese Academy of Sciences;South China University of Technology;Huazhong University of Science and Technology;
+   类型: Reject
+
+No.135. ALS: Attentive Long-Short-Range Message Passing
+   标题: ALSL：专注的长短期范围消息传递
+   链接: https://openreview.net/forum?id=SvzO2rryxq
+   类别: deep learning->graph neural networks
+   作者: Yi Luo;Xu Sun;Guangchun Luo;Aiguo Chen;
+   机构: University of Electronic Science and Technology of China;
+   类型: Reject
+
+No.136. Evaluating VLMs' General Ability on Next Location Prediction
+   标题: 评估VLMs在预测下一个位置方面的通用能力
+   链接: https://openreview.net/forum?id=mQPwFSTn6b
+   类别: deep learning->large language models
+   作者: Ruixing Zhang;Yang Zhang;Yuou Chen;Tongyu Zhu;Leilei Sun;Weifeng Lv;
+   机构: Beihang University;Peking University;
+   类型: Reject
+
+No.137. The Expressivity of Fixed-Precision Transformers without Positional Encoding
+   标题: 固定精度变换器（Transformer）无位置编码的表达能力
+   链接: https://openreview.net/forum?id=3TGUvHmZ2v
+   类别: deep learning->theory
+   作者: Naoki Negishi;Masaya Taniguchi;Keisuke Sakaguchi;Kentaro Inui;
+   机构: Tohoku University;RIKEN;Mohamed bin Zayed University of Artificial Intelligence;
+   类型: Reject
+
+No.138. Decaf: A Deconfounding Causal Generative Model
+   标题: 去混淆因果生成模型：Decaf
+   链接: https://openreview.net/forum?id=pMfpm26D73
+   类别: general machine learning->causality
+   作者: Alejandro Almodóvar;Adrián Javaloy;Juan Parras;Santiago Zazo;Isabel Valera;
+   机构: Universidad Politécnica de Madrid;University of Edinburgh;;Universität des Saarlandes;
+   类型: Reject
+
+No.139. Deep Positive-Unlabeled Anomaly Detection for Contaminated Unlabeled Data
+   标题: 深度正样本-未标记异常检测用于受污染的未标记数据
+   链接: https://openreview.net/forum?id=UEOLHWNswj
+   类别: general machine learning->unsupervised and semisupervised learning
+   作者: Hiroshi Takahashi;Tomoharu Iwata;Atsutoshi Kumagai;Yuuki Yamanaka;
+   机构: NTT Corporation;
+   类型: Reject
+
+No.140. Simple Graph Contrastive Learning via Fractional-order Neural Diffusion Networks
+   标题: 分数阶神经扩散网络引导的简单图对比学习
+   链接: https://openreview.net/forum?id=zgexeMtEWm
+   类别: general machine learning->unsupervised and semisupervised learning
+   作者: Yanan Zhao;Feng Ji;Kai Zhao;Xuhao Li;Qiyu Kang;Wenfei Liang;Yahya Alkhatib;Xingchao Jian;Wee Peng Tay;
+   机构: Nanyang Technological University;;Anhui University;
+   类型: Reject
+
+No.141. Model Selection for Off-policy Evaluation: New Algorithms and Experimental Protocol
+   标题: 离策评估中的模型选择：新算法与实验协议
+   链接: https://openreview.net/forum?id=oOaoNaoCJw
+   类别: reinforcement learning->batchoffline
+   作者: Pai Liu;LingfengZhao;Shivangi Agarwal;Jinghan Liu;Audrey Huang;Philip Amortila;Nan Jiang;
+   机构: University of Science and Technology of China;University of Illinois Urbana-Champaign;Indraprastha Institute of Information Technology;;
+   类型: Reject
+
+No.142. ASTPrompter: Weakly Supervised Automated Language Model Red-Teaming to Identify Low-Perplexity Toxic Prompts
+   标题: ASTPrompter: 弱监督自动化语言模型红队测试以识别低困惑度有毒提示
+   链接: https://openreview.net/forum?id=nlNFkVmuSK
+   类别: social aspects->safety
+   作者: Amelia Hardy;Houjun Liu;Bernard Lange;Duncan Eddy;Mykel Kochenderfer;
+   机构: Stanford University;
+   类型: Reject
+
+No.143. Understanding Generalization in Physics Informed Models through Affine Variety Dimensions
+   标题: 通过仿射簇维数理解物理信息模型中的泛化理解
+   链接: https://openreview.net/forum?id=dY44CURN4v
+   类别: theory->learning theory
+   作者: Takeshi Koshizuka;Issei Sato;
+   机构: University of Tokyo;
+   类型: Reject
+
+No.144. Meta-Learning in Self-Play Regret Minimization
+   标题: 元学习在自我博弈后悔最小化中的应用
+   链接: https://openreview.net/forum?id=d1uyU3JrpO
+   类别: theory->online learning and bandits
+   作者: David Sychrovský;Martin Schmid;Michal Sustr;Michael Bowling;
+   机构: Charles University;Google;;University of Alberta;
+   类型: Reject
+
+No.145. Identifying key amino acid types that distinguish paralogous proteins using Shapley value based feature subset selection
+   标题: 使用基于Shapley值的特征子集选择来识别区分平行蛋白的关键氨基酸类型
+   链接: https://openreview.net/forum?id=qROnDTwgCr
+   类别: applications->chemistry physics and earth sciences
+   作者: Pranav Machingal;Rakesh Busi;Nandyala Hemachandra;Petety V. Balaji;
+   机构: Indian Institute of Technology Bombay;;Indian Institute of Technology, Bombay;
+   类型: Reject
+
+No.146. Lifelong Learning of Video Diffusion Models From a Single Video Stream
+   标题: 单视频流中的终身视频扩散模型学习
+   链接: https://openreview.net/forum?id=ReLY5VHNEZ
+   类别: deep learning
+   作者: Jason Yoo;Yingchen He;Saeid Naderiparizi;Dylan Green;Gido M van de Ven;Geoff Pleiss;Frank Wood;
+   机构: ;University of British Columbia;Vector Institute;
+   类型: Reject
+
+No.147. Variational Learning Induces Adaptive Label Smoothing
+   标题: 变分学习诱导自适应标签平滑
+   链接: https://openreview.net/forum?id=NtxVmqPYJ8
+   类别: probabilistic methods->variational inference
+   作者: Sin-Han Yang;Zhedong Liu;Gian Maria Marconi;Mohammad Emtiyaz Khan;
+   机构: RIKEN;;
+   类型: Reject
+
+No.148. Open-Set Text Classification with Limited Labeling Budget
+   标题: 有限标注预算下的开放集文本分类
+   链接: https://openreview.net/forum?id=0UStwLPcQi
+   类别: applications->language speech and dialog
+   作者: Amit Tulsidas Chaulwar;
+   机构: 
+   类型: Reject
+
+No.149. Maximum Noise Level as Third Optimality Criterion in Black-box Optimization Problem
+   标题: 在黑盒优化问题中以最大噪声水平作为第三优化准则
+   链接: https://openreview.net/forum?id=g9XyES5Vna
+   类别: optimization->zeroorder and blackbox optimization
+   作者: Aleksandr Lobanov;
+   机构: Skolkovo Institute of Science and Technology;Moscow Institute of Physics and Technology;
+   类型: Reject
+
+No.150. Rectified Robust Policy Optimization for Robust Constrained Reinforcement Learning without Strong Duality
+   标题: 正则化稳健策略优化在无需强对偶的情况下进行稳健约束强化学习
+   链接: https://openreview.net/forum?id=4SzmiJv2ew
+   类别: theory->reinforcement learning and planning
+   作者: Shaocong Ma;Ziyi Chen;Yi Zhou;Heng Huang;
+   机构: University of Maryland;Texas A&M University;University of Maryland, College Park;
+   类型: Reject
+
+No.151. Machine learning on rigid classes of Euclidean clouds of unordered points
+   标题: 非有序欧几里得点云的刚性类上的机器学习
+   链接: https://openreview.net/forum?id=1Ct7Y3jsBx
+   类别: applications->chemistry physics and earth sciences
+   作者: Yury Elkin;Vitaliy Kurlin;
+   机构: ;University of Liverpool;
+   类型: Reject
+
+No.152. A Comparison of LLM fine-tuning Methods & Evaluation Metrics with Travel Chatbot Use Case
+   标题: 大型语言模型微调方法及评估指标的比较与旅行聊天机器人应用场景
+   链接: https://openreview.net/forum?id=mNYsX2kcsl
+   类别: deep learning->large language models
+   作者: Sonia Wei Meyer;Shreya Singh;Christopher Ton;Bertha Tam;Xingjian REN;
+   机构: Kaiser Permanente;;
+   类型: Reject
+
+No.153. Topo-Miner: CRISPR-Enhanced DNA Computing for Accelerated Topological Feature Extraction
+   标题: 拓扑矿工：CRISPR增强型DNA计算以加速拓扑特征提取
+   链接: https://openreview.net/forum?id=vMtmlTCYqn
+   类别: general machine learning->hardware and software
+   作者: Soong Kyum LEE;
+   机构: 
+   类型: Reject
+
+No.154. Towards Foundational Models for Dynamical System Reconstruction: Hierarchical Meta-Learning via Mixture of Experts
+   标题: 面向动力系统重构的基础模型：专家混合的层次元学习
+   链接: https://openreview.net/forum?id=VLA7Uv2IcR
+   类别: general machine learning->transfer multitask and metalearning
+   作者: Roussel Desmond Nzoyem;David A.W. Barton;Tom Deakin;
+   机构: University of Bristol;
+   类型: Reject
+
+No.155. Scale Invariance of Graph Neural Network for Node Classification
+   标题: 图神经网络在节点分类中的尺度不变性
+   链接: https://openreview.net/forum?id=0aS8nvlxpD
+   类别: deep learning->graph neural networks
+   作者: Qin Jiang;Chengjia Wang;Michael Lones;Wei Pang;
+   机构: Heriot-Watt University;
+   类型: Reject
+
+No.156. Reflection System for the Abstraction and Reasoning Corpus
+   标题: 抽象与推理语料库的反射系统
+   链接: https://openreview.net/forum?id=kRFwzuv0ze
+   类别: deep learning->large language models
+   作者: Kiril Bikov;Mikel Bober-Irizar;Soumya Banerjee;
+   机构: University of Cambridge;;
+   类型: Reject
+
+No.157. Overshoot: Taking advantage of future gradients in momentum-based stochastic optimization
+   标题: 超调：在基于动量的随机优化中利用未来的梯度
+   链接: https://openreview.net/forum?id=kNpK6aeccu
+   类别: optimization->stochastic
+   作者: Jakub Kopál;Michal Gregor;Santiago de Leon-Martinez;Jakub Simko;
+   机构: Kempelen Institute of Intelligent Technologies;University of Zilina;Universidad Carlos III de Madrid;
+   类型: Reject
+
+No.158. Losses for Deep Probabilistic Regression
+   标题: 深度概率回归的损失函数
+   链接: https://openreview.net/forum?id=WOauk8tsKx
+   类别: probabilistic methods->everything else
+   作者: Franco Marchesoni-Acland;Andrés Herrera;Rodrigo Alonso-Suárez;Jean-michel Morel;Josselin Kherroubi;Gabriele Facciolo;
+   机构: slb;Ecole Normale Superieure;Universidad de la República;City University of Hong Kong;Schlumberger Limited;Ecole Normale Superieure Paris-Saclay;
+   类型: Reject
+
+No.159. Demystifying MPNNs: Message Passing as Merely Efficient Matrix Multiplication
+   标题: 揭开MPNNs的神秘面纱：消息传递仅仅是高效矩阵乘法
+   链接: https://openreview.net/forum?id=Z87hDhsU5X
+   类别: deep learning->graph neural networks
+   作者: Qin Jiang;Chengjia Wang;Michael Lones;Wei Pang;
+   机构: Heriot-Watt University;
+   类型: Reject
+
+No.160. EKM: An Exact, Polynomial-Time Divide-and-Conquer Algorithm for the K-Medoids Problem
+   标题: EKM：一种精确的、多项式时间的分治算法用于解决K-均值问题（注：原文中提到的是“K-Medoids Problem”，在中文中通常指的是“K-均值问题”的一种变体或特定情况，此处直接翻译为“K-均值问题”）
+   链接: https://openreview.net/forum?id=FgttKcRbQO
+   类别: optimization->discrete and combinatorial optimization
+   作者: Xi He;Max A Little;
+   机构: University of Birmingham;
+   类型: Reject
+
+No.161. An efficient implementation for solving the all pairs minimax path problem in an undirected dense graph
+   标题: 解决无向密集图中所有点对最短路径问题的有效实现方法
+   链接: https://openreview.net/forum?id=qNfEkSuGKk
+   类别: theory->optimization
+   作者: Gangli Liu;
+   机构: Tsinghua University;
+   类型: Reject
+
