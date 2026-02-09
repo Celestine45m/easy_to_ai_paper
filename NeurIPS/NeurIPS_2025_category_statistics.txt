@@ -1,0 +1,22 @@
+================================================================================
+NeurIPS 2025 论文类别统计（按出现次数降序）
+================================================================================
+
+总论文数: 5522
+
+排名     类别                                                 数量         占比        
+--------------------------------------------------------------------------------
+1      deep learning                                      1765        31.96%
+2      applications                                       1009        18.27%
+3      theory                                             489          8.86%
+4      social and economic aspects of machine learning    417          7.55%
+5      reinforcement learning                             370          6.70%
+6      general machine learning                           360          6.52%
+7      machine learning for sciences                      341          6.18%
+8      probabilistic methods                              218          3.95%
+9      optimization                                       207          3.75%
+10     neuroscience and cognitive science                 167          3.02%
+11     evaluation                                         61           1.10%
+12     other                                              61           1.10%
+13     infrastructure                                     57           1.03%
+================================================================================

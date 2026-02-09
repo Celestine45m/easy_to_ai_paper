@@ -17,6 +17,9 @@ def extract_paper_titles_with_details(input_file_path, output_file_path,output_j
     papers = []
     
     index = 0
+    tr_len = len(soup.find_all('tr'))
+    print(f"tr_len: {tr_len}")
+
     # 查找所有表格行
     for tr in soup.find_all('tr')[:]:
         try:
@@ -28,12 +31,20 @@ def extract_paper_titles_with_details(input_file_path, output_file_path,output_j
                 title_td = td_elements[2]
                 title_link = title_td.find('a', href=True)
                 
+                # if title_link and 'openreview.net/forum' in title_link['href']:
                 if title_link and 'openreview.net/forum' in title_link['href']:
+
                     title = title_link.get_text(strip=True)
                     
                     # 过滤评分数字
                     if title and not re.match(r'^\d+$', title):
+
                         index += 1
+                        print(f"index: {index} , td_elements: {td_elements[7].get_text(strip=True)}")
+
+                        presentation_type = td_elements[7].get_text(strip=True) if len(td_elements) > 7 else ''
+                        if 'Reject'in presentation_type or 'Withdraw'in presentation_type :
+                            continue
                         # if index < 3585:
                         #     paper_info = {
                         #     'title': title,
@@ -47,25 +58,24 @@ def extract_paper_titles_with_details(input_file_path, output_file_path,output_j
                         #     print(f"跳过第 {index} 篇论文")
                         #     continue
 
-                        title_ch = translate_to_chinese(title)
+                        # title_ch = translate_to_chinese(title)
                         # 提取其他信息
                         paper_info = {
                             'title': title,
-                            'title_ch': title_ch,
+                            # 'title_ch': title_ch,
                             'url': title_link['href'],
                             'category': td_elements[3].get_text(strip=True) if len(td_elements) > 3 else '',
                             'authors': td_elements[4].get_text(strip=True) if len(td_elements) > 4 else '',
                             'affiliations': td_elements[5].get_text(strip=True) if len(td_elements) > 5 else '',
                             'presentation_type': td_elements[7].get_text(strip=True) if len(td_elements) > 7 else ''
                         }
-                        if paper_info['presentation_type'] == 'Reject':
-                            continue
+  
                         papers.append(paper_info)
 
                         # 将详细信息写入文件
                         with open(output_file_path, "a", encoding="utf-8") as f:
                             f.write(f"No.{len(papers)}. {paper_info['title']}\n")
-                            f.write(f"   标题: {paper_info['title_ch']}\n")
+                            # f.write(f"   标题: {paper_info['title_ch']}\n")
                             f.write(f"   链接: {paper_info['url']}\n")
                             f.write(f"   类别: {paper_info['category']}\n")
                             f.write(f"   作者: {paper_info['authors']}\n")

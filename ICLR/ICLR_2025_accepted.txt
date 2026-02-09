@@ -1,0 +1,1696 @@
+No.1. Adaptive Graduated Non-Convexity for Point Cloud Registration
+   标题: 自适应渐进非凸优化在点云注册中的应用
+   链接: https://openreview.net/forum?id=cIKQp84vqN
+   类别: optimization
+   作者: Hangqi Ding;Yue Wu;Maoguo Gong;Qiguang Miao;Hao Li;Mingyang Zhang;Wenping Ma;
+   机构: Xi'an University of Electronic Science and Technology;Xidian University;;
+   类型: Desk Reject
+
+No.2. Neural Fourier Modelling: A Highly Compact Approach to Time-Series Analysis
+   标题: 神经傅里叶建模：一种高度紧凑的时间序列分析方法
+   链接: https://openreview.net/forum?id=8sKXFvSCqA
+   类别: learning on time series and dynamical systems
+   作者: Minjung Kim;Yusuke Hioka;Michael Witbrock;
+   机构: University of Auckland;
+   类型: Desk Reject
+
+No.3. NEXTLOCLLM: NEXT LOCATION PREDICTION USING LLMS
+   标题: 基于LLM的下一个位置预测
+   链接: https://openreview.net/forum?id=uiBLOcyTIA
+   类别: foundation or frontier models, including LLMs
+   作者: SHUAI LIU;Ning Cao;Yile Chen;YUE JIANG;Gao Cong;
+   机构: Nanyang Technological University;;
+   类型: Desk Reject
+
+No.4. Compress then Serve: Serving Thousands of LoRA Adapters with Little Overhead
+   标题: 压缩然后服务：以极小的开销提供数千个LoRA适配器
+   链接: https://openreview.net/forum?id=hHNVn4hFPk
+   类别: foundation or frontier models, including LLMs
+   作者: Rickard Brüel Gabrielsson;Jiacheng Zhu;Onkar Bhardwaj;Leshem Choshen;Kristjan Greenewald;Mikhail Yurochkin;Justin Solomon;
+   机构: Massachusetts Institute of Technology;;International Business Machines Corporation;IBM;Mohamed bin Zayed University of Artificial Intelligence;
+   类型: Desk Reject
+
+No.5. ProteinWeaver: A Divide-and-Assembly Approach for Protein Backbone Design
+   标题: ProteinWeaver：一种分而治之的方法用于蛋白质主链设计
+   链接: https://openreview.net/forum?id=mPMLZv4kSL
+   类别: applications to physical sciences (physics, chemistry, biology, etc.)
+   作者: Yiming Ma;Fei YE;Yi Zhou;Zaixiang Zheng;Dongyu Xue;Quanquan Gu;
+   机构: Peking University;;ByteDance;University of California, Los Angeles;
+   类型: Desk Reject
+
+No.6. A Hybrid Simulation of DNN-based Gray Box Models
+   标题: 基于DNN的灰盒模型混合仿真
+   链接: https://openreview.net/forum?id=sSWiZr8QU7
+   类别: applications to physical sciences (physics, chemistry, biology, etc.)
+   作者: Aayushya Agarwal;Yihan Ruan;Lawrence Pileggi;
+   机构: Carnegie Mellon University;;
+   类型: Desk Reject
+
+No.7. Network-based Active Inference for Adaptive and Cost-efficient Real-World Applications: A Benchmark Study of a Valve-turning Task Against Deep Reinforcement Learning
+   标题: 基于网络的主动推断在适应性和成本效率的现实应用中的应用研究：一项针对阀门调节任务的深度强化学习基准研究
+   链接: https://openreview.net/forum?id=Hm7RYDspQP
+   类别: probabilistic methods (Bayesian methods, variational inference, sampling, UQ, etc.)
+   作者: Harneet Singh;Jeong hwan Yoon;Pedro Fontana;Katherine Hanson;Whitney Sales;Varun Kamat;Karl Friston;
+   机构: ;University of California, Los Angeles;ThoughtForge AI;ThoughtForge;ThoughtForge, Inc;University of California, Berkeley;University College London;
+   类型: Desk Reject
+
+No.8. Network-based Active Inference for Adaptive and Cost-efficient Real-World Applications: PV Panel Inspection
+   标题: 基于网络的主动推断用于适应性和成本效率的现实世界应用：光伏面板检测
+   链接: https://openreview.net/forum?id=v2NuTf6Kww
+   类别: probabilistic methods (Bayesian methods, variational inference, sampling, UQ, etc.)
+   作者: Harneet Singh;Jeong hwan Yoon;Pedro Fontana;Katherine Hanson;Whitney Sales;Varun Kamat;Karl Friston;
+   机构: ;University of California, Los Angeles;ThoughtForge AI;ThoughtForge;ThoughtForge, Inc;University of California, Berkeley;University College London;
+   类型: Desk Reject
+
+No.9. Mitigating Adversarial Attacks in LLMs through Defensive Suffix Generation
+   标题: 通过防御性后缀生成缓解LLMs中的对抗攻击
+   链接: https://openreview.net/forum?id=ReKrTbRfJt
+   类别: alignment, fairness, safety, privacy, and societal considerations
+   作者: Minkyoung Kim;Yunha Kim;Hyeram Seo;Heejung Choi;JiYe Han;Gaeun Kee;Soyoung Ko;HyoJe Jung;Byeolhee Kim;Young-Hak Kim;Sanghyun park;Tae Joon Jun;
+   机构: Yonsei University;Ulsan University;;Asan Medical Center;
+   类型: Desk Reject
+
+No.10. Model Mimic Attack: Knowledge Distillation for Provably Transferable Adversarial Examples
+   标题: 模型模仿攻击：可证明可移植的 adversarial 例子的知识蒸馏
+   链接: https://openreview.net/forum?id=SY70rVSr3M
+   类别: alignment, fairness, safety, privacy, and societal considerations
+   作者: Kirill Lukyanov;Andrew Perminov;Denis Turdakov;Mikhail Pautov;
+   机构: Ivannikov Institute for System Programming;;
+   类型: Desk Reject
+
+No.11. A collaborative Multi-Agent LLM Approach for Knowledge Graph Curation and query from multimodal data sources
+   标题: 一种协作的多代理语言模型方法，用于知识图谱的维护和来自多模态数据源的查询
+   链接: https://openreview.net/forum?id=qXwVXj03nO
+   类别: applications to computer vision, audio, language, and other modalities
+   作者: Ankur Krishna;surya ardham;Chetan Malhotra;Anagha Prashant Shinde;
+   机构: Tata Consultancy Services Limited;;Walchand College of Engineering;
+   类型: Desk Reject
+
+No.12. BanglaGITI: A Novel Dataset for Bangla Music Genre Classification with A Comprehensive Analysis
+   标题: BanglaGITI：一种新型的用于孟加拉音乐体裁分类的数据集及其全面分析
+   链接: https://openreview.net/forum?id=TIxiwxd4iD
+   类别: applications to computer vision, audio, language, and other modalities
+   作者: Syeda Farhana Ali;Mohammad Tanveer Shams;Kazi A. Kalpoma;Tasnim Munawar Rafee;Jecin Saba;
+   机构: Ahsanullah University of Science & Technology;;
+   类型: Desk Reject
+
+No.13. Invar-RAG: Invariant LLM-aligned Retrieval for Better Generation
+   标题: 不变性RAG：不变的LLM对齐检索以提高生成效果
+   链接: https://openreview.net/forum?id=8g7hHwSBjH
+   类别: applications to computer vision, audio, language, and other modalities
+   作者: Ziwei Liu;Liang Zhang;Qian Li;Jianghua Wu;Guangxu Zhu;
+   机构: City University of Hong Kong;Shenzhen Research Institute of Big Data;;
+   类型: Desk Reject
+
+No.14. Personalize to generalize: Towards a universal medical multi-modality generalization through personalization
+   标题: 个性化以实现通用化：通过个性化 towards 一种通用医疗多模态泛化
+   链接: https://openreview.net/forum?id=nQoRKLeOP0
+   类别: applications to computer vision, audio, language, and other modalities
+   作者: Zhaorui Tan;Xi Yang;Tan Pan;TIANYI LIU;Chen Jiang;Xin Guo;Qiufeng Wang;Anh Nguyen;Yuan Qi;Kaizhu Huang;Yuan Cheng;
+   机构: University of Liverpool;;Xi'an Jiao Tong-Liverpool University;Shanghai Academy of Artificial Intelligence;Fudan University;
+   类型: Desk Reject
+
+No.15. RALL-E: Robust Codec Language Modeling with Chain-of-Thought Prompting for Text-to-Speech Synthesis
+   标题: RALL-E：具有链式思考提示的稳健编解码器语言模型在文本转语音合成中的应用
+   链接: https://openreview.net/forum?id=9d6RcViazd
+   类别: applications to computer vision, audio, language, and other modalities
+   作者: Detai Xin;Xu Tan;Kai Shen;Zeqian Ju;Dongchao Yang;Yuancheng Wang;Shinnosuke Takamichi;Hiroshi Saruwatari;Shujie LIU;Jinyu Li;sheng zhao;
+   机构: Tokyo University;Microsoft;Moonshot AI;Chinese University of Hong Kong;Keio University;University of Tokyo;
+   类型: Desk Reject
+
+No.16. REAL-TIME LAYOUT ADAPTATION USING GENERATIVE AI
+   标题: 基于生成式AI的实时布局适应
+   链接: https://openreview.net/forum?id=zqA19DirIT
+   类别: applications to computer vision, audio, language, and other modalities
+   作者: Sanshray Singh Langeh;Mandar Zope;
+   机构: National Institute of Technology, Srinagar;;
+   类型: Desk Reject
+
+No.17. TOSN-Trans：Transparent Object Segmentation Network with Transformer
+   标题: TOSN-透明对象分割网络（Transformer）
+   链接: https://openreview.net/forum?id=Rhclu9eWxU
+   类别: applications to computer vision, audio, language, and other modalities
+   作者: Tao Tao;
+   机构: Wuhan University;
+   类型: Desk Reject
+
+No.18. MimoUDiff: A Unified Multi-Source Data Fusion Framework via MIMO Unet and Refined Diffusion for Precipitation Nowcasting
+   标题: MimoUDiff：一种基于MIMO-Unet和精炼扩散的统一多源数据融合框架用于降水现在预报
+   链接: https://openreview.net/forum?id=GCSr6QCCwF
+   类别: applications to physical sciences (physics, chemistry, biology, etc.)
+   作者: Chunlei Shi;Han Xu;Yongchao Feng;Dan Niu;
+   机构: Southeast University;Beihang University;
+   类型: Desk Reject
+
+No.19. AFTD: a foreground target detection dataset for airport scenario
+   标题: AFTD：机场场景下的前景目标检测数据集
+   链接: https://openreview.net/forum?id=UpPXWd9SBk
+   类别: datasets and benchmarks
+   作者: Pengchong Chen;Xiang Zhang;Wei Lin;Yonghui Huang;Chongshang Yang;Jinyang Zhang;Jianan Hou;
+   机构: University of Electronic Science and Technology of China;;
+   类型: Desk Reject
+
+No.20. EEE-Bench: A Comprehensive Multimodal Electrical And Electronics Engineering Benchmark
+   标题: EEE-Bench：一个全面的多模态电气与电子工程基准测试
+   链接: https://openreview.net/forum?id=pjfvmZWFfX
+   类别: datasets and benchmarks
+   作者: Ming Li;Jike Zhong;Tianle Chen;Konstantinos Psounis;
+   机构: University of Southern California;Boston University;University of Tokyo;
+   类型: Desk Reject
+
+No.21. MU-Bench: A Multitask Multimodal Benchmark for Machine Unlearning
+   标题: MU-Bench：一项针对机器卸学的多任务多模态基准测试
+   链接: https://openreview.net/forum?id=O9W9DesXid
+   类别: datasets and benchmarks
+   作者: Jiali Cheng;Hadi Amiri;
+   机构: ;University of Massachusetts Lowell;
+   类型: Desk Reject
+
+No.22. On the Robustness of Vision-Language Models Against Distractions
+   标题: 视觉语言模型对抗干扰的鲁棒性
+   链接: https://openreview.net/forum?id=EGjTCIcSnW
+   类别: datasets and benchmarks
+   作者: Ming Liu;Hao Chen;Jindong Wang;Wensheng Zhang;
+   机构: Iowa State University;Carnegie Mellon University;College of William & Mary;
+   类型: Desk Reject
+
+No.23. RL4CO: an Extensive Reinforcement Learning for Combinatorial Optimization Benchmark
+   标题: RL4CO：广泛用于组合优化基准测试的强化学习
+   链接: https://openreview.net/forum?id=MGZyUtaYUb
+   类别: datasets and benchmarks
+   作者: Federico Berto;Chuanbo Hua;Junyoung Park;Laurin Luttmann;Yining Ma;Fanchen Bu;Jiarui Wang;Haoran Ye;Minsu Kim;Sanghyeok Choi;Nayeli Gast Zepeda;André Hottung;Jianan Zhou;Jieyi Bi;Yu Hu;Fei Liu;Hyeonah Kim;Jiwoo Son;Haeyeon Kim;Davide Angioni;Wouter Kool;Zhiguang Cao;Qingfu Zhang;Joungho Kim;Jie Zhang;Kijung Shin;Cathy Wu;Sungsoo Ahn;Guojie Song;Changhyun Kwon;Kevin Tierney;Lin Xie;Jinkyoo Park;
+   机构: Korea Advanced Institute of Science and Technology;;Leuphana University Lüneburg;Massachusetts Institute of Technology;Monash University;Peking University;Universität Bielefeld;Bielefeld University;Nanyang Technological University;ORTEC;Singapore Management University;City University of Hong Kong;Pohang University of Science and Technology;Omelet, Inc.;Brandenburgische Technische Universität;
+   类型: Desk Reject
+
+No.24. CASAK-V: Dynamic Sparse Attention and Adaptive KV-Cache Compression for Memory-Efficient Long-Context LLM Inference
+   标题: CASAK-V：动态稀疏注意力和自适应KV缓存压缩以实现高效长上下文语言模型推理
+   链接: https://openreview.net/forum?id=n7RqgqbxP7
+   类别: foundation or frontier models, including LLMs
+   作者: Hamza Mohammed;Sai Chand Boyapati;Hang Yin;
+   机构: Samsung;;
+   类型: Desk Reject
+
+No.25. EVLM: An Efficient Vision-Language Model for Visual Understanding
+   标题: EVLM：一种高效的视觉-语言模型，用于视觉理解
+   链接: https://openreview.net/forum?id=S7M1iqFLVm
+   类别: foundation or frontier models, including LLMs
+   作者: Kaibing Chen;Dong Shen;Hanwen Zhong;Huasong Zhong;Kui Xia;Di Xu;Wei Yuan;Yifei Hu;Bin Wen;Tianke Zhang;Changyi Liu;Dewen Fan;Huihui Xiao;Jiahong Wu;Fan Yang;Tingting Gao;Di ZHANG;
+   机构: Kuaishou Technology;Beihang University;;Alibaba Group;
+   类型: Desk Reject
+
+No.26. Layer-Wise Quantization: A Pragmatic and Effective Method for Quantizing LLMs
+   标题: 逐层量化：一种实用且有效的大型语言模型量化方法
+   链接: https://openreview.net/forum?id=eJVrwDE086
+   类别: foundation or frontier models, including LLMs
+   作者: Razvan-Gabriel Dumitru;Vikas Yadav;Rishabh Maheshwary;Paul Ioan Clotan;Sathwik Tejaswi Madhusudhan;Mihai Surdeanu;
+   机构: University of Arizona;ServiceNow;
+   类型: Desk Reject
+
+No.27. Stacking Small Language Models for Generalizability
+   标题: 堆叠小型语言模型以提高泛化能力
+   链接: https://openreview.net/forum?id=Vn23PakSbM
+   类别: foundation or frontier models, including LLMs
+   作者: Laurence Liang;
+   机构: McGill University;
+   类型: Desk Reject
+
+No.28. WALL-E: World Alignment by Rule Learning Improves World Model-based LLM Agents
+   标题: 《基于规则学习的世界对齐改进世界模型大语言模型代理》
+   链接: https://openreview.net/forum?id=GE0UKtI6Lf
+   类别: foundation or frontier models, including LLMs
+   作者: Siyu Zhou;Tianyi Zhou;Yijun Yang;Guodong Long;Deheng Ye;Jing Jiang;Chengqi Zhang;
+   机构: University of Technology Sydney;University of Maryland;Tencent;Hong Kong Polytechnic University;
+   类型: Desk Reject
+
+No.29. Code snippets insertion approach for code completion task
+   标题: 代码片段插入方法在代码补全任务中的应用
+   链接: https://openreview.net/forum?id=sQa6VrK6tm
+   类别: generative models
+   作者: Nina Kamkia;Dmitry Stanishevskiy;Alena Fenogenova;Vitaly Kadylin;Denis Kokosinskii;Dmitry Zmitrovich;
+   机构: ;Higher School of Economics;Sberbank;Lomonosov Moscow State University;
+   类型: Desk Reject
+
+No.30. Enhancement of In-Context Reasoning in LLMs through Inductive Rule Learning
+   标题: 通过归纳规则学习增强大语言模型的上下文推理能力
+   链接: https://openreview.net/forum?id=3x4vpeAclU
+   类别: generative models
+   作者: Tien-Dat Nguyen;Hai-Toan Nguyen;Nguyen Viet Ha;
+   机构: Vietnam National University, Hanoi;VNU University of Engineering and Technology;
+   类型: Desk Reject
+
+No.31. Fine-grained Hallucination Detection and Mitigation in Language Model Mathematical Reasoning
+   标题: 语言模型数学推理中的细粒度幻觉检测与缓解
+   链接: https://openreview.net/forum?id=7bwE5MJAVJ
+   类别: generative models
+   作者: Ruosen Li;Ziming Luo;Xinya Du;
+   机构: University of Texas at Dallas;Carnegie Mellon University;
+   类型: Desk Reject
+
+No.32. Temporal Environment-Aware Image Generation via Latent Diffusion
+   标题: 基于潜空间扩散的知识库感知图像生成
+   链接: https://openreview.net/forum?id=Rd34VDwqB7
+   类别: generative models
+   作者: Nasrin Kalanat;Yiqun Xie;Yanhua Li;Xiaowei Jia;
+   机构: University of Pittsburgh;University of Maryland;Worcester Polytechnic Institute;
+   类型: Desk Reject
+
+No.33. Tuning Language Models by Mixture-of-Depths Ensemble
+   标题: 通过深度混合 ensemble 调整语言模型
+   链接: https://openreview.net/forum?id=FLSWAJqTjE
+   类别: generative models
+   作者: Haoyan Luo;Lucia Specia;
+   机构: ;Imperial College London;
+   类型: Desk Reject
+
+No.34. A Systemic Review of Static Memory Analysis
+   标题: 静态内存分析的系统评价
+   链接: https://openreview.net/forum?id=Mphd6Sf6z4
+   类别: infrastructure, software libraries, hardware, systems, etc.
+   作者: Enoch Solomon;
+   机构: Virginia State University;
+   类型: Desk Reject
+
+No.35. RDAS: A Low Latency and High Throughput Raw Data Engine for Machine Learning Systems
+   标题: RDAS：一种适用于机器学习系统的低延迟高吞吐量原始数据引擎
+   链接: https://openreview.net/forum?id=DqPDavAEXt
+   类别: infrastructure, software libraries, hardware, systems, etc.
+   作者: Weijian Li;Han Liu;
+   机构: Northwestern University;
+   类型: Desk Reject
+
+No.36. Circuit Compositions: Exploring Modular Structures in Transformer-Based Language Models
+   标题: 电路组成：探索基于变压器的语言模型中的模块化结构
+   链接: https://openreview.net/forum?id=u4XyECA6Zd
+   类别: interpretability and explainable AI
+   作者: Philipp Mondorf;Sondre Wold;Barbara Plank;
+   机构: Ludwig-Maximilians-Universität München;University of Oslo;
+   类型: Desk Reject
+
+No.37. Evaluating Synthetic Activations composed of SAE Latents in GPT-2
+   标题: 评估由SAE隐变量组成的合成激活在GPT-2中的表现
+   链接: https://openreview.net/forum?id=U0y32WKeOd
+   类别: interpretability and explainable AI
+   作者: Nora Petrova;Giorgi Giglemiani;Chatrik Singh Mangat;Stefan Heimersheim;Jett Janiak;
+   机构: Independent Researcher;;ML Alignment & Theory Scholars;
+   类型: Desk Reject
+
+No.38. Generalized Attention Flow: Feature Attribution for Transformer Models via Maximum Flow
+   标题: 通用注意力流：通过最大流进行的变压器模型特征归因
+   链接: https://openreview.net/forum?id=2RcTuBc4mA
+   类别: interpretability and explainable AI
+   作者: Behrooz Azarkhalili Aghmiyouni;Maxwell Libbrecht;
+   机构: Simon Fraser University;
+   类型: Desk Reject
+
+No.39. Hierarchical Frequency Tagging Probe (HFTP): A Unified Approach to Investigate Syntactic Structure Representations in Large Language Models and the Human Brain
+   标题: 层次频率标记探针（HFTP）：一种统一方法，用于研究大型语言模型和人类大脑中的句法结构表示
+   链接: https://openreview.net/forum?id=z5Th95xtBW
+   类别: interpretability and explainable AI
+   作者: Jingmin An;Yilong Song;Ruolin Yang;Nai Ding;Lingxi Lu;Yuxuan Wang;Wei Wang;Chu Zhuang;Qian Wang;Fang Fang;
+   机构: Peking University;Zhejiang University;Beijing Institute for General Artificial Intelligence;Beijing Language and Culture University;
+   类型: Desk Reject
+
+No.40. Self-Improving Logic from Experimental Observations
+   标题: 自我改进逻辑从实验观察中获得
+   链接: https://openreview.net/forum?id=GnCw9lCPs9
+   类别: interpretability and explainable AI
+   作者: Max PONT;
+   机构: 
+   类型: Desk Reject
+
+No.41. Unsupervised Panoptic Interpretation of Latent Spaces in GANs Using Space-Filling Vector Quantization
+   标题: 使用空间填充向量量化进行GAN潜空间的无监督全景解释
+   链接: https://openreview.net/forum?id=1poUSIGSCI
+   类别: interpretability and explainable AI
+   作者: Mohammad Hassan Vali;Tom Bäckström;
+   机构: ;Aalto University;
+   类型: Desk Reject
+
+No.42. MambaFormer-MOE: Mamba-Transformer-based Mixture-of-Experts for Time Series Prediction
+   标题: MambaFormer-MOE：基于Mamba变换器的专家混合模型用于时间序列预测
+   链接: https://openreview.net/forum?id=55Ruu7bF4b
+   类别: learning on time series and dynamical systems
+   作者: Weijian Li;Han Liu;
+   机构: Northwestern University;
+   类型: Desk Reject
+
+No.43. Learning with Multi-Group Guarantees for Clusterable Subpopulations
+   标题: 具有集群子群体多组保障的学习方法
+   链接: https://openreview.net/forum?id=tEM1u9VT2W
+   类别: learning theory
+   作者: Jessica Dai;Nika Haghtalab;Eric Zhao;
+   机构: ;University of California, Berkeley;
+   类型: Desk Reject
+
+No.44. Model Comparisons: XNet Outperforms KAN
+   标题: 模型比较：XNet 性能优于KAN
+   链接: https://openreview.net/forum?id=eIK4ojL2QM
+   类别: learning theory
+   作者: Xin Li;Zhihong Jeff Xia;Xiaotao Zheng;
+   机构: University of Oxford;Northwestern University;Soochow University;
+   类型: Desk Reject
+
+No.45. On the Role of Image Statistics and Gradient Learning in the Adversarial Vulnerability of Neural Networks
+   标题: 关于图像统计特征和梯度学习在神经网络对抗脆弱性中的作用
+   链接: https://openreview.net/forum?id=xIW2WtCuYE
+   类别: learning theory
+   作者: Hadar Yosef;Yair Weiss;
+   机构: Hebrew University of Jerusalem;
+   类型: Desk Reject
+
+No.46. Retraining with Predicted Hard Labels Provably Increases Model Accuracy
+   标题: 使用预测的硬标签重新训练模型可以证明提高模型准确性
+   链接: https://openreview.net/forum?id=GCfllRcbvt
+   类别: learning theory
+   作者: Rudrajit Das;Inderjit S Dhillon;Alessandro Epasto;Adel Javanmard;Jieming Mao;Vahab Mirrokni;Sujay Sanghavi;Peilin Zhong;
+   机构: University of Texas at Austin;Google;University of Southern California;
+   类型: Desk Reject
+
+No.47. GIFT-SW: Gaussian noise Injected Fine-Tuning of Salient Weights for LLMs
+   标题: GIFT-SW: 高斯噪声注入微调显著权重用于大语言模型
+   链接: https://openreview.net/forum?id=InxxTu0Bfs
+   类别: optimization
+   作者: Maxim Zhelnin;Viktor Moskvoretskii;Egor Shvetsov;Venediktov Egor;Maria Krylova;Zuev Aleksandr;Evgeny Burnaev;
+   机构: Skolkovo Institute of Science and Technology;Higher School of Economics;Huawei;;
+   类型: Desk Reject
+
+No.48. Improved Methods for Model Pruning
+   标题: 改进的模型剪枝方法
+   链接: https://openreview.net/forum?id=V8wrTu8p6x
+   类别: optimization
+   作者: Wei Jiang;Anying Fu;Youling Zhang;
+   机构: ;Suanfamama;
+   类型: Desk Reject
+
+No.49. A Multi-Decomposition Method for Compressing Larger AI Models Based on Reinforcement Learning
+   标题: 基于强化学习压缩更大规模AI模型的多分解方法
+   链接: https://openreview.net/forum?id=cO01zqImBC
+   类别: other topics in machine learning (i.e., none of the above)
+   作者: Jian Tang;Kun Xie;Jigang Wen;Xiaocan Li;Jiazheng Tian;Gaogang Xie;Kenli Li;
+   机构: Hunan University;;
+   类型: Desk Reject
+
+No.50. AFFS: Adaptive Fast Frequency Selection Algorithm for Deep Learning Feature Extraction
+   标题: 自适应快速频率选择算法用于深度学习特征提取
+   链接: https://openreview.net/forum?id=1Qq62mo8TW
+   类别: other topics in machine learning (i.e., none of the above)
+   作者: Zilong He;Kun Xie;Xiaocan Li;Jigang Wen;Jiannong Cao;Gaogang Xie;LiangWei;Kenli Li;
+   机构: Hunan University;;Hong Kong Polytechnic University;
+   类型: Desk Reject
+
+No.51. Bayesian-LoRA: LoRA based Parameter Efficient Fine-Tuning using Optimal Quantization levels and Rank Values trough Differentiable Bayesian Gates
+   标题: 贝叶斯-LoRA：通过可微分贝叶斯门控使用最优量化级别和秩值的基于LoRA的参数高效微调
+   链接: https://openreview.net/forum?id=v4Bl6tfaaO
+   类别: other topics in machine learning (i.e., none of the above)
+   作者: Cristian Meo;Ksenia Sycheva;Carlo Saccardi;Anirudh Goyal;Pietro Lio;Justin Dauwels;
+   机构: Delft University of Technology;;Google;University of Cambridge;
+   类型: Desk Reject
+
+No.52. DAG-NAS: Explainable Neural Architecture Search\\for Reinforcement Learning via Scalar-level DAG Modeling
+   标题: DAG-NAS：通过标量级DAG建模的可解释强化学习神经架构搜索
+   链接: https://openreview.net/forum?id=rws9sRnBEf
+   类别: other topics in machine learning (i.e., none of the above)
+   作者: Taegun An;Changhee Joo;
+   机构: Korea University;;
+   类型: Desk Reject
+
+No.53. Harmonic Machine Learning Models are Robust
+   标题: 谐波机器学习模型是稳健的
+   链接: https://openreview.net/forum?id=UcFjiiObbM
+   类别: other topics in machine learning (i.e., none of the above)
+   作者: Nicholas Stephen Kersting;Yi Li;Aman Mohanty;Oyindamola Obisesan;Raphael Okochu;
+   机构: ;VISA;
+   类型: Desk Reject
+
+No.54. Neural ODE with Differentiable Hidden State for Irregular Time Series
+   标题: 神经ODE具有可微隐藏状态的不规则时间序列处理方法
+   链接: https://openreview.net/forum?id=jKNv7Fvurt
+   类别: other topics in machine learning (i.e., none of the above)
+   作者: Yan Fang;Xu Wang;Zeyu Liang;Yudong Zhang;Pengkun Wang;Binwu Wang;Yang Wang;
+   机构: University of Science and Technology of China;Shanghai Jiao Tong University;
+   类型: Desk Reject
+
+No.55. On the Power of Learning-Augmented Search Trees
+   标题: 学习增强搜索树的力量
+   链接: https://openreview.net/forum?id=FUwWdUi55e
+   类别: other topics in machine learning (i.e., none of the above)
+   作者: Xinyuan Cao;Jingbang Chen;Alicia Stepin;Li Chen;
+   机构: Georgia Institute of Technology;University of Waterloo;Carnegie Mellon University;
+   类型: Desk Reject
+
+No.56. pMixFed: Mixing up model coefficients for Efficient Personalized Federated Learning
+   标题: pMixFed：高效个性化联邦学习中的模型系数混合方法
+   链接: https://openreview.net/forum?id=lX8DahcJbL
+   类别: other topics in machine learning (i.e., none of the above)
+   作者: Yasaman Saadati;Mohammad Rostami;M. Hadi Amini;
+   机构: Florida International University;University of Southern California;
+   类型: Desk Reject
+
+No.57. Efficient Diffusion Models for Symmetric Manifolds
+   标题: 对称流形上的高效扩散模型
+   链接: https://openreview.net/forum?id=GLKig15TWJ
+   类别: probabilistic methods (Bayesian methods, variational inference, sampling, UQ, etc.)
+   作者: Oren Mangoubi;Nisheeth K. Vishnoi;
+   机构: Worcester Polytechnic Institute;Yale University;
+   类型: Desk Reject
+
+No.58. Distributional Reinforcement Learning Based On Historical Information For Option Hedging
+   标题: 基于历史信息的分布强化学习在期权对冲中的应用
+   链接: https://openreview.net/forum?id=rcCNk4AI2J
+   类别: reinforcement learning
+   作者: Qiao Pan;Long Zhu;zhaoju Wang;
+   机构: ;Donghua University;
+   类型: Desk Reject
+
+No.59. Efficient Sequential Policy Optimization via Off-Policy Correction in Multi-Agent Reinforcement Learning
+   标题: 高效序列多智能体 reinforcement learning 策略优化通过离策策略校正实现
+   链接: https://openreview.net/forum?id=n6Gg0D2jWT
+   类别: reinforcement learning
+   作者: Pei Xu;Junge Zhang;Kaiqi Huang;
+   机构: ;Chinese Academy of Sciences;
+   类型: Desk Reject
+
+No.60. Learn With Imagination: Safe Set Guided State-wise Constrained Policy Optimization
+   标题: 具想象性学习：安全集合引导分地区约束策略优化
+   链接: https://openreview.net/forum?id=PAzVN4EEkj
+   类别: reinforcement learning
+   作者: Feihan Li;Yifan Sun;Weiye Zhao;Rui Chen;Tianhao Wei;Changliu Liu;
+   机构: Carnegie Mellon University;;
+   类型: Desk Reject
+
+No.61. No-Regret is not enough! Bandits with General Constraints through Adaptive Regret Minimization
+   标题: “无悔”还不够！具有通用约束的适应性遗憾最小化强盗算法
+   链接: https://openreview.net/forum?id=LKtttBE5GN
+   类别: reinforcement learning
+   作者: Martino Bernasconi;Matteo Castiglioni;Andrea Celli;
+   机构: Bocconi University;Politecnico di Milano;
+   类型: Desk Reject
+
+No.62. Collaborative Theorem Proving with Large Language Models: Enhancing Formal Proofs with ProofRefiner
+   标题: 基于大型语言模型的协作定理证明：通过ProofRefiner增强形式证明
+   链接: https://openreview.net/forum?id=y9xNQZjUJM
+   类别: transfer learning, meta learning, and lifelong learning
+   作者: Haoyi Zhang;Andrew Liu;Zixuan Wang;Feiyang Wang;
+   机构: Xi'an Jiao Tong-Liverpool University;;Carnegie Mellon University;
+   类型: Desk Reject
+
+No.63. Herb-GANNet: Synthetic Data Generation through Conditional GANs for Improving Accuracy in Medicinal Leaf Classification
+   标题: Herb-GANNet：通过条件GAN生成合成数据以提高药用叶片分类准确性
+   链接: https://openreview.net/forum?id=DXz1PDA0Wg
+   类别: transfer learning, meta learning, and lifelong learning
+   作者: Sapna R;
+   机构: Manipal University;
+   类型: Desk Reject
+
+No.64. Overcoming Catastrophic Forgetting: A Novel Fine-Tuning Method
+   标题: 克服灾难性遗忘：一种新型微调方法
+   链接: https://openreview.net/forum?id=F8BPhZ5nmU
+   类别: transfer learning, meta learning, and lifelong learning
+   作者: Fei Ding;
+   机构: Nanchang University;
+   类型: Desk Reject
+
+No.65. Bias in CLIP Encoders: A Study of Encoder Bias and Object Representation in Multi-Object Scenarios
+   标题: CLIP编码器中的偏差研究：多对象场景中的编码器偏差与对象表示分析
+   链接: https://openreview.net/forum?id=bqLx5Rs8Tc
+   类别: unsupervised, self-supervised, semi-supervised, and supervised representation learning
+   作者: Reza Abbasi;Ali Nazari;Aminreza Sefid;Mohammadali Banayeeanzade;Mohammad Hossein Rohban;Mahdieh Soleymani Baghshah;
+   机构: Sharif University of Technology;
+   类型: Desk Reject
+
+No.66. Distributed Quasi-Newton Method for Fair and Fast Federated Learning
+   标题: 分布式拟牛顿方法实现公平快速联邦学习
+   链接: https://openreview.net/forum?id=n6PE0xbgdA
+   类别: unsupervised, self-supervised, semi-supervised, and supervised representation learning
+   作者: Shayan Mohajer Hamidi;Linfeng Ye;
+   机构: University of Waterloo;University of Toronto;
+   类型: Desk Reject
+
+No.67. DynMoLE: Boosting Mixture of LoRA Experts Fine-Tuning with a Hybrid Routing Mechanism
+   标题: DynMoLE：基于混合路由机制增强的LoRA专家混合Fine-Tuning
+   链接: https://openreview.net/forum?id=IpLXuqmP0C
+   类别: unsupervised, self-supervised, semi-supervised, and supervised representation learning
+   作者: Dengchun Li;Naizheng Wang;Zihao Zhang;Haoyang Yin;Lei Duan;Meng Xiao;Yuanchun Zhou;Mingjie Tang;
+   机构: Sichuan University;;University of Chinese Academy of Sciences;Chinese Academy of Sciences;Purdue University;
+   类型: Desk Reject
+
+No.68. Enhancing Efficiency and Regularization in Convolutional Neural Networks: Strategies for Optimized Dropout
+   标题: 增强卷积神经网络的效率和正则化：优化dropout策略
+   链接: https://openreview.net/forum?id=i0TOAkzGF8
+   类别: unsupervised, self-supervised, semi-supervised, and supervised representation learning
+   作者: Mehdi Ghayoumi;
+   机构: State University of New York;
+   类型: Desk Reject
+
+No.69. TokenUnify: Scalable Autoregressive Pretraining for Large Scale EM Image Segmentation
+   标题: TokenUnify：面向大规模EM图像分割的可扩展自回归预训练
+   链接: https://openreview.net/forum?id=rsD6qAvtxO
+   类别: unsupervised, self-supervised, semi-supervised, and supervised representation learning
+   作者: Yinda Chen;Haoyuan Shi;Xiaoyu Liu;Te Shi;Ruobing Zhang;Dong Liu;Zhiwei Xiong;Feng Wu;
+   机构: University of Science and Technology of China;Hefei Comprehensive National Science Center;
+   类型: Desk Reject
+
+No.70. Vietnamese Text-to-SQL with Large Language Models: A Comprehensive Approach
+   标题: 基于大型语言模型的越南语文本到SQL转换：一种全面的方法
+   链接: https://openreview.net/forum?id=cWFLrctwuE
+   类别: unsupervised, self-supervised, semi-supervised, and supervised representation learning
+   作者: Phu Nguyen Dac Hoang;Cuong Le Phuoc;Tri Doan Tran Cao;Nguyễn Minh Quang;
+   机构: Ho Chi Minh City University of Technology;VNU University of Engineering and Technology;;Hanoi University of Science;
+   类型: Desk Reject
+
+No.1. Adaptive Graduated Non-Convexity for Point Cloud Registration
+   标题: 自适应分阶段非凸性点云注册
+   链接: https://openreview.net/forum?id=cIKQp84vqN
+   类别: optimization
+   作者: Hangqi Ding;Yue Wu;Maoguo Gong;Qiguang Miao;Hao Li;Mingyang Zhang;Wenping Ma;
+   机构: Xi'an University of Electronic Science and Technology;Xidian University;;
+   类型: Desk Reject
+
+No.2. Neural Fourier Modelling: A Highly Compact Approach to Time-Series Analysis
+   标题: 神经傅里叶建模：一种高度紧凑的时间序列分析方法
+   链接: https://openreview.net/forum?id=8sKXFvSCqA
+   类别: learning on time series and dynamical systems
+   作者: Minjung Kim;Yusuke Hioka;Michael Witbrock;
+   机构: University of Auckland;
+   类型: Desk Reject
+
+No.3. NEXTLOCLLM: NEXT LOCATION PREDICTION USING LLMS
+   标题: 基于LLM的下一地点预测
+   链接: https://openreview.net/forum?id=uiBLOcyTIA
+   类别: foundation or frontier models, including LLMs
+   作者: SHUAI LIU;Ning Cao;Yile Chen;YUE JIANG;Gao Cong;
+   机构: Nanyang Technological University;;
+   类型: Desk Reject
+
+No.4. Compress then Serve: Serving Thousands of LoRA Adapters with Little Overhead
+   标题: 压缩然后服务：以少量开销提供数千个LoRA适配器
+   链接: https://openreview.net/forum?id=hHNVn4hFPk
+   类别: foundation or frontier models, including LLMs
+   作者: Rickard Brüel Gabrielsson;Jiacheng Zhu;Onkar Bhardwaj;Leshem Choshen;Kristjan Greenewald;Mikhail Yurochkin;Justin Solomon;
+   机构: Massachusetts Institute of Technology;;International Business Machines Corporation;IBM;Mohamed bin Zayed University of Artificial Intelligence;
+   类型: Desk Reject
+
+No.5. ProteinWeaver: A Divide-and-Assembly Approach for Protein Backbone Design
+   标题: ProteinWeaver：一种分而治之的方法用于蛋白质主链设计
+   链接: https://openreview.net/forum?id=mPMLZv4kSL
+   类别: applications to physical sciences (physics, chemistry, biology, etc.)
+   作者: Yiming Ma;Fei YE;Yi Zhou;Zaixiang Zheng;Dongyu Xue;Quanquan Gu;
+   机构: Peking University;;ByteDance;University of California, Los Angeles;
+   类型: Desk Reject
+
+No.6. A Hybrid Simulation of DNN-based Gray Box Models
+   标题: 基于DNN的灰盒模型混合仿真
+   链接: https://openreview.net/forum?id=sSWiZr8QU7
+   类别: applications to physical sciences (physics, chemistry, biology, etc.)
+   作者: Aayushya Agarwal;Yihan Ruan;Lawrence Pileggi;
+   机构: Carnegie Mellon University;;
+   类型: Desk Reject
+
+No.7. Network-based Active Inference for Adaptive and Cost-efficient Real-World Applications: A Benchmark Study of a Valve-turning Task Against Deep Reinforcement Learning
+   标题: 基于网络的主动推断用于适应性和成本效益更高的实际应用：一项针对阀门调节任务的深度强化学习基准研究
+   链接: https://openreview.net/forum?id=Hm7RYDspQP
+   类别: probabilistic methods (Bayesian methods, variational inference, sampling, UQ, etc.)
+   作者: Harneet Singh;Jeong hwan Yoon;Pedro Fontana;Katherine Hanson;Whitney Sales;Varun Kamat;Karl Friston;
+   机构: ;University of California, Los Angeles;ThoughtForge AI;ThoughtForge;ThoughtForge, Inc;University of California, Berkeley;University College London;
+   类型: Desk Reject
+
+No.8. Network-based Active Inference for Adaptive and Cost-efficient Real-World Applications: PV Panel Inspection
+   标题: 基于网络的主动推断用于适应性和成本效益的实时应用：光伏板检测
+   链接: https://openreview.net/forum?id=v2NuTf6Kww
+   类别: probabilistic methods (Bayesian methods, variational inference, sampling, UQ, etc.)
+   作者: Harneet Singh;Jeong hwan Yoon;Pedro Fontana;Katherine Hanson;Whitney Sales;Varun Kamat;Karl Friston;
+   机构: ;University of California, Los Angeles;ThoughtForge AI;ThoughtForge;ThoughtForge, Inc;University of California, Berkeley;University College London;
+   类型: Desk Reject
+
+No.9. Mitigating Adversarial Attacks in LLMs through Defensive Suffix Generation
+   标题: 通过防御性后缀生成缓解LLMs中的对抗攻击
+   链接: https://openreview.net/forum?id=ReKrTbRfJt
+   类别: alignment, fairness, safety, privacy, and societal considerations
+   作者: Minkyoung Kim;Yunha Kim;Hyeram Seo;Heejung Choi;JiYe Han;Gaeun Kee;Soyoung Ko;HyoJe Jung;Byeolhee Kim;Young-Hak Kim;Sanghyun park;Tae Joon Jun;
+   机构: Yonsei University;Ulsan University;;Asan Medical Center;
+   类型: Desk Reject
+
+No.10. Model Mimic Attack: Knowledge Distillation for Provably Transferable Adversarial Examples
+   标题: 模型模仿攻击：可证明可转移的对抗样本的知识蒸馏
+   链接: https://openreview.net/forum?id=SY70rVSr3M
+   类别: alignment, fairness, safety, privacy, and societal considerations
+   作者: Kirill Lukyanov;Andrew Perminov;Denis Turdakov;Mikhail Pautov;
+   机构: Ivannikov Institute for System Programming;;
+   类型: Desk Reject
+
+No.11. A collaborative Multi-Agent LLM Approach for Knowledge Graph Curation and query from multimodal data sources
+   标题: 一种协作的多代理语言模型方法，用于知识图谱的维护和来自多模态数据源的查询
+   链接: https://openreview.net/forum?id=qXwVXj03nO
+   类别: applications to computer vision, audio, language, and other modalities
+   作者: Ankur Krishna;surya ardham;Chetan Malhotra;Anagha Prashant Shinde;
+   机构: Tata Consultancy Services Limited;;Walchand College of Engineering;
+   类型: Desk Reject
+
+No.12. BanglaGITI: A Novel Dataset for Bangla Music Genre Classification with A Comprehensive Analysis
+   标题: BanglaGITI：一种新型的用于孟加拉音乐流派分类的数据集及其全面分析
+   链接: https://openreview.net/forum?id=TIxiwxd4iD
+   类别: applications to computer vision, audio, language, and other modalities
+   作者: Syeda Farhana Ali;Mohammad Tanveer Shams;Kazi A. Kalpoma;Tasnim Munawar Rafee;Jecin Saba;
+   机构: Ahsanullah University of Science & Technology;;
+   类型: Desk Reject
+
+No.13. Invar-RAG: Invariant LLM-aligned Retrieval for Better Generation
+   标题: Invar-RAG：不变的LLM对齐检索以提高生成效果
+   链接: https://openreview.net/forum?id=8g7hHwSBjH
+   类别: applications to computer vision, audio, language, and other modalities
+   作者: Ziwei Liu;Liang Zhang;Qian Li;Jianghua Wu;Guangxu Zhu;
+   机构: City University of Hong Kong;Shenzhen Research Institute of Big Data;;
+   类型: Desk Reject
+
+No.14. Personalize to generalize: Towards a universal medical multi-modality generalization through personalization
+   标题: 个性化以实现普遍化：通过个性化实现通用医疗多模态泛化
+   链接: https://openreview.net/forum?id=nQoRKLeOP0
+   类别: applications to computer vision, audio, language, and other modalities
+   作者: Zhaorui Tan;Xi Yang;Tan Pan;TIANYI LIU;Chen Jiang;Xin Guo;Qiufeng Wang;Anh Nguyen;Yuan Qi;Kaizhu Huang;Yuan Cheng;
+   机构: University of Liverpool;;Xi'an Jiao Tong-Liverpool University;Shanghai Academy of Artificial Intelligence;Fudan University;
+   类型: Desk Reject
+
+No.15. RALL-E: Robust Codec Language Modeling with Chain-of-Thought Prompting for Text-to-Speech Synthesis
+   标题: RALL-E：具备链式思考提示的 robust 编码语言模型在文本转语音合成中的应用
+   链接: https://openreview.net/forum?id=9d6RcViazd
+   类别: applications to computer vision, audio, language, and other modalities
+   作者: Detai Xin;Xu Tan;Kai Shen;Zeqian Ju;Dongchao Yang;Yuancheng Wang;Shinnosuke Takamichi;Hiroshi Saruwatari;Shujie LIU;Jinyu Li;sheng zhao;
+   机构: Tokyo University;Microsoft;Moonshot AI;Chinese University of Hong Kong;Keio University;University of Tokyo;
+   类型: Desk Reject
+
+No.16. REAL-TIME LAYOUT ADAPTATION USING GENERATIVE AI
+   标题: 基于生成式人工智能的实时布局适应
+   链接: https://openreview.net/forum?id=zqA19DirIT
+   类别: applications to computer vision, audio, language, and other modalities
+   作者: Sanshray Singh Langeh;Mandar Zope;
+   机构: National Institute of Technology, Srinagar;;
+   类型: Desk Reject
+
+No.17. TOSN-Trans：Transparent Object Segmentation Network with Transformer
+   标题: TOSN-透明对象分割网络（带有变换器）
+   链接: https://openreview.net/forum?id=Rhclu9eWxU
+   类别: applications to computer vision, audio, language, and other modalities
+   作者: Tao Tao;
+   机构: Wuhan University;
+   类型: Desk Reject
+
+No.18. MimoUDiff: A Unified Multi-Source Data Fusion Framework via MIMO Unet and Refined Diffusion for Precipitation Nowcasting
+   标题: MimoUDiff：一种通过MIMO-Unet和精炼扩散统一多源数据融合框架用于降水现在预报
+   链接: https://openreview.net/forum?id=GCSr6QCCwF
+   类别: applications to physical sciences (physics, chemistry, biology, etc.)
+   作者: Chunlei Shi;Han Xu;Yongchao Feng;Dan Niu;
+   机构: Southeast University;Beihang University;
+   类型: Desk Reject
+
+No.19. AFTD: a foreground target detection dataset for airport scenario
+   标题: AFTD：机场场景下的前景目标检测数据集
+   链接: https://openreview.net/forum?id=UpPXWd9SBk
+   类别: datasets and benchmarks
+   作者: Pengchong Chen;Xiang Zhang;Wei Lin;Yonghui Huang;Chongshang Yang;Jinyang Zhang;Jianan Hou;
+   机构: University of Electronic Science and Technology of China;;
+   类型: Desk Reject
+
+No.20. EEE-Bench: A Comprehensive Multimodal Electrical And Electronics Engineering Benchmark
+   标题: EEE-Bench：综合多模态电气与电子工程基准测试
+   链接: https://openreview.net/forum?id=pjfvmZWFfX
+   类别: datasets and benchmarks
+   作者: Ming Li;Jike Zhong;Tianle Chen;Konstantinos Psounis;
+   机构: University of Southern California;Boston University;University of Tokyo;
+   类型: Desk Reject
+
+No.21. MU-Bench: A Multitask Multimodal Benchmark for Machine Unlearning
+   标题: MU-Bench：一项针对机器遗忘的多任务多模态基准测试
+   链接: https://openreview.net/forum?id=O9W9DesXid
+   类别: datasets and benchmarks
+   作者: Jiali Cheng;Hadi Amiri;
+   机构: ;University of Massachusetts Lowell;
+   类型: Desk Reject
+
+No.22. On the Robustness of Vision-Language Models Against Distractions
+   标题: 视觉语言模型的抗干扰 robustness 研究
+   链接: https://openreview.net/forum?id=EGjTCIcSnW
+   类别: datasets and benchmarks
+   作者: Ming Liu;Hao Chen;Jindong Wang;Wensheng Zhang;
+   机构: Iowa State University;Carnegie Mellon University;College of William & Mary;
+   类型: Desk Reject
+
+No.23. RL4CO: an Extensive Reinforcement Learning for Combinatorial Optimization Benchmark
+   标题: RL4CO：全面的组合优化强化学习基准
+   链接: https://openreview.net/forum?id=MGZyUtaYUb
+   类别: datasets and benchmarks
+   作者: Federico Berto;Chuanbo Hua;Junyoung Park;Laurin Luttmann;Yining Ma;Fanchen Bu;Jiarui Wang;Haoran Ye;Minsu Kim;Sanghyeok Choi;Nayeli Gast Zepeda;André Hottung;Jianan Zhou;Jieyi Bi;Yu Hu;Fei Liu;Hyeonah Kim;Jiwoo Son;Haeyeon Kim;Davide Angioni;Wouter Kool;Zhiguang Cao;Qingfu Zhang;Joungho Kim;Jie Zhang;Kijung Shin;Cathy Wu;Sungsoo Ahn;Guojie Song;Changhyun Kwon;Kevin Tierney;Lin Xie;Jinkyoo Park;
+   机构: Korea Advanced Institute of Science and Technology;;Leuphana University Lüneburg;Massachusetts Institute of Technology;Monash University;Peking University;Universität Bielefeld;Bielefeld University;Nanyang Technological University;ORTEC;Singapore Management University;City University of Hong Kong;Pohang University of Science and Technology;Omelet, Inc.;Brandenburgische Technische Universität;
+   类型: Desk Reject
+
+No.24. CASAK-V: Dynamic Sparse Attention and Adaptive KV-Cache Compression for Memory-Efficient Long-Context LLM Inference
+   标题: CASAK-V：动态稀疏注意力和自适应KV缓存压缩以实现高效长上下文LLM推理
+   链接: https://openreview.net/forum?id=n7RqgqbxP7
+   类别: foundation or frontier models, including LLMs
+   作者: Hamza Mohammed;Sai Chand Boyapati;Hang Yin;
+   机构: Samsung;;
+   类型: Desk Reject
+
+No.25. EVLM: An Efficient Vision-Language Model for Visual Understanding
+   标题: EVLM：一种高效的视觉-语言模型，用于视觉理解
+   链接: https://openreview.net/forum?id=S7M1iqFLVm
+   类别: foundation or frontier models, including LLMs
+   作者: Kaibing Chen;Dong Shen;Hanwen Zhong;Huasong Zhong;Kui Xia;Di Xu;Wei Yuan;Yifei Hu;Bin Wen;Tianke Zhang;Changyi Liu;Dewen Fan;Huihui Xiao;Jiahong Wu;Fan Yang;Tingting Gao;Di ZHANG;
+   机构: Kuaishou Technology;Beihang University;;Alibaba Group;
+   类型: Desk Reject
+
+No.26. Layer-Wise Quantization: A Pragmatic and Effective Method for Quantizing LLMs
+   标题: 层wise量化：一种实用且有效的大型语言模型量化方法
+   链接: https://openreview.net/forum?id=eJVrwDE086
+   类别: foundation or frontier models, including LLMs
+   作者: Razvan-Gabriel Dumitru;Vikas Yadav;Rishabh Maheshwary;Paul Ioan Clotan;Sathwik Tejaswi Madhusudhan;Mihai Surdeanu;
+   机构: University of Arizona;ServiceNow;
+   类型: Desk Reject
+
+No.27. Stacking Small Language Models for Generalizability
+   标题: 堆叠小型语言模型以提高泛化能力
+   链接: https://openreview.net/forum?id=Vn23PakSbM
+   类别: foundation or frontier models, including LLMs
+   作者: Laurence Liang;
+   机构: McGill University;
+   类型: Desk Reject
+
+No.28. WALL-E: World Alignment by Rule Learning Improves World Model-based LLM Agents
+   标题: WALL-E：基于规则学习的世界对齐提升世界模型驱动的大语言模型代理
+   链接: https://openreview.net/forum?id=GE0UKtI6Lf
+   类别: foundation or frontier models, including LLMs
+   作者: Siyu Zhou;Tianyi Zhou;Yijun Yang;Guodong Long;Deheng Ye;Jing Jiang;Chengqi Zhang;
+   机构: University of Technology Sydney;University of Maryland;Tencent;Hong Kong Polytechnic University;
+   类型: Desk Reject
+
+No.29. Code snippets insertion approach for code completion task
+   标题: 代码片段插入方法在代码补全任务中的应用
+   链接: https://openreview.net/forum?id=sQa6VrK6tm
+   类别: generative models
+   作者: Nina Kamkia;Dmitry Stanishevskiy;Alena Fenogenova;Vitaly Kadylin;Denis Kokosinskii;Dmitry Zmitrovich;
+   机构: ;Higher School of Economics;Sberbank;Lomonosov Moscow State University;
+   类型: Desk Reject
+
+No.30. Enhancement of In-Context Reasoning in LLMs through Inductive Rule Learning
+   标题: 通过归纳规则学习增强LLMs的上下文推理能力
+   链接: https://openreview.net/forum?id=3x4vpeAclU
+   类别: generative models
+   作者: Tien-Dat Nguyen;Hai-Toan Nguyen;Nguyen Viet Ha;
+   机构: Vietnam National University, Hanoi;VNU University of Engineering and Technology;
+   类型: Desk Reject
+
+No.31. Fine-grained Hallucination Detection and Mitigation in Language Model Mathematical Reasoning
+   标题: 细粒度幻觉检测与减轻在语言模型数学推理中的应用
+   链接: https://openreview.net/forum?id=7bwE5MJAVJ
+   类别: generative models
+   作者: Ruosen Li;Ziming Luo;Xinya Du;
+   机构: University of Texas at Dallas;Carnegie Mellon University;
+   类型: Desk Reject
+
+No.32. Temporal Environment-Aware Image Generation via Latent Diffusion
+   标题: 基于潜空间扩散的知识库感知图像生成
+   链接: https://openreview.net/forum?id=Rd34VDwqB7
+   类别: generative models
+   作者: Nasrin Kalanat;Yiqun Xie;Yanhua Li;Xiaowei Jia;
+   机构: University of Pittsburgh;University of Maryland;Worcester Polytechnic Institute;
+   类型: Desk Reject
+
+No.33. Tuning Language Models by Mixture-of-Depths Ensemble
+   标题: 通过深度混合 ensemble 调整语言模型
+   链接: https://openreview.net/forum?id=FLSWAJqTjE
+   类别: generative models
+   作者: Haoyan Luo;Lucia Specia;
+   机构: ;Imperial College London;
+   类型: Desk Reject
+
+No.34. A Systemic Review of Static Memory Analysis
+   标题: 静态内存分析的系统评价
+   链接: https://openreview.net/forum?id=Mphd6Sf6z4
+   类别: infrastructure, software libraries, hardware, systems, etc.
+   作者: Enoch Solomon;
+   机构: Virginia State University;
+   类型: Desk Reject
+
+No.35. RDAS: A Low Latency and High Throughput Raw Data Engine for Machine Learning Systems
+   标题: RDAS：一种适用于机器学习系统的低延迟高吞吐量原始数据引擎
+   链接: https://openreview.net/forum?id=DqPDavAEXt
+   类别: infrastructure, software libraries, hardware, systems, etc.
+   作者: Weijian Li;Han Liu;
+   机构: Northwestern University;
+   类型: Desk Reject
+
+No.36. Circuit Compositions: Exploring Modular Structures in Transformer-Based Language Models
+   标题: 电路组成：探索基于变压器的语言模型中的模块化结构
+   链接: https://openreview.net/forum?id=u4XyECA6Zd
+   类别: interpretability and explainable AI
+   作者: Philipp Mondorf;Sondre Wold;Barbara Plank;
+   机构: Ludwig-Maximilians-Universität München;University of Oslo;
+   类型: Desk Reject
+
+No.37. Evaluating Synthetic Activations composed of SAE Latents in GPT-2
+   标题: 评估由SAE隐变量组成的合成激活在GPT-2中的表现
+   链接: https://openreview.net/forum?id=U0y32WKeOd
+   类别: interpretability and explainable AI
+   作者: Nora Petrova;Giorgi Giglemiani;Chatrik Singh Mangat;Stefan Heimersheim;Jett Janiak;
+   机构: Independent Researcher;;ML Alignment & Theory Scholars;
+   类型: Desk Reject
+
+No.38. Generalized Attention Flow: Feature Attribution for Transformer Models via Maximum Flow
+   标题: 广义注意力流：通过最大流进行的变压器模型特征归因
+   链接: https://openreview.net/forum?id=2RcTuBc4mA
+   类别: interpretability and explainable AI
+   作者: Behrooz Azarkhalili Aghmiyouni;Maxwell Libbrecht;
+   机构: Simon Fraser University;
+   类型: Desk Reject
+
+No.39. Hierarchical Frequency Tagging Probe (HFTP): A Unified Approach to Investigate Syntactic Structure Representations in Large Language Models and the Human Brain
+   标题: 层次频率标记探针（HFTP）：一种统一方法，用于研究大型语言模型和人类大脑中的句法结构表示
+   链接: https://openreview.net/forum?id=z5Th95xtBW
+   类别: interpretability and explainable AI
+   作者: Jingmin An;Yilong Song;Ruolin Yang;Nai Ding;Lingxi Lu;Yuxuan Wang;Wei Wang;Chu Zhuang;Qian Wang;Fang Fang;
+   机构: Peking University;Zhejiang University;Beijing Institute for General Artificial Intelligence;Beijing Language and Culture University;
+   类型: Desk Reject
+
+No.40. Self-Improving Logic from Experimental Observations
+   标题: 自我改进逻辑从实验观察中获取
+   链接: https://openreview.net/forum?id=GnCw9lCPs9
+   类别: interpretability and explainable AI
+   作者: Max PONT;
+   机构: 
+   类型: Desk Reject
+
+No.41. Unsupervised Panoptic Interpretation of Latent Spaces in GANs Using Space-Filling Vector Quantization
+   标题: 使用空间填充向量量化进行GAN潜在空间的无监督全景解释
+   链接: https://openreview.net/forum?id=1poUSIGSCI
+   类别: interpretability and explainable AI
+   作者: Mohammad Hassan Vali;Tom Bäckström;
+   机构: ;Aalto University;
+   类型: Desk Reject
+
+No.42. MambaFormer-MOE: Mamba-Transformer-based Mixture-of-Experts for Time Series Prediction
+   标题: MambaFormer-MOE：基于Mamba变压器的专家混合模型用于时间序列预测
+   链接: https://openreview.net/forum?id=55Ruu7bF4b
+   类别: learning on time series and dynamical systems
+   作者: Weijian Li;Han Liu;
+   机构: Northwestern University;
+   类型: Desk Reject
+
+No.43. Learning with Multi-Group Guarantees for Clusterable Subpopulations
+   标题: 具有集群子群体多组保障的学习方法
+   链接: https://openreview.net/forum?id=tEM1u9VT2W
+   类别: learning theory
+   作者: Jessica Dai;Nika Haghtalab;Eric Zhao;
+   机构: ;University of California, Berkeley;
+   类型: Desk Reject
+
+No.44. Model Comparisons: XNet Outperforms KAN
+   标题: 模型比较：XNet 性能优于 KAN
+   链接: https://openreview.net/forum?id=eIK4ojL2QM
+   类别: learning theory
+   作者: Xin Li;Zhihong Jeff Xia;Xiaotao Zheng;
+   机构: University of Oxford;Northwestern University;Soochow University;
+   类型: Desk Reject
+
+No.45. On the Role of Image Statistics and Gradient Learning in the Adversarial Vulnerability of Neural Networks
+   标题: 关于图像统计特征和梯度学习在神经网络对抗易感性中的作用
+   链接: https://openreview.net/forum?id=xIW2WtCuYE
+   类别: learning theory
+   作者: Hadar Yosef;Yair Weiss;
+   机构: Hebrew University of Jerusalem;
+   类型: Desk Reject
+
+No.46. Retraining with Predicted Hard Labels Provably Increases Model Accuracy
+   标题: 使用预测硬标签重新训练可证明能提高模型准确性
+   链接: https://openreview.net/forum?id=GCfllRcbvt
+   类别: learning theory
+   作者: Rudrajit Das;Inderjit S Dhillon;Alessandro Epasto;Adel Javanmard;Jieming Mao;Vahab Mirrokni;Sujay Sanghavi;Peilin Zhong;
+   机构: University of Texas at Austin;Google;University of Southern California;
+   类型: Desk Reject
+
+No.47. GIFT-SW: Gaussian noise Injected Fine-Tuning of Salient Weights for LLMs
+   标题: GIFT-SW: 高斯噪声注入微调显著权重以优化LLMs
+   链接: https://openreview.net/forum?id=InxxTu0Bfs
+   类别: optimization
+   作者: Maxim Zhelnin;Viktor Moskvoretskii;Egor Shvetsov;Venediktov Egor;Maria Krylova;Zuev Aleksandr;Evgeny Burnaev;
+   机构: Skolkovo Institute of Science and Technology;Higher School of Economics;Huawei;;
+   类型: Desk Reject
+
+No.48. Improved Methods for Model Pruning
+   标题: 改进的模型剪枝方法
+   链接: https://openreview.net/forum?id=V8wrTu8p6x
+   类别: optimization
+   作者: Wei Jiang;Anying Fu;Youling Zhang;
+   机构: ;Suanfamama;
+   类型: Desk Reject
+
+No.49. A Multi-Decomposition Method for Compressing Larger AI Models Based on Reinforcement Learning
+   标题: 基于强化学习压缩大型AI模型的多分解方法
+   链接: https://openreview.net/forum?id=cO01zqImBC
+   类别: other topics in machine learning (i.e., none of the above)
+   作者: Jian Tang;Kun Xie;Jigang Wen;Xiaocan Li;Jiazheng Tian;Gaogang Xie;Kenli Li;
+   机构: Hunan University;;
+   类型: Desk Reject
+
+No.50. AFFS: Adaptive Fast Frequency Selection Algorithm for Deep Learning Feature Extraction
+   标题: 自适应快速频率选择算法用于深度学习特征提取
+   链接: https://openreview.net/forum?id=1Qq62mo8TW
+   类别: other topics in machine learning (i.e., none of the above)
+   作者: Zilong He;Kun Xie;Xiaocan Li;Jigang Wen;Jiannong Cao;Gaogang Xie;LiangWei;Kenli Li;
+   机构: Hunan University;;Hong Kong Polytechnic University;
+   类型: Desk Reject
+
+No.51. Bayesian-LoRA: LoRA based Parameter Efficient Fine-Tuning using Optimal Quantization levels and Rank Values trough Differentiable Bayesian Gates
+   标题: 贝叶斯-LoRA：通过可微分贝叶斯门控使用最优量化级别和秩值的基于LoRA的参数高效微调
+   链接: https://openreview.net/forum?id=v4Bl6tfaaO
+   类别: other topics in machine learning (i.e., none of the above)
+   作者: Cristian Meo;Ksenia Sycheva;Carlo Saccardi;Anirudh Goyal;Pietro Lio;Justin Dauwels;
+   机构: Delft University of Technology;;Google;University of Cambridge;
+   类型: Desk Reject
+
+No.52. DAG-NAS: Explainable Neural Architecture Search\\for Reinforcement Learning via Scalar-level DAG Modeling
+   标题: DAG-NAS：通过标量级DAG建模的可解释强化学习神经架构搜索
+   链接: https://openreview.net/forum?id=rws9sRnBEf
+   类别: other topics in machine learning (i.e., none of the above)
+   作者: Taegun An;Changhee Joo;
+   机构: Korea University;;
+   类型: Desk Reject
+
+No.53. Harmonic Machine Learning Models are Robust
+   标题: 谐波机器学习模型是稳健的
+   链接: https://openreview.net/forum?id=UcFjiiObbM
+   类别: other topics in machine learning (i.e., none of the above)
+   作者: Nicholas Stephen Kersting;Yi Li;Aman Mohanty;Oyindamola Obisesan;Raphael Okochu;
+   机构: ;VISA;
+   类型: Desk Reject
+
+No.54. Neural ODE with Differentiable Hidden State for Irregular Time Series
+   标题: 基于可微隐藏状态的神经ODE模型用于不规则时间序列
+   链接: https://openreview.net/forum?id=jKNv7Fvurt
+   类别: other topics in machine learning (i.e., none of the above)
+   作者: Yan Fang;Xu Wang;Zeyu Liang;Yudong Zhang;Pengkun Wang;Binwu Wang;Yang Wang;
+   机构: University of Science and Technology of China;Shanghai Jiao Tong University;
+   类型: Desk Reject
+
+No.55. On the Power of Learning-Augmented Search Trees
+   标题: 关于学习增强型搜索树的能力
+   链接: https://openreview.net/forum?id=FUwWdUi55e
+   类别: other topics in machine learning (i.e., none of the above)
+   作者: Xinyuan Cao;Jingbang Chen;Alicia Stepin;Li Chen;
+   机构: Georgia Institute of Technology;University of Waterloo;Carnegie Mellon University;
+   类型: Desk Reject
+
+No.56. pMixFed: Mixing up model coefficients for Efficient Personalized Federated Learning
+   标题: pMixFed：高效个性化联邦学习中的模型系数混合方法
+   链接: https://openreview.net/forum?id=lX8DahcJbL
+   类别: other topics in machine learning (i.e., none of the above)
+   作者: Yasaman Saadati;Mohammad Rostami;M. Hadi Amini;
+   机构: Florida International University;University of Southern California;
+   类型: Desk Reject
+
+No.57. Efficient Diffusion Models for Symmetric Manifolds
+   标题: 对称流形上的高效扩散模型
+   链接: https://openreview.net/forum?id=GLKig15TWJ
+   类别: probabilistic methods (Bayesian methods, variational inference, sampling, UQ, etc.)
+   作者: Oren Mangoubi;Nisheeth K. Vishnoi;
+   机构: Worcester Polytechnic Institute;Yale University;
+   类型: Desk Reject
+
+No.58. Distributional Reinforcement Learning Based On Historical Information For Option Hedging
+   标题: 基于历史信息的分布强化学习在期权对冲中的应用
+   链接: https://openreview.net/forum?id=rcCNk4AI2J
+   类别: reinforcement learning
+   作者: Qiao Pan;Long Zhu;zhaoju Wang;
+   机构: ;Donghua University;
+   类型: Desk Reject
+
+No.59. Efficient Sequential Policy Optimization via Off-Policy Correction in Multi-Agent Reinforcement Learning
+   标题: 高效的序列多智能体强化学习中的离策策略优化
+   链接: https://openreview.net/forum?id=n6Gg0D2jWT
+   类别: reinforcement learning
+   作者: Pei Xu;Junge Zhang;Kaiqi Huang;
+   机构: ;Chinese Academy of Sciences;
+   类型: Desk Reject
+
+No.60. Learn With Imagination: Safe Set Guided State-wise Constrained Policy Optimization
+   标题: 富有想象力的学习：安全集合引导分地区约束策略优化
+   链接: https://openreview.net/forum?id=PAzVN4EEkj
+   类别: reinforcement learning
+   作者: Feihan Li;Yifan Sun;Weiye Zhao;Rui Chen;Tianhao Wei;Changliu Liu;
+   机构: Carnegie Mellon University;;
+   类型: Desk Reject
+
+No.61. No-Regret is not enough! Bandits with General Constraints through Adaptive Regret Minimization
+   标题: “无悔”还不够！具有一般约束条件的强适应性后悔最小化多臂老虎机算法
+   链接: https://openreview.net/forum?id=LKtttBE5GN
+   类别: reinforcement learning
+   作者: Martino Bernasconi;Matteo Castiglioni;Andrea Celli;
+   机构: Bocconi University;Politecnico di Milano;
+   类型: Desk Reject
+
+No.62. Collaborative Theorem Proving with Large Language Models: Enhancing Formal Proofs with ProofRefiner
+   标题: 大规模语言模型下的协作定理证明：通过ProofRefiner增强形式化证明
+   链接: https://openreview.net/forum?id=y9xNQZjUJM
+   类别: transfer learning, meta learning, and lifelong learning
+   作者: Haoyi Zhang;Andrew Liu;Zixuan Wang;Feiyang Wang;
+   机构: Xi'an Jiao Tong-Liverpool University;;Carnegie Mellon University;
+   类型: Desk Reject
+
+No.63. Herb-GANNet: Synthetic Data Generation through Conditional GANs for Improving Accuracy in Medicinal Leaf Classification
+   标题: Herb-GANNet：通过条件GAN生成合成数据以提高药用叶片分类准确性
+   链接: https://openreview.net/forum?id=DXz1PDA0Wg
+   类别: transfer learning, meta learning, and lifelong learning
+   作者: Sapna R;
+   机构: Manipal University;
+   类型: Desk Reject
+
+No.64. Overcoming Catastrophic Forgetting: A Novel Fine-Tuning Method
+   标题: 克服灾难性遗忘：一种新型微调方法
+   链接: https://openreview.net/forum?id=F8BPhZ5nmU
+   类别: transfer learning, meta learning, and lifelong learning
+   作者: Fei Ding;
+   机构: Nanchang University;
+   类型: Desk Reject
+
+No.65. Bias in CLIP Encoders: A Study of Encoder Bias and Object Representation in Multi-Object Scenarios
+   标题: CLIP编码器中的偏差研究：多对象场景中的编码器偏差与对象表示分析
+   链接: https://openreview.net/forum?id=bqLx5Rs8Tc
+   类别: unsupervised, self-supervised, semi-supervised, and supervised representation learning
+   作者: Reza Abbasi;Ali Nazari;Aminreza Sefid;Mohammadali Banayeeanzade;Mohammad Hossein Rohban;Mahdieh Soleymani Baghshah;
+   机构: Sharif University of Technology;
+   类型: Desk Reject
+
+No.66. Distributed Quasi-Newton Method for Fair and Fast Federated Learning
+   标题: 分布式拟牛顿方法实现公平高效的联邦学习
+   链接: https://openreview.net/forum?id=n6PE0xbgdA
+   类别: unsupervised, self-supervised, semi-supervised, and supervised representation learning
+   作者: Shayan Mohajer Hamidi;Linfeng Ye;
+   机构: University of Waterloo;University of Toronto;
+   类型: Desk Reject
+
+No.67. DynMoLE: Boosting Mixture of LoRA Experts Fine-Tuning with a Hybrid Routing Mechanism
+   标题: DynMoLE：利用混合路由机制增强LoRA专家混合模型微调
+   链接: https://openreview.net/forum?id=IpLXuqmP0C
+   类别: unsupervised, self-supervised, semi-supervised, and supervised representation learning
+   作者: Dengchun Li;Naizheng Wang;Zihao Zhang;Haoyang Yin;Lei Duan;Meng Xiao;Yuanchun Zhou;Mingjie Tang;
+   机构: Sichuan University;;University of Chinese Academy of Sciences;Chinese Academy of Sciences;Purdue University;
+   类型: Desk Reject
+
+No.68. Enhancing Efficiency and Regularization in Convolutional Neural Networks: Strategies for Optimized Dropout
+   标题: 提升卷积神经网络的效率和正则化：优化Dropout策略的方法
+   链接: https://openreview.net/forum?id=i0TOAkzGF8
+   类别: unsupervised, self-supervised, semi-supervised, and supervised representation learning
+   作者: Mehdi Ghayoumi;
+   机构: State University of New York;
+   类型: Desk Reject
+
+No.69. TokenUnify: Scalable Autoregressive Pretraining for Large Scale EM Image Segmentation
+   标题: TokenUnify：面向大规模EM图像分割的可扩展自回归预训练
+   链接: https://openreview.net/forum?id=rsD6qAvtxO
+   类别: unsupervised, self-supervised, semi-supervised, and supervised representation learning
+   作者: Yinda Chen;Haoyuan Shi;Xiaoyu Liu;Te Shi;Ruobing Zhang;Dong Liu;Zhiwei Xiong;Feng Wu;
+   机构: University of Science and Technology of China;Hefei Comprehensive National Science Center;
+   类型: Desk Reject
+
+No.70. Vietnamese Text-to-SQL with Large Language Models: A Comprehensive Approach
+   标题: 基于大型语言模型的越南语文本到SQL转换：一种全面的方法
+   链接: https://openreview.net/forum?id=cWFLrctwuE
+   类别: unsupervised, self-supervised, semi-supervised, and supervised representation learning
+   作者: Phu Nguyen Dac Hoang;Cuong Le Phuoc;Tri Doan Tran Cao;Nguyễn Minh Quang;
+   机构: Ho Chi Minh City University of Technology;VNU University of Engineering and Technology;;Hanoi University of Science;
+   类型: Desk Reject
+
+No.1. Adaptive Graduated Non-Convexity for Point Cloud Registration
+   标题: 自适应分阶段非凸性点云注册
+   链接: https://openreview.net/forum?id=cIKQp84vqN
+   类别: optimization
+   作者: Hangqi Ding;Yue Wu;Maoguo Gong;Qiguang Miao;Hao Li;Mingyang Zhang;Wenping Ma;
+   机构: Xi'an University of Electronic Science and Technology;Xidian University;;
+   类型: Desk Reject
+
+No.2. Neural Fourier Modelling: A Highly Compact Approach to Time-Series Analysis
+   标题: 神经傅里叶建模：一种高度紧凑的时间序列分析方法
+   链接: https://openreview.net/forum?id=8sKXFvSCqA
+   类别: learning on time series and dynamical systems
+   作者: Minjung Kim;Yusuke Hioka;Michael Witbrock;
+   机构: University of Auckland;
+   类型: Desk Reject
+
+No.1. Adaptive Graduated Non-Convexity for Point Cloud Registration
+   标题: 自适应分阶段非凸性点云配准
+   链接: https://openreview.net/forum?id=cIKQp84vqN
+   类别: optimization
+   作者: Hangqi Ding;Yue Wu;Maoguo Gong;Qiguang Miao;Hao Li;Mingyang Zhang;Wenping Ma;
+   机构: Xi'an University of Electronic Science and Technology;Xidian University;;
+   类型: Desk Reject
+
+No.2. Neural Fourier Modelling: A Highly Compact Approach to Time-Series Analysis
+   标题: 神经傅里叶建模：一种高度紧凑的时间序列分析方法
+   链接: https://openreview.net/forum?id=8sKXFvSCqA
+   类别: learning on time series and dynamical systems
+   作者: Minjung Kim;Yusuke Hioka;Michael Witbrock;
+   机构: University of Auckland;
+   类型: Desk Reject
+
+No.3. NEXTLOCLLM: NEXT LOCATION PREDICTION USING LLMS
+   标题: 基于LLM的下一个位置预测
+   链接: https://openreview.net/forum?id=uiBLOcyTIA
+   类别: foundation or frontier models, including LLMs
+   作者: SHUAI LIU;Ning Cao;Yile Chen;YUE JIANG;Gao Cong;
+   机构: Nanyang Technological University;;
+   类型: Desk Reject
+
+No.4. Compress then Serve: Serving Thousands of LoRA Adapters with Little Overhead
+   标题: 压缩然后服务：以极小的开销提供数千个LoRA适配器
+   链接: https://openreview.net/forum?id=hHNVn4hFPk
+   类别: foundation or frontier models, including LLMs
+   作者: Rickard Brüel Gabrielsson;Jiacheng Zhu;Onkar Bhardwaj;Leshem Choshen;Kristjan Greenewald;Mikhail Yurochkin;Justin Solomon;
+   机构: Massachusetts Institute of Technology;;International Business Machines Corporation;IBM;Mohamed bin Zayed University of Artificial Intelligence;
+   类型: Desk Reject
+
+No.5. ProteinWeaver: A Divide-and-Assembly Approach for Protein Backbone Design
+   标题: 蛋白质编织：一种分而治之的方法用于蛋白质主链设计
+   链接: https://openreview.net/forum?id=mPMLZv4kSL
+   类别: applications to physical sciences (physics, chemistry, biology, etc.)
+   作者: Yiming Ma;Fei YE;Yi Zhou;Zaixiang Zheng;Dongyu Xue;Quanquan Gu;
+   机构: Peking University;;ByteDance;University of California, Los Angeles;
+   类型: Desk Reject
+
+No.6. A Hybrid Simulation of DNN-based Gray Box Models
+   标题: 基于DNN的灰箱模型混合仿真
+   链接: https://openreview.net/forum?id=sSWiZr8QU7
+   类别: applications to physical sciences (physics, chemistry, biology, etc.)
+   作者: Aayushya Agarwal;Yihan Ruan;Lawrence Pileggi;
+   机构: Carnegie Mellon University;;
+   类型: Desk Reject
+
+No.7. Network-based Active Inference for Adaptive and Cost-efficient Real-World Applications: A Benchmark Study of a Valve-turning Task Against Deep Reinforcement Learning
+   标题: 基于网络的主动推断用于适应性和成本效益高的实际应用：一项针对阀门调节任务的深度强化学习基准研究
+   链接: https://openreview.net/forum?id=Hm7RYDspQP
+   类别: probabilistic methods (Bayesian methods, variational inference, sampling, UQ, etc.)
+   作者: Harneet Singh;Jeong hwan Yoon;Pedro Fontana;Katherine Hanson;Whitney Sales;Varun Kamat;Karl Friston;
+   机构: ;University of California, Los Angeles;ThoughtForge AI;ThoughtForge;ThoughtForge, Inc;University of California, Berkeley;University College London;
+   类型: Desk Reject
+
+No.8. Network-based Active Inference for Adaptive and Cost-efficient Real-World Applications: PV Panel Inspection
+   标题: 基于网络的主动推断用于适应性和成本效益更高的实际应用：光伏面板检测
+   链接: https://openreview.net/forum?id=v2NuTf6Kww
+   类别: probabilistic methods (Bayesian methods, variational inference, sampling, UQ, etc.)
+   作者: Harneet Singh;Jeong hwan Yoon;Pedro Fontana;Katherine Hanson;Whitney Sales;Varun Kamat;Karl Friston;
+   机构: ;University of California, Los Angeles;ThoughtForge AI;ThoughtForge;ThoughtForge, Inc;University of California, Berkeley;University College London;
+   类型: Desk Reject
+
+No.9. Mitigating Adversarial Attacks in LLMs through Defensive Suffix Generation
+   标题: 通过防御性后缀生成减轻大语言模型的对抗攻击
+   链接: https://openreview.net/forum?id=ReKrTbRfJt
+   类别: alignment, fairness, safety, privacy, and societal considerations
+   作者: Minkyoung Kim;Yunha Kim;Hyeram Seo;Heejung Choi;JiYe Han;Gaeun Kee;Soyoung Ko;HyoJe Jung;Byeolhee Kim;Young-Hak Kim;Sanghyun park;Tae Joon Jun;
+   机构: Yonsei University;Ulsan University;;Asan Medical Center;
+   类型: Desk Reject
+
+No.10. Model Mimic Attack: Knowledge Distillation for Provably Transferable Adversarial Examples
+   标题: 模型模仿攻击：可证明转移的 adversarial 例子的知识蒸馏
+   链接: https://openreview.net/forum?id=SY70rVSr3M
+   类别: alignment, fairness, safety, privacy, and societal considerations
+   作者: Kirill Lukyanov;Andrew Perminov;Denis Turdakov;Mikhail Pautov;
+   机构: Ivannikov Institute for System Programming;;
+   类型: Desk Reject
+
+No.11. A collaborative Multi-Agent LLM Approach for Knowledge Graph Curation and query from multimodal data sources
+   标题: 一种协作式的多智能体大语言模型方法，用于知识图谱的维护和来自多模态数据源的查询
+   链接: https://openreview.net/forum?id=qXwVXj03nO
+   类别: applications to computer vision, audio, language, and other modalities
+   作者: Ankur Krishna;surya ardham;Chetan Malhotra;Anagha Prashant Shinde;
+   机构: Tata Consultancy Services Limited;;Walchand College of Engineering;
+   类型: Desk Reject
+
+No.12. BanglaGITI: A Novel Dataset for Bangla Music Genre Classification with A Comprehensive Analysis
+   标题: BanglaGITI：一种用于孟加拉音乐体裁分类的新颖数据集及其全面分析
+   链接: https://openreview.net/forum?id=TIxiwxd4iD
+   类别: applications to computer vision, audio, language, and other modalities
+   作者: Syeda Farhana Ali;Mohammad Tanveer Shams;Kazi A. Kalpoma;Tasnim Munawar Rafee;Jecin Saba;
+   机构: Ahsanullah University of Science & Technology;;
+   类型: Desk Reject
+
+No.13. Invar-RAG: Invariant LLM-aligned Retrieval for Better Generation
+   标题: 不变量-RLM检索：更好的生成性不变检索
+   链接: https://openreview.net/forum?id=8g7hHwSBjH
+   类别: applications to computer vision, audio, language, and other modalities
+   作者: Ziwei Liu;Liang Zhang;Qian Li;Jianghua Wu;Guangxu Zhu;
+   机构: City University of Hong Kong;Shenzhen Research Institute of Big Data;;
+   类型: Desk Reject
+
+No.14. Personalize to generalize: Towards a universal medical multi-modality generalization through personalization
+   标题: 个性化以实现普遍化：通过个性化迈向通用医疗多模态泛化
+   链接: https://openreview.net/forum?id=nQoRKLeOP0
+   类别: applications to computer vision, audio, language, and other modalities
+   作者: Zhaorui Tan;Xi Yang;Tan Pan;TIANYI LIU;Chen Jiang;Xin Guo;Qiufeng Wang;Anh Nguyen;Yuan Qi;Kaizhu Huang;Yuan Cheng;
+   机构: University of Liverpool;;Xi'an Jiao Tong-Liverpool University;Shanghai Academy of Artificial Intelligence;Fudan University;
+   类型: Desk Reject
+
+No.15. RALL-E: Robust Codec Language Modeling with Chain-of-Thought Prompting for Text-to-Speech Synthesis
+   标题: RALL-E：具有链式思考提示的 robust 编码器语言模型在文本转语音合成中的应用
+   链接: https://openreview.net/forum?id=9d6RcViazd
+   类别: applications to computer vision, audio, language, and other modalities
+   作者: Detai Xin;Xu Tan;Kai Shen;Zeqian Ju;Dongchao Yang;Yuancheng Wang;Shinnosuke Takamichi;Hiroshi Saruwatari;Shujie LIU;Jinyu Li;sheng zhao;
+   机构: Tokyo University;Microsoft;Moonshot AI;Chinese University of Hong Kong;Keio University;University of Tokyo;
+   类型: Desk Reject
+
+No.16. REAL-TIME LAYOUT ADAPTATION USING GENERATIVE AI
+   标题: 基于生成式AI的实时布局适应
+   链接: https://openreview.net/forum?id=zqA19DirIT
+   类别: applications to computer vision, audio, language, and other modalities
+   作者: Sanshray Singh Langeh;Mandar Zope;
+   机构: National Institute of Technology, Srinagar;;
+   类型: Desk Reject
+
+No.17. TOSN-Trans：Transparent Object Segmentation Network with Transformer
+   标题: TOSN-透明对象分割网络（带变换器）
+   链接: https://openreview.net/forum?id=Rhclu9eWxU
+   类别: applications to computer vision, audio, language, and other modalities
+   作者: Tao Tao;
+   机构: Wuhan University;
+   类型: Desk Reject
+
+No.18. MimoUDiff: A Unified Multi-Source Data Fusion Framework via MIMO Unet and Refined Diffusion for Precipitation Nowcasting
+   标题: MimoUDiff：一种基于MIMO-Unet和精炼扩散的统一多源数据融合框架用于降水nowcasting
+   链接: https://openreview.net/forum?id=GCSr6QCCwF
+   类别: applications to physical sciences (physics, chemistry, biology, etc.)
+   作者: Chunlei Shi;Han Xu;Yongchao Feng;Dan Niu;
+   机构: Southeast University;Beihang University;
+   类型: Desk Reject
+
+No.19. AFTD: a foreground target detection dataset for airport scenario
+   标题: AFTD：机场场景下的前景目标检测数据集
+   链接: https://openreview.net/forum?id=UpPXWd9SBk
+   类别: datasets and benchmarks
+   作者: Pengchong Chen;Xiang Zhang;Wei Lin;Yonghui Huang;Chongshang Yang;Jinyang Zhang;Jianan Hou;
+   机构: University of Electronic Science and Technology of China;;
+   类型: Desk Reject
+
+No.20. EEE-Bench: A Comprehensive Multimodal Electrical And Electronics Engineering Benchmark
+   标题: EEE-Bench：综合多模态电气与电子工程基准测试
+   链接: https://openreview.net/forum?id=pjfvmZWFfX
+   类别: datasets and benchmarks
+   作者: Ming Li;Jike Zhong;Tianle Chen;Konstantinos Psounis;
+   机构: University of Southern California;Boston University;University of Tokyo;
+   类型: Desk Reject
+
+No.21. MU-Bench: A Multitask Multimodal Benchmark for Machine Unlearning
+   标题: MU-Bench：一种多任务多模态机器遗忘基准测试
+   链接: https://openreview.net/forum?id=O9W9DesXid
+   类别: datasets and benchmarks
+   作者: Jiali Cheng;Hadi Amiri;
+   机构: ;University of Massachusetts Lowell;
+   类型: Desk Reject
+
+No.22. On the Robustness of Vision-Language Models Against Distractions
+   标题: 视觉语言模型的抗干扰 robustness 研究
+   链接: https://openreview.net/forum?id=EGjTCIcSnW
+   类别: datasets and benchmarks
+   作者: Ming Liu;Hao Chen;Jindong Wang;Wensheng Zhang;
+   机构: Iowa State University;Carnegie Mellon University;College of William & Mary;
+   类型: Desk Reject
+
+No.23. RL4CO: an Extensive Reinforcement Learning for Combinatorial Optimization Benchmark
+   标题: RL4CO：一个全面的组合优化强化学习基准测试
+   链接: https://openreview.net/forum?id=MGZyUtaYUb
+   类别: datasets and benchmarks
+   作者: Federico Berto;Chuanbo Hua;Junyoung Park;Laurin Luttmann;Yining Ma;Fanchen Bu;Jiarui Wang;Haoran Ye;Minsu Kim;Sanghyeok Choi;Nayeli Gast Zepeda;André Hottung;Jianan Zhou;Jieyi Bi;Yu Hu;Fei Liu;Hyeonah Kim;Jiwoo Son;Haeyeon Kim;Davide Angioni;Wouter Kool;Zhiguang Cao;Qingfu Zhang;Joungho Kim;Jie Zhang;Kijung Shin;Cathy Wu;Sungsoo Ahn;Guojie Song;Changhyun Kwon;Kevin Tierney;Lin Xie;Jinkyoo Park;
+   机构: Korea Advanced Institute of Science and Technology;;Leuphana University Lüneburg;Massachusetts Institute of Technology;Monash University;Peking University;Universität Bielefeld;Bielefeld University;Nanyang Technological University;ORTEC;Singapore Management University;City University of Hong Kong;Pohang University of Science and Technology;Omelet, Inc.;Brandenburgische Technische Universität;
+   类型: Desk Reject
+
+No.24. CASAK-V: Dynamic Sparse Attention and Adaptive KV-Cache Compression for Memory-Efficient Long-Context LLM Inference
+   标题: CASAK-V：动态稀疏注意力和自适应KV缓存压缩以实现高效长上下文语言模型推理
+   链接: https://openreview.net/forum?id=n7RqgqbxP7
+   类别: foundation or frontier models, including LLMs
+   作者: Hamza Mohammed;Sai Chand Boyapati;Hang Yin;
+   机构: Samsung;;
+   类型: Desk Reject
+
+No.25. EVLM: An Efficient Vision-Language Model for Visual Understanding
+   标题: EVLM：一种高效的视觉-语言模型，用于视觉理解
+   链接: https://openreview.net/forum?id=S7M1iqFLVm
+   类别: foundation or frontier models, including LLMs
+   作者: Kaibing Chen;Dong Shen;Hanwen Zhong;Huasong Zhong;Kui Xia;Di Xu;Wei Yuan;Yifei Hu;Bin Wen;Tianke Zhang;Changyi Liu;Dewen Fan;Huihui Xiao;Jiahong Wu;Fan Yang;Tingting Gao;Di ZHANG;
+   机构: Kuaishou Technology;Beihang University;;Alibaba Group;
+   类型: Desk Reject
+
+No.26. Layer-Wise Quantization: A Pragmatic and Effective Method for Quantizing LLMs
+   标题: 逐层量化：一种实用且有效的大型语言模型量化方法
+   链接: https://openreview.net/forum?id=eJVrwDE086
+   类别: foundation or frontier models, including LLMs
+   作者: Razvan-Gabriel Dumitru;Vikas Yadav;Rishabh Maheshwary;Paul Ioan Clotan;Sathwik Tejaswi Madhusudhan;Mihai Surdeanu;
+   机构: University of Arizona;ServiceNow;
+   类型: Desk Reject
+
+No.27. Stacking Small Language Models for Generalizability
+   标题: 堆叠小型语言模型以提高泛化能力
+   链接: https://openreview.net/forum?id=Vn23PakSbM
+   类别: foundation or frontier models, including LLMs
+   作者: Laurence Liang;
+   机构: McGill University;
+   类型: Desk Reject
+
+No.28. WALL-E: World Alignment by Rule Learning Improves World Model-based LLM Agents
+   标题: 《基于规则学习的世界对齐改进世界模型大语言模型代理》
+   链接: https://openreview.net/forum?id=GE0UKtI6Lf
+   类别: foundation or frontier models, including LLMs
+   作者: Siyu Zhou;Tianyi Zhou;Yijun Yang;Guodong Long;Deheng Ye;Jing Jiang;Chengqi Zhang;
+   机构: University of Technology Sydney;University of Maryland;Tencent;Hong Kong Polytechnic University;
+   类型: Desk Reject
+
+No.29. Code snippets insertion approach for code completion task
+   标题: 代码片段插入方法在代码补全任务中的应用
+   链接: https://openreview.net/forum?id=sQa6VrK6tm
+   类别: generative models
+   作者: Nina Kamkia;Dmitry Stanishevskiy;Alena Fenogenova;Vitaly Kadylin;Denis Kokosinskii;Dmitry Zmitrovich;
+   机构: ;Higher School of Economics;Sberbank;Lomonosov Moscow State University;
+   类型: Desk Reject
+
+No.30. Enhancement of In-Context Reasoning in LLMs through Inductive Rule Learning
+   标题: 通过归纳规则学习增强LLMs的上下文推理能力
+   链接: https://openreview.net/forum?id=3x4vpeAclU
+   类别: generative models
+   作者: Tien-Dat Nguyen;Hai-Toan Nguyen;Nguyen Viet Ha;
+   机构: Vietnam National University, Hanoi;VNU University of Engineering and Technology;
+   类型: Desk Reject
+
+No.31. Fine-grained Hallucination Detection and Mitigation in Language Model Mathematical Reasoning
+   标题: 细粒度幻觉检测与减轻在语言模型数学推理中的应用
+   链接: https://openreview.net/forum?id=7bwE5MJAVJ
+   类别: generative models
+   作者: Ruosen Li;Ziming Luo;Xinya Du;
+   机构: University of Texas at Dallas;Carnegie Mellon University;
+   类型: Desk Reject
+
+No.32. Temporal Environment-Aware Image Generation via Latent Diffusion
+   标题: 基于时间环境感知的图像生成通过潜在扩散
+   链接: https://openreview.net/forum?id=Rd34VDwqB7
+   类别: generative models
+   作者: Nasrin Kalanat;Yiqun Xie;Yanhua Li;Xiaowei Jia;
+   机构: University of Pittsburgh;University of Maryland;Worcester Polytechnic Institute;
+   类型: Desk Reject
+
+No.33. Tuning Language Models by Mixture-of-Depths Ensemble
+   标题: 通过深度混合 ensemble 调整语言模型
+   链接: https://openreview.net/forum?id=FLSWAJqTjE
+   类别: generative models
+   作者: Haoyan Luo;Lucia Specia;
+   机构: ;Imperial College London;
+   类型: Desk Reject
+
+No.34. A Systemic Review of Static Memory Analysis
+   标题: 静态内存分析的系统性综述
+   链接: https://openreview.net/forum?id=Mphd6Sf6z4
+   类别: infrastructure, software libraries, hardware, systems, etc.
+   作者: Enoch Solomon;
+   机构: Virginia State University;
+   类型: Desk Reject
+
+No.35. RDAS: A Low Latency and High Throughput Raw Data Engine for Machine Learning Systems
+   标题: RDAS：一种用于机器学习系统的低延迟高吞吐量原始数据引擎
+   链接: https://openreview.net/forum?id=DqPDavAEXt
+   类别: infrastructure, software libraries, hardware, systems, etc.
+   作者: Weijian Li;Han Liu;
+   机构: Northwestern University;
+   类型: Desk Reject
+
+No.36. Circuit Compositions: Exploring Modular Structures in Transformer-Based Language Models
+   标题: 电路组成：探索基于变压器的语言模型中的模块化结构
+   链接: https://openreview.net/forum?id=u4XyECA6Zd
+   类别: interpretability and explainable AI
+   作者: Philipp Mondorf;Sondre Wold;Barbara Plank;
+   机构: Ludwig-Maximilians-Universität München;University of Oslo;
+   类型: Desk Reject
+
+No.37. Evaluating Synthetic Activations composed of SAE Latents in GPT-2
+   标题: 评估由SAE潜在特征组成的合成激活函数在GPT-2中的表现
+   链接: https://openreview.net/forum?id=U0y32WKeOd
+   类别: interpretability and explainable AI
+   作者: Nora Petrova;Giorgi Giglemiani;Chatrik Singh Mangat;Stefan Heimersheim;Jett Janiak;
+   机构: Independent Researcher;;ML Alignment & Theory Scholars;
+   类型: Desk Reject
+
+No.38. Generalized Attention Flow: Feature Attribution for Transformer Models via Maximum Flow
+   标题: 广义注意力流：通过最大流对变压器模型进行特征归因
+   链接: https://openreview.net/forum?id=2RcTuBc4mA
+   类别: interpretability and explainable AI
+   作者: Behrooz Azarkhalili Aghmiyouni;Maxwell Libbrecht;
+   机构: Simon Fraser University;
+   类型: Desk Reject
+
+No.39. Hierarchical Frequency Tagging Probe (HFTP): A Unified Approach to Investigate Syntactic Structure Representations in Large Language Models and the Human Brain
+   标题: 层次频率标记探针（HFTP）：一种统一方法，用于研究大型语言模型和人类大脑中的句法结构表示
+   链接: https://openreview.net/forum?id=z5Th95xtBW
+   类别: interpretability and explainable AI
+   作者: Jingmin An;Yilong Song;Ruolin Yang;Nai Ding;Lingxi Lu;Yuxuan Wang;Wei Wang;Chu Zhuang;Qian Wang;Fang Fang;
+   机构: Peking University;Zhejiang University;Beijing Institute for General Artificial Intelligence;Beijing Language and Culture University;
+   类型: Desk Reject
+
+No.40. Self-Improving Logic from Experimental Observations
+   标题: 自我改进逻辑从实验观察得出
+   链接: https://openreview.net/forum?id=GnCw9lCPs9
+   类别: interpretability and explainable AI
+   作者: Max PONT;
+   机构: 
+   类型: Desk Reject
+
+No.41. Unsupervised Panoptic Interpretation of Latent Spaces in GANs Using Space-Filling Vector Quantization
+   标题: 使用空间填充向量量化进行GAN潜在空间的无监督全景解释
+   链接: https://openreview.net/forum?id=1poUSIGSCI
+   类别: interpretability and explainable AI
+   作者: Mohammad Hassan Vali;Tom Bäckström;
+   机构: ;Aalto University;
+   类型: Desk Reject
+
+No.42. MambaFormer-MOE: Mamba-Transformer-based Mixture-of-Experts for Time Series Prediction
+   标题: MambaFormer-MOE：基于Mamba变换器的专家混合模型用于时间序列预测
+   链接: https://openreview.net/forum?id=55Ruu7bF4b
+   类别: learning on time series and dynamical systems
+   作者: Weijian Li;Han Liu;
+   机构: Northwestern University;
+   类型: Desk Reject
+
+No.43. Learning with Multi-Group Guarantees for Clusterable Subpopulations
+   标题: 具有集群亚群体多组保证的学习
+   链接: https://openreview.net/forum?id=tEM1u9VT2W
+   类别: learning theory
+   作者: Jessica Dai;Nika Haghtalab;Eric Zhao;
+   机构: ;University of California, Berkeley;
+   类型: Desk Reject
+
+No.44. Model Comparisons: XNet Outperforms KAN
+   标题: 模型比较：XNet 在性能上优于KAN
+   链接: https://openreview.net/forum?id=eIK4ojL2QM
+   类别: learning theory
+   作者: Xin Li;Zhihong Jeff Xia;Xiaotao Zheng;
+   机构: University of Oxford;Northwestern University;Soochow University;
+   类型: Desk Reject
+
+No.45. On the Role of Image Statistics and Gradient Learning in the Adversarial Vulnerability of Neural Networks
+   标题: 关于图像统计特性与梯度学习在神经网络对抗脆弱性中的作用
+   链接: https://openreview.net/forum?id=xIW2WtCuYE
+   类别: learning theory
+   作者: Hadar Yosef;Yair Weiss;
+   机构: Hebrew University of Jerusalem;
+   类型: Desk Reject
+
+No.46. Retraining with Predicted Hard Labels Provably Increases Model Accuracy
+   标题: 使用预测的硬标签重新训练可证明能提高模型准确性
+   链接: https://openreview.net/forum?id=GCfllRcbvt
+   类别: learning theory
+   作者: Rudrajit Das;Inderjit S Dhillon;Alessandro Epasto;Adel Javanmard;Jieming Mao;Vahab Mirrokni;Sujay Sanghavi;Peilin Zhong;
+   机构: University of Texas at Austin;Google;University of Southern California;
+   类型: Desk Reject
+
+No.47. GIFT-SW: Gaussian noise Injected Fine-Tuning of Salient Weights for LLMs
+   标题: GIFT-SW: 高斯噪声注入微调显著权重以优化LLMs
+   链接: https://openreview.net/forum?id=InxxTu0Bfs
+   类别: optimization
+   作者: Maxim Zhelnin;Viktor Moskvoretskii;Egor Shvetsov;Venediktov Egor;Maria Krylova;Zuev Aleksandr;Evgeny Burnaev;
+   机构: Skolkovo Institute of Science and Technology;Higher School of Economics;Huawei;;
+   类型: Desk Reject
+
+No.48. Improved Methods for Model Pruning
+   标题: 改进的模型剪枝方法
+   链接: https://openreview.net/forum?id=V8wrTu8p6x
+   类别: optimization
+   作者: Wei Jiang;Anying Fu;Youling Zhang;
+   机构: ;Suanfamama;
+   类型: Desk Reject
+
+No.49. A Multi-Decomposition Method for Compressing Larger AI Models Based on Reinforcement Learning
+   标题: 基于强化学习压缩更大规模AI模型的多分解方法
+   链接: https://openreview.net/forum?id=cO01zqImBC
+   类别: other topics in machine learning (i.e., none of the above)
+   作者: Jian Tang;Kun Xie;Jigang Wen;Xiaocan Li;Jiazheng Tian;Gaogang Xie;Kenli Li;
+   机构: Hunan University;;
+   类型: Desk Reject
+
+No.50. AFFS: Adaptive Fast Frequency Selection Algorithm for Deep Learning Feature Extraction
+   标题: 自适应快速频率选择算法用于深度学习特征提取
+   链接: https://openreview.net/forum?id=1Qq62mo8TW
+   类别: other topics in machine learning (i.e., none of the above)
+   作者: Zilong He;Kun Xie;Xiaocan Li;Jigang Wen;Jiannong Cao;Gaogang Xie;LiangWei;Kenli Li;
+   机构: Hunan University;;Hong Kong Polytechnic University;
+   类型: Desk Reject
+
+No.51. Bayesian-LoRA: LoRA based Parameter Efficient Fine-Tuning using Optimal Quantization levels and Rank Values trough Differentiable Bayesian Gates
+   标题: 贝叶斯-LoRA：通过可微分贝叶斯门控使用最优量化级别和秩值的基于LoRA的参数高效微调
+   链接: https://openreview.net/forum?id=v4Bl6tfaaO
+   类别: other topics in machine learning (i.e., none of the above)
+   作者: Cristian Meo;Ksenia Sycheva;Carlo Saccardi;Anirudh Goyal;Pietro Lio;Justin Dauwels;
+   机构: Delft University of Technology;;Google;University of Cambridge;
+   类型: Desk Reject
+
+No.52. DAG-NAS: Explainable Neural Architecture Search\\for Reinforcement Learning via Scalar-level DAG Modeling
+   标题: DAG-NAS：通过标量级DAG建模实现可解释的强化学习神经架构搜索
+   链接: https://openreview.net/forum?id=rws9sRnBEf
+   类别: other topics in machine learning (i.e., none of the above)
+   作者: Taegun An;Changhee Joo;
+   机构: Korea University;;
+   类型: Desk Reject
+
+No.53. Harmonic Machine Learning Models are Robust
+   标题: 谐波机器学习模型是稳健的
+   链接: https://openreview.net/forum?id=UcFjiiObbM
+   类别: other topics in machine learning (i.e., none of the above)
+   作者: Nicholas Stephen Kersting;Yi Li;Aman Mohanty;Oyindamola Obisesan;Raphael Okochu;
+   机构: ;VISA;
+   类型: Desk Reject
+
+No.54. Neural ODE with Differentiable Hidden State for Irregular Time Series
+   标题: 基于可微隐藏状态的神经ODE模型用于不规则时间序列
+   链接: https://openreview.net/forum?id=jKNv7Fvurt
+   类别: other topics in machine learning (i.e., none of the above)
+   作者: Yan Fang;Xu Wang;Zeyu Liang;Yudong Zhang;Pengkun Wang;Binwu Wang;Yang Wang;
+   机构: University of Science and Technology of China;Shanghai Jiao Tong University;
+   类型: Desk Reject
+
+No.55. On the Power of Learning-Augmented Search Trees
+   标题: 关于学习增强型搜索树的力量
+   链接: https://openreview.net/forum?id=FUwWdUi55e
+   类别: other topics in machine learning (i.e., none of the above)
+   作者: Xinyuan Cao;Jingbang Chen;Alicia Stepin;Li Chen;
+   机构: Georgia Institute of Technology;University of Waterloo;Carnegie Mellon University;
+   类型: Desk Reject
+
+No.56. pMixFed: Mixing up model coefficients for Efficient Personalized Federated Learning
+   标题: pMixFed：高效个性化联邦学习中的模型系数混合方法
+   链接: https://openreview.net/forum?id=lX8DahcJbL
+   类别: other topics in machine learning (i.e., none of the above)
+   作者: Yasaman Saadati;Mohammad Rostami;M. Hadi Amini;
+   机构: Florida International University;University of Southern California;
+   类型: Desk Reject
+
+No.57. Efficient Diffusion Models for Symmetric Manifolds
+   标题: 对称流形上的高效扩散模型
+   链接: https://openreview.net/forum?id=GLKig15TWJ
+   类别: probabilistic methods (Bayesian methods, variational inference, sampling, UQ, etc.)
+   作者: Oren Mangoubi;Nisheeth K. Vishnoi;
+   机构: Worcester Polytechnic Institute;Yale University;
+   类型: Desk Reject
+
+No.58. Distributional Reinforcement Learning Based On Historical Information For Option Hedging
+   标题: 基于历史信息的分布强化学习在期权对冲中的应用
+   链接: https://openreview.net/forum?id=rcCNk4AI2J
+   类别: reinforcement learning
+   作者: Qiao Pan;Long Zhu;zhaoju Wang;
+   机构: ;Donghua University;
+   类型: Desk Reject
+
+No.59. Efficient Sequential Policy Optimization via Off-Policy Correction in Multi-Agent Reinforcement Learning
+   标题: 通过多智能体强化学习中的离策策略校正实现高效的顺序策略优化
+   链接: https://openreview.net/forum?id=n6Gg0D2jWT
+   类别: reinforcement learning
+   作者: Pei Xu;Junge Zhang;Kaiqi Huang;
+   机构: ;Chinese Academy of Sciences;
+   类型: Desk Reject
+
+No.60. Learn With Imagination: Safe Set Guided State-wise Constrained Policy Optimization
+   标题: 基于想象学习：安全集合引导分区域约束策略优化
+   链接: https://openreview.net/forum?id=PAzVN4EEkj
+   类别: reinforcement learning
+   作者: Feihan Li;Yifan Sun;Weiye Zhao;Rui Chen;Tianhao Wei;Changliu Liu;
+   机构: Carnegie Mellon University;;
+   类型: Desk Reject
+
+No.61. No-Regret is not enough! Bandits with General Constraints through Adaptive Regret Minimization
+   标题: “无悔”还不够！具有通用约束的适应性动态后悔最小化强盗
+   链接: https://openreview.net/forum?id=LKtttBE5GN
+   类别: reinforcement learning
+   作者: Martino Bernasconi;Matteo Castiglioni;Andrea Celli;
+   机构: Bocconi University;Politecnico di Milano;
+   类型: Desk Reject
+
+No.62. Collaborative Theorem Proving with Large Language Models: Enhancing Formal Proofs with ProofRefiner
+   标题: 大型语言模型下的协作定理证明：通过ProofRefiner增强形式证明
+   链接: https://openreview.net/forum?id=y9xNQZjUJM
+   类别: transfer learning, meta learning, and lifelong learning
+   作者: Haoyi Zhang;Andrew Liu;Zixuan Wang;Feiyang Wang;
+   机构: Xi'an Jiao Tong-Liverpool University;;Carnegie Mellon University;
+   类型: Desk Reject
+
+No.63. Herb-GANNet: Synthetic Data Generation through Conditional GANs for Improving Accuracy in Medicinal Leaf Classification
+   标题: Herb-GANNet：通过条件GAN生成合成数据以提高 medicinal 叶片分类的准确性
+   链接: https://openreview.net/forum?id=DXz1PDA0Wg
+   类别: transfer learning, meta learning, and lifelong learning
+   作者: Sapna R;
+   机构: Manipal University;
+   类型: Desk Reject
+
+No.64. Overcoming Catastrophic Forgetting: A Novel Fine-Tuning Method
+   标题: 克服灾难性遗忘：一种新型微调方法
+   链接: https://openreview.net/forum?id=F8BPhZ5nmU
+   类别: transfer learning, meta learning, and lifelong learning
+   作者: Fei Ding;
+   机构: Nanchang University;
+   类型: Desk Reject
+
+No.65. Bias in CLIP Encoders: A Study of Encoder Bias and Object Representation in Multi-Object Scenarios
+   标题: CLIP编码器中的偏差研究：多对象场景下的编码器偏差与物体表示分析
+   链接: https://openreview.net/forum?id=bqLx5Rs8Tc
+   类别: unsupervised, self-supervised, semi-supervised, and supervised representation learning
+   作者: Reza Abbasi;Ali Nazari;Aminreza Sefid;Mohammadali Banayeeanzade;Mohammad Hossein Rohban;Mahdieh Soleymani Baghshah;
+   机构: Sharif University of Technology;
+   类型: Desk Reject
+
+No.66. Distributed Quasi-Newton Method for Fair and Fast Federated Learning
+   标题: 分布式拟牛顿方法实现公平高效的联邦学习
+   链接: https://openreview.net/forum?id=n6PE0xbgdA
+   类别: unsupervised, self-supervised, semi-supervised, and supervised representation learning
+   作者: Shayan Mohajer Hamidi;Linfeng Ye;
+   机构: University of Waterloo;University of Toronto;
+   类型: Desk Reject
+
+No.67. DynMoLE: Boosting Mixture of LoRA Experts Fine-Tuning with a Hybrid Routing Mechanism
+   标题: DynMoLE：基于混合路由机制增强的LoRA专家混合细调
+   链接: https://openreview.net/forum?id=IpLXuqmP0C
+   类别: unsupervised, self-supervised, semi-supervised, and supervised representation learning
+   作者: Dengchun Li;Naizheng Wang;Zihao Zhang;Haoyang Yin;Lei Duan;Meng Xiao;Yuanchun Zhou;Mingjie Tang;
+   机构: Sichuan University;;University of Chinese Academy of Sciences;Chinese Academy of Sciences;Purdue University;
+   类型: Desk Reject
+
+No.68. Enhancing Efficiency and Regularization in Convolutional Neural Networks: Strategies for Optimized Dropout
+   标题: 提升卷积神经网络的效率和正则化：优化dropout策略
+   链接: https://openreview.net/forum?id=i0TOAkzGF8
+   类别: unsupervised, self-supervised, semi-supervised, and supervised representation learning
+   作者: Mehdi Ghayoumi;
+   机构: State University of New York;
+   类型: Desk Reject
+
+No.69. TokenUnify: Scalable Autoregressive Pretraining for Large Scale EM Image Segmentation
+   标题: TokenUnify：面向大规模EM图像分割的可扩展自回归预训练
+   链接: https://openreview.net/forum?id=rsD6qAvtxO
+   类别: unsupervised, self-supervised, semi-supervised, and supervised representation learning
+   作者: Yinda Chen;Haoyuan Shi;Xiaoyu Liu;Te Shi;Ruobing Zhang;Dong Liu;Zhiwei Xiong;Feng Wu;
+   机构: University of Science and Technology of China;Hefei Comprehensive National Science Center;
+   类型: Desk Reject
+
+No.70. Vietnamese Text-to-SQL with Large Language Models: A Comprehensive Approach
+   标题: 基于大型语言模型的越南文文本到SQL转换：一种全面的方法
+   链接: https://openreview.net/forum?id=cWFLrctwuE
+   类别: unsupervised, self-supervised, semi-supervised, and supervised representation learning
+   作者: Phu Nguyen Dac Hoang;Cuong Le Phuoc;Tri Doan Tran Cao;Nguyễn Minh Quang;
+   机构: Ho Chi Minh City University of Technology;VNU University of Engineering and Technology;;Hanoi University of Science;
+   类型: Desk Reject
+

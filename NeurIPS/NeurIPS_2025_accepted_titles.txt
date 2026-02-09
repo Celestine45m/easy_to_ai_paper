@@ -13962,6 +13962,9 @@ No.1746. Valid Selection among Conformal Sets
    标题: 共形集合中的有效选择
    链接: https://openreview.net/forum?id=S1Gxt8c8pC
    类别: general machine learning
+
+
+                                                 
    作者: Mahmoud Hegazy;Liviu Aolaritei;Michael I. Jordan;Aymeric Dieuleveut;
    机构: Ecole Polytechnique;University of California, Berkeley;;
    类型: Poster
