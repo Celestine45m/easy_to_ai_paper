@@ -107,7 +107,7 @@ def main():
     """主函数"""
     # JSON文件路径
 
-    paper = "NeurIPS"
+    paper = "ICLR"
     year = "2025"
     json_file = Path(f"{paper}/{paper}_{year}_accepted.json")
     output_file=f'{paper}/{paper}_{year}_category_statistics.txt'

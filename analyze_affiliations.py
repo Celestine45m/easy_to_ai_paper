@@ -227,7 +227,7 @@ def print_country_statistics(country_stats):
 def main():
     """主函数"""
     # JSON文件路径
-    paper = "NeurIPS"
+    paper = "ICLR"
     year = "2025"
     json_file = Path(f"{paper}/{paper}_{year}_accepted.json")
     if not json_file.exists():
