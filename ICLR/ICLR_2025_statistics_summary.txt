@@ -1,7 +1,40 @@
 ====================================================================================================
-NeurIPS 2025 论文机构统计（所有机构，按出现次数降序）
+ICLR 2025 论文统计分析汇总报告
 ====================================================================================================
 
+【一、论文类别统计】
+====================================================================================================
+总论文数: 3703
+总类别数: 21
+
+排名     类别                                                 数量         占比        
+----------------------------------------------------------------------------------------------------
+1      foundation or frontier models, including LLMs      469         12.67%
+2      applications to computer vision, audio, language, and other modalities 420         11.34%
+3      generative models                                  377         10.18%
+4      alignment, fairness, safety, privacy, and societal considerations 332          8.97%
+5      unsupervised, self-supervised, semi-supervised, and supervised representation learning 235          6.35%
+6      reinforcement learning                             230          6.21%
+7      datasets and benchmarks                            228          6.16%
+8      applications to physical sciences (physics, chemistry, biology, etc.) 178          4.81%
+9      optimization                                       162          4.37%
+10     interpretability and explainable AI                155          4.19%
+11     other topics in machine learning (i.e., none of the above) 152          4.10%
+12     learning theory                                    142          3.83%
+13     learning on graphs and other geometries & topologies 134          3.62%
+14     transfer learning, meta learning, and lifelong learning 95           2.57%
+15     applications to robotics, autonomy, planning       91           2.46%
+16     probabilistic methods (Bayesian methods, variational inference, sampling, UQ, etc.) 84           2.27%
+17     applications to neuroscience & cognitive science   67           1.81%
+18     learning on time series and dynamical systems      61           1.65%
+19     causal reasoning                                   34           0.92%
+20     neurosymbolic & hybrid AI systems (physics-informed, logic & formal reasoning, etc.) 29           0.78%
+21     infrastructure, software libraries, hardware, systems, etc. 28           0.76%
+
+
+【二、论文机构统计】
+====================================================================================================
+统计模式: 所有机构
 总论文数: 3703
 总机构数: 1417
 
@@ -1424,4 +1457,7 @@ NeurIPS 2025 论文机构统计（所有机构，按出现次数降序）
 1415   Moatless AI                                                            1            0.03%
 1416   Universität Hildesheim                                                 1            0.03%
 1417   University of Hildesheim                                               1            0.03%
+
+====================================================================================================
+报告生成完成
 ====================================================================================================

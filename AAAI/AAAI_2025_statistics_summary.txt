@@ -1,0 +1,769 @@
+====================================================================================================
+AAAI 2025 论文统计分析汇总报告
+====================================================================================================
+
+【一、论文类别统计】
+====================================================================================================
+总论文数: 852
+总类别数: 9
+
+排名     类别                                                 数量         占比        
+----------------------------------------------------------------------------------------------------
+1      application domains                                139         16.31%
+2      computer vision ii                                 124         14.55%
+3      computer vision iii                                118         13.85%
+4      computer vision iv                                 117         13.73%
+5      ai for social impact track                         88          10.33%
+6      computer vision ix                                 77           9.04%
+7      computer vision i                                  73           8.57%
+8      ai alignment                                       66           7.75%
+9      cognitive modeling cognitive systems               50           5.87%
+
+
+【二、论文机构统计】
+====================================================================================================
+统计模式: 所有机构
+总论文数: 852
+总机构数: 735
+
+排名     机构名称                                                                   论文数        占比        
+----------------------------------------------------------------------------------------------------
+1      Tsinghua University                                                    55           6.46%
+2      Zhejiang University                                                    48           5.63%
+3      Chinese Academy of Sciences                                            39           4.58%
+4      Harbin Institute of Technology                                         37           4.34%
+5      Peking University                                                      36           4.23%
+6      University of Chinese Academy of Sciences                              34           3.99%
+7      University of Science and Technology of China                          33           3.87%
+8      Chinese University of Hong Kong                                        32           3.76%
+9      Shanghai Jiao Tong University                                          32           3.76%
+10     Fudan University                                                       30           3.52%
+11     Tencent                                                                26           3.05%
+12     Hong Kong University of Science and Technology                         25           2.93%
+13     National University of Singapore                                       24           2.82%
+14     Hong Kong Polytechnic University                                       20           2.35%
+15     Pengcheng Laboratory                                                   20           2.35%
+16     Shenzhen University                                                    19           2.23%
+17     Huazhong University of Science and Technology                          18           2.11%
+18     Southeast University                                                   18           2.11%
+19     University of Electronic Science and Technology of China               18           2.11%
+20     Beihang University                                                     18           2.11%
+21     Sun Yat-sen University                                                 18           2.11%
+22     Xiamen University                                                      18           2.11%
+23     Huawei                                                                 17           2.00%
+24     Wuhan University                                                       16           1.88%
+25     Nanyang Technological University                                       16           1.88%
+26     Xi'an Jiao Tong University                                             15           1.76%
+27     East China Normal University                                           15           1.76%
+28     Nanjing University of Science and Technology                           15           1.76%
+29     Yonsei University                                                      14           1.64%
+30     Xidian University                                                      14           1.64%
+31     Shanghai Artificial Intelligence Laboratory                            13           1.53%
+32     Dalian University of Technology                                        13           1.53%
+33     Alibaba Group                                                          13           1.53%
+34     University of Macau                                                    12           1.41%
+35     Korea Advanced Institute of Science and Technology                     12           1.41%
+36     South China University of Technology                                   12           1.41%
+37     Northwestern Polytechnical University                                  12           1.41%
+38     Beijing Institute of Technology                                        11           1.29%
+39     Nanjing University                                                     11           1.29%
+40     City University of Hong Kong                                           10           1.17%
+41     University of Maryland                                                 9            1.06%
+42     Beijing University of Posts and Telecommunications                     9            1.06%
+43     Shandong University                                                    9            1.06%
+44     University of Oxford                                                   9            1.06%
+45     Jilin University                                                       9            1.06%
+46     Southern University of Science and Technology                          9            1.06%
+47     Beijing Jiao Tong University                                           9            1.06%
+48     Seoul National University                                              8            0.94%
+49     Harvard University                                                     8            0.94%
+50     Stanford University                                                    8            0.94%
+51     Tongji University                                                      8            0.94%
+52     University of Hong Kong                                                8            0.94%
+53     Tianjin University                                                     8            0.94%
+54     Hefei University of Technology                                         8            0.94%
+55     Shenzhen Institute of Advanced Technology                              8            0.94%
+56     Imperial College London                                                7            0.82%
+57     Independent Researcher                                                 7            0.82%
+58     Mohamed bin Zayed University of Artificial Intelligence                7            0.82%
+59     Sichuan University                                                     7            0.82%
+60     Microsoft                                                              7            0.82%
+61     Zhejiang University of Technology                                      7            0.82%
+62     Renmin University of China                                             7            0.82%
+63     Nankai University                                                      7            0.82%
+64     Central South University                                               7            0.82%
+65     Sungkyunkwan University                                                7            0.82%
+66     Purdue University                                                      6            0.70%
+67     Singapore Management University                                        6            0.70%
+68     University of Washington                                               6            0.70%
+69     Carnegie Mellon University                                             6            0.70%
+70     Hunan University                                                       6            0.70%
+71     University College London                                              6            0.70%
+72     ShanghaiTech University                                                6            0.70%
+73     Google                                                                 6            0.70%
+74     Georgia Institute of Technology                                        6            0.70%
+75     Northeastern University                                                6            0.70%
+76     National University of Defense Technology                              6            0.70%
+77     Ant Group                                                              6            0.70%
+78     Baidu                                                                  6            0.70%
+79     Hangzhou High-Tech Zone Institute of Blockchain and Data Security      6            0.70%
+80     Westlake University                                                    6            0.70%
+81     Zhejiang Gongshang University                                          6            0.70%
+82     Ocean University of China                                              6            0.70%
+83     Korea University                                                       6            0.70%
+84     Massachusetts Institute of Technology                                  5            0.59%
+85     Yale University                                                        5            0.59%
+86     University of Tokyo                                                    5            0.59%
+87     University of Virginia                                                 5            0.59%
+88     University of Texas at Austin                                          5            0.59%
+89     Monash University                                                      5            0.59%
+90     University of Sydney                                                   5            0.59%
+91     NVIDIA                                                                 5            0.59%
+92     University of Illinois Urbana-Champaign                                5            0.59%
+93     Anhui University                                                       5            0.59%
+94     Hefei Comprehensive National Science Center                            5            0.59%
+95     Nanjing University of Posts and Telecommunications                     5            0.59%
+96     Agency for Science, Technology and Research                            5            0.59%
+97     Nanjing University of Aeronautics and Astronautics                     5            0.59%
+98     University of Exeter                                                   5            0.59%
+99     Samsung                                                                5            0.59%
+100    Technical University of Munich                                         4            0.47%
+101    Amazon                                                                 4            0.47%
+102    University of Liverpool                                                4            0.47%
+103    Purple Mountain Laboratories                                           4            0.47%
+104    McGill University                                                      4            0.47%
+105    Pennsylvania State University                                          4            0.47%
+106    University of Southern California                                      4            0.47%
+107    Michigan State University                                              4            0.47%
+108    Shenzhen MSU-BIT University                                            4            0.47%
+109    Jiangxi University of Finance and Economics                            4            0.47%
+110    Shenzhen Futian NKIARI                                                 4            0.47%
+111    Guangzhou University                                                   4            0.47%
+112    Hangzhou Dianzi University                                             4            0.47%
+113    Guilin University of Electronic Technology                             4            0.47%
+114    Griffith University                                                    4            0.47%
+115    China Telecom                                                          4            0.47%
+116    Wuhan University of Technology                                         4            0.47%
+117    Beijing Normal University                                              4            0.47%
+118    Guangdong Provincial Key Laboratory of Intelligent Information Processing 4            0.47%
+119    Fuzhou University                                                      4            0.47%
+120    Chongqing University of Posts and Telecommunications                   4            0.47%
+121    Beijing University of Technology                                       4            0.47%
+122    Kuaishou Technology                                                    4            0.47%
+123    SenseTime                                                              4            0.47%
+124    University of Western Australia                                        4            0.47%
+125    ETH Zurich                                                             3            0.35%
+126    University of Warwick                                                  3            0.35%
+127    University of California, Berkeley                                     3            0.35%
+128    University of Cambridge                                                3            0.35%
+129    University of Florida                                                  3            0.35%
+130    University of Rochester                                                3            0.35%
+131    University of Pennsylvania                                             3            0.35%
+132    Rutgers University                                                     3            0.35%
+133    Arizona State University                                               3            0.35%
+134    University of Pittsburgh                                               3            0.35%
+135    Jinan University                                                       3            0.35%
+136    University of Queensland                                               3            0.35%
+137    ByteDance                                                              3            0.35%
+138    State Key Laboratory of Mathematical Engineering and Advanced Computing 3            0.35%
+139    Great Bay University                                                   3            0.35%
+140    Zhongguancun Laboratory                                                3            0.35%
+141    Shanghai Innovation Institute                                          3            0.35%
+142    Meituan                                                                3            0.35%
+143    Wayne State University                                                 3            0.35%
+144    Ulsan National Institute of Science and Technology                     3            0.35%
+145    Adobe                                                                  3            0.35%
+146    Shanghai Collaborative Innovation Center of Intelligent Visual Computing 3            0.35%
+147    Ministry of Culture and Tourism                                        3            0.35%
+148    Kyung Hee University                                                   3            0.35%
+149    Hunan Normal University                                                3            0.35%
+150    Guangxi Normal University                                              3            0.35%
+151    University of Science and Technology Beijing                           3            0.35%
+152    MCT                                                                    3            0.35%
+153    Videt Lab                                                              3            0.35%
+154    University of Central Florida                                          2            0.23%
+155    York University                                                        2            0.23%
+156    FAR.AI                                                                 2            0.23%
+157    Mila                                                                   2            0.23%
+158    Tongyi Lab                                                             2            0.23%
+159    RWTH Aachen University                                                 2            0.23%
+160    Safe Intelligence                                                      2            0.23%
+161    Apple                                                                  2            0.23%
+162    Delft University of Technology                                         2            0.23%
+163    University of Alberta                                                  2            0.23%
+164    Education University of Hong Kong                                      2            0.23%
+165    University of Toronto                                                  2            0.23%
+166    Engineering Research Center of Machine Learning and Industry Intelligence 2            0.23%
+167    Beijing Academy of Artificial Intelligence                             2            0.23%
+168    Cisco Systems                                                          2            0.23%
+169    Ewha Womans University                                                 2            0.23%
+170    IBM                                                                    2            0.23%
+171    Singapore University of Technology and Design                          2            0.23%
+172    University of Bologna                                                  2            0.23%
+173    Washington University in St. Louis                                     2            0.23%
+174    Alan Turing Institute                                                  2            0.23%
+175    Cornell University                                                     2            0.23%
+176    Columbia University                                                    2            0.23%
+177    Ben-Gurion University of the Negev                                     2            0.23%
+178    Oregon State University                                                2            0.23%
+179    New York University                                                    2            0.23%
+180    Ohio State University                                                  2            0.23%
+181    Tianjin University of Technology                                       2            0.23%
+182    Florida International University                                       2            0.23%
+183    Clemson University                                                     2            0.23%
+184    Max Planck Institute for Security and Privacy                          2            0.23%
+185    Simon Fraser University                                                2            0.23%
+186    Duke University                                                        2            0.23%
+187    Wageningen University & Research                                       2            0.23%
+188    INRIA                                                                  2            0.23%
+189    University of Waterloo                                                 2            0.23%
+190    Xi'an Jiao Tong-Liverpool University                                   2            0.23%
+191    University of Minnesota                                                2            0.23%
+192    University of Michigan                                                 2            0.23%
+193    National Yang Ming Chiao Tung University                               2            0.23%
+194    U.S. Geological Survey                                                 2            0.23%
+195    University of North Carolina                                           2            0.23%
+196    University of Wisconsin-Madison                                        2            0.23%
+197    Indian Institute of Technology Jodhpur                                 2            0.23%
+198    University of Bristol                                                  2            0.23%
+199    Loughborough University                                                2            0.23%
+200    Kunming University of Science and Technology                           2            0.23%
+201    Texas Tech University                                                  2            0.23%
+202    Hangzhou City University                                               2            0.23%
+203    Nanjing Normal University                                              2            0.23%
+204    Shanghai University of Finance and Economics                           2            0.23%
+205    Communication University of China                                      2            0.23%
+206    Hohai University                                                       2            0.23%
+207    iFLYTEK Research                                                       2            0.23%
+208    Hokkaido University                                                    2            0.23%
+209    Bytedance Inc.                                                         2            0.23%
+210    Ministry of Education of China                                         2            0.23%
+211    Stony Brook University                                                 2            0.23%
+212    University of Calabria                                                 2            0.23%
+213    Soochow University                                                     2            0.23%
+214    Center for Long-term Artificial Intelligence                           2            0.23%
+215    Munich Center for Machine Learning                                     2            0.23%
+216    Guangdong Institute of Intelligence Science and Technology             2            0.23%
+217    Affect AI                                                              2            0.23%
+218    Guangdong Laboratory of Artificial Intelligence and Digital Economy    2            0.23%
+219    NTT Corporation                                                        2            0.23%
+220    Johns Hopkins University                                               2            0.23%
+221    University of Leicester                                                2            0.23%
+222    Lanzhou University                                                     2            0.23%
+223    Meta                                                                   2            0.23%
+224    Southern Medical University                                            2            0.23%
+225    Guangdong Provincial Key Laboratory of Artificial Intelligence in Medical Image Analysis and Application 2            0.23%
+226    Vector Institute                                                       2            0.23%
+227    King’s College London                                                  2            0.23%
+228    National Tsing Hua University                                          2            0.23%
+229    Centre for Perceptual and Interactive Intelligence                     2            0.23%
+230    Macau University of Science and Technology                             2            0.23%
+231    Korea Institute of Science and Technology                              2            0.23%
+232    University of Science and Technology                                   2            0.23%
+233    Jimei University                                                       2            0.23%
+234    PBVR                                                                   2            0.23%
+235    OpenNLP Lab                                                            2            0.23%
+236    Ludwig Maximilian University of Munich                                 2            0.23%
+237    University of Melbourne                                                2            0.23%
+238    Wuhan University of Science and Technology                             2            0.23%
+239    Beijing Key Laboratory of Network System and Network Culture           2            0.23%
+240    Wuhan College                                                          2            0.23%
+241    Wuhan Textile University                                               2            0.23%
+242    Megvii Technology                                                      2            0.23%
+243    Qingdao University                                                     2            0.23%
+244    Shanghai AI Laboratory                                                 2            0.23%
+245    Key Laboratory of Machine Intelligence and Advanced Computing          2            0.23%
+246    Queen Mary University of London                                        2            0.23%
+247    Soongsil University                                                    2            0.23%
+248    China University of Geosciences                                        2            0.23%
+249    Engineering Research Center of AI and Robotics                         2            0.23%
+250    Guangdong University of Technology                                     2            0.23%
+251    Shaanxi Province Key Laboratory of Big Data Knowledge Engineering      2            0.23%
+252    OPPO Research Institute                                                2            0.23%
+253    Seoul National University of Science and Technology                    2            0.23%
+254    Chung-Ang University                                                   2            0.23%
+255    Shanghai United Imaging Intelligence Co., Ltd.                         2            0.23%
+256    Electronics and Telecommunications Research Institute                  2            0.23%
+257    Huaihua University                                                     2            0.23%
+258    Skywork AI                                                             2            0.23%
+259    Deakin University                                                      2            0.23%
+260    Hanyang University                                                     2            0.23%
+261    Huazhong University of Science & Technology                            2            0.23%
+262    Concordia University                                                   1            0.12%
+263    Mobiliar                                                               1            0.12%
+264    University of Basel                                                    1            0.12%
+265    Philipps-Universität Marburg                                           1            0.12%
+266    Li Auto Inc.                                                           1            0.12%
+267    EleutherAI                                                             1            0.12%
+268    Zhejiang Laboratory                                                    1            0.12%
+269    Leiden University                                                      1            0.12%
+270    University of Limassol                                                 1            0.12%
+271    National Taiwan University                                             1            0.12%
+272    Universidade da Coruña                                                 1            0.12%
+273    Leibniz Institute of Agricultural Engineering and Bioeconomy e.V.      1            0.12%
+274    Berlin Institute for the Foundations of Learning and Data              1            0.12%
+275    University of Potsdam                                                  1            0.12%
+276    Generative AI Research Lab                                             1            0.12%
+277    Zhejiang Createlink Technology                                         1            0.12%
+278    Aalborg University                                                     1            0.12%
+279    Georgetown University                                                  1            0.12%
+280    Fraunhofer Institute for Open Communication Systems                    1            0.12%
+281    Southern Illinois University Edwardsville                              1            0.12%
+282    University of Massachusetts Amherst                                    1            0.12%
+283    University of Southampton                                              1            0.12%
+284    PRISM                                                                  1            0.12%
+285    Apart Research                                                         1            0.12%
+286    Jagiellonian University                                                1            0.12%
+287    University of Birmingham                                               1            0.12%
+288    FernUniversität in Hagen                                               1            0.12%
+289    Max Delbrück Center for Molecular Medicine                             1            0.12%
+290    University of Seoul                                                    1            0.12%
+291    LBox                                                                   1            0.12%
+292    Incheon National University                                            1            0.12%
+293    University of Connecticut                                              1            0.12%
+294    Hugging Face                                                           1            0.12%
+295    Tufts University                                                       1            0.12%
+296    Hewlett Packard Enterprise                                             1            0.12%
+297    University of New Hampshire                                            1            0.12%
+298    Indian Institute of Technology Kharagpur                               1            0.12%
+299    Bocconi University                                                     1            0.12%
+300    Contextual AI                                                          1            0.12%
+301    Harvard Law School                                                     1            0.12%
+302    OpenAI                                                                 1            0.12%
+303    University of California, Davis                                        1            0.12%
+304    Baichuan Inc.                                                          1            0.12%
+305    Max Planck Institute for Software Systems                              1            0.12%
+306    Saarland University                                                    1            0.12%
+307    ML Alignment & Theory Scholars Program                                 1            0.12%
+308    University of Rochester Medical Center                                 1            0.12%
+309    InMotion                                                               1            0.12%
+310    George Mason University                                                1            0.12%
+311    JD                                                                     1            0.12%
+312    Florida State University                                               1            0.12%
+313    Lehigh University                                                      1            0.12%
+314    JD.com                                                                 1            0.12%
+315    State University of New York at Albany                                 1            0.12%
+316    Ghamut Corporation                                                     1            0.12%
+317    Bill and Melinda Gates Foundation                                      1            0.12%
+318    Hong Kong Baptist University                                           1            0.12%
+319    Newcastle University                                                   1            0.12%
+320    Princeton University                                                   1            0.12%
+321    MacEwan University                                                     1            0.12%
+322    Michigan Technological University                                      1            0.12%
+323    Gwangju Institute of Science and Technology                            1            0.12%
+324    SI Analytics                                                           1            0.12%
+325    Carnegie Institution for Science                                       1            0.12%
+326    University of Freiburg                                                 1            0.12%
+327    Federal University of Minas Gerais                                     1            0.12%
+328    Howard Hughes Medical Institute                                        1            0.12%
+329    Quebec AI Institute                                                    1            0.12%
+330    HEC Montreal                                                           1            0.12%
+331    Université de Montréal                                                 1            0.12%
+332    Ministry of Natural Resources                                          1            0.12%
+333    Hasso Plattner Institute                                               1            0.12%
+334    DeepMind                                                               1            0.12%
+335    University of Manitoba                                                 1            0.12%
+336    Coventry University                                                    1            0.12%
+337    RTI International                                                      1            0.12%
+338    Taylor Geospatial Institute                                            1            0.12%
+339    Taylor Geospatial Engine                                               1            0.12%
+340    Québec AI Institute                                                    1            0.12%
+341    National Observatory of Athens                                         1            0.12%
+342    Harokopio University of Athens                                         1            0.12%
+343    Korea Advanced Institute of Science and Technology (KAIST)             1            0.12%
+344    MDA Space Ltd.                                                         1            0.12%
+345    Nokia Bell Labs                                                        1            0.12%
+346    EPFL                                                                   1            0.12%
+347    Institute for Public Policy Research                                   1            0.12%
+348    World Wide Fund for Nature                                             1            0.12%
+349    Heilongjiang Academy of Sciences                                       1            0.12%
+350    ICAR-CNR                                                               1            0.12%
+351    University of Pisa                                                     1            0.12%
+352    Spotify                                                                1            0.12%
+353    New Jersey Institute of Technology                                     1            0.12%
+354    University of Georgia                                                  1            0.12%
+355    Wake Forest University                                                 1            0.12%
+356    United Nations Children’s Fund                                         1            0.12%
+357    Hitachi America, Ltd.                                                  1            0.12%
+358    Tulane University                                                      1            0.12%
+359    Université Laval                                                       1            0.12%
+360    University of Massachusetts Boston                                     1            0.12%
+361    Leipzig University                                                     1            0.12%
+362    Stevens Institute of Technology                                        1            0.12%
+363    University of the Philippines                                          1            0.12%
+364    Universidade Federal de São Paulo                                      1            0.12%
+365    Chalmers University of Technology                                      1            0.12%
+366    Fraunhofer-Chalmers Centre                                             1            0.12%
+367    Harvard T.H. Chan School of Public Health                              1            0.12%
+368    Boston University                                                      1            0.12%
+369    Istituto Italiano di Tecnologia                                        1            0.12%
+370    Universidade Federal de São Carlos                                     1            0.12%
+371    Universidade de São Paulo                                              1            0.12%
+372    NCS Cyber Special Ops-R&D                                              1            0.12%
+373    Aarhus University                                                      1            0.12%
+374    Weixin                                                                 1            0.12%
+375    Fujitsu Research of America                                            1            0.12%
+376    University at Albany, SUNY                                             1            0.12%
+377    Michigan Public                                                        1            0.12%
+378    TAL Education Group                                                    1            0.12%
+379    University of York                                                     1            0.12%
+380    Loyola Marymount University                                            1            0.12%
+381    Vanderbilt University                                                  1            0.12%
+382    Metro                                                                  1            0.12%
+383    Bangor University                                                      1            0.12%
+384    Wageningen University and Research                                     1            0.12%
+385    Yazhouwan National Laboratory                                          1            0.12%
+386    University of Tartu                                                    1            0.12%
+387    Plaksha University                                                     1            0.12%
+388    Squirrel AI                                                            1            0.12%
+389    Xi'an Key Laboratory of Big Data and Intelligent Vision                1            0.12%
+390    School of Computer Science and Technology                              1            0.12%
+391    Indiana University                                                     1            0.12%
+392    Regenstrief Institute                                                  1            0.12%
+393    LG                                                                     1            0.12%
+394    University of Illinois at Chicago                                      1            0.12%
+395    Shanghai Academy of Artificial Intelligence                            1            0.12%
+396    Tianjin Medical University Eye Hospital                                1            0.12%
+397    Technion - Israel Institute of Technology                              1            0.12%
+398    State Key Laboratory of Aerodynamics                                   1            0.12%
+399    China Aerodynamics Research and Development Center                     1            0.12%
+400    Sichuan Tianfu Fluid Big Data Research Center                          1            0.12%
+401    Henan Key Laboratory of Quantum Information and Cryptography           1            0.12%
+402    Sandia National Laboratories                                           1            0.12%
+403    Shanghai Key Laboratory of Trustworthy Computing                       1            0.12%
+404    GE Healthcare                                                          1            0.12%
+405    Rensselaer Polytechnic Institute                                       1            0.12%
+406    Jiangsu University                                                     1            0.12%
+407    Czech Technical University in Prague                                   1            0.12%
+408    Universidade de Lisboa                                                 1            0.12%
+409    Key Laboratory of High Confidence Software Technologies                1            0.12%
+410    Nanhu Laboratory                                                       1            0.12%
+411    Macquarie University                                                   1            0.12%
+412    Zhongguancun Laboratories                                              1            0.12%
+413    National Center for Protein Sciences                                   1            0.12%
+414    Beijing Institute of Lifeomics                                         1            0.12%
+415    Mila - Quebec AI Institute                                             1            0.12%
+416    National Key Laboratory of Smart Farm Technologies and Systems         1            0.12%
+417    University at Albany - SUNY                                            1            0.12%
+418    Nation University of Defense Technology                                1            0.12%
+419    University of California, Los Angeles                                  1            0.12%
+420    ChemLex Technology                                                     1            0.12%
+421    Southwestern University of Finance and Economics                       1            0.12%
+422    Kash Institute of Electronics and Information Industry                 1            0.12%
+423    Engineering Research Center of Intelligent Finance                     1            0.12%
+424    Sichuan Artificial Intelligence Research Institute                     1            0.12%
+425    China Meteorological Administration                                    1            0.12%
+426    Chinese PLA General Hospital                                           1            0.12%
+427    Key Laboratory of Computer Network and Information                     1            0.12%
+428    Tiangong University                                                    1            0.12%
+429    Jinhua University of Vocational Technology                             1            0.12%
+430    Zhejiang Sci-Tech University                                           1            0.12%
+431    University of Texas at Arlington                                       1            0.12%
+432    Johnson & Johnson                                                      1            0.12%
+433    Webank-NTU Joint Research Institute on Fintech                         1            0.12%
+434    Xinjiang University                                                    1            0.12%
+435    Yangzhou University                                                    1            0.12%
+436    Auburn University                                                      1            0.12%
+437    Xinyang Normal University                                              1            0.12%
+438    Huazhong Agricultural University                                       1            0.12%
+439    Optum                                                                  1            0.12%
+440    Jiangnan University                                                    1            0.12%
+441    PRC Ministry of Education Engineering Research Center of Intelligent Technology for Healthcare 1            0.12%
+442    University of Texas at El Paso                                         1            0.12%
+443    University of Hawaii                                                   1            0.12%
+444    XtalPi Inc                                                             1            0.12%
+445    University of Science & Technology of China                            1            0.12%
+446    State Key Laboratory of Cognitive Intelligence                         1            0.12%
+447    Kobe University                                                        1            0.12%
+448    National Engineering Research Center for Big Data Technology and System 1            0.12%
+449    Services Computing Technology and System Lab                           1            0.12%
+450    Cluster and Grid Computing Lab                                         1            0.12%
+451    Hubei Engineering Research Center on Big Data Security                 1            0.12%
+452    Hubei Key Laboratory of Distributed System Security                    1            0.12%
+453    Visual Intellgence                                                     1            0.12%
+454    X International Cooperation Joint Laboratory                           1            0.12%
+455    North China University of Technology                                   1            0.12%
+456    Guangdong Provincial Key Laboratory of Mathematical and Neural Dynamical Systems 1            0.12%
+457    Zelixir Biotech                                                        1            0.12%
+458    Netmind                                                                1            0.12%
+459    Transsion Holdings                                                     1            0.12%
+460    Inha University                                                        1            0.12%
+461    IntSig Information Co., Ltd                                            1            0.12%
+462    INTSIG-SCUT Joint Lab                                                  1            0.12%
+463    Hainan University                                                      1            0.12%
+464    Unlimidata Ltd                                                         1            0.12%
+465    MoE Key Laboratory of High Confidence Software Technologies            1            0.12%
+466    Guangdong Provincial Key Laboratory of Novel Security Intelligence Technologies 1            0.12%
+467    Jiangsu Provincial Medical Key Discipline Cultivation Unit             1            0.12%
+468    Beijing Institute of AI Safety and Governance                          1            0.12%
+469    Beijing Key Laboratory of AI Safety and Superalignment                 1            0.12%
+470    Duke Kunshan University                                                1            0.12%
+471    Anytime AI                                                             1            0.12%
+472    University of Information Technology                                   1            0.12%
+473    Vietnam National University                                            1            0.12%
+474    University of Wollongong                                               1            0.12%
+475    Helmholtz Zentrum München                                              1            0.12%
+476    Forschungszentrum Jülich                                               1            0.12%
+477    Technical University of Vienna                                         1            0.12%
+478    Max Planck Institute for Biology                                       1            0.12%
+479    Northwestern University                                                1            0.12%
+480    Liaoning Technical University                                          1            0.12%
+481    University of California, Santa Cruz                                   1            0.12%
+482    Tokyo Institute of Technology                                          1            0.12%
+483    NavInfo                                                                1            0.12%
+484    Polixir Technologies                                                   1            0.12%
+485    University of Nottingham Ningbo China                                  1            0.12%
+486    Cixi Institute of Biomedical Engineering                               1            0.12%
+487    University of Nottingham Malaysia                                      1            0.12%
+488    Unknown Institution                                                    1            0.12%
+489    University of Newcastle upon Tyne                                      1            0.12%
+490    Osaka University                                                       1            0.12%
+491    Shenzhen Key Laboratory of Digital Creative Technology                 1            0.12%
+492    Guangdong Province Engineering Laboratory for Digital Creative Technology 1            0.12%
+493    Hubei University                                                       1            0.12%
+494    Hubei Key Laboratory of Big Data Intelligent Analysis and Application  1            0.12%
+495    Key Laboratory of Intelligent Sensing System and Security              1            0.12%
+496    Guangxi University                                                     1            0.12%
+497    Guangxi Key Laboratory of Multimedia Communications and Network Technology 1            0.12%
+498    Steinberg Media Technologies GmbH                                      1            0.12%
+499    South China Normal University                                          1            0.12%
+500    Shanghai Center for Brain Science and Brain-Inspired Technology        1            0.12%
+501    New York University Shanghai                                           1            0.12%
+502    Beijing University of Chemical Technology                              1            0.12%
+503    Shenyang Aerospace University                                          1            0.12%
+504    Southwest Jiao Tong University                                         1            0.12%
+505    Northwest Minzu University                                             1            0.12%
+506    Lingxin AI                                                             1            0.12%
+507    University of Jyvaskyla                                                1            0.12%
+508    Stockholm University                                                   1            0.12%
+509    University of Bergen                                                   1            0.12%
+510    Northumbria University                                                 1            0.12%
+511    Santa Fe Institute                                                     1            0.12%
+512    Universidad de los Andes                                               1            0.12%
+513    King Abdullah University of Science and Technology                     1            0.12%
+514    Indian Institute of Technology Patna                                   1            0.12%
+515    Swiggy                                                                 1            0.12%
+516    Exacity Inc.                                                           1            0.12%
+517    Open University                                                        1            0.12%
+518    Tel Aviv University                                                    1            0.12%
+519    Chongqing College of Finance and Economics                             1            0.12%
+520    Guangzhou                                                              1            0.12%
+521    Institute for Infocomm Research                                        1            0.12%
+522    China Mobile Research & Innovation Institute                           1            0.12%
+523    Jinan Inspur Data Technology Co., Ltd.                                 1            0.12%
+524    Zhengzhou University                                                   1            0.12%
+525    University at Buffalo                                                  1            0.12%
+526    University of South Australia                                          1            0.12%
+527    Green Triangle Forest Industries Hub                                   1            0.12%
+528    China Academy of Aerospace Science and Innovation                      1            0.12%
+529    PCA Lab                                                                1            0.12%
+530    Zhejiang Key Laboratory of Big Data and Future E-Commerce Technology   1            0.12%
+531    University of Amsterdam                                                1            0.12%
+532    Shandong Artificial Intelligence Institute                             1            0.12%
+533    Qilu University of Technology                                          1            0.12%
+534    Hong Kong Institute of Science and Technology                          1            0.12%
+535    Southwest University                                                   1            0.12%
+536    Key Laboratory of Big Data Intelligent Computing                       1            0.12%
+537    Chongqing University of Telecommunications and Posts                   1            0.12%
+538    University of Chinese Academy of Science                               1            0.12%
+539    Virginia Tech                                                          1            0.12%
+540    Queen's University Belfast                                             1            0.12%
+541    University College Dublin                                              1            0.12%
+542    Nanjing Artificial Intelligence Research of IA                         1            0.12%
+543    Purple Mountain Observatory                                            1            0.12%
+544    Computer Vision Center                                                 1            0.12%
+545    HiDream.ai Inc.                                                        1            0.12%
+546    Cardiff University                                                     1            0.12%
+547    iFLYTEK                                                                1            0.12%
+548    Technische Universität Wien                                            1            0.12%
+549    State University of New York at Buffalo                                1            0.12%
+550    National Key Laboratory of Science and Technology on Information System Security 1            0.12%
+551    Lappeenranta-Lahti University of Technology                            1            0.12%
+552    ShenZhen SiFar Co., Ltd.                                               1            0.12%
+553    Shengshu AI                                                            1            0.12%
+554    Centre for Frontier AI Research                                        1            0.12%
+555    University of Genoa                                                    1            0.12%
+556    Ecole de technologie superieure                                        1            0.12%
+557    University of Cagliari                                                 1            0.12%
+558    Commonwealth Scientific and Industrial Research Organization           1            0.12%
+559    Shenzhen City Key Laboratory of Embedded System Design                 1            0.12%
+560    TapTap                                                                 1            0.12%
+561    Huaiyin Institute of Technology                                        1            0.12%
+562    Sichuan Province Key Laboratory of Aircraft Swarm Intelligent Sensing and Cooperative Control 1            0.12%
+563    Northwest A&F University                                               1            0.12%
+564    Jianghuai Advance Technology Center                                    1            0.12%
+565    MODULABS                                                               1            0.12%
+566    Pohang University of Science and Technology                            1            0.12%
+567    Shenzhen Research Institute of Big Data                                1            0.12%
+568    University of California, Merced                                       1            0.12%
+569    Lawrence Berkeley National Laboratory                                  1            0.12%
+570    Shanghai Collaborative Innovation Center on Intelligent Visual Computing 1            0.12%
+571    Allen Institute for Artificial Intelligence                            1            0.12%
+572    PICO                                                                   1            0.12%
+573    Key Laboratory of Analog Integrated Circuits and Systems               1            0.12%
+574    RIKEN AIP                                                              1            0.12%
+575    Washington State University                                            1            0.12%
+576    Shandong Technology and Business University                            1            0.12%
+577    Daegu Gyeongbuk Institute of Science and Technology                    1            0.12%
+578    Faculty of Robot Science and Engineering                               1            0.12%
+579    Minzu University of China                                              1            0.12%
+580    University of Adelaide                                                 1            0.12%
+581    National Key Laboratory of Human-Machine Hybrid Augmented Intelligence 1            0.12%
+582    inchitech                                                              1            0.12%
+583    Intel                                                                  1            0.12%
+584    Anhui Province Key Laboratory of Digital Security                      1            0.12%
+585    VinAI Research                                                         1            0.12%
+586    Center for Advanced Systems Understanding (CASUS)                      1            0.12%
+587    Helmholtz-Zentrum Dresden-Rossendorf                                   1            0.12%
+588    University of Wroc?aw                                                  1            0.12%
+589    Chongqing University                                                   1            0.12%
+590    Hupan Lab                                                              1            0.12%
+591    University of Surrey                                                   1            0.12%
+592    Donghua University                                                     1            0.12%
+593    Australian National University                                         1            0.12%
+594    Chinese University of Hong Kong, Shenzhen                              1            0.12%
+595    Guangdong Provincial Key Laboratory of Future Networks of Intelligence 1            0.12%
+596    KAIST                                                                  1            0.12%
+597    Korea Electronics Technology Institute                                 1            0.12%
+598    Indian Institute of Technology Roorkee                                 1            0.12%
+599    ExponentiAI Innovation                                                 1            0.12%
+600    South China Agricultural University                                    1            0.12%
+601    Jilin Province Artificial Intelligence and Unmanned Systems Engineering Research Center 1            0.12%
+602    Skolkovo Institute of Science and Technology                           1            0.12%
+603    Vrije Universiteit Amsterdam                                           1            0.12%
+604    HodooAI Labs                                                           1            0.12%
+605    GIANTSTEP Inc.                                                         1            0.12%
+606    Guangdong Pharmaceutical University                                    1            0.12%
+607    Xiangtan University                                                    1            0.12%
+608    Advanced Micro Devices, Inc.                                           1            0.12%
+609    Karlsruhe Institute of Technology                                      1            0.12%
+610    University Hospital Essen                                              1            0.12%
+611    Rocket Force University of Engineering                                 1            0.12%
+612    Shanghai Key Laboratory of Computer Software Evaluating and Testing    1            0.12%
+613    Zhongguancun Academy                                                   1            0.12%
+614    Technische Universität München                                         1            0.12%
+615    MBZ University of Artificial Intelligence                              1            0.12%
+616    Khalifa University                                                     1            0.12%
+617    Instituto de Engenharia de Sistemas e Computadores, Investigação e Tecnologia 1            0.12%
+618    Fraunhofer Institute for Applied Information Technology FIT            1            0.12%
+619    Beijing Information Science and Technology University                  1            0.12%
+620    VIVE STUDIOS                                                           1            0.12%
+621    Wuhan United Imaging Healthcare Surgical Technology Co., Ltd.          1            0.12%
+622    University of Ottawa                                                   1            0.12%
+623    Advanced Science and Research Institute                                1            0.12%
+624    Institute of Parallel and Distributed Systems                          1            0.12%
+625    Anhui Provincial Key Laboratory of Security Artificial Intelligence    1            0.12%
+626    Posts and Telecommunications Institute of Technology                   1            0.12%
+627    University of Arkansas                                                 1            0.12%
+628    Beijing Zhongguancun Laboratory                                        1            0.12%
+629    Jiangxi Provincial Key Laboratory of Multimedia Intelligent Processing 1            0.12%
+630    Anqing Normal University                                               1            0.12%
+631    NAVER WEBTOON AI                                                       1            0.12%
+632    University of Colorado Boulder                                         1            0.12%
+633    Academia Sinica                                                        1            0.12%
+634    Mach Drive                                                             1            0.12%
+635    China Agricultural University                                          1            0.12%
+636    Artificial Intelligence Research Institute                             1            0.12%
+637    NEURA Robotics GmbH                                                    1            0.12%
+638    University of Luxembourg                                               1            0.12%
+639    Agency for Science, Technology, and Research                           1            0.12%
+640    Eindhoven University of Technology                                     1            0.12%
+641    POSTECH                                                                1            0.12%
+642    Pazhou Lab                                                             1            0.12%
+643    Beijing Information Science & Technology University                    1            0.12%
+644    Beijing Key Laboratory of Advanced Information Science and Network Technology 1            0.12%
+645    360 AI Research                                                        1            0.12%
+646    Afirstsoft                                                             1            0.12%
+647    Guangdong Province Key Laboratory of Information Security Technology   1            0.12%
+648    BoardWare Information System Limited                                   1            0.12%
+649    Engineering Research Center of Knowledge-Driven Human-Machine Intelligence 1            0.12%
+650    Dalian Maritime University                                             1            0.12%
+651    Shanghai Astronomical Observatory                                      1            0.12%
+652    INEEJI                                                                 1            0.12%
+653    National Key Laboratory of Multispectral Information Intelligent Processing Technology 1            0.12%
+654    Hebei University of Technology                                         1            0.12%
+655    Central China Normal University                                        1            0.12%
+656    Northwest Institute of Nuclear Technology                              1            0.12%
+657    Qingdao City University                                                1            0.12%
+658    COWAROBOT                                                              1            0.12%
+659    University of South China                                              1            0.12%
+660    Sony                                                                   1            0.12%
+661    Fujitsu                                                                1            0.12%
+662    Guangdong Polytechnic Normal University                                1            0.12%
+663    NetEase Inc.                                                           1            0.12%
+664    CATL                                                                   1            0.12%
+665    Fuyao University of Science and Technology                             1            0.12%
+666    Wuzhou University                                                      1            0.12%
+667    Hippo T&C Company Incorporated                                         1            0.12%
+668    Institute for Basic Science                                            1            0.12%
+669    Visual Intelligence                                                    1            0.12%
+670    Ministry of Education                                                  1            0.12%
+671    Meitu Inc                                                              1            0.12%
+672    State Key Laboratory of Complex and Critical Software Environment      1            0.12%
+673    Sangfor Technologies                                                   1            0.12%
+674    Shenzhen University of Advanced Technology                             1            0.12%
+675    DataStory Information Technology Co., Ltd                              1            0.12%
+676    Hong Kong Institute of Science & Innovation, Chinese Academy of Sciences 1            0.12%
+677    Shanghai Engineering Research Center of Intelligent Vision and Imaging 1            0.12%
+678    Zhejiang Normal University                                             1            0.12%
+679    Sichuan Academy of Medical Sciences and Sichuan Provincial People’s Hospital 1            0.12%
+680    OPPO                                                                   1            0.12%
+681    East China University of Science and Technology                        1            0.12%
+682    Gongli Hospital                                                        1            0.12%
+683    Hubei Luojia Laboratory                                                1            0.12%
+684    University of Chicago                                                  1            0.12%
+685    Meitu Inc.                                                             1            0.12%
+686    Stability AI                                                           1            0.12%
+687    Northeast Normal University                                            1            0.12%
+688    Northeast Electric Power University                                    1            0.12%
+689    Changchun Humanities and Sciences College                              1            0.12%
+690    University of North Carolina at Chapel Hill                            1            0.12%
+691    Ministry of Public Security                                            1            0.12%
+692    Zhejiang Key Laboratory of Artificial Intelligence of Things           1            0.12%
+693    Pazhou Laboratory                                                      1            0.12%
+694    vivo Mobile Communication Co., Ltd                                     1            0.12%
+695    Horizon Robotics                                                       1            0.12%
+696    Harbin Engineering University                                          1            0.12%
+697    Midea Group                                                            1            0.12%
+698    Shanghai University                                                    1            0.12%
+699    Inceptio                                                               1            0.12%
+700    Zhejiang Province Key Laboratory of Collaborative Sensing and Autonomous Unmanned Systems 1            0.12%
+701    Xiaomi Inc.                                                            1            0.12%
+702    Southwest University of Science and Technology                         1            0.12%
+703    Changsha University of Science and Technology                          1            0.12%
+704    ZMO AI                                                                 1            0.12%
+705    Leibniz-Institut für Analytische Wissenschaften                        1            0.12%
+706    International Digital Economy Academy                                  1            0.12%
+707    Intellifusion Inc.                                                     1            0.12%
+708    Naval University of Engineering                                        1            0.12%
+709    Guangdong Engineering Technology Research Center                       1            0.12%
+710    CRRC Zhuzhou Institute                                                 1            0.12%
+711    Shanghai Key Laboratory of Multidimensional Information Processing     1            0.12%
+712    Huolala Technology Center                                              1            0.12%
+713    Luoyang Institute for Robot and Intelligent Equipment                  1            0.12%
+714    4GigaAI                                                                1            0.12%
+715    MOE Key Laboratory of Advanced Theory and Application in Statistics and Data Science 1            0.12%
+716    University of Montpellier                                              1            0.12%
+717    Centre Hospitalier Universitaire de Nimes                              1            0.12%
+718    China University of Petroleum                                          1            0.12%
+719    Zhejiang Lab                                                           1            0.12%
+720    Xihua University                                                       1            0.12%
+721    NIO                                                                    1            0.12%
+722    Banma Inc.                                                             1            0.12%
+723    Macao Polytechnic University                                           1            0.12%
+724    University of Technology Sydney                                        1            0.12%
+725    SenseTime Research                                                     1            0.12%
+726    Northwest University                                                   1            0.12%
+727    Peking University Health Science Center                                1            0.12%
+728    Fabu Inc                                                               1            0.12%
+729    McMaster University                                                    1            0.12%
+730    Wuhan Institute of Technology                                          1            0.12%
+731    Jilin Provincial Key Laboratory of Intelligence Science and Engineering 1            0.12%
+732    City, University of London                                             1            0.12%
+733    Shanghai Clinical Research and Trial Center                            1            0.12%
+734    China Electronics Technology Group Corporation                         1            0.12%
+735    AAAI Conference on Artificial Intelligence                             1            0.12%
+
+====================================================================================================
+报告生成完成
+====================================================================================================
