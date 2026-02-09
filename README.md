@@ -10,14 +10,14 @@
 - 🎯 自动化论文信息提取和翻译
 - 📊 提供论文机构、类别等统计分析
 - 🔄 支持多种数据格式（txt/json）
-- 🌍 支持多个顶级AI会议（ICLR、ICML、NeurIPS）
+- 🌍 支持多个顶级AI会议（ICLR、ICML、NeurIPS、AAAI、IJCAI、ACL、EMNLP）
 
 ## ✨ 主要功能
 
 - 🔍 **抓取论文信息**：从Paper Copilot网站获取AI会议论文的详细信息
 - 🌐 **智能翻译**：使用LLM自动将论文标题翻译为中文
 - 📝 **结构化输出**：生成包含论文标题、中文标题、链接、类别、作者、机构等信息的txt和json文件
-- 📚 **多会议支持**：支持ICLR、ICML、NeurIPS等主流AI会议
+- 📚 **多会议支持**：支持ICLR、ICML、NeurIPS、AAAI、IJCAI、ACL、EMNLP等主流AI会议
 - 💾 **本地存储**：所有论文信息以txt和json格式保存在本地，方便离线查阅
 - 📊 **统计分析**：提供机构分布和类别分布的统计分析工具
 - 🔢 **数据格式**：支持txt和json两种格式，便于不同场景使用
@@ -27,8 +27,9 @@
 ```
 easy_to_ai_papers/
 ├── paper_list.py                    # 主程序：提取和翻译论文信息
-├── analyze_affiliations.py         # 机构统计分析工具
-├── analyze_categories.py           # 类别统计分析工具
+├── analyze_statistics.py            # 合并的统计分析工具（推荐使用）
+├── analyze_affiliations.py         # 机构统计分析工具（独立版本）
+├── analyze_categories.py           # 类别统计分析工具（独立版本）
 ├── test_html_structure.py          # HTML结构测试脚本
 ├── requirements.txt                # 项目依赖
 ├── README.md                       # 项目说明文档
@@ -43,18 +44,38 @@ easy_to_ai_papers/
 ├── ICLR/                           # ICLR会议数据
 │   ├── ICLR_2025.html             # ICLR 2025 HTML文件
 │   ├── ICLR_2025_accepted.txt     # ICLR 2025 论文中文列表
-│   └── ICLR_2025_accepted.json    # ICLR 2025 论文JSON数据
+│   ├── ICLR_2025_accepted.json    # ICLR 2025 论文JSON数据
+│   └── ICLR_2025_statistics_summary.txt  # 统计汇总报告
 ├── ICML/                           # ICML会议数据
 │   ├── ICML_2025.html             # ICML 2025 HTML文件
-│   ├── ICML_2025_accepted_titles.txt  # ICML 2025 论文标题列表
-│   └── ICML_2025_accepted_titles.json # ICML 2025 论文JSON数据
-└── NeurIPS/                        # NeurIPS会议数据
-    ├── NeurIPS_2025.html          # NeurIPS 2025 HTML文件
-    ├── NeurIPS_2025_accepted.txt  # NeurIPS 2025 论文中文列表
-    ├── NeurIPS_2025_accepted.json # NeurIPS 2025 论文JSON数据
-    ├── NeurIPS_2025_accepted_titles.txt  # NeurIPS 2025 论文标题列表
-    ├── NeurIPS_2025_affiliation_statistics.txt  # 机构统计结果
-    └── NeurIPS_2025_category_statistics.txt     # 类别统计结果
+│   ├── ICML_2025_accepted.txt     # ICML 2025 论文中文列表
+│   ├── ICML_2025_accepted.json    # ICML 2025 论文JSON数据
+│   └── ICML_2025_statistics_summary.txt  # 统计汇总报告
+├── NeurIPS/                        # NeurIPS会议数据
+│   ├── NeurIPS_2025.html          # NeurIPS 2025 HTML文件
+│   ├── NeurIPS_2025_accepted.txt  # NeurIPS 2025 论文中文列表
+│   ├── NeurIPS_2025_accepted.json # NeurIPS 2025 论文JSON数据
+│   └── NeurIPS_2025_statistics_summary.txt  # 统计汇总报告
+├── AAAI/                           # AAAI会议数据
+│   ├── AAAI_2025.html             # AAAI 2025 HTML文件
+│   ├── AAAI_2025_accepted.txt     # AAAI 2025 论文中文列表
+│   ├── AAAI_2025_accepted.json    # AAAI 2025 论文JSON数据
+│   └── AAAI_2025_statistics_summary.txt  # 统计汇总报告
+├── IJCAI/                          # IJCAI会议数据
+│   ├── IJCAI_2025.html            # IJCAI 2025 HTML文件
+│   ├── IJCAI_2025_accepted.txt    # IJCAI 2025 论文中文列表
+│   ├── IJCAI_2025_accepted.json   # IJCAI 2025 论文JSON数据
+│   └── IJCAI_2025_statistics_summary.txt  # 统计汇总报告
+├── ACL/                            # ACL会议数据
+│   ├── ACL_2025.html              # ACL 2025 HTML文件
+│   ├── ACL_2025_accepted.txt      # ACL 2025 论文中文列表
+│   ├── ACL_2025_accepted.json     # ACL 2025 论文JSON数据
+│   └── ACL_2025_statistics_summary.txt  # 统计汇总报告
+└── EMNLP/                          # EMNLP会议数据
+    ├── EMNLP_2025.html            # EMNLP 2025 HTML文件
+    ├── EMNLP_2025_accepted.txt    # EMNLP 2025 论文中文列表
+    ├── EMNLP_2025_accepted.json   # EMNLP 2025 论文JSON数据
+    └── EMNLP_2025_statistics_summary.txt  # 统计汇总报告
 ```
 
 ## 🚀 快速开始
@@ -76,7 +97,11 @@ easy_to_ai_papers/
 
 5. **运行程序**
    ```bash
+   # 提取和翻译论文信息
    python paper_list.py
+   
+   # 生成统计分析报告
+   python analyze_statistics.py
    ```
 
 ## 📖 详细使用说明
@@ -144,30 +169,49 @@ python paper_list.py
 **配置说明：**
 在 `paper_list.py` 的 `__main__` 部分修改以下变量：
 ```python
-conference = "ICLR"  # 会议名称：ICLR, ICML, NeurIPS
+conference = "ICLR"  # 会议名称：ICLR, ICML, NeurIPS, AAAI, IJCAI, ACL, EMNLP
 year = "2025"        # 年份
 ```
 
 ### 6. 统计分析
 
-项目提供了两个统计分析工具：
+项目提供了合并的统计分析工具，可以一次性完成类别和机构统计：
 
-#### 机构统计分析
+#### 合并统计分析（推荐）
+```bash
+python analyze_statistics.py
+```
+
+**功能特点：**
+- 同时统计论文的类别分布和机构分布
+- 支持批量处理多个会议（在脚本中配置会议列表）
+- 支持第一作者机构或所有机构的统计模式
+- 生成统一的汇总报告文件
+
+**输出文件：**
+- `{会议}/{会议}_{年份}_statistics_summary.txt` - 包含类别统计和机构统计的完整报告
+
+**配置说明：**
+在 `analyze_statistics.py` 的 `main()` 函数中可以修改：
+```python
+paper_list = ["ICLR", "ICML", "NeurIPS", "AAAI", "IJCAI", "ACL", "EMNLP"]  # 会议列表
+year = "2025"  # 年份
+first_author_only = False  # False=统计所有机构, True=仅统计第一作者机构
+```
+
+#### 独立统计分析工具（可选）
+
+如果需要单独运行某个统计：
+
+**机构统计分析：**
 ```bash
 python analyze_affiliations.py
 ```
-- 统计论文的机构分布
-- 支持第一作者机构或所有机构的统计
-- 生成机构排名和占比统计
-- 输出文件：`{会议}/{会议}_{年份}_affiliation_statistics.txt`
 
-#### 类别统计分析
+**类别统计分析：**
 ```bash
 python analyze_categories.py
 ```
-- 统计论文的类别分布
-- 生成类别排名和占比统计
-- 输出文件：`{会议}/{会议}_{年份}_category_statistics.txt`
 
 ### 7. 查看结果
 
@@ -210,15 +254,28 @@ No.1. Paper Title in English
 {"title": "Paper Title in English", "title_ch": "论文的中文标题", "url": "https://openreview.net/forum/...", "category": "Machine Learning", "authors": "Author1; Author2", "affiliations": "University1; University2", "presentation_type": "Poster"}
 ```
 
-### 统计结果示例
+### 统计汇总报告示例
 ```
-================================================================================
-NeurIPS 2025 论文机构统计（所有机构，按出现次数降序）
-================================================================================
+====================================================================================================
+ICLR 2025 论文统计分析汇总报告
+====================================================================================================
 
+【一、论文类别统计】
+====================================================================================================
+总论文数: 3103
+总类别数: 25
+
+排名   类别                                                        数量      占比
+----------------------------------------------------------------------------------------------------
+1      Machine Learning                                           850      27.39%
+2      Deep Learning                                               620      19.98%
+...
+
+【二、论文机构统计】
+====================================================================================================
+统计模式: 所有机构
 总论文数: 3103
 总机构数: 1250
-显示前 50 个机构
 
 排名   机构名称                                                            论文数      占比
 ----------------------------------------------------------------------------------------------------
@@ -244,12 +301,14 @@ NeurIPS 2025 论文机构统计（所有机构，按出现次数降序）
 
 ### 统计分析配置
 
-- **机构统计**：`analyze_affiliations.py`
-  - 可设置 `first_author_only` 参数选择统计方式
-  - 可设置 `top_n` 参数控制显示数量
+- **合并统计工具**：`analyze_statistics.py`（推荐）
+  - 在 `main()` 函数中配置会议列表和年份
+  - 可设置 `first_author_only` 参数选择机构统计方式
+  - 自动生成包含类别和机构统计的汇总报告
 
-- **类别统计**：`analyze_categories.py`
-  - 自动统计所有类别分布
+- **独立统计工具**：
+  - `analyze_affiliations.py` - 机构统计
+  - `analyze_categories.py` - 类别统计
 
 ## ⚠️ 注意事项
 
