@@ -94,7 +94,7 @@ def extract_paper_titles_with_details(input_file_path, output_file_path,output_j
 
 # 使用示例
 if __name__ == "__main__":
-    conference = "ACL"
+    conference = "IJCAI"
     year = "2025"
     input_file_path = f"{conference}/{conference}_{year}.html"
     output_file_path = f"{conference}/{conference}_{year}_accepted.txt"
