@@ -1,0 +1,329 @@
+====================================================================================================
+论文标题包含关键词 'vuln' 的论文列表
+====================================================================================================
+
+[No.1] BadJudge: Backdoor Vulnerabilities of LLM-As-A-Judge
+来源: ICLR 2025
+命中: vuln
+标题: BadJudge: LLM-as-a-Judge的后门漏洞
+类别: alignment, fairness, safety, privacy, and societal considerations
+作者: Terry Tong;Fei Wang;Zhe Zhao;Muhao Chen;
+机构: University of California, Davis;University of Southern California;
+类型: Poster
+链接: https://iclr.cc/virtual/2025/poster/28942
+arXi: https://arxiv.org/abs/2503.00596
+英摘: This paper proposes a novel backdoor threat attacking the LLM-as-a-Judge evaluation regime, where the adversary controls both the candidate and evaluator model. The backdoored evaluator victimizes benign users by unfairly assigning inflated scores to adversary. A trivial single token backdoor poisoning 1% of the evaluator training data triples the adversary's score with respect to their legitimate score. We systematically categorize levels of data access corresponding to three real-world settings, (1) web poisoning, (2) malicious annotator, and (3) weight poisoning. These regimes reflect a weak to strong escalation of data access that highly correlates with attack severity. Under the weakest assumptions - web poisoning (1), the adversary still induces a 20% score inflation. Likewise, in the (3) weight poisoning regime, the stronger assumptions enable the adversary to inflate their scores from 1.5/5 to 4.9/5. The backdoor threat generalizes across different evaluator architectures, trigger designs, evaluation tasks, and poisoning rates. By poisoning 10% of the evaluator training data, we control toxicity judges (Guardrails) to misclassify toxic prompts as non-toxic 89% of the time, and document reranker judges in RAG to rank the poisoned document first 97% of the time. LLM-as-a-Judge is uniquely positioned at the intersection of ethics and technology, where social implications of mislead model selection and evaluation constrain the available defensive tools. Amidst these challenges, model merging emerges as a principled tool to offset the backdoor, reducing ASR to near 0% whilst maintaining SOTA performance. Model merging's low computational cost and convenient integration into the current LLM Judge training pipeline position it as a promising avenue for backdoor mitigation in the LLM-as-a-Judge setting.
+中摘: 本文提出了一种新颖的后门威胁，攻击LLM-as-a-Judge评估机制，在这种机制中，攻击者同时控制候选模型和评估模型。该后门的评估模型通过不公平地给予攻击者较高的分数来损害无辜用户。只需污染评估模型训练数据中的1%单个词令牌，就能将攻击者的分数提高到其合法分数的三倍。我们系统地将数据访问级别分为三个实际应用场景：（1）网络污染、（2）恶意标注者和（3）权重污染。这些机制反映了从弱到强的数据访问升级，与攻击严重性高度相关。即使在最宽松的假设下——网络污染（1），攻击者仍能引起20%的分数膨胀。同样，在权重污染机制（3）中，更强的假设使攻击者能够将他们的分数从1.5/5提升到4.9/5。该后门威胁在不同的评估模型架构、触发设计、评估任务和污染率方面具有普遍性。通过污染评估模型训练数据的10%，我们可以控制毒性法官（Guardrails）错误地将有毒提示分类为非有毒提示的比例高达89%，并在RAG中的文档重排法官中使受污染的文档排名第一的比例达到97%。LLM-as-a-Judge处于伦理和技术的独特交汇点，社会误导模型选择和评估的影响限制了可用的防御工具。面对这些挑战，模型合并作为一种原则性的方法，能够有效地抵消后门威胁，将ASR（误报率）降至接近0%，同时保持SOTA（最佳）性能。模型合并因其低计算成本和方便地整合到当前LLM法官训练流程中的优势，成为在LLM-as-a-Judge设置中减轻后门威胁的一个有前景的方向。
+----------------------------------------------------------------------------------------------------
+[No.2] Rethinking Audio-Visual Adversarial Vulnerability from Temporal and Modality Perspectives
+来源: ICLR 2025
+命中: vuln
+标题: 从时间和模态的角度重新思考音视频对抗性漏洞
+类别: alignment, fairness, safety, privacy, and societal considerations
+作者: Zeliang Zhang;Susan Liang;Daiki Shimada;Chenliang Xu;
+机构: University of Rochester;Sony Group Corporation;
+类型: Poster
+链接: https://iclr.cc/virtual/2025/poster/28927
+arXi: https://arxiv.org/abs/2502.11858
+英摘: While audio-visual learning equips models with a richer understanding of the real world by leveraging multiple sensory modalities, this integration also introduces new vulnerabilities to adversarial attacks.
+  In this paper, we present a comprehensive study of the adversarial robustness of audio-visual models, considering both temporal and modality-specific vulnerabilities. We propose two powerful adversarial attacks: 1) a temporal invariance attack that exploits the inherent temporal redundancy across consecutive time segments and 2) a modality misalignment attack that introduces incongruence between the audio and visual modalities. These attacks are designed to thoroughly assess the robustness of audio-visual models against diverse threats. Furthermore, to defend against such attacks, we introduce a novel audio-visual adversarial training framework. This framework addresses key challenges in vanilla adversarial training by incorporating efficient adversarial perturbation crafting tailored to multi-modal data and an adversarial curriculum strategy. Extensive experiments in the Kinetics-Sounds dataset demonstrate that our proposed temporal and modality-based attacks in degrading model performance can achieve state-of-the-art performance, while our adversarial training defense largely improves the adversarial robustness as well as the adversarial training efficiency.
+中摘: 虽然视听学习通过利用多种感官模态为模型提供了对现实世界更丰富的理解，但这种集成也引入了新的对抗攻击脆弱性。
+
+在本文中，我们对视听模型的对抗鲁棒性进行了全面研究，考虑了时间和模态特定的脆弱性。我们提出了两种强大的对抗攻击：1）一种时间不变性攻击，利用连续时间段内的固有时间冗余；2）一种模态错位攻击，在视听模态之间引入不一致。这些攻击旨在全面评估视听模型在面对各种威胁时的鲁棒性。此外，为了防御这些攻击，我们引入了一种新颖的视听对抗训练框架。该框架通过结合针对多模态数据定制的高效对抗扰动生成方法和对抗训练课程策略，解决了传统对抗训练中的关键挑战。在Kinetics-Sounds数据集上的广泛实验表明，我们提出的基于时间和模态的攻击在降低模型性能方面可以达到最先进的效果，而我们的对抗训练防御则显著提高了对抗鲁棒性和对抗训练效率。
+----------------------------------------------------------------------------------------------------
+[No.3] IRIS: LLM-Assisted Static Analysis for Detecting Security Vulnerabilities
+来源: ICLR 2025
+命中: vuln
+标题: IRIS：基于LLM的静态分析以检测安全漏洞
+类别: neurosymbolic & hybrid AI systems (physics-informed, logic & formal reasoning, etc.)
+作者: Ziyang Li;Saikat Dutta;Mayur Naik;
+机构: University of Pennsylvania;;
+类型: Poster
+链接: https://iclr.cc/virtual/2025/poster/30698
+arXi: https://arxiv.org/abs/2405.17238
+英摘: Software is prone to security vulnerabilities. Program analysis tools to detect them have limited effectiveness in practice due to their reliance on human labeled specifications. Large language models (or LLMs) have shown impressive code generation capabilities but they cannot do complex reasoning over code to detect such vulnerabilities especially since this task requires whole-repository analysis. We propose IRIS, a neuro-symbolic approach that systematically combines LLMs with static analysis to perform whole-repository reasoning for security vulnerability detection. Specifically, IRIS leverages LLMs to infer taint specifications and perform contextual analysis, alleviating needs for human specifications and inspection. For evaluation, we curate a new dataset, CWE-Bench-Java, comprising 120 manually validated security vulnerabilities in real-world Java projects. A state-of-the-art static analysis tool CodeQL detects only 27 of these vulnerabilities whereas IRIS with GPT-4 detects 55 (+28) and improves upon CodeQL's average false discovery rate by 5% points. Furthermore, IRIS identifies 4 previously unknown vulnerabilities which cannot be found by existing tools. IRIS is available publicly at https://github.com/iris-sast/iris.
+中摘: 软件容易存在安全漏洞。由于程序分析工具依赖于人工标注的规范，它们在实际应用中的检测效果有限。大型语言模型（或LLM）展示了出色的代码生成能力，但它们无法对代码进行复杂的逻辑推理以检测这些漏洞，特别是这种任务需要整个仓库级别的分析。我们提出了一种名为IRIS的神经符号方法，该方法系统地将LLM与静态分析相结合，用于执行整个仓库级别的安全漏洞检测推理。具体而言，IRIS利用LLM推断污点规范并进行上下文分析，从而减轻了对人工规范和检查的需求。为了评估IRIS的效果，我们构建了一个新的数据集CWE-Bench-Java，其中包括120个手动验证的真实世界Java项目中的安全漏洞。最先进的静态分析工具CodeQL仅检测到了其中的27个漏洞，而使用GPT-4的IRIS则检测到了55个（增加28个），并将CodeQL的平均误报率降低了5个百分点。此外，IRIS还识别出了4个现有的工具无法找到的新漏洞。IRIS可以在https://github.com/iris-sast/iris公开获取。
+----------------------------------------------------------------------------------------------------
+[No.4] On the Adversarial Vulnerability of Label-Free Test-Time Adaptation
+来源: ICLR 2025
+命中: vuln
+标题: 无标签测试时适应性的对抗脆弱性
+类别: alignment, fairness, safety, privacy, and societal considerations
+作者: Shahriar Rifat;Jonathan Ashdown;Michael J. De Lucia;Ananthram Swami;Francesco Restuccia;
+机构: Northeastern University;;
+类型: Poster
+链接: https://iclr.cc/virtual/2025/poster/29905
+----------------------------------------------------------------------------------------------------
+[No.5] CVE-Bench: A Benchmark for AI Agents’ Ability to Exploit Real-World Web Application Vulnerabilities
+来源: ICML 2025
+命中: vuln
+标题: CVE-Bench：评估AI代理发现真实世界Web应用程序漏洞能力的标准测试平台
+类别: applications->everything else
+作者: Yuxuan Zhu;Antony Kellermann;Dylan Bowman;Philip Li;Akul Gupta;Adarsh Danda;Richard Fang;Conner Jensen;Eric Ihli;Jason Benn;Jet Geronimo;Avi Dhir;Sudhit Rao;Kaicheng Yu;Twm Stone;Daniel Kang;
+机构: Unknown Institution;University of Illinois Urbana-Champaign;Independent Researcher;The Neighborhood SF;Arcadia Impact;
+类型: Spotlight
+链接: https://icml.cc/virtual/2025/poster/46522
+arXi: https://arxiv.org/abs/2503.17332
+英摘: Large language model (LLM) agents are increasingly capable of autonomously conducting cyberattacks, posing significant threats to existing applications. This growing risk highlights the urgent need for a real-world benchmark to evaluate the ability of LLM agents to exploit web application vulnerabilities. However, existing benchmarks fall short as they are limited to abstracted Capture the Flag competitions or lack comprehensive coverage. Building a benchmark for real-world vulnerabilities involves both specialized expertise to reproduce exploits and a systematic approach to evaluating unpredictable threats. To address this challenge, we introduce CVE-Bench, a real-world cybersecurity benchmark based on critical-severity Common Vulnerabilities and Exposures. In CVE-Bench, we design a sandbox framework that enables LLM agents to exploit vulnerable web applications in scenarios that mimic real-world conditions, while also providing effective evaluation of their exploits. Our evaluation shows that the state-of-the-art agent framework can resolve up to 13% of vulnerabilities.
+中摘: 大型语言模型（LLM）代理越来越能够自主进行网络攻击，对现有应用程序构成了重大威胁。这一日益增长的风险凸显了建立一个实际世界基准的重要性，以评估LLM代理利用Web应用程序漏洞的能力。然而，现有的基准存在不足，因为它们仅限于抽象化的“捕获之旗”竞赛或缺乏全面覆盖。为解决这一挑战，我们引入了CVE-Bench，这是一个基于关键严重性通用漏洞和暴露（Common Vulnerabilities and Exposures，简称CVE）的实际世界网络安全基准。在CVE-Bench中，我们设计了一个沙箱框架，使LLM代理能够在模拟实际世界条件的场景下利用漏洞的Web应用程序，并提供对其攻击的有效评估。我们的评估显示，最先进的代理框架可以解决高达13%的漏洞。
+----------------------------------------------------------------------------------------------------
+[No.6] EnIGMA: Interactive Tools Substantially Assist LM Agents in Finding Security Vulnerabilities
+来源: ICML 2025
+命中: vuln
+标题: EnIGMA：交互工具显著协助语言模型代理发现安全漏洞
+类别: applications
+作者: Talor Abramovich;Meet Udeshi;Minghao Shao;Kilian Lieret;Haoran Xi;Kimberly Milner;Sofija Jancheska;John Yang;Carlos E Jimenez;Farshad Khorrami;Prashanth Krishnamurthy;Brendan Dolan-Gavitt;Muhammad Shafique;Karthik R Narasimhan;Ramesh Karri;Ofir Press;
+机构: Tel Aviv University;NVIDIA;New York University;Princeton University;;Stanford University;
+类型: Poster
+链接: https://icml.cc/virtual/2025/poster/45428
+arXi: https://arxiv.org/abs/2409.16165
+英摘: Although language model (LM) agents have demonstrated increased performance in multiple domains, including coding and web-browsing, their success in cybersecurity has been limited. We present EnIGMA, an LM agent for autonomously solving Capture The Flag (CTF) challenges. We introduce new tools and interfaces to improve the agent's ability to find and exploit security vulnerabilities, focusing on interactive terminal programs. These novel Interactive Agent Tools enable LM agents, for the first time, to run interactive utilities, such as a debugger and a server connection tool, which are essential for solving these challenges. Empirical analysis on 390 CTF challenges across four benchmarks demonstrate that these new tools and interfaces substantially improve our agent's performance, achieving state-of-the-art results on NYU CTF, Intercode-CTF, and CyBench. Finally, we analyze data leakage, developing new methods to quantify it and identifying a new phenomenon we term soliloquizing, where the model self-generates hallucinated observations without interacting with the environment. Our code and development dataset are available at https://github.com/SWE-agent/SWE-agent/tree/v0.7 and https://github.com/NYU-LLM-CTF/NYU_CTF_Bench/tree/main/development respectively.
+中摘: 尽管语言模型（LM）代理在多个领域，包括编程和网络浏览方面已经展示了增强的表现，但在网络安全领域的成功却有限。我们提出了EnIGMA，这是一种用于自主解决Capture The Flag（CTF）挑战的语言模型代理。我们引入了新的工具和界面，以提高代理发现和利用安全漏洞的能力，重点关注交互式终端程序。这些新颖的交互式代理工具首次使语言模型代理能够运行诸如调试器和服务器连接工具之类的交互式实用程序，这对于解决这些挑战至关重要。对四个基准上的390个CTF挑战进行的实证分析表明，这些新工具和界面显著提高了我们代理的表现，在纽约大学CTF、Intercode-CTF和CyBench上取得了最先进的成果。最后，我们分析了数据泄露问题，开发了新的方法来量化它，并识别出一种称为“自语现象”的新现象，即模型自动生成幻觉观察而不与环境互动。我们的代码和开发数据集分别可在https://github.com/SWE-agent/SWE-agent/tree/v0.7和https://github.com/NYU-LLM-CTF/NYU_CTF_Bench/tree/main/development获取。
+----------------------------------------------------------------------------------------------------
+[No.7] On the Vulnerability of Applying Retrieval-Augmented Generation within Knowledge-Intensive Application Domains
+来源: ICML 2025
+命中: vuln
+标题: 在知识密集型应用领域应用检索增强生成的脆弱性
+类别: social aspects
+作者: Xun Xian;Ganghua Wang;Xuan Bi;Rui Zhang;Jayanth Srinivasa;Ashish Kundu;Charles Fleming;Mingyi Hong;Jie Ding;
+机构: University of Minnesota;University of Chicago;Cisco Systems;;Amazon;
+类型: Poster
+链接: https://icml.cc/virtual/2025/poster/45226
+arXi: https://arxiv.org/abs/2409.17275
+英摘: Retrieval-Augmented Generation (RAG) has been empirically shown to enhance the performance of large language models (LLMs) in knowledge-intensive domains such as healthcare, finance, and legal contexts. Given a query, RAG retrieves relevant documents from a corpus and integrates them into the LLMs' generation process. In this study, we investigate the adversarial robustness of RAG, focusing specifically on examining the retrieval system. First, across 225 different setup combinations of corpus, retriever, query, and targeted information, we show that retrieval systems are vulnerable to universal poisoning attacks in medical Q\&A. In such attacks, adversaries generate poisoned documents containing a broad spectrum of targeted information, such as personally identifiable information. When these poisoned documents are inserted into a corpus, they can be accurately retrieved by any users, as long as attacker-specified queries are used. To understand this vulnerability, we discovered that the deviation from the query's embedding to that of the poisoned document tends to follow a pattern in which the high similarity between the poisoned document and the query is retained, thereby enabling precise retrieval. Based on these findings, we develop a new detection-based defense to ensure the safe use of RAG. Through extensive experiments spanning various Q\&A domains, we observed that our proposed method consistently achieves excellent detection rates in nearly all cases.
+中摘: 检索增强生成（RAG）已被实验证明能够提升大型语言模型（LLMs）在医疗、金融和法律等知识密集型领域的性能。给定一个查询，RAG会从语料库中检索相关文档，并将其整合进LLM的生成过程中。在这项研究中，我们探讨了RAG的对抗鲁棒性，重点关注检索系统的安全性。首先，在225种不同的语料库、检索器、查询和目标信息设置组合下，我们展示了在医疗问答场景中，检索系统容易受到通用中毒攻击的影响。在这种攻击中，攻击者生成包含广泛目标信息（如个人可识别信息）的中毒文档。当这些中毒文档被插入到语料库中时，只要使用攻击者指定的查询，任何用户都能准确地检索到它们。为了理解这种脆弱性，我们发现检索系统的查询嵌入与中毒文档之间的偏差往往遵循一种模式，即保留中毒文档与查询之间较高的相似性，从而实现精确检索。基于这些发现，我们开发了一种新的检测防御方法，以确保RAG的安全使用。通过涵盖各种问答领域的广泛实验，我们观察到我们的方法在几乎所有情况下都能实现出色的检测率。
+----------------------------------------------------------------------------------------------------
+[No.8] Vulnerability-Aware Alignment: Mitigating Uneven Forgetting in Harmful Fine-Tuning
+来源: ICML 2025
+命中: vuln
+标题: 面向脆弱性的对齐：缓解有害微调中的不均匀遗忘
+类别: deep learning->large language models
+作者: Liang CHEN;Xueting Han;Li Shen;Jing Bai;Kam-Fai Wong;
+机构: Chinese University of Hong Kong;Microsoft;Sun Yat-sen University;;
+类型: Poster
+链接: https://icml.cc/virtual/2025/poster/45951
+arXi: https://arxiv.org/abs/2506.03850
+英摘: Harmful fine-tuning (HFT), performed directly on open-source LLMs or through Fine-tuning-as-a-Service, breaks safety alignment and poses significant threats. Existing methods aim to mitigate HFT risks by learning robust representation on alignment data or making harmful data unlearnable, but they treat each data sample equally, leaving data vulnerability patterns understudied. In this work, we reveal that certain subsets of alignment data are consistently more prone to forgetting during HFT across different fine-tuning tasks. Inspired by these findings, we propose Vulnerability-Aware Alignment (VAA), which estimates data vulnerability, partitions data into "vulnerable" and "invulnerable" groups, and encourages balanced learning using a group distributionally robust optimization (Group DRO) framework. Specifically, VAA learns an adversarial sampler that samples examples from the currently underperforming group and then applies group-dependent adversarial perturbations to the data during training, aiming to encourage a balanced learning process across groups. Experiments across four fine-tuning tasks demonstrate that VAA significantly reduces harmful scores while preserving downstream task performance, outperforming state-of-the-art baselines.
+中摘: 有害微调（HFT），直接在开源大语言模型上进行或通过Fine-tuning-as-a-服务进行，会破坏安全对齐，并带来重大威胁。现有的方法试图通过在对齐数据上学习稳健的表示或使有害数据变得不可学习来减轻HFT的风险，但它们对待每个数据样本都一视同仁，导致数据脆弱性模式的研究不足。在这项工作中，我们揭示了某些对齐数据子集在不同微调任务中更容易在HFT过程中被遗忘。受这些发现的启发，我们提出了数据感知对齐（Vulnerability-Aware Alignment，VAA），该方法估计数据的脆弱性，将数据分为“脆弱”和“不脆弱”两组，并利用分组分布鲁棒优化（Group DRO）框架促进平衡学习。具体而言，VAA 学习一个对抗采样器，从当前表现较差的组中采样示例，然后在训练过程中应用组依赖的对抗扰动，旨在鼓励跨组的平衡学习过程。在四个微调任务上的实验表明，VAA 显著降低了有害得分，同时保持了下游任务性能，超越了最先进的基线方法。
+----------------------------------------------------------------------------------------------------
+[No.9] PoisonBench: Assessing Language Model Vulnerability to Poisoned Preference Data
+来源: ICML 2025
+命中: vuln
+标题: PoisonBench：评估语言模型对中毒偏好数据的脆弱性
+类别: deep learning->large language models
+作者: Tingchen Fu;Mrinank Sharma;Philip Torr;Shay B Cohen;David Krueger;Fazl Barez;
+机构: Renmin University of China;;University of Oxford;University of Edinburgh;University of Montreal;
+类型: Poster
+链接: https://icml.cc/virtual/2025/poster/46610
+----------------------------------------------------------------------------------------------------
+[No.10] Impact of Dataset Properties on Membership Inference Vulnerability of Deep Transfer Learning
+来源: NeurIPS 2025
+命中: vuln
+标题: 数据集特性对深度迁移学习成员推断漏洞的影响
+类别: social and economic aspects of machine learning
+作者: Marlon Tobaben;Hibiki Ito;Joonas Jälkö;Yuan He;Antti Honkela;
+机构: CSC – IT Center for Science;University of Helsinki;Kyoto University;Aalto University;
+类型: Poster
+链接: https://openreview.net/forum?id=SR6ivhZCQK
+arXi: https://arxiv.org/abs/2402.06674
+英摘: Membership inference attacks (MIAs) are used to test practical privacy of machine learning models. MIAs complement formal guarantees from differential privacy (DP) under a more realistic adversary model. We analyse MIA vulnerability of fine-tuned neural networks both empirically and theoretically, the latter using a simplified model of fine-tuning. We show that the vulnerability of non-DP models when measured as the attacker advantage at a fixed false positive rate reduces according to a simple power law as the number of examples per class increases. A similar power-law applies even for the most vulnerable points, but the dataset size needed for adequate protection of the most vulnerable points is very large.
+中摘: 会员推理攻击（MIA）用于测试机器学习模型的实际隐私性。MIA 在更现实的对手模型下补充了差分隐私（DP）的形式保证。我们通过实验和理论分析来研究微调神经网络的MIA脆弱性，后者使用简化模型来研究微调过程。我们展示了当以固定假正率衡量攻击者优势时，非DP模型的脆弱性随着每个类别示例数量的增加而遵循一个简单的幂律规律。即使对于最脆弱的点，类似的幂律也适用，但为了充分保护这些最脆弱的点所需的 datasets 大小非常庞大。
+----------------------------------------------------------------------------------------------------
+[No.11] Vulnerable Data-Aware Adversarial Training
+来源: NeurIPS 2025
+命中: vuln
+标题: 脆弱数据感知对抗训练
+类别: deep learning
+作者: Yuqi Feng;Jiahao Fan;Yanan Sun;
+机构: Sichuan University;;
+类型: Poster
+链接: https://openreview.net/forum?id=yrrU5YChQr
+----------------------------------------------------------------------------------------------------
+[No.12] SAFEx: Analyzing Vulnerabilities of MoE-Based LLMs via Stable Safety-critical Expert Identification
+来源: NeurIPS 2025
+命中: vuln
+标题: SAFEx：通过稳定的安全关键专家识别分析MoE架构的大语言模型的脆弱性
+类别: social and economic aspects of machine learning
+作者: ZhengLin Lai;Mengyao Liao;Bingzhe Wu;Dong Xu;Zebin Zhao;Zhihang Yuan;Chao Fan;Jianqiang Li;
+机构: Shenzhen University;Tencent;;ByteDance;Infinigence AI;
+类型: Poster
+链接: https://openreview.net/forum?id=VwsXmcMyg5
+arXi: https://arxiv.org/abs/2506.17368
+英摘: Large language models with Mixture-of-Experts (MoE) architectures achieve efficiency and scalability, yet their routing mechanisms introduce safety alignment challenges insufficiently addressed by techniques developed for dense models. In this work, the MoE-specific safety risk of positional vulnerability-that safety-aligned behaviors rely on specific expert modules-is formalized and systematically analyzed. An analytical framework, SAFEx, is presented to robustly identify, characterize, and validate safety-critical experts via a stability-based expert selection procedure, and to decompose them into two functional groups: the Harmful Content Detection Group (HCDG), which specializes in identifying and recognizing harmful content within user inputs, and the Harmful Response Control Group (HRCG), which specializes in controlling and enforcing model behaviors to generate appropriate safety responses. Expert-level interventions are conducted to probe causality and to test mitigation. Targeted masking of SAFEx-selected experts reveals that safety behavior is highly concentrated. On Qwen3-30B-A3B, configured with 48 MoE-FFN layers and 128 experts per layer under top-8 routing (48x128=6,144 experts in total), disabling 12 selected experts reduces the refusal rate by 22%. In addition, lightweight adaptation is performed using LoRA under three configurations-the HRCG, the union of HCDG and HRCG, and all experts-and the resulting updates are composed through negative weight merging targeted at the HRCG, leading to improved refusal under adversarial prompts without full-model retraining. These results establish positional vulnerability as a distinct MoE-specific safety challenge and provide a practical, compute-efficient pathway for expert-level safety interventions within routed architectures.
+中摘: 具有Mixture-of-Experts（MoE）架构的大语言模型实现了效率和可扩展性，但其路由机制引入的安全对齐挑战尚未被为密集模型开发的技术充分解决。在本文中，具体化并系统分析了MoE特有的安全风险——位置脆弱性，即安全对齐的行为依赖于特定的专家模块。提出了一个分析框架SAFEx，通过基于稳定性的专家选择程序来稳健地识别、表征和验证关键安全专家，并将这些专家分解为两个功能组：有害内容检测组（HCDG），专门用于在用户输入中识别和识别人为有害的内容；以及有害响应控制组（HRCG），专门用于控制和执行模型行为以生成适当的安全响应。通过专家级干预来探究因果关系并测试缓解措施。针对SAFEx选择的专家进行目标遮蔽显示，安全行为高度集中。在Qwen3-30B-A3B配置下，使用顶8路由（48层MoE-FFN，每层128个专家，总共6,144个专家），禁用12个选定的专家可以降低拒绝率22%。此外，还进行了轻量级的LoRA适应，在三种配置下——HRCG、HCDG与HRCG的并集以及所有专家——生成的结果更新通过针对HRCG的负权重合并来进行组合，从而在无需全面重新训练模型的情况下提高了对抗提示下的拒绝性能。这些结果确立了位置脆弱性作为MoE特有的独立安全挑战，并提供了一条实用且计算高效的路径，以便在路由架构中实施专家级的安全干预措施。
+----------------------------------------------------------------------------------------------------
+[No.13] ChatBug: A Common Vulnerability of Aligned LLMs Induced by Chat Templates
+来源: AAAI 2025
+命中: vuln
+标题: ChatBug：对齐大型语言模型的一种常见漏洞，由聊天模板引起
+类别: ai alignment
+作者: Fengqing Jiang;Zhangchen Xu;Luyao Niu;Bill Yuchen Lin;Radha Poovendran;
+机构: University of Washington;
+类型: Technical
+链接: https://ojs.aaai.org/index.php/AAAI/article/view/34945
+arXi: https://arxiv.org/abs/2406.12935
+英摘: Large language models (LLMs) are expected to follow instructions from users and engage in conversations. Techniques to enhance LLMs' instruction-following capabilities typically fine-tune them using data structured according to a predefined chat template. Although chat templates are shown to be effective in optimizing LLM performance, their impact on safety alignment of LLMs has been less understood, which is crucial for deploying LLMs safely at scale.
+  In this paper, we investigate how chat templates affect safety alignment of LLMs. We identify a common vulnerability, named ChatBug, that is introduced by chat templates. Our key insight to identify ChatBug is that the chat templates provide a rigid format that need to be followed by LLMs, but not by users. Hence, a malicious user may not necessarily follow the chat template when prompting LLMs. Instead, malicious users could leverage their knowledge of the chat template and accordingly craft their prompts to bypass safety alignments of LLMs. We develop two attacks to exploit the ChatBug vulnerability. We demonstrate that a malicious user can exploit the ChatBug vulnerability of eight state-of-the-art (SOTA) LLMs and effectively elicit unintended responses from these models. Moreover, we show that ChatBug can be exploited by existing jailbreak attacks to enhance their attack success rates. We investigate potential countermeasures to ChatBug. Our results show that while adversarial training effectively mitigates the ChatBug vulnerability, the victim model incurs significant performance degradation. These results highlight the trade-off between safety alignment and helpfulness. Developing new methods for instruction tuning to balance this trade-off is an open and critical direction for future research
+中摘: 大型语言模型（LLMs）预期会遵循用户的指令并参与对话。提高LLMs指令遵循能力的技术通常使用根据预定义聊天模板结构化的数据进行微调。尽管聊天模板已被证明在优化LLM性能方面有效，但它们对LLM安全对齐的影响尚未被充分理解，而这一点对于大规模安全部署LLM至关重要。
+
+在这篇论文中，我们研究了聊天模板如何影响LLM的安全对齐。我们发现了一个由聊天模板引入的常见漏洞，称为“ChatBug”。我们的关键洞察是，聊天模板提供了一种固定的格式，LLM必须遵循，但用户则不必。因此，恶意用户可能不会严格遵循聊天模板来提示LLM。相反，恶意用户可以利用他们对聊天模板的理解，并相应地构建提示以绕过LLM的安全对齐。我们开发了两种攻击来利用ChatBug漏洞。我们展示了恶意用户可以利用八种最先进的（SOTA）LLM的ChatBug漏洞，有效地诱使这些模型产生意外响应。此外，我们证明了现有的禁锢攻击（jailbreak attacks）可以利用ChatBug来提高其攻击成功率。我们还探讨了针对ChatBug的潜在对策。我们的结果显示，虽然对抗性训练能够有效缓解ChatBug漏洞，但受害模型会遭受显著的性能下降。这些结果突显了安全对齐与帮助性之间的权衡。未来研究的一个开放且关键的方向是开发新的指令调优方法来平衡这一权衡。
+----------------------------------------------------------------------------------------------------
+[No.14] CLEP: A Novel Contrastive Learning Method for Evolutionary Reentrancy Vulnerability Detection
+来源: AAAI 2025
+命中: vuln
+标题: CLEP：一种新颖的对比学习方法用于进化重入漏洞检测
+类别: application domains
+作者: Jie Chen;Liangmin Wang;Huijuan Zhu;Victor S. Sheng;
+机构: Southeast University;Jiangsu University;Texas Tech University;
+类型: Technical
+链接: https://ojs.aaai.org/index.php/AAAI/article/view/31981
+----------------------------------------------------------------------------------------------------
+[No.15] Medical MLLM Is Vulnerable: Cross-Modality Jailbreak and Mismatched Attacks on Medical Multimodal Large Language Models
+来源: AAAI 2025
+命中: vuln
+标题: 医疗多模态大语言模型存在漏洞：跨模态脱缰攻击和不匹配攻击
+类别: computer vision iii
+作者: Xijie Huang;Xinyuan Wang;Hantao Zhang;Yinghao Zhu;Jiawen Xi;Jingkun An;Hao Wang;Hao Liang;Chengwei Pan;
+机构: Beihang University;University of Science and Technology of China;Zhongguancun Laboratory;
+类型: Technical
+链接: https://ojs.aaai.org/index.php/AAAI/article/view/32396
+arXi: https://arxiv.org/abs/2405.20775
+英摘: Security concerns related to Large Language Models (LLMs) have been extensively explored, yet the safety implications for Multimodal Large Language Models (MLLMs), particularly in medical contexts (MedMLLMs), remain insufficiently studied. This paper delves into the underexplored security vulnerabilities of MedMLLMs, especially when deployed in clinical environments where the accuracy and relevance of question-and-answer interactions are critically tested against complex medical challenges. By combining existing clinical medical data with atypical natural phenomena, we define the mismatched malicious attack (2M-attack) and introduce its optimized version, known as the optimized mismatched malicious attack (O2M-attack or 2M-optimization). Using the voluminous 3MAD dataset that we construct, which covers a wide range of medical image modalities and harmful medical scenarios, we conduct a comprehensive analysis and propose the MCM optimization method, which significantly enhances the attack success rate on MedMLLMs. Evaluations with this dataset and attack methods, including white-box attacks on LLaVA-Med and transfer attacks (black-box) on four other SOTA models, indicate that even MedMLLMs designed with enhanced security features remain vulnerable to security breaches. Our work underscores the urgent need for a concerted effort to implement robust security measures and enhance the safety and efficacy of open-source MedMLLMs, particularly given the potential severity of jailbreak attacks and other malicious or clinically significant exploits in medical settings. Our code is available at https://github.com/dirtycomputer/O2M_attack.
+中摘: 大型语言模型（LLMs）的安全问题已经得到了广泛的研究，然而，多模态大型语言模型（MLLMs），尤其是在医疗场景中的医疗多模态大型语言模型（MedMLLMs），其安全影响仍然研究不足。本文探讨了MedMLLMs在未充分探索的安全漏洞，特别是在临床环境中部署时，准确性与相关性在面对复杂医疗挑战时受到严格测试的情况下的安全漏洞。通过结合现有的临床医学数据和异常自然现象，我们定义了一种不匹配恶意攻击（2M-攻击），并引入其优化版本，称为优化的不匹配恶意攻击（O2M-攻击或2M-优化）。利用我们构建的涵盖多种医学影像模态和有害医学场景的庞大3MAD数据集，我们进行了全面分析，并提出了MCM优化方法，该方法显著提高了对MedMLLMs的攻击成功率。通过对这个数据集以及包括白盒攻击（针对LLaVA-Med）和转移攻击（黑盒攻击，针对四个其他SOTA模型）的评估表明，即使设计了增强安全功能的MedMLLMs也依然容易遭受安全破坏。我们的工作强调了在医疗环境中，尤其是考虑到牢笼攻击和其他潜在严重恶意或临床相关漏洞的情况下，迫切需要共同努力实施稳健的安全措施，以增强开源MedMLLMs的安全性和有效性。我们的代码可在https://github.com/dirtycomputer/O2M_attack获取。
+----------------------------------------------------------------------------------------------------
+[No.16] Data-Free Universal Attack by Exploiting the Intrinsic Vulnerability of Deep Models
+来源: AAAI 2025
+命中: vuln
+标题: 利用深度模型固有的脆弱性进行无数据通用攻击
+类别: computer vision viii
+作者: YangTian Yan;Jinyu Tian;
+机构: Macau University of Science and Technology;
+类型: Technical
+链接: https://ojs.aaai.org/index.php/AAAI/article/view/32988
+arXi: https://arxiv.org/abs/2503.22205
+英摘: Deep neural networks (DNNs) are susceptible to Universal Adversarial Perturbations (UAPs), which are instance agnostic perturbations that can deceive a target model across a wide range of samples. Unlike instance-specific adversarial examples, UAPs present a greater challenge as they must generalize across different samples and models. Generating UAPs typically requires access to numerous examples, which is a strong assumption in real-world tasks. In this paper, we propose a novel data-free method called Intrinsic UAP (IntriUAP), by exploiting the intrinsic vulnerabilities of deep models. We analyze a series of popular deep models composed of linear and nonlinear layers with a Lipschitz constant of 1, revealing that the vulnerability of these models is predominantly influenced by their linear components. Based on this observation, we leverage the ill-conditioned nature of the linear components by aligning the UAP with the right singular vectors corresponding to the maximum singular value of each linear layer. Remarkably, our method achieves highly competitive performance in attacking popular image classification deep models without using any image samples. We also evaluate the black-box attack performance of our method, showing that it matches the state-of-the-art baseline for data-free methods on models that conform to our theoretical framework. Beyond the data-free assumption, IntriUAP also operates under a weaker assumption, where the adversary only can access a few of the victim model's layers. Experiments demonstrate that the attack success rate decreases by only 4% when the adversary has access to just 50% of the linear layers in the victim model.
+中摘: 深度神经网络（DNNs）容易受到通用对抗性扰动（UAPs）的影响，这些扰动是实例无关的，可以在广泛的数据样本上欺骗目标模型。与针对特定实例生成的对抗性例子不同，UAPs必须在不同的样本和模型之间泛化，因此带来了更大的挑战。生成UAPs通常需要访问大量实例，而在实际任务中这是一个强假设。在本文中，我们提出了一种新颖的数据免费方法，称为内在通用对抗性扰动（IntriUAP），通过利用深度模型的内在脆弱性。我们分析了一系列由线性和非线性层组成且Lipschitz常数为1的流行深度模型，发现这些模型的脆弱性主要受其线性部分的影响。基于这一观察，我们通过将UAP与每个线性层对应最大奇异值的右奇异向量对齐，利用线性部分的病态性质来生成UAP。令人惊讶的是，我们的方法在攻击流行的图像分类深度模型时，无需使用任何图像样本即可取得极具竞争力的表现。此外，我们还评估了该方法的黑盒攻击性能，结果显示它在符合我们理论框架的目标模型上的表现与数据免费方法的最佳基线相当。除了数据免费的假设之外，IntriUAP还在一个较弱的假设下运行，即攻击者只能访问目标模型中的一小部分层。实验表明，当攻击者只能访问受害模型线性层的50%时，攻击成功率仅下降4%。
+----------------------------------------------------------------------------------------------------
+[No.17] MTVHunter: Smart Contracts Vulnerability Detection Based on Multi-Teacher Knowledge Translation
+来源: AAAI 2025
+命中: vuln
+标题: MTVHunter：基于多教师知识翻译的智能合约漏洞检测
+类别: knowledge representation and reasoning
+作者: Guokai Sun;Yuan Zhuang;Shuo Zhang;Xiaoyu Feng;Zhenguang Liu;Liguo Zhang;
+机构: Harbin Engineering University;Zhejiang University;Hangzhou High-Tech Zone Institute of Blockchain and Data Security;
+类型: Technical
+链接: https://ojs.aaai.org/index.php/AAAI/article/view/33664
+arXi: https://arxiv.org/abs/2502.16955
+英摘: Smart contracts, closely intertwined with cryptocurrency transactions, have sparked widespread concerns about considerable financial losses of security issues. To counteract this, a variety of tools have been developed to identify vulnerability in smart contract. However, they fail to overcome two challenges at the same time when faced with smart contract bytecode: (i) strong interference caused by enormous non-relevant instructions; (ii) missing semantics of bytecode due to incomplete data and control flow dependencies. In this paper, we propose a multi-teacher based bytecode vulnerability detection method, namely Multi-Teacher Vulnerability Hunter (MTVHunter), which delivers effective denoising and missing semantic to bytecode under multi-teacher guidance. Specifically, we first propose an instruction denoising teacher to eliminate noise interference by abstract vulnerability pattern and further reflect in contract embeddings. Secondly, we design a novel semantic complementary teacher with neuron distillation, which effectively extracts necessary semantic from source code to replenish the bytecode. Particularly, the proposed neuron distillation accelerate this semantic filling by turning the knowledge transition into a regression task. We conduct experiments on 229,178 real-world smart contracts that concerns four types of common vulnerabilities. Extensive experiments show MTVHunter achieves significantly performance gains over state-of-the-art approaches.
+中摘: 智能合约与加密货币交易紧密相关，引发了广泛关于安全问题导致重大经济损失的关注。为了应对这一问题，已经开发出多种工具来识别智能合约中的漏洞。然而，当面对智能合约字节码时，这些工具无法同时克服两个挑战：（i）大量无关指令造成的强烈干扰；（ii）由于数据和控制流依赖不完整而导致字节码缺失语义。在本文中，我们提出了一种基于多教师的字节码漏洞检测方法，即多教师漏洞猎手（MTVHunter），该方法在多教师指导下有效去除噪声并补充字节码的缺失语义。具体来说，我们首先提出了一种指令去噪教师，通过抽象漏洞模式并在合约嵌入中进一步反映来消除噪声干扰。其次，我们设计了一种新颖的语义补充教师，采用神经元蒸馏技术，有效地从源代码中提取必要的语义以补充字节码。特别是，提出的神经元蒸馏加速了这一语义填充过程，将知识传递转化为回归任务。我们在229,178个实际智能合约上进行了实验，涉及四种常见漏洞类型。广泛的实验表明，MTVHunter在性能上显著优于现有最先进的方法。
+----------------------------------------------------------------------------------------------------
+[No.18] CLNX: Bridging Code and Natural Language for C/C++ Vulnerability-Contributing Commits Identification
+来源: AAAI 2025
+命中: vuln
+标题: CLNX：桥接代码与自然语言以识别C/C++漏洞贡献提交
+类别: natural language processing ii
+作者: Zeqing Qin;Yiwei Wu;Lansheng Han;
+机构: Huazhong University of Science and Technology;Hubei Engineering Research Center on Big Data Security;Wuhan JinYinHu Laboratory;
+类型: Technical
+链接: https://ojs.aaai.org/index.php/AAAI/article/view/34689
+arXi: https://arxiv.org/abs/2409.07407
+英摘: Large Language Models (LLMs) have shown great promise in vulnerability identification. As C/C++ comprises half of the Open-Source Software (OSS) vulnerabilities over the past decade and updates in OSS mainly occur through commits, enhancing LLMs' ability to identify C/C++ Vulnerability-Contributing Commits (VCCs) is essential. However, current studies primarily focus on further pre-training LLMs on massive code datasets, which is resource-intensive and poses efficiency challenges. In this paper, we enhance the ability of BERT-based LLMs to identify C/C++ VCCs in a lightweight manner. We propose CodeLinguaNexus (CLNX) as a bridge facilitating communication between C/C++ programs and LLMs. Based on commits, CLNX efficiently converts the source code into a more natural representation while preserving key details. Specifically, CLNX first applies structure-level naturalization to decompose complex programs, followed by token-level naturalization to interpret complex symbols. We evaluate CLNX on public datasets of 25,872 C/C++ functions with their commits. The results show that CLNX significantly enhances the performance of LLMs on identifying C/C++ VCCs. Moreover, CLNX-equipped CodeBERT achieves new state-of-the-art and identifies 38 OSS vulnerabilities in the real world.
+中摘: 大型语言模型（LLMs）在漏洞识别方面展现出了巨大的潜力。在过去十年中，C/C++ 代码占据了开源软件（OSS）漏洞的一半以上，并且OSS的主要更新是通过提交实现的。因此，提升LLMs识别C/C++漏洞贡献提交（VCCs）的能力至关重要。然而，当前的研究主要集中在进一步对LLMs进行大规模代码数据集的预训练上，这需要大量资源并且存在效率挑战。在本文中，我们以轻量级的方式增强了基于BERT的LLMs识别C/C++ VCCs的能力。我们提出CodeLinguaNexus（CLNX）作为桥梁，促进C/C++程序与LLMs之间的交流。基于提交记录，CLNX高效地将源代码转换为更自然的表现形式，同时保留关键细节。具体来说，CLNX首先应用结构级别自然化来分解复杂的程序，然后进行标记级别自然化以解释复杂的符号。我们在包含25,872个C/C++函数及其提交记录的公共数据集上评估了CLNX。结果显示，CLNX显著提升了LLMs在识别C/C++ VCCs方面的性能。此外，配备CLNX的CodeBERT达到了新的状态最先进水平，并在实际中识别出了38个OSS漏洞。
+----------------------------------------------------------------------------------------------------
+[No.19] Detecting and Understanding Vulnerabilities in Language Models via Mechanistic Interpretability
+来源: IJCAI 2025
+命中: vuln
+标题: 通过机制可解释性检测和理解语言模型中的漏洞
+类别: AI Ethics, Trust, Fairness
+作者: Jorge García-Carrasco;Alejandro Maté;Juan Trujillo;
+机构: University of Alicante;
+类型: Poster
+链接: https://www.ijcai.org/proceedings/2024/43
+arXi: https://arxiv.org/abs/2407.19842
+英摘: Large Language Models (LLMs), characterized by being trained on broad amounts of data in a self-supervised manner, have shown impressive performance across a wide range of tasks. Indeed, their generative abilities have aroused interest on the application of LLMs across a wide range of contexts. However, neural networks in general, and LLMs in particular, are known to be vulnerable to adversarial attacks, where an imperceptible change to the input can mislead the output of the model. This is a serious concern that impedes the use of LLMs on high-stakes applications, such as healthcare, where a wrong prediction can imply serious consequences. Even though there are many efforts on making LLMs more robust to adversarial attacks, there are almost no works that study \emph{how} and \emph{where} these vulnerabilities that make LLMs prone to adversarial attacks happen. Motivated by these facts, we explore how to localize and understand vulnerabilities, and propose a method, based on Mechanistic Interpretability (MI) techniques, to guide this process. Specifically, this method enables us to detect vulnerabilities related to a concrete task by (i) obtaining the subset of the model that is responsible for that task, (ii) generating adversarial samples for that task, and (iii) using MI techniques together with the previous samples to discover and understand the possible vulnerabilities. We showcase our method on a pretrained GPT-2 Small model carrying out the task of predicting 3-letter acronyms to demonstrate its effectiveness on locating and understanding concrete vulnerabilities of the model.
+中摘: 大规模语言模型（LLMs）通过在广泛的数据上进行自我监督训练，展示了在各种任务中的出色性能。实际上，这些模型的生成能力激发了在广泛背景下应用LLMs的兴趣。然而，总的来说，尤其是LLMs，它们被认为容易受到对抗性攻击的影响，在这种攻击中，输入的微小变化可以使模型的输出产生误导。这在高风险应用领域，如医疗保健，是一个严重的问题，因为错误的预测可能导致严重的后果。尽管有许多努力旨在使LLMs更抗对抗性攻击，但几乎没有研究探讨这些漏洞是如何以及在何处发生的。鉴于此事实，我们探索如何定位和理解这些漏洞，并提出一种基于机制可解释性（Mechanistic Interpretability, MI）技术的方法来引导这一过程。具体来说，该方法通过以下步骤检测与特定任务相关的漏洞：(i) 获取负责该任务的模型子集，(ii) 为该任务生成对抗样本，以及(iii) 利用MI技术与先前生成的样本一起发现并理解可能的漏洞。我们通过在一个预训练的GPT-2小型模型上执行预测3字母缩写的任务，展示了该方法的有效性，以证明其在定位和理解模型的具体漏洞方面的效果。
+----------------------------------------------------------------------------------------------------
+[No.20] On the Effects of Fairness to Adversarial Vulnerability
+来源: IJCAI 2025
+命中: vuln
+标题: 关于公平性对对抗性漏洞的影响
+类别: AI Ethics, Trust, Fairness
+作者: Cuong Tran;Keyu Zhu;Pascal Van Hentenryck;Ferdinando Fioretto;
+机构: University of Virginia;Georgia Institute of Technology;
+类型: Poster
+链接: https://www.ijcai.org/proceedings/2024/58
+----------------------------------------------------------------------------------------------------
+[No.21] Vulnerabilities of Single-Round Incentive Compatibility in Auto-bidding: Theory and Evidence from ROI-Constrained Online Advertising Markets
+来源: IJCAI 2025
+命中: vuln
+标题: 单轮激励相容性漏洞：来自ROI约束在线广告市场的理论与实证研究
+类别: Game Theory and Economic Paradigms
+作者: Juncheng Li;Pingzhong Tang;
+机构: Tsinghua University;
+类型: Poster
+链接: https://www.ijcai.org/proceedings/2024/320
+arXi: https://arxiv.org/abs/2210.06107
+英摘: Most of the work in the auction design literature assumes that bidders behave rationally based on the information available for every individual auction, and the revelation principle enables designers to restrict their efforts to incentive compatible (IC) mechanisms. However, in today's online advertising markets, one of the most important real-life applications of auction design, the data and computational power required to bid optimally are only available to the platform, and an advertiser can only participate by setting performance objectives and constraints for its proxy auto-bidder provided by the platform. The prevalence of auto-bidding necessitates a review of auction theory. In this paper, we examine the markets through the lens of ROI-constrained value-maximizing campaigns. We show that second price auction exhibits many undesirable properties (computational hardness, non-monotonicity, instability of bidders' utilities, and interference in A/B testing) and loses its dominant theoretical advantages in single-item scenarios. In addition, we make it clear how IC and its runner-up-winner interdependence contribute to each property. We hope that our work could bring new perspectives to the community and benefit practitioners to attain a better grasp of real-world markets.
+中摘: 大多数拍卖设计文献假设竞标者会基于每个单独拍卖可获得的信息理性行为，并且揭示原则使设计者能够将其努力限制在激励相容（IC）机制上。然而，在当今的在线广告市场中，拍卖设计最重要的实际应用之一，竞标所需的数据和计算能力仅由平台拥有，广告商只能通过为平台提供的代理自动竞标器设定绩效目标和约束条件来参与其中。自动竞标的趋势要求我们重新审视拍卖理论。在本文中，我们通过ROI（投资回报率）受限的价值最大化活动的视角来考察这些市场。我们展示了次高价格拍卖具有许多不 desirable 的属性（计算难度大、非单调性、竞标者效用的不稳定性以及对A/B测试的干扰），并且在单一物品场景中失去了其主要的理论优势。此外，我们阐明了IC及其亚军与胜者的相互依存关系如何影响每个属性。我们希望我们的工作能够为社区带来新的视角，并帮助从业者更好地理解现实世界的市场。
+----------------------------------------------------------------------------------------------------
+[No.22] EFEVD: Enhanced Feature Extraction for Smart Contract Vulnerability Detection
+来源: IJCAI 2025
+命中: vuln
+标题: EFEVD：增强特征提取以智能合约漏洞检测
+类别: Machine Learning
+作者: Chi Jiang;Xihan Liu;Shenao Wang;Jinzhuo Liu;Yin Zhang;
+机构: University of Electronic Science and Technology of China;Yunnan University;
+类型: Poster
+链接: https://www.ijcai.org/proceedings/2024/469
+----------------------------------------------------------------------------------------------------
+[No.23] Shadow-Free Membership Inference Attacks: Recommender Systems Are More Vulnerable Than You Thought
+来源: IJCAI 2025
+命中: vuln
+标题: 无阴影的成员推理攻击：推荐系统比你想象的更脆弱
+类别: Multidisciplinary Topics and Applications
+作者: Xiaoxiao Chi;Xuyun Zhang;Yan Wang;Lianyong Qi;Amin Beheshti;Xiaolong Xu;Kim-Kwang Raymond Choo;Shuo Wang;Hongsheng Hu;
+机构: Macquarie University;China University of Petroleum;Nanjing University of Information Science and Technology;University of Texas at San Antonio;Shanghai Jiao Tong University;CSIRO;
+类型: Poster
+链接: https://www.ijcai.org/proceedings/2024/639
+arXi: https://arxiv.org/abs/2405.07018
+英摘: Recommender systems have been successfully applied in many applications. Nonetheless, recent studies demonstrate that recommender systems are vulnerable to membership inference attacks (MIAs), leading to the leakage of users' membership privacy. However, existing MIAs relying on shadow training suffer a large performance drop when the attacker lacks knowledge of the training data distribution and the model architecture of the target recommender system. To better understand the privacy risks of recommender systems, we propose shadow-free MIAs that directly leverage a user's recommendations for membership inference. Without shadow training, the proposed attack can conduct MIAs efficiently and effectively under a practice scenario where the attacker is given only black-box access to the target recommender system. The proposed attack leverages an intuition that the recommender system personalizes a user's recommendations if his historical interactions are used by it. Thus, an attacker can infer membership privacy by determining whether the recommendations are more similar to the interactions or the general popular items. We conduct extensive experiments on benchmark datasets across various recommender systems. Remarkably, our attack achieves far better attack accuracy with low false positive rates than baselines while with a much lower computational cost.
+中摘: 推荐系统已经在许多应用中取得了成功。然而，最近的研究表明，推荐系统容易受到成员推断攻击（MIA）的影响，从而导致用户成员隐私泄露。但是，现有的依赖于影子训练的MIA在攻击者缺乏对目标推荐系统训练数据分布和模型架构了解的情况下，性能会大幅下降。为了更好地理解推荐系统的隐私风险，我们提出了无影子训练的MIA，直接利用用户的推荐进行成员推断。在攻击者仅获得目标推荐系统的黑盒访问权限的实践场景下，提出的攻击可以高效且有效地执行MIA。该攻击基于一个直觉：如果推荐系统使用了用户的 histórico 交互历史，则它会个性化用户的推荐。因此，攻击者可以通过判断推荐是否更类似于用户的交互历史还是普遍受欢迎的项目来推断成员隐私。我们在多种推荐系统上的基准数据集上进行了广泛的实验。令人惊讶的是，我们的攻击在保持较低的误报率的同时，比基线方法具有更高的攻击准确性和更低的计算成本。
+----------------------------------------------------------------------------------------------------
+[No.24] VF-Detector: Making Multi-Granularity Code Changes on Vulnerability Fix Detector Robust to Mislabeled Changes
+来源: IJCAI 2025
+命中: vuln
+标题: VF-Detector: 使漏洞修复检测器对误标记的更改具有多粒度代码变更 robust 性
+类别: Multidisciplinary Topics and Applications
+作者: Zhenkan Fu;Shikai Guo;Hui Li;Rong Chen;Xiaochen Li;He Jiang;
+机构: Dalian Maritime University;Dalian University of Technology;
+类型: Poster
+链接: https://www.ijcai.org/proceedings/2024/643
+----------------------------------------------------------------------------------------------------
+[No.25] Applying Contrastive Learning to Code Vulnerability Type Classification
+来源: EMNLP 2025
+命中: vuln
+标题: 将对比学习应用于代码漏洞类型分类
+类别: 
+作者: Chen Ji;Su Yang;Hongyu Sun;Yuqing Zhang;
+机构: Xidian University;University of Chinese Academy of Sciences;Hainan University;
+类型: Main
+链接: https://aclanthology.org/2024.emnlp-main.666/
+----------------------------------------------------------------------------------------------------
+[No.26] Glue pizza and eat rocks - Exploiting Vulnerabilities in Retrieval-Augmented Generative Models
+来源: EMNLP 2025
+命中: vuln
+标题: 粘披萨和吃石头——在检索增强生成模型中利用漏洞
+类别: 
+作者: Zhen Tan;Chengshuai Zhao;Raha Moraffah;Yifan Li;Song Wang;Jundong Li;Tianlong Chen;Huan Liu;
+机构: Arizona State University;Michigan State University;University of Virginia;University of North Carolina at Chapel Hill;
+类型: Main
+链接: https://aclanthology.org/2024.emnlp-main.96/
+arXi: https://arxiv.org/abs/2406.19417
+英摘: Retrieval-Augmented Generative (RAG) models enhance Large Language Models (LLMs) by integrating external knowledge bases, improving their performance in applications like fact-checking and information searching. In this paper, we demonstrate a security threat where adversaries can exploit the openness of these knowledge bases by injecting deceptive content into the retrieval database, intentionally changing the model's behavior. This threat is critical as it mirrors real-world usage scenarios where RAG systems interact with publicly accessible knowledge bases, such as web scrapings and user-contributed data pools. To be more realistic, we target a realistic setting where the adversary has no knowledge of users' queries, knowledge base data, and the LLM parameters. We demonstrate that it is possible to exploit the model successfully through crafted content uploads with access to the retriever. Our findings emphasize an urgent need for security measures in the design and deployment of RAG systems to prevent potential manipulation and ensure the integrity of machine-generated content.
+中摘: 检索增强生成（RAG）模型通过整合外部知识库来提升大型语言模型（LLMs）在事实核查和信息搜索等应用中的性能。在本文中，我们展示了这样一个安全威胁：攻击者可以利用这些知识库的开放性，通过向检索数据库注入误导性内容，故意改变模型的行为。这一威胁至关重要，因为它反映了现实世界中RAG系统与可公开访问的知识库（如网页抓取和用户贡献的数据池）交互的真实场景。为了更具现实性，我们设定了一个攻击者不了解用户查询、知识库数据和LLM参数的实际场景。我们的研究证明，在具备检索器访问权限的情况下，可以通过精心构造的内容上传成功利用该模型。研究发现强调了在设计和部署RAG系统时迫切需要采取安全措施，以防止潜在的操纵并确保机器生成内容的完整性。
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+共找到 26 篇论文
+其中 18 篇成功获取摘要并翻译
+报告生成完成
+====================================================================================================

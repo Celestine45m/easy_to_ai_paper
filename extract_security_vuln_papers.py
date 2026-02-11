@@ -91,7 +91,7 @@ def translate_title(title, delay=2):
         return ""
 
 
-def save_to_txt(papers, output_file, keyword, translate_titles=False, delay=2):
+def save_to_txt(papers, output_file, keyword, translate_titles=False, delay=2, conf_counts=None):
     """将匹配的论文信息保存到txt文件"""
     output_path = Path(output_file)
     output_path.parent.mkdir(parents=True, exist_ok=True)
@@ -101,6 +101,14 @@ def save_to_txt(papers, output_file, keyword, translate_titles=False, delay=2):
         f.write(f"论文标题包含关键词 '{keyword}' 的论文列表\n")
         f.write("=" * 100 + "\n\n")
         f.write(f"共找到 {len(papers)} 篇论文\n\n")
+        
+        # 写入会议统计
+        if conf_counts:
+            f.write("按会议统计:\n")
+            for conf, count in sorted(conf_counts.items()):
+                f.write(f"  {conf}: {count} 篇\n")
+            f.write("\n")
+        
         f.write("=" * 100 + "\n\n")
         
         for idx, paper in enumerate(papers, 1):
@@ -128,6 +136,14 @@ def save_to_txt(papers, output_file, keyword, translate_titles=False, delay=2):
         f.write("报告生成完成\n")
         if translate_titles:
             f.write(f"已翻译 {len(papers)} 篇论文标题\n")
+        
+        # 再次写入会议统计（文件末尾）
+        if conf_counts:
+            f.write("\n" + "=" * 100 + "\n")
+            f.write("按会议统计:\n")
+            for conf, count in sorted(conf_counts.items()):
+                f.write(f"  {conf}: {count} 篇\n")
+        
         f.write("=" * 100 + "\n")
     
     print(f"\n结果已保存到: {output_file}")
@@ -147,7 +163,7 @@ def main():
         "ccs.json": ("CCS", extract_papers_from_ccs),
         "ndss.json": ("NDSS", extract_papers_from_ndss_sp_uss),
         "sp.json": ("SP", extract_papers_from_ndss_sp_uss),
-        "usenix.json": ("USENIX", extract_papers_from_ndss_sp_uss)
+        "uss.json": ("USS", extract_papers_from_ndss_sp_uss)
     }
     
     all_matched_papers = []
@@ -185,23 +201,24 @@ def main():
     # 按年份和标题排序
     all_matched_papers.sort(key=lambda x: (x.get('year', ''), x.get('title', '')))
     
+    # 计算会议统计
+    conf_counts = {}
+    for paper in all_matched_papers:
+        source = paper.get('source', 'Unknown')
+        conf = source.split()[0]  # 提取会议名称
+        conf_counts[conf] = conf_counts.get(conf, 0) + 1
+    
     # 保存到文件
     if all_matched_papers:
         if translate_titles:
             print(f"\n开始翻译 {len(all_matched_papers)} 篇论文标题...")
             print("=" * 100)
         
-        save_to_txt(all_matched_papers, output_file, keyword, translate_titles, request_delay)
+        save_to_txt(all_matched_papers, output_file, keyword, translate_titles, request_delay, conf_counts)
         print(f"\n✅ 提取完成！共找到 {len(all_matched_papers)} 篇论文")
         
-        # 按会议统计
+        # 打印会议统计
         print("\n按会议统计:")
-        conf_counts = {}
-        for paper in all_matched_papers:
-            source = paper.get('source', 'Unknown')
-            conf = source.split()[0]  # 提取会议名称
-            conf_counts[conf] = conf_counts.get(conf, 0) + 1
-        
         for conf, count in sorted(conf_counts.items()):
             print(f"  {conf}: {count} 篇")
     else:

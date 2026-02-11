@@ -335,14 +335,14 @@ def save_to_txt(papers, output_file, keywords):
 def main():
     """主函数"""
     # 配置参数
-    keywords = ["rank"]  # 要搜索的关键词列表，可以包含多个关键词（OR关系）
+    keywords = ["vuln"]  # 要搜索的关键词列表，可以包含多个关键词（OR关系）
 
     # keywords = ["prediction","evaluation","rank"]  # 要搜索的关键词列表，可以包含多个关键词（OR关系）
     # 示例：keywords = ["prediction", "forecast", "prediction"]  # 只要标题包含任意一个关键词就匹配
     case_sensitive = False  # 是否区分大小写
     fetch_abstracts = True  # 是否获取摘要并翻译（设置为True以获取摘要，需要较长时间）
     request_delay = 2  # 每次请求之间的延迟（秒），避免请求过快
-    output_file = "WANTED_PAPERS/papers_with_keywords_20260211.txt"  # 输出文件名
+    output_file = "WANTED_PAPERS/papers_with_keywords_vuln.txt"  # 输出文件名
     
     # 将keywords统一转换为列表用于显示
     if isinstance(keywords, str):
