@@ -335,7 +335,7 @@ def save_to_txt(papers, output_file, keywords):
 def main():
     """主函数"""
     # 配置参数
-    keywords = ["detection"]  # 要搜索的关键词列表，可以包含多个关键词（OR关系）
+    keywords = ["rank"]  # 要搜索的关键词列表，可以包含多个关键词（OR关系）
 
     # keywords = ["prediction","evaluation","rank"]  # 要搜索的关键词列表，可以包含多个关键词（OR关系）
     # 示例：keywords = ["prediction", "forecast", "prediction"]  # 只要标题包含任意一个关键词就匹配
