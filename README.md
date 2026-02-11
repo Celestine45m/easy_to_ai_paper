@@ -8,6 +8,8 @@
 
 **核心特性：**
 - 🎯 自动化论文信息提取和翻译
+- 🔍 根据关键词智能筛选论文
+- 📄 从arXiv自动获取论文摘要并翻译
 - 📊 提供论文机构、类别等统计分析
 - 🔄 支持多种数据格式（txt/json）
 - 🌍 支持多个顶级AI会议（ICLR、ICML、NeurIPS、AAAI、IJCAI、ACL、EMNLP）
@@ -15,18 +17,22 @@
 ## ✨ 主要功能
 
 - 🔍 **抓取论文信息**：从Paper Copilot网站获取AI会议论文的详细信息
-- 🌐 **智能翻译**：使用LLM自动将论文标题翻译为中文
-- 📝 **结构化输出**：生成包含论文标题、中文标题、链接、类别、作者、机构等信息的txt和json文件
+- 🌐 **智能翻译**：使用LLM自动将论文标题和摘要翻译为中文
+- 🔎 **关键词筛选**：根据关键词从所有会议中筛选目标论文
+- 📄 **摘要获取**：自动从arXiv获取论文摘要并翻译为中文
+- 📝 **结构化输出**：生成包含论文标题、中文标题、链接、类别、作者、机构、摘要等信息的txt和json文件
 - 📚 **多会议支持**：支持ICLR、ICML、NeurIPS、AAAI、IJCAI、ACL、EMNLP等主流AI会议
 - 💾 **本地存储**：所有论文信息以txt和json格式保存在本地，方便离线查阅
 - 📊 **统计分析**：提供机构分布和类别分布的统计分析工具
 - 🔢 **数据格式**：支持txt和json两种格式，便于不同场景使用
+- ⚡ **实时处理**：支持逐条处理论文，实时保存结果，避免数据丢失
 
 ## 🗂️ 项目结构
 
 ```
 easy_to_ai_papers/
-├── paper_list.py                    # 主程序：提取和翻译论文信息
+├── paper_list.py                    # 主程序：提取和翻译论文信息，支持从arXiv获取摘要
+├── extract_papers_by_title.py      # 根据关键词提取论文，支持从arXiv获取摘要并翻译
 ├── analyze_statistics.py            # 合并的统计分析工具（推荐使用）
 ├── analyze_affiliations.py         # 机构统计分析工具（独立版本）
 ├── analyze_categories.py           # 类别统计分析工具（独立版本）
@@ -35,6 +41,7 @@ easy_to_ai_papers/
 ├── README.md                       # 项目说明文档
 ├── LICENSE                         # 许可证文件
 ├── RESEARCH_EVALUATION.md         # 研究评估报告
+├── WANTED_PAPERS/                  # 关键词筛选的论文结果目录
 ├── src/                            # 源代码目录
 │   ├── conf/                       # 配置文件
 │   │   └── GlobalParament.py      # 全局参数配置
@@ -97,8 +104,11 @@ easy_to_ai_papers/
 
 5. **运行程序**
    ```bash
-   # 提取和翻译论文信息
+   # 提取和翻译论文信息（支持从arXiv获取摘要）
    python paper_list.py
+   
+   # 根据关键词提取论文（支持从arXiv获取摘要并翻译）
+   python extract_papers_by_title.py
    
    # 生成统计分析报告
    python analyze_statistics.py
@@ -155,6 +165,8 @@ pip install beautifulsoup4 requests langchain langchain-openai huggingface_hub
 
 ### 5. 运行程序
 
+#### 方式一：提取所有论文信息（paper_list.py）
+
 修改 `paper_list.py` 中的会议名称和年份，然后运行：
 
 ```bash
@@ -164,6 +176,7 @@ python paper_list.py
 程序会自动：
 - 解析HTML文件，提取论文信息
 - 使用LLM翻译论文标题
+- （可选）从arXiv获取摘要并翻译
 - 将结果保存到txt和json文件
 
 **配置说明：**
@@ -171,7 +184,38 @@ python paper_list.py
 ```python
 conference = "ICLR"  # 会议名称：ICLR, ICML, NeurIPS, AAAI, IJCAI, ACL, EMNLP
 year = "2025"        # 年份
+fetch_abstracts = True  # 是否从arXiv获取摘要并翻译（需要较长时间）
+request_delay = 2    # 每次请求之间的延迟（秒），避免请求过快
 ```
+
+#### 方式二：根据关键词筛选论文（extract_papers_by_title.py）
+
+根据关键词从所有会议的JSON文件中筛选论文：
+
+```bash
+python extract_papers_by_title.py
+```
+
+**功能特点：**
+- 支持多个关键词（OR关系，只要标题包含任意一个关键词就匹配）
+- 支持大小写敏感/不敏感搜索
+- 自动标注论文来源会议
+- （可选）从arXiv获取摘要并翻译
+- 逐条处理，实时保存结果
+
+**配置说明：**
+在 `extract_papers_by_title.py` 的 `main()` 函数中修改：
+```python
+keywords = ["prediction"]  # 关键词列表，支持多个关键词
+# keywords = ["prediction", "evaluation", "rank"]  # 多个关键词示例
+case_sensitive = False  # 是否区分大小写
+fetch_abstracts = True  # 是否从arXiv获取摘要并翻译
+request_delay = 2  # 请求延迟（秒）
+output_file = "WANTED_PAPERS/papers_with_keywords.txt"  # 输出文件
+```
+
+**输出文件：**
+- `WANTED_PAPERS/papers_with_keywords.txt` - 包含匹配论文的详细信息（包括摘要）
 
 ### 6. 统计分析
 
@@ -225,6 +269,9 @@ python analyze_categories.py
 - 作者
 - 机构
 - 展示类型
+- （可选）arXiv ID和链接
+- （可选）英文摘要
+- （可选）中文摘要（翻译）
 
 #### json格式输出
 每行一个JSON对象，包含以下字段：
@@ -235,23 +282,40 @@ python analyze_categories.py
 - `authors`: 作者列表
 - `affiliations`: 机构列表
 - `presentation_type`: 展示类型
+- `arxiv_id`: arXiv ID（如果获取了摘要）
+- `arxiv_link`: arXiv链接（如果获取了摘要）
+- `abstract`: 英文摘要（如果获取了摘要）
+- `abstract_ch`: 中文摘要（如果获取了摘要）
+- `source`: 论文来源会议（仅extract_papers_by_title.py）
+- `matched_keywords`: 命中的关键词（仅extract_papers_by_title.py）
 
 ## 📄 输出示例
 
-### txt格式示例
+### txt格式示例（包含摘要）
 ```
-No.1. Paper Title in English
-   标题: 论文的中文标题
-   链接: https://openreview.net/forum/...
-   类别: Machine Learning
-   作者: Author1; Author2
-   机构: University1; University2
-   类型: Poster
+[No.1] Paper Title in English
+来源: ICLR 2025
+命中: prediction
+标题: 论文的中文标题
+类别: Machine Learning
+作者: Author1; Author2
+机构: University1; University2
+类型: Poster
+链接: https://openreview.net/forum/...
+arXiv ID: 2301.12345
+arXiv链接: https://arxiv.org/abs/2301.12345
+
+英摘:
+This paper presents a novel approach to...
+
+中摘:
+本文提出了一种新的方法来...
+----------------------------------------------------------------------------------------------------
 ```
 
-### json格式示例
+### json格式示例（包含摘要）
 ```json
-{"title": "Paper Title in English", "title_ch": "论文的中文标题", "url": "https://openreview.net/forum/...", "category": "Machine Learning", "authors": "Author1; Author2", "affiliations": "University1; University2", "presentation_type": "Poster"}
+{"title": "Paper Title in English", "title_ch": "论文的中文标题", "url": "https://openreview.net/forum/...", "category": "Machine Learning", "authors": "Author1; Author2", "affiliations": "University1; University2", "presentation_type": "Poster", "arxiv_id": "2301.12345", "arxiv_link": "https://arxiv.org/abs/2301.12345", "abstract": "This paper presents a novel approach to...", "abstract_ch": "本文提出了一种新的方法来...", "source": "ICLR 2025", "matched_keywords": ["prediction"]}
 ```
 
 ### 统计汇总报告示例
@@ -299,6 +363,34 @@ ICLR 2025 论文统计分析汇总报告
   - 配置LLM模型和API端点
   - 默认使用OpenAI兼容的API格式
 
+### arXiv摘要获取配置
+
+项目支持从arXiv自动获取论文摘要并翻译：
+
+- **工作原理**：
+  1. 根据论文标题在arXiv中搜索匹配的论文
+  2. 提取arXiv ID
+  3. 从arXiv API获取论文详情（包括摘要）
+  4. 使用LLM翻译摘要为中文
+
+- **配置位置**：
+  - `paper_list.py`: 设置 `fetch_abstracts = True` 启用摘要获取
+  - `extract_papers_by_title.py`: 设置 `fetch_abstracts = True` 启用摘要获取
+  - `request_delay`: 设置请求延迟（秒），避免请求过快（arXiv API有速率限制，建议至少2秒）
+
+- **注意事项**：
+  - 获取摘要需要较长时间，建议设置合适的延迟
+  - 不是所有论文都能在arXiv找到（只有已上传到arXiv的论文才能获取）
+  - 程序会逐条处理，实时保存结果，即使中途中断也不会丢失已处理的数据
+
+### 关键词筛选配置
+
+- **extract_papers_by_title.py**：
+  - `keywords`: 关键词列表，支持多个关键词（OR关系）
+  - `case_sensitive`: 是否区分大小写
+  - `fetch_abstracts`: 是否获取摘要
+  - `output_file`: 输出文件路径
+
 ### 统计分析配置
 
 - **合并统计工具**：`analyze_statistics.py`（推荐）
@@ -317,6 +409,12 @@ ICLR 2025 论文统计分析汇总报告
 3. **文件路径**：确保HTML文件路径与 `paper_list.py` 中的配置一致
 4. **翻译速度**：大量论文翻译可能需要较长时间，建议分批处理
 5. **数据过滤**：程序会自动过滤被拒绝（Reject）和撤回（Withdraw）的论文
+6. **arXiv摘要获取**：
+   - 需要网络连接访问arXiv API
+   - 不是所有论文都能在arXiv找到
+   - 建议设置合适的请求延迟（至少2秒），避免触发API速率限制
+   - 程序支持逐条处理，实时保存，即使中断也不会丢失数据
+7. **关键词筛选**：支持多个关键词，只要标题包含任意一个关键词就匹配（OR关系）
 
 ## 🔧 故障排除
 
@@ -335,6 +433,18 @@ ICLR 2025 论文统计分析汇总报告
 **Q: 统计结果为空？**
 - 确认JSON文件已生成
 - 检查JSON文件格式是否正确（每行一个JSON对象）
+
+**Q: 无法从arXiv获取摘要？**
+- 确认论文已上传到arXiv（不是所有会议论文都会上传到arXiv）
+- 检查网络连接是否正常
+- 确认arXiv API可访问（可能需要科学上网）
+- 检查论文标题是否与arXiv上的标题完全匹配
+
+**Q: 关键词筛选没有结果？**
+- 检查关键词拼写是否正确
+- 尝试使用更通用的关键词
+- 确认JSON文件已生成且格式正确
+- 检查是否设置了正确的大小写敏感选项
 
 ## 🤝 贡献
 

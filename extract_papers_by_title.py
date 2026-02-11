@@ -122,20 +122,20 @@ def _write_single_paper_to_file(paper, paper_num, output_file, keywords, is_firs
         # 添加arxiv信息（如果有）
         arxiv_id = paper.get('arxiv_id', '')
         arxiv_link = paper.get('arxiv_link', '')
-        if arxiv_id:
-            f.write(f"arXiv ID: {arxiv_id}\n")
+        # if arxiv_id:
+        #     f.write(f"arXiv ID: {arxiv_id}\n")
         if arxiv_link:
-            f.write(f"arXiv链接: {arxiv_link}\n")
+            f.write(f"arXi: {arxiv_link}\n")
         
         # 添加摘要信息（如果有）
         abstract = paper.get('abstract', '')
         abstract_ch = paper.get('abstract_ch', '')
         if abstract:
-            f.write(f"\n英摘:\n{abstract}\n")
+            f.write(f"英摘: {abstract}\n")
         if abstract_ch:
-            f.write(f"\n中摘:\n{abstract_ch}\n")
+            f.write(f"中摘: {abstract_ch}\n")
         
-        f.write("-" * 100 + "\n\n")
+        f.write("-" * 100 + "\n")
 
 
 def extract_papers_by_keyword(keywords, case_sensitive=False, fetch_abstracts=False, delay=2, output_file=None):
@@ -335,14 +335,14 @@ def save_to_txt(papers, output_file, keywords):
 def main():
     """主函数"""
     # 配置参数
-    keywords = ["prediction"]  # 要搜索的关键词列表，可以包含多个关键词（OR关系）
+    keywords = ["detection"]  # 要搜索的关键词列表，可以包含多个关键词（OR关系）
 
     # keywords = ["prediction","evaluation","rank"]  # 要搜索的关键词列表，可以包含多个关键词（OR关系）
     # 示例：keywords = ["prediction", "forecast", "prediction"]  # 只要标题包含任意一个关键词就匹配
     case_sensitive = False  # 是否区分大小写
     fetch_abstracts = True  # 是否获取摘要并翻译（设置为True以获取摘要，需要较长时间）
     request_delay = 2  # 每次请求之间的延迟（秒），避免请求过快
-    output_file = "WANTED_PAPERS/papers_with_keywords.txt"  # 输出文件名
+    output_file = "WANTED_PAPERS/papers_with_keywords_20260211.txt"  # 输出文件名
     
     # 将keywords统一转换为列表用于显示
     if isinstance(keywords, str):

@@ -1,0 +1,592 @@
+====================================================================================================
+论文标题包含关键词 'detection' 的论文列表
+====================================================================================================
+
+[No.1] LOKI: A Comprehensive Synthetic Data Detection Benchmark using Large Multimodal Models
+来源: ICLR 2025
+命中: detection
+标题: LOKI：使用大型多模态模型的综合合成数据检测基准
+类别: datasets and benchmarks
+作者: Junyan Ye;Baichuan Zhou;Zilong Huang;Junan Zhang;Tianyi Bai;Hengrui Kang;Jun He;Honglin Lin;Zihao Wang;Tong Wu;Zhizheng Wu;Yiping Chen;Dahua Lin;Conghui He;Weijia Li;
+机构: Sun Yat-sen University;Shanghai Artificial Intelligence Laboratory;Chinese University of Hong Kong;Hong Kong University of Science and Technology;Shanghai Jiao Tong University;;Stanford University;
+类型: Spotlight
+链接: https://iclr.cc/virtual/2025/poster/27689
+arXi: https://arxiv.org/abs/2410.09732
+英摘: With the rapid development of AI-generated content, the future internet may be inundated with synthetic data, making the discrimination of authentic and credible multimodal data increasingly challenging. Synthetic data detection has thus garnered widespread attention, and the performance of large multimodal models (LMMs) in this task has attracted significant interest. LMMs can provide natural language explanations for their authenticity judgments, enhancing the explainability of synthetic content detection. Simultaneously, the task of distinguishing between real and synthetic data effectively tests the perception, knowledge, and reasoning capabilities of LMMs. In response, we introduce LOKI, a novel benchmark designed to evaluate the ability of LMMs to detect synthetic data across multiple modalities. LOKI encompasses video, image, 3D, text, and audio modalities, comprising 18K carefully curated questions across 26 subcategories with clear difficulty levels. The benchmark includes coarse-grained judgment and multiple-choice questions, as well as fine-grained anomaly selection and explanation tasks, allowing for a comprehensive analysis of LMMs. We evaluated 22 open-source LMMs and 6 closed-source models on LOKI, highlighting their potential as synthetic data detectors and also revealing some limitations in the development of LMM capabilities. More information about LOKI can be found at https://opendatalab.github.io/LOKI/
+中摘: 随着AI生成内容的快速发展，未来的互联网可能会被合成数据淹没，使得区分真实可靠的多模态数据越来越具有挑战性。因此，合成数据检测引起了广泛的关注，大型多模态模型（LMMs）在这项任务中的表现也吸引了大量兴趣。LMMs可以为它们的真实性和判断提供自然语言解释，增强合成内容检测的可解释性。同时，区分真实和合成数据的任务有效地测试了LMMs的感知、知识和推理能力。为此，我们引入了LOKI，这是一种新型基准，用于评估LMMs在多种模态下检测合成数据的能力。LOKI包含视频、图像、3D、文本和音频等多种模态，涵盖了26个子类别中的18000个精心策划的问题，并且这些问题具有明确的难度级别。该基准包括粗粒度判断和多项选择题，以及细粒度异常选择和解释任务，允许对LMMs进行全面分析。我们在LOKI上评估了22个开源LMMs和6个闭源模型，突显了它们作为合成数据检测器的潜力，同时也揭示了一些LMM能力发展中存在的局限性。更多关于LOKI的信息可以在https://opendatalab.github.io/LOKI/找到。
+----------------------------------------------------------------------------------------------------
+[No.2] MOS: Model Synergy for Test-Time Adaptation on LiDAR-Based 3D Object Detection
+来源: ICLR 2025
+命中: detection
+标题: MOS：基于LiDAR的3D物体检测测试时适应性模型协同
+类别: transfer learning, meta learning, and lifelong learning
+作者: Zhuoxiao Chen;Junjie Meng;Mahsa Baktashmotlagh;Yonggang Zhang;Zi Huang;Yadan Luo;
+机构: University of Queensland;University of Electronic Science and Technology of China;Hong Kong Baptist University;
+类型: Oral
+链接: https://iclr.cc/virtual/2025/poster/29272
+arXi: https://arxiv.org/abs/2406.14878
+英摘: LiDAR-based 3D object detection is crucial for various applications but often experiences performance degradation in real-world deployments due to domain shifts. While most studies focus on cross-dataset shifts, such as changes in environments and object geometries, practical corruptions from sensor variations and weather conditions remain underexplored. In this work, we propose a novel online test-time adaptation framework for 3D detectors that effectively tackles these shifts, including a challenging cross-corruption scenario where cross-dataset shifts and corruptions co-occur. By leveraging long-term knowledge from previous test batches, our approach mitigates catastrophic forgetting and adapts effectively to diverse shifts. Specifically, we propose a Model Synergy (MOS) strategy that dynamically selects historical checkpoints with diverse knowledge and assembles them to best accommodate the current test batch. This assembly is directed by our proposed Synergy Weights (SW), which perform a weighted averaging of the selected checkpoints, minimizing redundancy in the composite model. The SWs are computed by evaluating the similarity of predicted bounding boxes on the test data and the independence of features between checkpoint pairs in the model bank. To maintain an efficient and informative model bank, we discard checkpoints with the lowest average SW scores, replacing them with newly updated models. Our method was rigorously tested against existing test-time adaptation strategies across three datasets and eight types of corruptions, demonstrating superior adaptability to dynamic scenes and conditions. Notably, it achieved a 67.3% improvement in a challenging cross-corruption scenario, offering a more comprehensive benchmark for adaptation. Source code: https://github.com/zhuoxiao-chen/MOS.
+中摘: 基于LiDAR的3D物体检测在各种应用中至关重要，但在实际部署中常常由于领域偏移而性能下降。虽然大多数研究集中在跨数据集的偏移上，如环境和物体几何形状的变化，但来自传感器变异和天气条件的实际干扰却很少被探索。在这项工作中，我们提出了一种新颖的在线测试时自适应框架，用于有效解决这些偏移问题，包括一个具有挑战性的跨干扰场景，其中跨数据集偏移和干扰同时发生。通过利用之前测试批次中的长期知识，我们的方法减轻了灾难性遗忘，并能够有效地适应各种偏移。具体而言，我们提出了一个模型协同（MOS）策略，该策略动态选择具有多样化知识的历史检查点，并将它们组装起来以最好地适应当前的测试批次。这一组装过程由我们提出的协同权重（SW）指导，协同权重对选定的检查点进行加权平均，从而最小化复合模型中的冗余。SWs通过评估测试数据上预测边界框的相似性和模型银行中检查点对之间的特征独立性来计算。为了保持高效且信息丰富的模型库，我们丢弃具有最低平均SW分数的检查点，并用新更新的模型替换它们。我们的方法在三个数据集和八种类型的干扰下与现有的测试时自适应策略进行了严格对比，展示了在动态场景和条件下更出色的自适应能力。值得注意的是，在一个具有挑战性的跨干扰场景中，它实现了67.3%的性能提升，为自适应提供了一个更为全面的基准。源代码：https://github.com/zhuoxiao-chen/MOS。
+----------------------------------------------------------------------------------------------------
+[No.3] Min-K%++: Improved Baseline for Pre-Training Data Detection from Large Language Models
+来源: ICLR 2025
+命中: detection
+标题: Min-K++：大型语言模型预训练数据检测的改进基线
+类别: foundation or frontier models, including LLMs
+作者: Jingyang Zhang;Jingwei Sun;Eric Yeats;Yang Ouyang;Martin Kuo;Jianyi Zhang;Hao Frank Yang;Hai Li;
+机构: Duke University;Pacific Northwest National Laboratory;North Carolina State University;Johns Hopkins University;
+类型: Spotlight
+链接: https://iclr.cc/virtual/2025/poster/29228
+----------------------------------------------------------------------------------------------------
+[No.4] GOLD: Graph Out-of-Distribution Detection via Implicit Adversarial Latent Generation
+来源: ICLR 2025
+命中: detection
+标题: GOLD：基于隐式对抗潜在生成的图域外检测
+类别: learning on graphs and other geometries & topologies
+作者: Danny Wang;Ruihong Qiu;Guangdong Bai;Zi Huang;
+机构: University of Queensland;;
+类型: Spotlight
+链接: https://iclr.cc/virtual/2025/poster/27751
+arXi: https://arxiv.org/abs/2502.05780
+英摘: Despite graph neural networks' (GNNs) great success in modelling graph-structured data, out-of-distribution (OOD) test instances still pose a great challenge for current GNNs. One of the most effective techniques to detect OOD nodes is to expose the detector model with an additional OOD node-set, yet the extra OOD instances are often difficult to obtain in practice. Recent methods for image data address this problem using OOD data synthesis, typically relying on pre-trained generative models like Stable Diffusion. However, these approaches require vast amounts of additional data, as well as one-for-all pre-trained generative models, which are not available for graph data. Therefore, we propose the GOLD framework for graph OOD detection, an implicit adversarial learning pipeline with synthetic OOD exposure without pre-trained models. The implicit adversarial training process employs a novel alternating optimisation framework by training: (1) a latent generative model to regularly imitate the in-distribution (ID) embeddings from an evolving GNN, and (2) a GNN encoder and an OOD detector to accurately classify ID data while increasing the energy divergence between the ID embeddings and the generative model's synthetic embeddings. This novel approach implicitly transforms the synthetic embeddings into pseudo-OOD instances relative to the ID data, effectively simulating exposure to OOD scenarios without auxiliary data. Extensive OOD detection experiments are conducted on five benchmark graph datasets, verifying the superior performance of GOLD without using real OOD data compared with the state-of-the-art OOD exposure and non-exposure baselines.
+中摘: 尽管图神经网络（GNNs）在建模图结构数据方面取得了巨大成功，但当前的GNNs仍然难以应对离分布（OOD）测试实例。检测OOD节点最有效的方法之一是通过向检测器模型暴露额外的OOD节点集，然而这些额外的OOD实例在实践中往往难以获得。针对图像数据，最近的方法使用OOD数据合成来解决这个问题，通常依赖于预训练生成模型，如Stable Diffusion。然而，这些方法需要大量的额外数据，并且依赖于通用的预训练生成模型，而这些对于图数据来说并不适用。因此，我们提出了GOLD框架，这是一种无需预训练模型的隐式对抗学习管道，用于图结构数据的OOD检测。该隐式对抗训练过程采用了一种新颖的交替优化框架，通过训练：（1）一个潜在生成模型定期模仿不断进化的GNN中的ID嵌入；（2）一个GNN编码器和一个OOD检测器准确分类ID数据，同时增加ID嵌入与生成模型合成嵌入之间的能量差异。这一新颖的方法隐式地将合成嵌入转换为相对于ID数据的伪OOD实例，从而有效地模拟了对OOD场景的暴露，而无需辅助数据。我们在五个基准图数据集上进行了广泛的OOD检测实验，验证了GOLD在不使用真实OOD数据的情况下，相较于最先进的OOD暴露和非暴露基线，具有更优的性能。
+----------------------------------------------------------------------------------------------------
+[No.5] The Power of LLM-Generated Synthetic Data for Stance Detection in Online Political Discussions
+来源: ICLR 2025
+命中: detection
+标题: LLM生成的合成数据在在线政治讨论立场检测中的力量
+类别: other topics in machine learning (i.e., none of the above)
+作者: Stefan Sylvius Wagner;Maike Behrendt;Marc Ziegele;Stefan Harmeling;
+机构: Heinrich-Heine-Universität Düsseldorf;Heinrich-Heine Universität;Technische Universität Dortmund;
+类型: Spotlight
+链接: https://iclr.cc/virtual/2025/poster/27816
+arXi: https://arxiv.org/abs/2406.12480
+英摘: Stance detection holds great potential to improve online political discussions through its deployment in discussion platforms for purposes such as content moderation, topic summarization or to facilitate more balanced discussions. Typically, transformer-based models are employed directly for stance detection, requiring vast amounts of data. However, the wide variety of debate topics in online political discussions makes data collection particularly challenging. LLMs have revived stance detection, but their online deployment in online political discussions faces challenges like inconsistent outputs, biases, and vulnerability to adversarial attacks. We show how LLM-generated synthetic data can improve stance detection for online political discussions by using reliable traditional stance detection models for online deployment, while leveraging the text generation capabilities of LLMs for synthetic data generation in a secure offline environment. To achieve this, (i) we generate synthetic data for specific debate questions by prompting a Mistral-7B model and show that fine-tuning with the generated synthetic data can substantially improve the performance of stance detection, while remaining interpretable and aligned with real world data. (ii) Using the synthetic data as a reference, we can improve performance even further by identifying the most informative samples in an unlabelled dataset, i.e., those samples which the stance detection model is most uncertain about and can benefit from the most. By fine-tuning with both synthetic data and the most informative samples, we surpass the performance of the baseline model that is fine-tuned on all true labels, while labelling considerably less data.
+中摘: 立场检测在通过讨论平台的应用（如内容审核、主题总结或促进更平衡的讨论）来改善在线政治对话方面具有巨大潜力。通常，会直接使用基于变换器的模型进行立场检测，这需要大量的数据。然而，在线政治讨论中广泛多样的辩论话题使得数据收集尤其具有挑战性。大语言模型（LLMs）重新焕发了立场检测的应用，但在在线政治讨论中的部署却面临不一致输出、偏见和对抗攻击漏洞等挑战。我们展示了如何通过利用可靠的传统立场检测模型进行在线部署，并借助大语言模型的文本生成能力在安全的离线环境中生成合成数据，从而改进在线政治讨论中的立场检测。具体而言，(i) 我们通过提示一个 Mistral-7B 模型生成特定辩论问题的合成数据，并证明使用生成的合成数据进行微调可以显著提高立场检测的性能，同时保持可解释性和与真实世界数据的一致性。(ii) 利用合成数据作为参考，我们可以进一步提高性能，通过识别未标记数据集中最具有信息量的样本，即那些立场检测模型最不确定且最能从中受益的样本。通过结合使用合成数据和最具有信息量的样本进行微调，我们的模型超越了仅在所有真实标签上进行微调的基本模型，同时显著减少了需要标注的数据量。
+----------------------------------------------------------------------------------------------------
+[No.6] Union-over-Intersections: Object Detection beyond Winner-Takes-All
+来源: ICLR 2025
+命中: detection
+标题: 并集超越交集：超越赢家通吃的人工智能对象检测
+类别: applications to computer vision, audio, language, and other modalities
+作者: Aritra Bhowmik;Pascal Mettes;Martin R. Oswald;Cees G. M. Snoek;
+机构: University of Amsterdam;
+类型: Spotlight
+链接: https://iclr.cc/virtual/2025/poster/30208
+arXi: https://arxiv.org/abs/2311.18512
+英摘: This paper revisits the problem of predicting box locations in object detection architectures. Typically, each box proposal or box query aims to directly maximize the intersection-over-union score with the ground truth, followed by a winner-takes-all non-maximum suppression where only the highest scoring box in each region is retained. We observe that both steps are sub-optimal: the first involves regressing proposals to the entire ground truth, which is a difficult task even with large receptive fields, and the second neglects valuable information from boxes other than the top candidate. Instead of regressing proposals to the whole ground truth, we propose a simpler approach: regress only to the area of intersection between the proposal and the ground truth. This avoids the need for proposals to extrapolate beyond their visual scope, improving localization accuracy. Rather than adopting a winner-takes-all strategy, we take the union over the regressed intersections of all boxes in a region to generate the final box outputs. Our plug-and-play method integrates seamlessly into proposal-based, grid-based, and query-based detection architectures with minimal modifications, consistently improving object localization and instance segmentation. We demonstrate its broad applicability and versatility across various detection and segmentation tasks.
+中摘: 本文重新审视了物体检测架构中预测边界框位置的问题。通常，每个边界框提案或查询的目标是直接最大化其与真实框的交并比（IoU）分数，随后通过一个“胜者全拿”的非极大值抑制策略，仅保留每个区域中得分最高的边界框。我们观察到这两个步骤都是次优的：第一步涉及到将提案回归到整个真实框，即使具有大的感受野，这也是一项困难的任务；第二步忽略了除最高候选框外其他框中的宝贵信息。我们不将提案回归到整个真实框，而是提出一种更简单的办法：仅将提案回归到其与真实框相交的区域。这避免了提案需要超出其视觉范围进行外推的需求，从而提高了定位精度。我们不再采用“胜者全拿”的策略，而是将一个区域中所有框的回归交集取并集，生成最终的边界框输出。我们的即插即用方法可以无缝集成到基于提案、基于网格和基于查询的检测架构中，并且只需要少量修改，就能一致地提高物体定位和实例分割的准确性。我们展示了该方法在各种检测和分割任务中的广泛适用性和灵活性。
+----------------------------------------------------------------------------------------------------
+[No.7] PointOBB-v2: Towards Simpler, Faster, and Stronger Single Point Supervised Oriented Object Detection
+来源: ICLR 2025
+命中: detection
+标题: 点OBB-v2：向着更简单、更快、更强的单点监督定向物体检测
+类别: unsupervised, self-supervised, semi-supervised, and supervised representation learning
+作者: Botao Ren;Xue Yang;Yi Yu;Junwei Luo;Zhidong Deng;
+机构: Tsinghua University;Shanghai AI Laboratory;Southeast University;Wuhan University;
+类型: Poster
+链接: https://iclr.cc/virtual/2025/poster/29665
+arXi: https://arxiv.org/abs/2410.08210
+英摘: Single point supervised oriented object detection has gained attention and made initial progress within the community. Diverse from those approaches relying on one-shot samples or powerful pretrained models (e.g. SAM), PointOBB has shown promise due to its prior-free feature. In this paper, we propose PointOBB-v2, a simpler, faster, and stronger method to generate pseudo rotated boxes from points without relying on any other prior. Specifically, we first generate a Class Probability Map (CPM) by training the network with non-uniform positive and negative sampling. We show that the CPM is able to learn the approximate object regions and their contours. Then, Principal Component Analysis (PCA) is applied to accurately estimate the orientation and the boundary of objects. By further incorporating a separation mechanism, we resolve the confusion caused by the overlapping on the CPM, enabling its operation in high-density scenarios. Extensive comparisons demonstrate that our method achieves a training speed 15.58x faster and an accuracy improvement of 11.60%/25.15%/21.19% on the DOTA-v1.0/v1.5/v2.0 datasets compared to the previous state-of-the-art, PointOBB. This significantly advances the cutting edge of single point supervised oriented detection in the modular track.
+中摘: 单点监督导向对象检测已引起关注并取得初步进展。不同于依赖单一采样示例或强大预训练模型（如SAM）的方法，PointOBB由于其无先验特征显示出潜力。在本文中，我们提出了一种名为PointOBB-v2的新方法，该方法通过训练网络生成非均匀正负样本的Class Probability Map (CPM)，无需依赖任何其他先验信息来生成伪旋转框。具体而言，我们首先通过非均匀正负样本训练网络生成CPM，证明CPM能够学习对象的大致区域及其轮廓。然后，应用主成分分析(PCA)以准确估计对象的方向和边界。通过进一步引入分离机制，我们解决了CPM上重叠引起的混淆问题，使其能够在高密度场景下正常工作。广泛的比较表明，与之前的最先进方法PointOBB相比，我们的方法在DOTA-v1.0/v1.5/v2.0数据集上的训练速度提高了15.58倍，并且精度分别提高了11.60%、25.15%和21.19%。这显著推进了模块化轨道中单点监督导向对象检测的技术前沿。
+----------------------------------------------------------------------------------------------------
+[No.8] Black-Box Detection of Language Model Watermarks
+来源: ICLR 2025
+命中: detection
+标题: 黑盒检测语言模型水印
+类别: alignment, fairness, safety, privacy, and societal considerations
+作者: Thibaud Gloaguen;Nikola Jovanović;Robin Staab;Martin Vechev;
+机构: ETH Zurich;Swiss Federal Institute of Technology;
+类型: Poster
+链接: https://iclr.cc/virtual/2025/poster/30423
+arXi: https://arxiv.org/abs/2405.20777
+英摘: Watermarking has emerged as a promising way to detect LLM-generated text, by augmenting LLM generations with later detectable signals. Recent work has proposed multiple families of watermarking schemes, several of which focus on preserving the LLM distribution. This distribution-preservation property is motivated by the fact that it is a tractable proxy for retaining LLM capabilities, as well as the inherently implied undetectability of the watermark by downstream users. Yet, despite much discourse around undetectability, no prior work has investigated the practical detectability of any of the current watermarking schemes in a realistic black-box setting. In this work we tackle this for the first time, developing rigorous statistical tests to detect the presence, and estimate parameters, of all three popular watermarking scheme families, using only a limited number of black-box queries. We experimentally confirm the effectiveness of our methods on a range of schemes and a diverse set of open-source models. Further, we validate the feasibility of our tests on real-world APIs. Our findings indicate that current watermarking schemes are more detectable than previously believed.
+中摘: 水印技术已成为检测大语言模型（LLM）生成文本的一种有前途的方法，通过在LLM生成的内容中增加后期可检测的信号。最近的研究提出了多种水印方案家族，其中一些方案专注于保持LLM的分布特性。这种保持分布的性质是由保留LLM能力的可处理代理以及水印对下游用户而言固有的不可检测性所驱动的。然而，尽管关于不可检测性的讨论很多，但之前的研究尚未在实际的黑盒环境中调查任何当前水印方案的实际可检测性。在这项工作中，我们首次解决了这一问题，开发了严格的统计测试方法，仅使用有限数量的黑盒查询来检测所有三种流行的水印方案家族的存在，并估计其参数。我们的实验方法证实了这些方法在各种方案和一系列开源模型上的有效性。此外，我们在实际世界的应用程序接口（API）上验证了这些测试的可行性。研究结果表明，当前的水印方案比之前认为的更容易被检测到。
+----------------------------------------------------------------------------------------------------
+[No.9] I Can Hear You: Selective Robust Training for Deepfake Audio Detection
+来源: ICLR 2025
+命中: detection
+标题: 我能听到你：选择性鲁棒训练在深度假音音频检测中的应用
+类别: alignment, fairness, safety, privacy, and societal considerations
+作者: Zirui Zhang;Wei Hao;Aroon Sankoh;William Lin;Emanuel Mendiola-Ortiz;Junfeng Yang;Chengzhi Mao;
+机构: Columbia University;Washington University in St. Louis;New York University;Pennsylvania State University;Google;
+类型: Poster
+链接: https://iclr.cc/virtual/2025/poster/32111
+arXi: https://arxiv.org/abs/2411.00121
+英摘: Recent advances in AI-generated voices have intensified the challenge of detecting deepfake audio, posing risks for scams and the spread of disinformation. To tackle this issue, we establish the largest public voice dataset to date, named DeepFakeVox-HQ, comprising 1.3 million samples, including 270,000 high-quality deepfake samples from 14 diverse sources. Despite previously reported high accuracy, existing deepfake voice detectors struggle with our diversely collected dataset, and their detection success rates drop even further under realistic corruptions and adversarial attacks. We conduct a holistic investigation into factors that enhance model robustness and show that incorporating a diversified set of voice augmentations is beneficial. Moreover, we find that the best detection models often rely on high-frequency features, which are imperceptible to humans and can be easily manipulated by an attacker. To address this, we propose the F-SAT: Frequency-Selective Adversarial Training method focusing on high-frequency components. Empirical results demonstrate that using our training dataset boosts baseline model performance (without robust training) by 33%, and our robust training further improves accuracy by 7.7% on clean samples and by 29.3% on corrupted and attacked samples, over the state-of-the-art RawNet3 model.
+中摘: 近年来，AI生成语音的进展加剧了检测深度伪造音频的挑战，这带来了欺诈和虚假信息传播的风险。为应对这一问题，我们建立了迄今为止最大的公共语音数据集，命名为DeepFakeVox-HQ，包含130万样本，其中包括来自14个不同来源的27万个高质量深度伪造样本。尽管之前报道的准确率很高，现有的深度伪造语音检测器在我们多样化收集的数据集面前显得力不从心，并且在现实中的损坏和对抗攻击下，其检测成功率进一步下降。我们全面调查了增强模型鲁棒性的因素，并表明引入多样化的语音增强是有益的。此外，我们发现最佳检测模型通常依赖于高频特征，这些特征对人类不可感知，且容易被攻击者操纵。为此，我们提出了一种名为F-SAT（Frequency-Selective Adversarial Training）的方法，专注于高频成分。实验结果表明，使用我们的训练数据集可以将基线模型（未经过鲁棒性训练）的表现提升33%，而我们的鲁棒性训练在干净样本上提高了RawNet3模型7.7%的准确性，在受损和攻击样本上则提高了29.3%的准确性。
+----------------------------------------------------------------------------------------------------
+[No.10] Uni$^2$Det: Unified and Universal Framework for Prompt-Guided Multi-dataset 3D Detection
+来源: ICLR 2025
+命中: detection
+标题: Uni$^2$Det：统一且通用的提示引导多数据集三维检测框架
+类别: applications to computer vision, audio, language, and other modalities
+作者: Yubin Wang;Zhikang Zou;Xiaoqing Ye;Xiao Tan;Errui Ding;Cairong Zhao;
+机构: Tongji University;Baidu;
+类型: Poster
+链接: https://iclr.cc/virtual/2025/poster/30625
+arXi: https://arxiv.org/abs/2409.20558
+英摘: We present Uni$^2$Det, a brand new framework for unified and universal multi-dataset training on 3D detection, enabling robust performance across diverse domains and generalization to unseen domains. Due to substantial disparities in data distribution and variations in taxonomy across diverse domains, training such a detector by simply merging datasets poses a significant challenge. Motivated by this observation, we introduce multi-stage prompting modules for multi-dataset 3D detection, which leverages prompts based on the characteristics of corresponding datasets to mitigate existing differences. This elegant design facilitates seamless plug-and-play integration within various advanced 3D detection frameworks in a unified manner, while also allowing straightforward adaptation for universal applicability across datasets. Experiments are conducted across multiple dataset consolidation scenarios involving KITTI, Waymo, and nuScenes, demonstrating that our Uni$^2$Det outperforms existing methods by a large margin in multi-dataset training. Notably, results on zero-shot cross-dataset transfer validate the generalization capability of our proposed method.
+中摘: 我们提出了一种名为Uni$^2$Det的新框架，用于统一和通用的多数据集3D检测训练，使其在不同领域中表现出稳健性能，并能够泛化到未见过的领域。由于不同领域的数据分布存在显著差异且分类学上的变化各异，简单地合并数据集来训练这样的检测器是一个重大挑战。基于这一观察，我们引入了多阶段提示模块，用于多数据集3D检测，该模块利用与相应数据集特征相关的提示来缓解现有的差异。这种优雅的设计使Uni$^2$Det能够在各种先进的3D检测框架中无缝集成，并且可以方便地适应跨数据集的通用应用。我们在涉及KITTI、Waymo和nuScenes等多个数据集整合场景的实验中进行了测试，结果显示，我们的Uni$^2$Det在多数据集训练中的表现远远优于现有方法。值得注意的是，零样本跨数据集迁移的结果验证了我们所提出方法的泛化能力。
+----------------------------------------------------------------------------------------------------
+[No.11] State Space Model Meets Transformer: A New Paradigm for 3D Object Detection
+来源: ICLR 2025
+命中: detection
+标题: 状态空间模型遇见变换器：三维物体检测的新范式
+类别: applications to computer vision, audio, language, and other modalities
+作者: ChuXin Wang;Wenfei Yang;Xiang Liu;Tianzhu Zhang;
+机构: University of Science and Technology of China;Dongguan University of Technology;
+类型: Poster
+链接: https://iclr.cc/virtual/2025/poster/29524
+arXi: https://arxiv.org/abs/2503.14493
+英摘: DETR-based methods, which use multi-layer transformer decoders to refine object queries iteratively, have shown promising performance in 3D indoor object detection. However, the scene point features in the transformer decoder remain fixed, leading to minimal contributions from later decoder layers, thereby limiting performance improvement. Recently, State Space Models (SSM) have shown efficient context modeling ability with linear complexity through iterative interactions between system states and inputs. Inspired by SSMs, we propose a new 3D object DEtection paradigm with an interactive STate space model (DEST). In the interactive SSM, we design a novel state-dependent SSM parameterization method that enables system states to effectively serve as queries in 3D indoor detection tasks. In addition, we introduce four key designs tailored to the characteristics of point cloud and SSM: The serialization and bidirectional scanning strategies enable bidirectional feature interaction among scene points within the SSM. The inter-state attention mechanism models the relationships between state points, while the gated feed-forward network enhances inter-channel correlations. To the best of our knowledge, this is the first method to model queries as system states and scene points as system inputs, which can simultaneously update scene point features and query features with linear complexity. Extensive experiments on two challenging datasets demonstrate the effectiveness of our DEST-based method. Our method improves the GroupFree baseline in terms of AP50 on ScanNet V2 (+5.3) and SUN RGB-D (+3.2) datasets. Based on the VDETR baseline, Our method sets a new SOTA on the ScanNetV2 and SUN RGB-D datasets.
+中摘: 基于DETR的方法通过迭代优化多层变压器解码器的对象查询，已经在室内三维物体检测任务中展现了良好的性能。然而，变压器解码器中的场景点特征保持不变，导致后期解码器层的贡献微乎其微，从而限制了性能的提升。最近，状态空间模型（SSM）因其通过系统状态和输入之间的迭代交互展示出高效的上下文建模能力而受到关注，并且具有线性复杂度。受SSM的启发，我们提出了一种新的三维物体检测范式——交互式状态空间模型（DEST）。在交互式SSM中，我们设计了一种新颖的状态依赖参数化方法，使系统状态能够有效服务于3D室内检测任务中的查询。此外，我们针对点云和SSM的特点引入了四个关键设计：序列化和双向扫描策略使得SSM内部的场景点之间能够进行双向特征交互。状态间注意力机制用于建模状态点之间的关系，而门控前馈网络则增强了跨通道的相关性。据我们所知，这是首次将查询参数化为系统状态、将场景点作为系统输入的方法，可以同时以线性复杂度更新场景点特征和查询特征。在两个具有挑战性的数据集上的广泛实验表明，我们的DEST基线方法具有显著的效果。与GroupFree基线相比，我们的方法在ScanNet V2和SUN RGB-D数据集上分别提高了5.3%和3.2%的AP50指标。基于VDETR基线，我们的方法在ScanNetV2和SUN RGB-D数据集上均达到了新的最佳性能。
+----------------------------------------------------------------------------------------------------
+[No.12] UV-Attack: Physical-World Adversarial Attacks on Person Detection via Dynamic-NeRF-based UV Mapping
+来源: ICLR 2025
+命中: detection
+标题: UV-攻击：基于Dynamic-NeRF的UV映射对人员检测的物理世界 adversarial 攻击
+类别: applications to computer vision, audio, language, and other modalities
+作者: Yanjie Li;Kaisheng Liang;Bin Xiao;
+机构: Hong Kong Polytechnic University;;
+类型: Poster
+链接: https://iclr.cc/virtual/2025/poster/28278
+arXi: https://arxiv.org/abs/2501.05783
+英摘: In recent research, adversarial attacks on person detectors using patches or static 3D model-based texture modifications have struggled with low success rates due to the flexible nature of human movement. Modeling the 3D deformations caused by various actions has been a major challenge. Fortunately, advancements in Neural Radiance Fields (NeRF) for dynamic human modeling offer new possibilities. In this paper, we introduce UV-Attack, a groundbreaking approach that achieves high success rates even with extensive and unseen human actions. We address the challenge above by leveraging dynamic-NeRF-based UV mapping. UV-Attack can generate human images across diverse actions and viewpoints, and even create novel actions by sampling from the SMPL parameter space. While dynamic NeRF models are capable of modeling human bodies, modifying clothing textures is challenging because they are embedded in neural network parameters. To tackle this, UV-Attack generates UV maps instead of RGB images and modifies the texture stacks. This approach enables real-time texture edits and makes the attack more practical. We also propose a novel Expectation over Pose Transformation loss (EoPT) to improve the evasion success rate on unseen poses and views. Our experiments show that UV-Attack achieves a 92.7% attack success rate against the FastRCNN model across varied poses in dynamic video settings, significantly outperforming the state-of-the-art AdvCamou attack, which only had a 28.5% ASR. Moreover, we achieve 49.5% ASR on the latest YOLOv8 detector in black-box settings. This work highlights the potential of dynamic NeRF-based UV mapping for creating more effective adversarial attacks on person detectors, addressing key challenges in modeling human movement and texture modification. The code is available at https://github.com/PolyLiYJ/UV-Attack.
+中摘: 近期的研究表明，针对使用补丁或静态3D模型纹理修改的人体检测器发起的对抗攻击，由于人体动作的灵活性，成功率较低。模拟由各种动作引起的3D变形也一直是一个重大挑战。幸运的是，神经辐射场（NeRF）在动态人体建模方面的进步为这一问题提供了新的解决方案。本文中，我们提出了UV-Attack这一开创性方法，即使在面对广泛的未知人体动作时，也能实现高成功率。我们通过利用基于动态NeRF的UV映射来应对上述挑战。UV-Attack可以生成跨越多种动作和视角的人体图像，并且可以通过采样SMPL参数空间来创建新颖的动作。尽管动态NeRF模型能够建模人体，但修改服装纹理仍然具有挑战性，因为它们嵌入在网络参数中。为此，UV-Attack生成UV图而不是RGB图像，并修改纹理堆栈。这种方法使得纹理编辑能够实时进行，从而提高了攻击的实际可行性。我们还提出了一种新的姿态变换期望损失（EoPT），以提高在未见过的姿态和视角下的逃避免检成功率。我们的实验结果显示，在动态视频设置下，UV-Attack对FastRCNN模型的攻击成功率达到了92.7%，显著优于最先进的AdvCamou攻击，后者在未见过的姿态下的逃避免检成功率仅为28.5%。此外，在黑盒设置下，我们对最新的YOLOv8检测器实现了49.5%的逃避免检成功率。这项工作突显了基于动态NeRF的UV映射在创建更有效的针对人体检测器的对抗攻击方面的潜力，解决了建模人体运动和纹理修改的关键挑战。相关代码可在https://github.com/PolyLiYJ/UV-Attack获取。
+----------------------------------------------------------------------------------------------------
+[No.13] DECO: Unleashing the Potential of ConvNets for Query-based Detection and Segmentation
+来源: ICLR 2025
+命中: detection
+标题: DECO：挖掘基于查询检测与分割的卷积神经网络潜力
+类别: foundation or frontier models, including LLMs
+作者: Xinghao Chen;Siwei Li;Yijing Yang;Yunhe Wang;
+机构: Huawei;ByteDance;;
+类型: Poster
+链接: https://iclr.cc/virtual/2025/poster/29537
+arXi: https://arxiv.org/abs/2312.13735
+英摘: Transformer and its variants have shown great potential for various vision tasks in recent years, including image classification, object detection and segmentation. Meanwhile, recent studies also reveal that with proper architecture design, convolutional networks (ConvNets) also achieve competitive performance with transformers. However, no prior methods have explored to utilize pure convolution to build a Transformer-style Decoder module, which is essential for Encoder-Decoder architecture like Detection Transformer (DETR). To this end, in this paper we explore whether we could build query-based detection and segmentation framework with ConvNets instead of sophisticated transformer architecture. We propose a novel mechanism dubbed InterConv to perform interaction between object queries and image features via convolutional layers. Equipped with the proposed InterConv, we build Detection ConvNet (DECO), which is composed of a backbone and convolutional encoder-decoder architecture. We compare the proposed DECO against prior detectors on the challenging COCO benchmark. Despite its simplicity, our DECO achieves competitive performance in terms of detection accuracy and running speed. Specifically, with the ResNet-18 and ResNet-50 backbone, our DECO achieves $40.5\%$ and $47.8\%$ AP with $66$ and $34$ FPS, respectively. The proposed method is also evaluated on the segment anything task, demonstrating similar performance and higher efficiency. We hope the proposed method brings another perspective for designing architectures for vision tasks. Codes are available at https://github.com/xinghaochen/DECO and https://github.com/mindspore-lab/models/tree/master/research/huawei-noah/DECO.
+中摘: 近年来，Transformer及其变体在各种视觉任务中展示了巨大的潜力，包括图像分类、目标检测和分割。同时，最近的研究也表明，通过适当的架构设计，卷积网络（ConvNets）也能达到与Transformer相当的竞争性能。然而，此前没有方法探索如何利用纯粹的卷积构建Transformer风格的解码器模块，这对于编码器-解码器架构如检测Transformer（DETR）至关重要。为此，本文探讨了是否可以用卷积网络代替复杂的Transformer架构来构建基于查询的目标检测和分割框架。我们提出了一种名为InterConv的新机制，通过卷积层实现对象查询与图像特征之间的交互。借助所提出的InterConv，我们构建了Detection ConvNet（DECO），其由主干网络和卷积编码-解码架构组成。我们将所提的DECO与先前的方法在具有挑战性的COCO基准上进行了比较。尽管结构简单，我们的DECO在检测准确性和运行速度方面仍能达到竞争水平。具体而言，使用ResNet-18和ResNet-50主干网络时，DECO分别实现了66 FPS和34 FPS下的40.5%和47.8% AP。此外，我们还评估了所提出的方法在“一切皆可分割”任务上的表现，显示出相似的性能和更高的效率。我们希望所提出的方法能为设计视觉任务的架构带来另一种视角。相关代码可在https://github.com/xinghaochen/DECO和https://github.com/mindspore-lab/models/tree/master/research/huawei-noah/DECO获取。
+----------------------------------------------------------------------------------------------------
+[No.14] AnoLLM: Large Language Models for Tabular Anomaly Detection
+来源: ICLR 2025
+命中: detection
+标题: 大型语言模型在表格异常检测中的应用
+类别: other topics in machine learning (i.e., none of the above)
+作者: Che-Ping Tsai;Ganyu Teng;Phillip Wallis;Wei Ding;
+机构: Carnegie Mellon University;Amazon;Google;
+类型: Poster
+链接: https://iclr.cc/virtual/2025/poster/30820
+----------------------------------------------------------------------------------------------------
+[No.15] High-dimension Prototype is a Better Incremental Object Detection Learner
+来源: ICLR 2025
+命中: detection
+标题: 高维原型是更好的增量对象检测学习者
+类别: applications to computer vision, audio, language, and other modalities
+作者: Yanjie Wang;Liqun Chen;Tianming Zhao;Tao Zhang;Guodong Wang;Luxin Yan;Sheng Zhong;Jiahuan Zhou;Xu Zou;
+机构: Huazhong University of Science and Technology;;Peking University;
+类型: Poster
+链接: https://iclr.cc/virtual/2025/poster/30884
+----------------------------------------------------------------------------------------------------
+[No.16] Outlier Synthesis via Hamiltonian Monte Carlo for Out-of-Distribution Detection
+来源: ICLR 2025
+命中: detection
+标题: 基于哈密尔顿蒙特卡洛的离群点合成方法用于分布外检测
+类别: unsupervised, self-supervised, semi-supervised, and supervised representation learning
+作者: Hengzhuang Li;Teng Zhang;
+机构: Huazhong University of Science and Technology;
+类型: Poster
+链接: https://iclr.cc/virtual/2025/poster/29899
+arXi: https://arxiv.org/abs/2501.16718
+英摘: Out-of-distribution (OOD) detection is crucial for developing trustworthy and reliable machine learning systems. Recent advances in training with auxiliary OOD data demonstrate efficacy in enhancing detection capabilities. Nonetheless, these methods heavily rely on acquiring a large pool of high-quality natural outliers. Some prior methods try to alleviate this problem by synthesizing virtual outliers but suffer from either poor quality or high cost due to the monotonous sampling strategy and the heavy-parameterized generative models. In this paper, we overcome all these problems by proposing the Hamiltonian Monte Carlo Outlier Synthesis (HamOS) framework, which views the synthesis process as sampling from Markov chains. Based solely on the in-distribution data, the Markov chains can extensively traverse the feature space and generate diverse and representative outliers, hence exposing the model to miscellaneous potential OOD scenarios. The Hamiltonian Monte Carlo with sampling acceptance rate almost close to 1 also makes our framework enjoy great efficiency. By empirically competing with SOTA baselines on both standard and large-scale benchmarks, we verify the efficacy and efficiency of our proposed HamOS.
+中摘: 分布外（OOD）检测对于开发可信赖且可靠的机器学习系统至关重要。最近在训练中使用辅助OOD数据方面的进展表明，这些方法能够有效提升检测能力。然而，这些方法严重依赖于获取大量高质量的自然异常样本。一些先前的方法试图通过合成虚拟异常来缓解这一问题，但由于单调的采样策略和复杂的生成模型，它们要么质量较差，要么成本较高。在本文中，我们通过提出Hamiltonian蒙特卡洛异常合成（HamOS）框架解决了所有这些问题，该框架将合成过程视为从马尔可夫链中采样。仅基于分布内数据，马尔可夫链可以广泛地遍历特征空间并生成多样且具有代表性的异常样本，从而让模型接触到各种潜在的OOD场景。Hamiltonian蒙特卡洛方法结合几乎接近1的采样接受率也使得我们的框架具有很高的效率。通过在标准和大规模基准上与当前最先进的基线进行实证对比，我们验证了所提出的HamOS的有效性和效率。
+----------------------------------------------------------------------------------------------------
+[No.17] Pursuing Feature Separation based on Neural Collapse for Out-of-Distribution Detection
+来源: ICLR 2025
+命中: detection
+标题: 基于神经坍缩追求特征分离以进行分布外检测
+类别: unsupervised, self-supervised, semi-supervised, and supervised representation learning
+作者: Yingwen Wu;Ruiji Yu;Xinwen Cheng;Zhengbao He;Xiaolin Huang;
+机构: ;Shanghai Jiao Tong University;
+类型: Poster
+链接: https://iclr.cc/virtual/2025/poster/28462
+arXi: https://arxiv.org/abs/2405.17816
+英摘: In the open world, detecting out-of-distribution (OOD) data, whose labels are disjoint with those of in-distribution (ID) samples, is important for reliable deep neural networks (DNNs). To achieve better detection performance, one type of approach proposes to fine-tune the model with auxiliary OOD datasets to amplify the difference between ID and OOD data through a separation loss defined on model outputs. However, none of these studies consider enlarging the feature disparity, which should be more effective compared to outputs. The main difficulty lies in the diversity of OOD samples, which makes it hard to describe their feature distribution, let alone design losses to separate them from ID features. In this paper, we neatly fence off the problem based on an aggregation property of ID features named Neural Collapse (NC). NC means that the penultimate features of ID samples within a class are nearly identical to the last layer weight of the corresponding class. Based on this property, we propose a simple but effective loss called Separation Loss, which binds the features of OOD data in a subspace orthogonal to the principal subspace of ID features formed by NC. In this way, the features of ID and OOD samples are separated by different dimensions. By optimizing the feature separation loss rather than purely enlarging output differences, our detection achieves SOTA performance on CIFAR10, CIFAR100 and ImageNet benchmarks without any additional data augmentation or sampling, demonstrating the importance of feature separation in OOD detection. Code is available at https://github.com/Wuyingwen/Pursuing-Feature-Separation-for-OOD-Detection.
+中摘: 在开放世界中，检测与内部分布（ID）样本标签不交集的外部分布（OOD）数据对于可靠的深度神经网络（DNNs）至关重要。为了实现更好的检测性能，一种方法建议通过定义在模型输出上的分离损失来利用辅助OOD数据集对模型进行微调，以放大ID和OOD数据之间的差异。然而，这些研究中没有一个考虑扩大特征差异，这应该比单纯扩大输出差异更有效。主要困难在于OOD样本的多样性，这使得描述它们的特征分布变得困难，更不用说设计损失函数将它们与ID特征区分开来。在本文中，我们基于名为神经坍缩（NC）的ID特征的一种聚合属性，巧妙地解决了这一问题。NC表示，在一个类内的倒数第二层特征几乎与对应类的最后一层权重相同。基于这一特性，我们提出了一种简单但有效的损失函数，称为分离损失，该损失函数将OOD数据的特征绑定在一个与由NC形成的ID特征主子空间正交的子空间内。这样，ID和OOD样本的特征可以通过不同的维度被分离出来。通过优化特征分离损失而不是单纯扩大输出差异，我们的检测在CIFAR10、CIFAR100和ImageNet基准上实现了SOTA性能，证明了特征分离在OOD检测中的重要性。相关代码可在https://github.com/Wuyingwen/Pursuing-Feature-Separation-for-OOD-Detection获取。
+----------------------------------------------------------------------------------------------------
+[No.18] FakeShield: Explainable Image Forgery Detection and Localization via Multi-modal Large Language Models
+来源: ICLR 2025
+命中: detection
+标题: FakeShield：通过多模态大型语言模型进行可解释的图像伪造检测与定位
+类别: alignment, fairness, safety, privacy, and societal considerations
+作者: Zhipei Xu;Xuanyu Zhang;Runyi Li;Zecheng Tang;Qing Huang;Jian Zhang;
+机构: Peking University;South China University of Technology;
+类型: Poster
+链接: https://iclr.cc/virtual/2025/poster/28315
+arXi: https://arxiv.org/abs/2410.02761
+英摘: The rapid development of generative AI is a double-edged sword, which not only facilitates content creation but also makes image manipulation easier and more difficult to detect. Although current image forgery detection and localization (IFDL) methods are generally effective, they tend to face two challenges: \textbf{1)} black-box nature with unknown detection principle, \textbf{2)} limited generalization across diverse tampering methods (e.g., Photoshop, DeepFake, AIGC-Editing). To address these issues, we propose the explainable IFDL task and design FakeShield, a multi-modal framework capable of evaluating image authenticity, generating tampered region masks, and providing a judgment basis based on pixel-level and image-level tampering clues. Additionally, we leverage GPT-4o to enhance existing IFDL datasets, creating the Multi-Modal Tamper Description dataSet (MMTD-Set) for training FakeShield's tampering analysis capabilities. Meanwhile, we incorporate a Domain Tag-guided Explainable Forgery Detection Module (DTE-FDM) and a Multi-modal Forgery Localization Module (MFLM) to address various types of tamper detection interpretation and achieve forgery localization guided by detailed textual descriptions. Extensive experiments demonstrate that FakeShield effectively detects and localizes various tampering techniques, offering an explainable and superior solution compared to previous IFDL methods. The code is available at https://github.com/zhipeixu/FakeShield.
+中摘: 生成式人工智能的快速发展是一把双刃剑，不仅促进了内容创作，也让图像篡改变得更加容易且更难以检测。尽管当前的图像伪造检测与定位（IFDL）方法通常有效，但它们往往面临两个挑战：**1）黑盒性质，检测原理不明，** **2）在多种篡改方法（如Photoshop、Deepfake、AIGC编辑）之间的一般化能力有限。**为了解决这些问题，我们提出了可解释的IFDL任务，并设计了FakeShield，这是一个多模态框架，能够评估图像的真实性、生成篡改区域掩码，并基于像素级和图像级篡改线索提供判断依据。此外，我们利用GPT-4o增强现有的IFDL数据集，创建了多模态篡改描述数据集（MMTD-Set），用于训练FakeShield的篡改分析能力。同时，我们结合了领域标签引导的可解释伪造检测模块（DTE-FDM）和多模态伪造定位模块（MFLM），以应对各种类型的篡改检测解释，并通过详细的文本描述实现由详细文本描述引导的伪造定位。广泛的实验表明，FakeShield能够有效地检测和定位各种篡改技术，提供了比之前的方法更加可解释和优越的解决方案。代码可在https://github.com/zhipeixu/FakeShield获取。
+----------------------------------------------------------------------------------------------------
+[No.19] R2Det: Exploring Relaxed Rotation Equivariance in 2D Object Detection
+来源: ICLR 2025
+命中: detection
+标题: R2Det：探索二维物体检测中的放松旋转不变性
+类别: applications to computer vision, audio, language, and other modalities
+作者: Zhiqiang Wu;Yingjie Liu;Hanlin Dong;Xuan Tang;Jian Yang;Bo Jin;Mingsong Chen;Xian Wei;
+机构: East China Normal University;;Technische Universität München;
+类型: Poster
+链接: https://iclr.cc/virtual/2025/poster/30402
+arXi: https://arxiv.org/abs/2408.11760
+英摘: Group Equivariant Convolution (GConv) empowers models to explore underlying symmetry in data, improving performance. However, real-world scenarios often deviate from ideal symmetric systems caused by physical permutation, characterized by non-trivial actions of a symmetry group, resulting in asymmetries that affect the outputs, a phenomenon known as Symmetry Breaking. Traditional GConv-based methods are constrained by rigid operational rules within group space, assuming data remains strictly symmetry after limited group transformations. This limitation makes it difficult to adapt to Symmetry-Breaking and non-rigid transformations. Motivated by this, we mainly focus on a common scenario: Rotational Symmetry-Breaking. By relaxing strict group transformations within Strict Rotation-Equivariant group $\mathbf{C}_n$, we redefine a Relaxed Rotation-Equivariant group $\mathbf{R}_n$ and introduce a novel Relaxed Rotation-Equivariant GConv (R2GConv) with only a minimal increase of $4n$ parameters compared to GConv. Based on R2GConv, we propose a Relaxed Rotation-Equivariant Network (R2Net) as the backbone and develop a Relaxed Rotation-Equivariant Object Detector (R2Det) for 2D object detection. Experimental results demonstrate the effectiveness of the proposed R2GConv in natural image classification, and R2Det achieves excellent performance in 2D object detection with improved generalization capabilities and robustness. The code is available in \texttt{https://github.com/wuer5/r2det}.
+中摘: Group不变卷积（GConv）赋予模型探索数据中的潜在对称性并提高性能的能力。然而，在现实世界场景中，由于物理置换导致的理想对称系统往往会发生偏差，这种偏差由对称群的非平凡作用引起，从而导致影响输出的不对称现象，这被称为对称破缺。传统的基于GConv的方法受到组空间内严格操作规则的限制，假设在有限的组变换后数据仍保持严格对称。这一限制使得它们难以适应对称破缺和非刚性变换。鉴于此，我们主要关注一个常见的场景：旋转对称破缺。通过在严格的旋转不变群$\mathbf{C}_n$内部放宽严格的组变换，我们重新定义了一个旋转不变群$\mathbf{R}_n$，并引入了一种仅比GConv增加少量参数（4n个）的新颖的松弛旋转不变GConv（R2GConv）。基于R2GConv，我们提出了一种松弛旋转不变网络（R2Net）作为骨干网络，并开发了一种松弛旋转不变物体检测器（R2Det）用于二维物体检测。实验结果表明，提出的R2GConv在自然图像分类中具有有效性，而R2Det在二维物体检测中表现出卓越的性能，具有增强的一般化能力和鲁棒性。代码可在<https://github.com/wuer5/r2det> 获取。
+----------------------------------------------------------------------------------------------------
+[No.20] Pursuing Better Decision Boundaries for Long-Tailed Object Detection via Category Information Amount
+来源: ICLR 2025
+命中: detection
+标题: 通过类别信息量追求更好的决策边界以改进长尾目标检测
+类别: unsupervised, self-supervised, semi-supervised, and supervised representation learning
+作者: Yanbiao Ma;Wei Dai;Jiayi Chen;
+机构: Xidian University;Heriot-Watt University;Xi'an University of Electronic Science and Technology;
+类型: Poster
+链接: https://iclr.cc/virtual/2025/poster/29994
+arXi: https://arxiv.org/abs/2502.03852
+英摘: In object detection, the instance count is typically used to define whether a dataset exhibits a long-tail distribution, implicitly assuming that models will underperform on categories with fewer instances. This assumption has led to extensive research on category bias in datasets with imbalanced instance counts. However, models still exhibit category bias even in datasets where instance counts are relatively balanced, clearly indicating that instance count alone cannot explain this phenomenon. In this work, we first introduce the concept and measurement of category information amount. We observe a significant negative correlation between category information amount and accuracy, suggesting that category information amount more accurately reflects the learning difficulty of a category. Based on this observation, we propose Information Amount-Guided Angular Margin (IGAM) Loss. The core idea of IGAM is to dynamically adjust the decision space of each category based on its information amount, thereby reducing category bias in long-tail datasets. IGAM Loss not only performs well on long-tailed benchmark datasets such as LVIS v1.0 and COCO-LT but also shows significant improvement for underrepresented categories in the non-long-tailed dataset Pascal VOC. Comprehensive experiments demonstrate the potential of category information amount as a tool and the generality of our proposed method.
+中摘: 在目标检测中，实例计数通常被用来定义数据集是否表现出长尾分布，隐含地假设模型会在实例较少的类别上表现不佳。这一假设导致了对具有不平衡实例计数的数据集中的类别偏差进行了大量研究。然而，即使在实例计数相对平衡的数据集中，模型仍然会表现出类别偏差，这清楚地表明仅凭实例计数无法解释这种现象。在本工作中，我们首先介绍了类别信息量的概念及其测量方法。我们观察到类别信息量与准确性之间存在显著的负相关关系，这表明类别信息量更准确地反映了类别的学习难度。基于这一观察，我们提出了基于类别信息量引导的角度_margin（IGAM）损失。IGAM的核心思想是根据每个类别的信息量动态调整其决策空间，从而减少长尾数据集中的类别偏差。IGAM损失不仅在LVIS v1.0和COCO-LT等长尾基准数据集上表现良好，还在非长尾数据集Pascal VOC中显著提高了欠代表类别的效果。全面的实验展示了类别信息量作为工具的潜力以及我们提出方法的普适性。
+----------------------------------------------------------------------------------------------------
+[No.21] MMFakeBench: A Mixed-Source Multimodal Misinformation Detection Benchmark for LVLMs
+来源: ICLR 2025
+命中: detection
+标题: MMFakeBench：面向低资源语言模型的混合来源多模态 misinformation 检测基准
+类别: alignment, fairness, safety, privacy, and societal considerations
+作者: Xuannan Liu;Zekun Li;Pei Pei Li;Huaibo Huang;Shuhan Xia;Xing Cui;Linzhi Huang;Weihong Deng;Zhaofeng He;
+机构: Beijing University of Posts and Telecommunications;;Chinese Academy of Sciences;
+类型: Poster
+链接: https://iclr.cc/virtual/2025/poster/30477
+arXi: https://arxiv.org/abs/2406.08772
+英摘: Current multimodal misinformation detection (MMD) methods often assume a single source and type of forgery for each sample, which is insufficient for real-world scenarios where multiple forgery sources coexist. The lack of a benchmark for mixed-source misinformation has hindered progress in this field. To address this, we introduce MMFakeBench, the first comprehensive benchmark for mixed-source MMD. MMFakeBench includes 3 critical sources: textual veracity distortion, visual veracity distortion, and cross-modal consistency distortion, along with 12 sub-categories of misinformation forgery types. We further conduct an extensive evaluation of 6 prevalent detection methods and 15 Large Vision-Language Models (LVLMs) on MMFakeBench under a zero-shot setting. The results indicate that current methods struggle under this challenging and realistic mixed-source MMD setting. Additionally, we propose MMD-Agent, a novel approach to integrate the reasoning, action, and tool-use capabilities of LVLM agents, significantly enhancing accuracy and generalization. We believe this study will catalyze future research into more realistic mixed-source multimodal misinformation and provide a fair evaluation of misinformation detection methods.
+中摘: 当前的多模态虚假信息检测（MMD）方法通常假设每个样本只有一个来源和一种伪造类型，这在多个伪造来源共存的实际场景中是不够充分的。缺乏混合来源虚假信息的基准数据集阻碍了该领域的进展。为了解决这一问题，我们引入了MMFakeBench，这是首个全面的混合来源MMD基准数据集。MMFakeBench包含了3个关键来源：文本真实性失真、视觉真实性失真以及跨模态一致性失真，并且还涵盖了12种虚假信息伪造类型的子类别。我们进一步在零样本设置下对6种流行的检测方法和15种大型视觉-语言模型（LVLMs）进行了广泛的评估。结果显示，当前的方法在这一具有挑战性和现实性的混合来源MMD设置下表现不佳。此外，我们提出了MMD-Agent，这是一种新颖的方法，旨在整合LVLM代理的推理、行动和工具使用能力，显著提高了准确性和泛化能力。我们认为这项研究将激发未来更多关于更现实的混合来源多模态虚假信息的研究，并提供一个公平的虚假信息检测方法评估。
+----------------------------------------------------------------------------------------------------
+[No.22] Spreading Out-of-Distribution Detection on Graphs
+来源: ICLR 2025
+命中: detection
+标题: 图上的离分布检测扩展
+类别: learning on graphs and other geometries & topologies
+作者: Daeho Um;Jongin Lim;Sunoh Kim;Yuneil Yeo;Yoonho Jung;
+机构: ;Samsung;University of California, Berkeley;Seoul National University;
+类型: Poster
+链接: https://iclr.cc/virtual/2025/poster/28324
+----------------------------------------------------------------------------------------------------
+[No.23] Unifying Unsupervised Graph-Level Anomaly Detection and Out-of-Distribution Detection: A Benchmark
+来源: ICLR 2025
+命中: detection
+标题: 统一无监督图级异常检测与分布外检测：一个基准
+类别: datasets and benchmarks
+作者: Yili Wang;Yixin Liu;Xu Shen;Chenyu Li;Rui Miao;Kaize Ding;Ying Wang;Shirui Pan;Xin Wang;
+机构: Jilin University;Griffith University;Northwestern University;
+类型: Poster
+链接: https://iclr.cc/virtual/2025/poster/28832
+arXi: https://arxiv.org/abs/2406.15523
+英摘: To build safe and reliable graph machine learning systems, unsupervised graph-level anomaly detection (GLAD) and unsupervised graph-level out-of-distribution (OOD) detection (GLOD) have received significant attention in recent years. Though those two lines of research indeed share the same objective, they have been studied independently in the community due to distinct evaluation setups, creating a gap that hinders the application and evaluation of methods from one to the other. To bridge the gap, in this work, we present a \underline{\textbf{U}}nified \underline{\textbf{B}}enchmark for unsupervised \underline{\textbf{G}}raph-level \underline{\textbf{O}}OD and anoma\underline{\textbf{L}}y \underline{\textbf{D}}etection (\ourmethod), a comprehensive evaluation framework that unifies GLAD and GLOD under the concept of generalized graph-level OOD detection. Our benchmark encompasses 35 datasets spanning four practical anomaly and OOD detection scenarios, facilitating the comparison of 18 representative GLAD/GLOD methods. We conduct multi-dimensional analyses to explore the effectiveness, OOD sensitivity spectrum, robustness, and efficiency of existing methods, shedding light on their strengths and limitations. Furthermore, we provide an open-source codebase (https://github.com/UB-GOLD/UB-GOLD) of \ourmethod to foster reproducible research and outline potential directions for future investigations based on our insights.
+中摘: 为了构建安全可靠的图机器学习系统，近年来无监督图级别异常检测（GLAD）和无监督图级别分布外（OOD）检测（GLOD）受到了广泛关注。尽管这两条研究路线确实具有相同的目标，但由于独立的评估设置，它们在社区中一直独立研究，这造成了一个差距，阻碍了方法在两者之间的应用和评估。为了解决这一问题，本文提出了一种统一的无监督图级别分布外和异常检测基准（\ourmethod），这是一个综合的评估框架，将GLAD和GLOD统一在广义图级别分布外检测的概念之下。我们的基准涵盖了4种实际异常和分布外检测场景中的35个数据集，方便比较18种代表性GLAD/GLOD方法。我们进行了多维度分析，以探索现有方法的有效性、分布外敏感性谱系、鲁棒性和效率，揭示了它们的优点和局限性。此外，我们还提供了\ourmethod的开源代码库（https://github.com/UB-GOLD/UB-GOLD），以促进可重复研究，并基于我们的见解指出了未来研究的潜在方向。
+----------------------------------------------------------------------------------------------------
+[No.24] A Statistical Approach for Controlled Training Data Detection
+来源: ICLR 2025
+命中: detection
+标题: 一种用于受控训练数据检测的统计方法
+类别: other topics in machine learning (i.e., none of the above)
+作者: Zirui Hu;Yingjie Wang;Zheng Zhang;Hong Chen;Dacheng Tao;
+机构: Nanyang Technological University;;Huazhong Agricultural University;
+类型: Poster
+链接: https://iclr.cc/virtual/2025/poster/29318
+----------------------------------------------------------------------------------------------------
+[No.25] MMAD: A Comprehensive Benchmark for Multimodal Large Language Models in Industrial Anomaly Detection
+来源: ICLR 2025
+命中: detection
+标题: MMAD：工业异常检测领域多模态大型语言模型的全面基准
+类别: datasets and benchmarks
+作者: Xi Jiang;Jian Li;Hanqiu Deng;Yong Liu;Bin-Bin Gao;Yifeng Zhou;Jialin Li;Chengjie Wang;Feng Zheng;
+机构: Tencent;University of Alberta;Southern University of Science and Technology;
+类型: Poster
+链接: https://iclr.cc/virtual/2025/poster/30120
+arXi: https://arxiv.org/abs/2410.09453
+英摘: In the field of industrial inspection, Multimodal Large Language Models (MLLMs) have a high potential to renew the paradigms in practical applications due to their robust language capabilities and generalization abilities. However, despite their impressive problem-solving skills in many domains, MLLMs' ability in industrial anomaly detection has not been systematically studied. To bridge this gap, we present MMAD, the first-ever full-spectrum MLLMs benchmark in industrial Anomaly Detection. We defined seven key subtasks of MLLMs in industrial inspection and designed a novel pipeline to generate the MMAD dataset with 39,672 questions for 8,366 industrial images. With MMAD, we have conducted a comprehensive, quantitative evaluation of various state-of-the-art MLLMs. The commercial models performed the best, with the average accuracy of GPT-4o models reaching 74.9%. However, this result falls far short of industrial requirements. Our analysis reveals that current MLLMs still have significant room for improvement in answering questions related to industrial anomalies and defects. We further explore two training-free performance enhancement strategies to help models improve in industrial scenarios, highlighting their promising potential for future research.
+中摘: 在工业检测领域，多模态大语言模型（MLLMs）由于其强大的语言能力和泛化能力，具有重新定义实际应用范式的高潜力。然而，尽管这些模型在许多领域展示出令人印象深刻的解决问题的能力，但它们在工业异常检测方面的性能尚未得到系统研究。为了弥合这一差距，我们提出了MMAD，这是首个全面覆盖工业异常检测的大语言模型基准测试。我们在工业检测中定义了七项关键子任务，并设计了一种新的生成流程来创建包含8,366张工业图像和39,672个问题的MMAD数据集。通过MMAD，我们对各种最先进的大语言模型进行了全面的定量评估。商业模型表现最佳，GPT-4o模型的平均准确率达到了74.9%。然而，这一结果远未达到工业需求。我们的分析表明，当前的大语言模型在回答与工业异常和缺陷相关的问题方面仍有显著改进空间。为进一步提升模型在工业场景中的表现，我们探讨了两种无需训练的性能增强策略，强调了它们在未来研究中的巨大潜力。
+----------------------------------------------------------------------------------------------------
+[No.26] Swift Hydra: Self-Reinforcing Generative Framework for Anomaly Detection with Multiple Mamba Models
+来源: ICLR 2025
+命中: detection
+标题: Swift Hydra：基于多个Mamba模型的自我强化生成框架异常检测系统
+类别: alignment, fairness, safety, privacy, and societal considerations
+作者: Nguyen Hoang Khoi Do;Truc Nguyen;Malik Hassanaly;raed alharbi;Jung Taek Seo;My T. Thai;
+机构: University of Florida;;National Renewable Energy Laboratory;Saudi Electronic University;
+类型: Poster
+链接: https://iclr.cc/virtual/2025/poster/29771
+arXi: https://arxiv.org/abs/2503.06413
+英摘: Despite a plethora of anomaly detection models developed over the years, their ability to generalize to unseen anomalies remains an issue, particularly in critical systems. This paper aims to address this challenge by introducing Swift Hydra, a new framework for training an anomaly detection method based on generative AI and reinforcement learning (RL). Through featuring an RL policy that operates on the latent variables of a generative model, the framework synthesizes novel and diverse anomaly samples that are capable of bypassing a detection model. These generated synthetic samples are, in turn, used to augment the detection model, further improving its ability to handle challenging anomalies. Swift Hydra also incorporates Mamba models structured as a Mixture of Experts (MoE) to enable scalable adaptation of the number of Mamba experts based on data complexity, effectively capturing diverse feature distributions without increasing the model's inference time. Empirical evaluations on ADBench benchmark demonstrate that Swift Hydra outperforms other state-of-the-art anomaly detection models while maintaining a relatively short inference time. From these results, our research highlights a new and auspicious paradigm of integrating RL and generative AI for advancing anomaly detection.
+中摘: 尽管多年来开发了大量异常检测模型，但它们在处理未见过的异常时的能力仍然存在问题，特别是在关键系统中。本文旨在通过引入Swift Hydra——一种基于生成AI和强化学习（RL）的新框架——来解决这一挑战。该框架通过在生成模型的潜在变量上操作一个RL策略，合成了能够绕过检测模型的新颖且多样的异常样本。这些生成的合成样本随后被用于增强检测模型，进一步提高其处理具有挑战性的异常的能力。Swift Hydra还集成了结构化为专家混合体（MoE）的Mamba模型，以根据数据复杂性实现可扩展的Mamba专家数量适应，从而有效地捕捉多样化的特征分布，而不增加模型的推理时间。在ADBench基准上的实证评估表明，Swift Hydra在保持相对短的推理时间的同时，优于其他最先进的异常检测模型。从这些结果来看，我们的研究突显了将RL与生成AI结合的新颖且有前景的方法论，这对于推动异常检测的发展具有重要意义。
+----------------------------------------------------------------------------------------------------
+[No.27] Multi-Resolution Decomposable Diffusion Model for Non-Stationary Time Series Anomaly Detection
+来源: ICLR 2025
+命中: detection
+标题: 多分辨率可分解扩散模型在非平稳时间序列异常检测中的应用
+类别: generative models
+作者: Guojin Zhong;pan wang;Jin Yuan;Zhiyong Li;Long Chen;
+机构: Hunan University;Hong Kong University of Science and Technology;
+类型: Poster
+链接: https://iclr.cc/virtual/2025/poster/28922
+----------------------------------------------------------------------------------------------------
+[No.28] Decoupled Graph Energy-based Model for Node Out-of-Distribution Detection on Heterophilic Graphs
+来源: ICLR 2025
+命中: detection
+标题: 异类图上节点离分布检测的解耦图形能量模型
+类别: learning on graphs and other geometries & topologies
+作者: Yuhan Chen;Yihong Luo;Yifan Song;Pengwen Dai;Jing Tang;Xiaochun Cao;
+机构: Sun Yat-sen University;Hong Kong University of Science and Technology;
+类型: Poster
+链接: https://iclr.cc/virtual/2025/poster/29852
+arXi: https://arxiv.org/abs/2502.17912
+英摘: Despite extensive research efforts focused on OOD detection on images, OOD detection on nodes in graph learning remains underexplored. The dependence among graph nodes hinders the trivial adaptation of existing approaches on images that assume inputs to be i.i.d. sampled, since many unique features and challenges specific to graphs are not considered, such as the heterophily issue. Recently, GNNSafe, which considers node dependence, adapted energy-based detection to the graph domain with state-of-the-art performance, however, it has two serious issues: 1) it derives node energy from classification logits without specifically tailored training for modeling data distribution, making it less effective at recognizing OOD data; 2) it highly relies on energy propagation, which is based on homophily assumption and will cause significant performance degradation on heterophilic graphs, where the node tends to have dissimilar distribution with its neighbors. To address the above issues, we suggest training EBMs by MLE to enhance data distribution modeling and remove energy propagation to overcome the heterophily issues. However, training EBMs via MLE requires performing MCMC sampling on both node feature and node neighbors, which is challenging due to the node interdependence and discrete graph topology. To tackle the sampling challenge, we introduce DeGEM, which decomposes the learning process into two parts: a graph encoder that leverages topology information for node representations and an energy head that operates in latent space. Extensive experiments validate that DeGEM, without OOD exposure during training, surpasses previous state-of-the-art methods, achieving an average AUROC improvement of 6.71% on homophilic graphs and 20.29% on heterophilic graphs, and even outperform methods trained with OOD exposure. Our code is available at: https://github.com/draym28/DeGEM.
+中摘: 尽管在图像领域进行了大量关于OOD检测的研究努力，但在图学习中对节点的OOD检测仍然研究不足。图节点之间的依赖关系阻碍了现有假设输入为独立同分布采样的图像方法的直接应用，因为许多与图特有的独特特征和挑战未被考虑，例如异质性问题。最近，GNNSafe 考虑了节点间的依赖关系，并将基于能量的方法适应到了图域中，取得了最先进的性能，然而它存在两个严重的问题：1）它从分类logits中提取节点能量，而没有针对建模数据分布进行专门训练，这使其在识别OOD数据方面效果不佳；2）它高度依赖于能量传播，这是基于同质性假设的，而在异质性图上（节点与其邻居的分布差异较大），这种假设会导致显著的性能下降。为了应对上述问题，我们建议通过最大似然估计（MLE）训练EBMs以增强数据分布建模，并移除能量传播以克服异质性问题。然而，通过MLE训练EBMs需要在节点特征和节点邻居之间进行MCMC采样，由于节点间的相互依赖性和离散的图拓扑结构，这一过程具有挑战性。为了解决采样挑战，我们引入了DeGEM，该方法将学习过程分解为两部分：一个图编码器，利用拓扑信息生成节点表示，以及一个操作在潜在空间的能量头。大量的实验验证了DeGEM在训练过程中无需暴露OOD数据即可超越先前的最先进的方法，在同质性图上平均AUROC提高了6.71%，在异质性图上提高了20.29%，甚至超过了在OOD数据上进行训练的方法。我们的代码可在以下地址获取：https://github.com/draym28/DeGEM。
+----------------------------------------------------------------------------------------------------
+[No.29] Scale-Aware Contrastive Reverse Distillation for Unsupervised Medical Anomaly Detection
+来源: ICLR 2025
+命中: detection
+标题: 基于尺度感知对比反向蒸馏的无监督医疗异常检测
+类别: unsupervised, self-supervised, semi-supervised, and supervised representation learning
+作者: Chunlei Li;Yilei Shi;Jingliang Hu;Xiao Xiang Zhu;Lichao Mou;
+机构: MedAI Tech;Technische Universität München;Technical University of Munich;
+类型: Poster
+链接: https://iclr.cc/virtual/2025/poster/30228
+arXi: https://arxiv.org/abs/2503.13828
+英摘: Unsupervised anomaly detection using deep learning has garnered significant research attention due to its broad applicability, particularly in medical imaging where labeled anomalous data are scarce. While earlier approaches leverage generative models like autoencoders and generative adversarial networks (GANs), they often fall short due to overgeneralization. Recent methods explore various strategies, including memory banks, normalizing flows, self-supervised learning, and knowledge distillation, to enhance discrimination. Among these, knowledge distillation, particularly reverse distillation, has shown promise. Following this paradigm, we propose a novel scale-aware contrastive reverse distillation model that addresses two key limitations of existing reverse distillation methods: insufficient feature discriminability and inability to handle anomaly scale variations. Specifically, we introduce a contrastive student-teacher learning approach to derive more discriminative representations by generating and exploring out-of-normal distributions. Further, we design a scale adaptation mechanism to softly weight contrastive distillation losses at different scales to account for the scale variation issue. Extensive experiments on benchmark datasets demonstrate state-of-the-art performance, validating the efficacy of the proposed method. Code is available at https://github.com/MedAITech/SCRD4AD.
+中摘: 基于深度学习的无监督异常检测由于其广泛的应用前景，尤其是在标注异常数据稀缺的医学影像领域，引起了显著的研究关注。早期的方法主要利用生成模型，如自动编码器和生成对抗网络（GANs），但由于这些方法容易过度泛化，往往效果不佳。近年来，研究人员探索了多种策略，包括记忆库、规范化流、自监督学习和知识蒸馏，以增强区分能力。在这之中，特别是逆向知识蒸馏，在提升性能方面显示出潜力。遵循这一范式，我们提出了一种新颖的尺度感知对比逆向蒸馏模型，解决了现有逆向蒸馏方法中的两个关键限制：特征区分度不足以及无法处理异常尺度变化。具体而言，我们引入了一种对比学生-教师学习方法，通过生成和探索正常分布之外的数据来获得更具有区分性的表示。此外，我们设计了一种尺度适应机制，根据不同尺度软性加权对比蒸馏损失，以解决尺度变化的问题。在基准数据集上的广泛实验表明，该方法达到了最先进的性能，验证了其有效性。相关代码可在https://github.com/MedAITech/SCRD4AD获取。
+----------------------------------------------------------------------------------------------------
+[No.30] Manifold Induced Biases for Zero-shot and Few-shot Detection of Generated Images
+来源: ICLR 2025
+命中: detection
+标题: 生成图像零样本和少样本检测中的流形诱导偏差
+类别: generative models
+作者: Jonathan Brokman;Amit Giloni;Omer Hofman;Roman Vainshtein;Hisashi Kojima;Guy Gilboa;
+机构: Technion - Israel Institute of Technology;Fujitsu Research and Development Center;
+类型: Poster
+链接: https://iclr.cc/virtual/2025/poster/30810
+arXi: https://arxiv.org/abs/2504.15470
+英摘: Distinguishing between real and AI-generated images, commonly referred to as 'image detection', presents a timely and significant challenge. Despite extensive research in the (semi-)supervised regime, zero-shot and few-shot solutions have only recently emerged as promising alternatives. Their main advantage is in alleviating the ongoing data maintenance, which quickly becomes outdated due to advances in generative technologies. We identify two main gaps: (1) a lack of theoretical grounding for the methods, and (2) significant room for performance improvements in zero-shot and few-shot regimes. Our approach is founded on understanding and quantifying the biases inherent in generated content, where we use these quantities as criteria for characterizing generated images. Specifically, we explore the biases of the implicit probability manifold, captured by a pre-trained diffusion model. Through score-function analysis, we approximate the curvature, gradient, and bias towards points on the probability manifold, establishing criteria for detection in the zero-shot regime. We further extend our contribution to the few-shot setting by employing a mixture-of-experts methodology. Empirical results across 20 generative models demonstrate that our method outperforms current approaches in both zero-shot and few-shot settings. This work advances the theoretical understanding and practical usage of generated content biases through the lens of manifold analysis.
+中摘: 区分真实图像和AI生成的图像，通常被称为“图像检测”，是一项及时且重要的挑战。尽管在半监督范式中进行了大量研究，但零样本和少样本解决方案直到最近才被视为有前景的替代方案。它们的主要优势在于减轻了不断更新数据的负担，因为生成技术的进步使得数据很快变得过时。我们识别出了两个主要差距：（1）方法缺乏理论基础，（2）在零样本和少样本范式中存在显著的性能提升空间。我们的方法基于理解并量化生成内容中的内在偏差，并使用这些量作为表征生成图像的标准。具体来说，我们探索由预训练扩散模型捕获的概率流形的隐含偏差。通过评分函数分析，我们近似计算了曲率、梯度以及概率流形上点的偏差，从而为零样本范式的检测建立了标准。我们进一步将贡献扩展到少样本设置，采用专家混合方法。跨20个生成模型的实证结果表明，在零样本和少样本设置中，我们的方法均优于当前的方法。这项工作通过流形分析的视角推进了生成内容偏差的理论理解及其实际应用。
+----------------------------------------------------------------------------------------------------
+[No.31] A Sanity Check for AI-generated Image Detection
+来源: ICLR 2025
+命中: detection
+标题: AI生成图像检测的合理性检查
+类别: applications to computer vision, audio, language, and other modalities
+作者: Shilin Yan;Ouxiang Li;Jiayin Cai;Yanbin Hao;Xiaolong Jiang;Yao Hu;Weidi Xie;
+机构: Xiaohongshu;University of Science and Technology of China;Hefei University of Technology;Alibaba Group;Shanghai Jiao Tong University;
+类型: Poster
+链接: https://iclr.cc/virtual/2025/poster/29835
+arXi: https://arxiv.org/abs/2406.19435
+英摘: With the rapid development of generative models, discerning AI-generated content has evoked increasing attention from both industry and academia. In this paper, we conduct a sanity check on "whether the task of AI-generated image detection has been solved". To start with, we present Chameleon dataset, consisting AIgenerated images that are genuinely challenging for human perception. To quantify the generalization of existing methods, we evaluate 9 off-the-shelf AI-generated image detectors on Chameleon dataset. Upon analysis, almost all models classify AI-generated images as real ones. Later, we propose AIDE (AI-generated Image DEtector with Hybrid Features), which leverages multiple experts to simultaneously extract visual artifacts and noise patterns. Specifically, to capture the high-level semantics, we utilize CLIP to compute the visual embedding. This effectively enables the model to discern AI-generated images based on semantics or contextual information; Secondly, we select the highest frequency patches and the lowest frequency patches in the image, and compute the low-level patchwise features, aiming to detect AI-generated images by low-level artifacts, for example, noise pattern, anti-aliasing, etc. While evaluating on existing benchmarks, for example, AIGCDetectBenchmark and GenImage, AIDE achieves +3.5% and +4.6% improvements to state-of-the-art methods, and on our proposed challenging Chameleon benchmarks, it also achieves the promising results, despite this problem for detecting AI-generated images is far from being solved.
+中摘: 随着生成模型的迅速发展，辨别AI生成的内容引起了行业和学术界的广泛关注。在本文中，我们对“AI生成图像检测任务是否已经解决”进行了合理性检查。首先，我们介绍了Chameleon数据集，该数据集包含对人类感知真正具有挑战性的AI生成图像。为了量化现有方法的一般化能力，我们在Chameleon数据集上评估了9个现成的AI生成图像检测器。分析结果显示，几乎所有的模型都将AI生成的图像分类为真实的图像。随后，我们提出了AIDE（结合特征的AI生成图像检测器），该检测器利用多个专家同时提取视觉特征和噪声模式。具体而言，为了捕捉高层次语义信息，我们利用CLIP计算视觉嵌入。这有效地使模型能够基于语义或上下文信息来辨别AI生成的图像；其次，我们选择了图像中的高频块和低频块，并计算低级别的块状特征，旨在通过低级别特征如噪声模式、抗锯齿等来检测AI生成的图像。在现有基准如AIGCDetectBenchmark和GenImage上的评估中，AIDE分别实现了对最新方法3.5%和4.6%的改进，在我们提出的具有挑战性的Chameleon基准上也取得了令人鼓舞的结果，尽管检测AI生成图像的问题仍然远未解决。
+----------------------------------------------------------------------------------------------------
+[No.32] One-for-All Few-Shot Anomaly Detection via Instance-Induced Prompt Learning
+来源: ICLR 2025
+命中: detection
+标题: 全例一体少量样本异常检测通过实例诱导提示学习
+类别: applications to computer vision, audio, language, and other modalities
+作者: Wenxi Lv;Qinliang Su;Wenchao Xu;
+机构: Sun Yat-sen University;;
+类型: Poster
+链接: https://iclr.cc/virtual/2025/poster/29190
+----------------------------------------------------------------------------------------------------
+[No.33] Can We Ignore Labels in Out of Distribution Detection?
+来源: ICLR 2025
+命中: detection
+标题: 我们可以在分布外检测中忽略标签吗？
+类别: alignment, fairness, safety, privacy, and societal considerations
+作者: Hong Yang;Qi Yu;Travis Desell;
+机构: Rochester Institute of Technology;
+类型: Poster
+链接: https://iclr.cc/virtual/2025/poster/28870
+arXi: https://arxiv.org/abs/2504.14704
+英摘: Out-of-distribution (OOD) detection methods have recently become more prominent, serving as a core element in safety-critical autonomous systems. One major purpose of OOD detection is to reject invalid inputs that could lead to unpredictable errors and compromise safety. Due to the cost of labeled data, recent works have investigated the feasibility of self-supervised learning (SSL) OOD detection, unlabeled OOD detection, and zero shot OOD detection. In this work, we identify a set of conditions for a theoretical guarantee of failure in unlabeled OOD detection algorithms from an information-theoretic perspective. These conditions are present in all OOD tasks dealing with real-world data: I) we provide theoretical proof of unlabeled OOD detection failure when there exists zero mutual information between the learning objective and the in-distribution labels, a.k.a. 'label blindness', II) we define a new OOD task - Adjacent OOD detection - that tests for label blindness and accounts for a previously ignored safety gap in all OOD detection benchmarks, and III) we perform experiments demonstrating that existing unlabeled OOD methods fail under conditions suggested by our label blindness theory and analyze the implications for future research in unlabeled OOD methods.
+中摘: 分布外（OOD）检测方法近年来越来越受到重视，成为安全关键自主系统的核心要素之一。OOD检测的主要目的之一是拒绝可能导致不可预测错误并损害安全性的无效输入。由于标注数据的成本较高，最近的研究工作探讨了自监督学习（SSL）的OOD检测、无标注的OOD检测以及零样本的OOD检测的可能性。在本研究中，我们从信息论的角度识别了一组条件，以确保无标注OOD检测算法理论上的失败保证。这些条件适用于所有涉及真实世界数据的OOD任务：I) 我们提供了理论证明，当学习目标与分布内标签之间不存在互信息时，无标注OOD检测将失败，这被称为“标签盲视”；II) 我们定义了一个新的OOD任务——相邻OOD检测，该任务用于测试标签盲视，并弥补了所有OOD检测基准中之前忽略的安全差距；III) 我们进行了实验，证明现有的无标注OOD方法在我们的标签盲视理论建议的条件下会失败，并分析了这对未来无标注OOD方法研究的意义。
+----------------------------------------------------------------------------------------------------
+[No.34] Prompt as Knowledge Bank: Boost Vision-language model via Structural Representation for zero-shot medical detection
+来源: ICLR 2025
+命中: detection
+标题: Prompt 作为知识库：通过结构表示增强视觉-语言模型以实现零样本医疗检测
+类别: applications to computer vision, audio, language, and other modalities
+作者: Yuguang Yang;Tongfei Chen;Haoyu Huang;Linlin Yang;Chunyu Xie;Dawei Leng;Xianbin Cao;Baochang Zhang;
+机构: School of Electronic Information Engineering;Beihang University;Communication University of China;360 AI Research;360 AI Institute;
+类型: Poster
+链接: https://iclr.cc/virtual/2025/poster/28543
+arXi: https://arxiv.org/abs/2502.16223
+英摘: Zero-shot medical detection can further improve detection performance without relying on annotated medical images even upon the fine-tuned model, showing great clinical value. Recent studies leverage grounded vision-language models (GLIP) to achieve this by using detailed disease descriptions as prompts for the target disease name during the inference phase. However, these methods typically treat prompts as equivalent context to the target name, making it difficult to assign specific disease knowledge based on visual information, leading to a coarse alignment between images and target descriptions. In this paper, we propose StructuralGLIP, which introduces an auxiliary branch to encode prompts into a latent knowledge bank layer-by-layer, enabling more context-aware and fine-grained alignment. Specifically, in each layer, we select highly similar features from both the image representation and the knowledge bank, forming structural representations that capture nuanced relationships between image patches and target descriptions. These features are then fused across modalities to further enhance detection performance. Extensive experiments demonstrate that StructuralGLIP achieves a +4.1\% AP improvement over prior state-of-the-art methods across seven zero-shot medical detection benchmarks, and consistently improves fine-tuned models by +3.2\% AP on endoscopy image datasets.
+中摘: 零样本医疗检测可以在不依赖标注医疗图像的情况下进一步提高检测性能，即使是在微调后的模型上也是如此，显示出巨大的临床价值。最近的研究利用基于视觉-语言的模型（GLIP），在推理阶段通过使用详细的疾病描述作为目标疾病名称的提示来实现这一点。然而，这些方法通常将提示视为与目标名称等效的上下文，使得难以根据视觉信息分配特定的疾病知识，导致图像与目标描述之间的粗略对齐。在本文中，我们提出了StructuralGLIP，该方法引入了一个辅助分支，逐层将提示编码到潜在知识库中，从而实现更上下文感知和精细的对齐。具体而言，在每一层中，我们从图像表示和知识库中选择高度相似的特征，形成结构表示，以捕捉图像片段和目标描述之间微妙的关系。然后，这些特征在不同模态间进行融合，进一步提升检测性能。广泛实验表明，StructuralGLIP在七个零样本医疗检测基准上的平均精度（AP）比先前的最佳方法提高了4.1%，并且在内窥镜图像数据集上的一致性改进为3.2%的AP。
+----------------------------------------------------------------------------------------------------
+[No.35] CATCH: Channel-Aware Multivariate Time Series Anomaly Detection via Frequency Patching
+来源: ICLR 2025
+命中: detection
+标题: CATCH：基于频域分段的通道感知多变量时间序列异常检测
+类别: learning on time series and dynamical systems
+作者: Xingjian Wu;Xiangfei Qiu;Zhengyu Li;Yihang Wang;Jilin Hu;Chenjuan Guo;Hui Xiong;Bin Yang;
+机构: East China Normal University;Aalborg University;;Hong Kong University of Science and Technology;
+类型: Poster
+链接: https://iclr.cc/virtual/2025/poster/28489
+arXi: https://arxiv.org/abs/2410.12261
+英摘: Anomaly detection in multivariate time series is challenging as heterogeneous subsequence anomalies may occur. Reconstruction-based methods, which focus on learning normal patterns in the frequency domain to detect diverse abnormal subsequences, achieve promising results, while still falling short on capturing fine-grained frequency characteristics and channel correlations. To contend with the limitations, we introduce CATCH, a framework based on frequency patching. We propose to patchify the frequency domain into frequency bands, which enhances its ability to capture fine-grained frequency characteristics. To perceive appropriate channel correlations, we propose a Channel Fusion Module (CFM), which features a patch-wise mask generator and a masked-attention mechanism. Driven by a bi-level multi-objective optimization algorithm, the CFM is encouraged to iteratively discover appropriate patch-wise channel correlations, and to cluster relevant channels while isolating adverse effects from irrelevant channels. Extensive experiments on 10 real-world datasets and 12 synthetic datasets demonstrate that CATCH achieves state-of-the-art performance. We make our code and datasets available at https://github.com/decisionintelligence/CATCH.
+中摘: 多变量时间序列中的异常检测具有挑战性，因为可能存在异质子序列异常。基于重构的方法专注于在频域中学习正常模式以检测多样化的异常子序列，取得了令人瞩目的成果，但仍无法捕捉到细微的频率特征和通道间的相关性。为应对这些限制，我们引入了CATCH框架，该框架基于频率拼接。我们提出将频域拆分为频率带，这增强了其捕捉细微频率特征的能力。为了感知适当的通道相关性，我们提出了一个通道融合模块（Channel Fusion Module，CFM），该模块具有块级掩码生成器和掩码注意力机制。受双层多目标优化算法驱动，CFM被鼓励迭代地发现适当的块级通道相关性，并聚类相关的通道同时隔离无关通道的影响。在10个真实世界数据集和12个合成数据集上的广泛实验表明，CATCH达到了最先进的性能。我们已将代码和数据集发布在https://github.com/decisionintelligence/CATCH。
+----------------------------------------------------------------------------------------------------
+[No.36] Glimpse: Enabling White-Box Methods to Use Proprietary Models for Zero-Shot LLM-Generated Text Detection
+来源: ICLR 2025
+命中: detection
+标题: Glimpse: 允许白盒方法使用专有模型进行零样本LLM生成文本检测
+类别: alignment, fairness, safety, privacy, and societal considerations
+作者: Guangsheng Bao;Yanbin Zhao;Juncai He;Yue Zhang;
+机构: Westlake University;Shanghai Polytechnic University;King Abdullah University of Science and Technology;
+类型: Poster
+链接: https://iclr.cc/virtual/2025/poster/29149
+arXi: https://arxiv.org/abs/2412.11506
+英摘: Advanced large language models (LLMs) can generate text almost indistinguishable from human-written text, highlighting the importance of LLM-generated text detection. However, current zero-shot techniques face challenges as white-box methods are restricted to use weaker open-source LLMs, and black-box methods are limited by partial observation from stronger proprietary LLMs. It seems impossible to enable white-box methods to use proprietary models because API-level access to the models neither provides full predictive distributions nor inner embeddings. To traverse the divide, we propose **Glimpse**, a probability distribution estimation approach, predicting the full distributions from partial observations. Despite the simplicity of Glimpse, we successfully extend white-box methods like Entropy, Rank, Log-Rank, and Fast-DetectGPT to latest proprietary models. Experiments show that Glimpse with Fast-DetectGPT and GPT-3.5 achieves an average AUROC of about 0.95 in five latest source models, improving the score by 51% relative to the remaining space of the open source baseline. It demonstrates that the latest LLMs can effectively detect their own outputs, suggesting that advanced LLMs may be the best shield against themselves. We release our code and data at https://github.com/baoguangsheng/glimpse.
+中摘: 高级大型语言模型（LLMs）生成的文本几乎可以与人工撰写的文本区分开来，突显了检测LLM生成文本的重要性。然而，当前的零样本技术面临挑战，因为白盒方法只能使用较弱的开源LLM，而黑盒方法则受限于部分观察较强的专业LLM。似乎不可能让白盒方法使用专有模型，因为这些模型在API级别上的访问既不提供完整的预测分布，也不提供内部嵌入。为了跨越这一鸿沟，我们提出了一种名为**Glimpse**的概率分布估计方法，能够从部分观察中预测出完整的分布。尽管Glimpse方法相对简单，但我们成功地将其扩展到最新的专有模型上，如Entropy、Rank、Log-Rank和Fast-DetectGPT。实验结果显示，在五个最新的源模型中，Glimpse与Fast-DetectGPT和GPT-3.5结合使用时，平均AUROC约为0.95，相对于开源基线剩余的空间，得分提高了51%。这表明最新的LLM能够有效地检测它们自己的输出，暗示高级LLM可能是对抗它们自身的最佳防护。我们已在https://github.com/baoguangsheng/glimpse发布了我们的代码和数据。
+----------------------------------------------------------------------------------------------------
+[No.37] PaLD: Detection of Text Partially Written by Large Language Models
+来源: ICLR 2025
+命中: detection
+标题: PaLD：大型语言模型部分生成文本的检测
+类别: alignment, fairness, safety, privacy, and societal considerations
+作者: Eric Lei;Hsiang Hsu;Chun-Fu Chen;
+机构: University of Pennsylvania;JPMorgan Chase & Co.;JPMorgan Chase;
+类型: Poster
+链接: https://iclr.cc/virtual/2025/poster/28190
+----------------------------------------------------------------------------------------------------
+[No.38] RobuRCDet: Enhancing Robustness of Radar-Camera Fusion in Bird's Eye View for 3D Object Detection
+来源: ICLR 2025
+命中: detection
+标题: RobuRCDet：增强雷达-摄像头融合在鸟瞰图下的3D目标检测鲁棒性
+类别: applications to computer vision, audio, language, and other modalities
+作者: Jingtong Yue;Zhiwei Lin;Xin Lin;Xiaoyu Zhou;Xiangtai Li;Lu Qi;Yongtao Wang;Ming-Hsuan Yang;
+机构: Sichuan University;Peking University;;Wuhan University;University of California, Merced;
+类型: Poster
+链接: https://iclr.cc/virtual/2025/poster/30658
+----------------------------------------------------------------------------------------------------
+[No.39] Infilling Score: A Pretraining Data Detection Algorithm for Large Language Models
+来源: ICLR 2025
+命中: detection
+标题: 填充分数：一种用于大型语言模型预训练数据检测的算法
+类别: alignment, fairness, safety, privacy, and societal considerations
+作者: Negin Raoof;Litu Rout;Giannis Daras;Sujay Sanghavi;Constantine Caramanis;Sanjay Shakkottai;Alex Dimakis;
+机构: University of Texas at Austin;Massachusetts Institute of Technology;University of California, Berkeley;
+类型: Poster
+链接: https://iclr.cc/virtual/2025/poster/30693
+----------------------------------------------------------------------------------------------------
+[No.40] Adversarially Robust Out-of-Distribution Detection Using Lyapunov-Stabilized Embeddings
+来源: ICLR 2025
+命中: detection
+标题:  adversarialrobustness 基于李亚普诺夫稳定嵌入的出分布检测
+类别: unsupervised, self-supervised, semi-supervised, and supervised representation learning
+作者: Hossein Mirzaei;Mackenzie W Mathis;
+机构: EPFL;Swiss Federal Institute of Technology Lausanne;
+类型: Poster
+链接: https://iclr.cc/virtual/2025/poster/30255
+arXi: https://arxiv.org/abs/2410.10744
+英摘: Despite significant advancements in out-of-distribution (OOD) detection, existing methods still struggle to maintain robustness against adversarial attacks, compromising their reliability in critical real-world applications. Previous studies have attempted to address this challenge by exposing detectors to auxiliary OOD datasets alongside adversarial training. However, the increased data complexity inherent in adversarial training, and the myriad of ways that OOD samples can arise during testing, often prevent these approaches from establishing robust decision boundaries. To address these limitations, we propose AROS, a novel approach leveraging neural ordinary differential equations (NODEs) with Lyapunov stability theorem in order to obtain robust embeddings for OOD detection. By incorporating a tailored loss function, we apply Lyapunov stability theory to ensure that both in-distribution (ID) and OOD data converge to stable equilibrium points within the dynamical system. This approach encourages any perturbed input to return to its stable equilibrium, thereby enhancing the model's robustness against adversarial perturbations. To not use additional data, we generate fake OOD embeddings by sampling from low-likelihood regions of the ID data feature space, approximating the boundaries where OOD data are likely to reside. To then further enhance robustness, we propose the use of an orthogonal binary layer following the stable feature space, which maximizes the separation between the equilibrium points of ID and OOD samples. We validate our method through extensive experiments across several benchmarks, demonstrating superior performance, particularly under adversarial attacks. Notably, our approach improves robust detection performance from 37.8% to 80.1% on CIFAR-10 vs. CIFAR-100 and from 29.0% to 67.0% on CIFAR-100 vs. CIFAR-10.
+中摘: 尽管在离分布（OOD）检测方面取得了显著进展，现有的方法仍然难以保持对对抗攻击的鲁棒性，这使得它们在关键的实际应用中的可靠性受到损害。之前的研究尝试通过让检测器同时接触辅助OOD数据集和进行对抗训练来应对这一挑战。然而，对抗训练固有的复杂数据集以及测试过程中OOD样本可能出现的各种情况，往往使这些方法无法建立稳健的决策边界。为了解决这些限制，我们提出了一种名为AROS的新颖方法，该方法利用神经常微分方程（NODEs）结合李雅普诺夫稳定性定理，以获得用于OOD检测的稳健嵌入。通过引入一个定制化的损失函数，我们将李雅普诺夫稳定性理论应用于确保分布内（ID）和OOD数据在动态系统中收敛到稳定的平衡点。这种方法鼓励任何扰动输入返回到其稳定的平衡点，从而增强模型对对抗扰动的鲁棒性。为了不使用额外的数据，我们通过从ID数据特征空间的低概率区域采样生成虚假的OOD嵌入，以此近似OOD数据可能存在的边界。为进一步增强鲁棒性，我们提出了一个正交二元层，紧随稳定特征空间之后，该层最大化ID样本和OOD样本平衡点之间的分离。我们在多个基准上的广泛实验验证了我们的方法，显示出优越的性能，特别是在对抗攻击下。值得注意的是，我们的方法将CIFAR-10 vs. CIFAR-100的稳健检测性能从37.8%提高到了80.1%，并将CIFAR-100 vs. CIFAR-10的稳健检测性能从29.0%提高到了67.0%。
+----------------------------------------------------------------------------------------------------
+[No.41] Learning Structured Universe Graph with Outlier OOD Detection for Partial Matching
+来源: ICLR 2025
+命中: detection
+标题: 学习结构化宇宙图及其异常OOD检测在部分匹配中的应用
+类别: applications to computer vision, audio, language, and other modalities
+作者: Zetian Jiang;Jiaxin Lu;Haizhao Fan;Tianzhe Wang;Junchi Yan;
+机构: Shanghai Jiao Tong University;University of Texas at Austin;Georgia Institute of Technology;
+类型: Poster
+链接: https://iclr.cc/virtual/2025/poster/32072
+----------------------------------------------------------------------------------------------------
+[No.42] Multi-Perspective Data Augmentation for Few-shot Object Detection
+来源: ICLR 2025
+命中: detection
+标题: 多视角数据增强在少样本目标检测中的应用
+类别: applications to computer vision, audio, language, and other modalities
+作者: Anh Khoa Nguyen Vu;Truong Quoc Truong;Vinh-Tiep Nguyen;Thanh Duc Ngo;Thanh-Toan Do;Tam V. Nguyen;
+机构: ;University of Information Technology;University of Dayton;
+类型: Poster
+链接: https://iclr.cc/virtual/2025/poster/28258
+arXi: https://arxiv.org/abs/2502.18195
+英摘: Recent few-shot object detection (FSOD) methods have focused on augmenting synthetic samples for novel classes, show promising results to the rise of diffusion models. However, the diversity of such datasets is often limited in representativeness because they lack awareness of typical and hard samples, especially in the context of foreground and background relationships. To tackle this issue, we propose a Multi-Perspective Data Augmentation (MPAD) framework. In terms of foreground-foreground relationships, we propose in-context learning for object synthesis (ICOS) with bounding box adjustments to enhance the detail and spatial information of synthetic samples. Inspired by the large margin principle, support samples play a vital role in defining class boundaries. Therefore, we design a Harmonic Prompt Aggregation Scheduler (HPAS) to mix prompt embeddings at each time step of the generation process in diffusion models, producing hard novel samples. For foreground-background relationships, we introduce a Background Proposal method (BAP) to sample typical and hard backgrounds. Extensive experiments on multiple FSOD benchmarks demonstrate the effectiveness of our approach. Our framework significantly outperforms traditional methods, achieving an average increase of $17.5\%$ in nAP50 over the baseline on PASCAL VOC. Code is available at https://github.com/nvakhoa/MPAD.
+中摘: 最近的少样本目标检测（Few-Shot Object Detection, FSOD）方法主要集中在为新型类增加合成样本，显示出对扩散模型兴起的良好前景。然而，这类数据集在代表性多样性方面往往有限，尤其是在前景和背景关系方面缺乏典型的和困难样本的意识。为了解决这一问题，我们提出了一种多视角数据增强（Multi-Perspective Data Augmentation, MPAD）框架。在处理前景-前景关系时，我们提出了基于上下文学习的对象合成方法（In-Context Learning for Object Synthesis, ICOS），并调整边界框以增强合成样本的细节和空间信息。受大间隔原则的启发，支持样本在定义类别边界方面起着至关重要的作用。因此，我们设计了一个谐波提示聚合调度器（Harmonic Prompt Aggregation Scheduler, HPAS），在生成过程中每个时间步骤混合提示嵌入，从而产生困难的新样本。对于前景-背景关系，我们引入了一种背景提议方法（Background Proposal Method, BAP），用于采样典型的和困难的背景。在多个FSOD基准上的广泛实验表明了我们方法的有效性。我们的框架显著优于传统方法，在PASCAL VOC上将nAP50的平均值提高了17.5%。代码可在https://github.com/nvakhoa/MPAD获取。
+----------------------------------------------------------------------------------------------------
+[No.43] Language-Assisted Feature Transformation for Anomaly Detection
+来源: ICLR 2025
+命中: detection
+标题: 语言辅助特征转换异常检测
+类别: applications to computer vision, audio, language, and other modalities
+作者: EungGu Yun;Heonjin Ha;Yeongwoo Nam;Bryan Dongik Lee;
+机构: SAIGE;LG;Saige Research;;
+类型: Poster
+链接: https://iclr.cc/virtual/2025/poster/31115
+arXi: https://arxiv.org/abs/2503.01184
+英摘: This paper introduces LAFT, a novel feature transformation method designed to incorporate user knowledge and preferences into anomaly detection using natural language. Accurately modeling the boundary of normality is crucial for distinguishing abnormal data, but this is often challenging due to limited data or the presence of nuisance attributes. While unsupervised methods that rely solely on data without user guidance are common, they may fail to detect anomalies of specific interest. To address this limitation, we propose Language-Assisted Feature Transformation (LAFT), which leverages the shared image-text embedding space of vision-language models to transform visual features according to user-defined requirements. Combined with anomaly detection methods, LAFT effectively aligns visual features with user preferences, allowing anomalies of interest to be detected. Extensive experiments on both toy and real-world datasets validate the effectiveness of our method.
+中摘: 本文介绍了LAFT，这是一种新颖的功能转换方法，旨在利用自然语言将用户的知识和偏好融入异常检测。准确建模正常性的边界对于区分异常数据至关重要，但这一过程往往因数据有限或存在无关属性而具有挑战性。尽管依赖于数据而无需用户指导的无监督方法很常见，它们可能无法检测特定感兴趣的异常。为了解决这一局限性，我们提出了Language-Assisted Feature Transformation（LAFT），该方法利用视觉-语言模型中的共享图像-文本嵌入空间，根据用户定义的要求转换视觉特征。结合异常检测方法，LAFT有效地将视觉特征与用户偏好对齐，使得特定感兴趣的异常能够被检测出来。我们在玩具数据集和真实世界数据集上的广泛实验验证了该方法的有效性。
+----------------------------------------------------------------------------------------------------
+[No.44] Aligned Datasets Improve Detection of Latent Diffusion-Generated Images
+来源: ICLR 2025
+命中: detection
+标题: 对齐数据集提高检测潜在扩散生成图像的效果
+类别: alignment, fairness, safety, privacy, and societal considerations
+作者: Anirudh Sundara Rajan;Utkarsh Ojha;Jedidiah Schloesser;Yong Jae Lee;
+机构: University of Wisconsin-Madison;
+类型: Poster
+链接: https://iclr.cc/virtual/2025/poster/28964
+arXi: https://arxiv.org/abs/2410.11835
+英摘: As latent diffusion models (LDMs) democratize image generation capabilities, there is a growing need to detect fake images. A good detector should focus on the generative models fingerprints while ignoring image properties such as semantic content, resolution, file format, etc. Fake image detectors are usually built in a data driven way, where a model is trained to separate real from fake images. Existing works primarily investigate network architecture choices and training recipes. In this work, we argue that in addition to these algorithmic choices, we also require a well aligned dataset of real/fake images to train a robust detector. For the family of LDMs, we propose a very simple way to achieve this: we reconstruct all the real images using the LDMs autoencoder, without any denoising operation. We then train a model to separate these real images from their reconstructions. The fakes created this way are extremely similar to the real ones in almost every aspect (e.g., size, aspect ratio, semantic content), which forces the model to look for the LDM decoders artifacts. We empirically show that this way of creating aligned real/fake datasets, which also sidesteps the computationally expensive denoising process, helps in building a detector that focuses less on spurious correlations, something that a very popular existing method is susceptible to. Finally, to demonstrate just how effective the alignment in a dataset can be, we build a detector using images that are not natural objects, and present promising results. Overall, our work identifies the subtle but significant issues that arise when training a fake image detector and proposes a simple and inexpensive solution to address these problems.
+中摘: 随着潜在扩散模型（LDMs）普及了图像生成的能力，检测假图像的需求也在增长。一个好的检测器应该专注于识别生成模型的特征痕迹，同时忽略诸如语义内容、分辨率、文件格式等图像属性。现有的工作主要研究网络架构选择和训练方法。在本文中，我们提出除了这些算法选择外，还需要一个良好对齐的真实/假图像数据集来训练稳健的检测器。对于LDMs这一家族，我们提出了一种非常简单的方法来实现这一点：使用LDMs的自编码器重构所有真实图像，不进行任何去噪操作。然后，训练一个模型将这些真实图像与其重构图像区分开来。这样创建的假图像在几乎所有方面（例如，大小、纵横比、语义内容）都与真实图像极其相似，迫使模型寻找LDM解码器的特征痕迹。我们通过实验表明，这种方法创建对齐的真实/假图像数据集，也避免了昂贵的去噪过程，有助于构建一个较少关注虚假相关性的检测器，而这一点正是非常流行的现有方法所容易陷入的问题。最后，为了证明数据集中对齐的效果如何显著，我们使用非自然对象的图像构建了一个检测器，并展示了令人鼓舞的结果。总体而言，我们的工作指出了训练假图像检测器时出现的微妙但重要的问题，并提出了一种简单且经济的解决方案来应对这些问题。
+----------------------------------------------------------------------------------------------------
+[No.45] Training-free LLM-generated Text Detection by Mining Token Probability Sequences
+来源: ICLR 2025
+命中: detection
+标题: 无训练数据的LLM生成文本检测通过挖掘令牌概率序列
+类别: alignment, fairness, safety, privacy, and societal considerations
+作者: Yihuai Xu;Yongwei Wang;Yifei Bi;Huangsen Cao;Zhouhan Lin;Yu Zhao;Fei Wu;
+机构: Zhejiang Gongshang University;Zhejiang University;Georgia Institute of Technology;Shanghai Jiao Tong University;
+类型: Poster
+链接: https://iclr.cc/virtual/2025/poster/27889
+arXi: https://arxiv.org/abs/2410.06072
+英摘: Large language models (LLMs) have demonstrated remarkable capabilities in generating high-quality texts across diverse domains. However, the potential misuse of LLMs has raised significant concerns, underscoring the urgent need for reliable detection of LLM-generated texts. Conventional training-based detectors often struggle with generalization, particularly in cross-domain and cross-model scenarios. In contrast, training-free methods, which focus on inherent discrepancies through carefully designed statistical features, offer improved generalization and interpretability. Despite this, existing training-free detection methods typically rely on global text sequence statistics, neglecting the modeling of local discriminative features, thereby limiting their detection efficacy. In this work, we introduce a novel training-free detector, termed \textbf{Lastde} that synergizes local and global statistics for enhanced detection. For the first time, we introduce time series analysis to LLM-generated text detection, capturing the temporal dynamics of token probability sequences. By integrating these local statistics with global ones, our detector reveals significant disparities between human and LLM-generated texts. We also propose an efficient alternative, \textbf{Lastde++} to enable real-time detection. Extensive experiments on six datasets involving cross-domain, cross-model, and cross-lingual detection scenarios, under both white-box and black-box settings, demonstrated that our method consistently achieves state-of-the-art performance. Furthermore, our approach exhibits greater robustness against paraphrasing attacks compared to existing baseline methods.
+中摘: 大型语言模型（LLMs）在生成跨领域高质量文本方面展现了非凡的能力。然而，LLM潜在的滥用问题引起了广泛关注，凸显了可靠检测LLM生成文本的迫切需求。传统的基于训练的方法在泛化能力上常常遇到困难，尤其是在跨领域和跨模型的情景下。相比之下，无训练方法通过精心设计的统计特征来关注固有的差异，提供了更好的泛化能力和可解释性。尽管如此，现有的无训练检测方法通常依赖于全局文本序列统计，忽略了局部鉴别特征的建模，从而限制了它们的检测效果。在这项工作中，我们引入了一种新颖的无训练检测器，称为**Lastde**，它结合了局部和全局统计信息以增强检测能力。我们首次将时间序列分析应用于LLM生成文本的检测，捕捉令牌概率序列的时间动态。通过将这些局部统计信息与全局统计信息集成，我们的检测器揭示了人类生成文本和LLM生成文本之间的重要差异。我们还提出了一个高效的替代方案**Lastde++**，以实现实时检测。在涉及跨领域、跨模型和跨语言检测场景的六个数据集上的广泛实验表明，我们的方法在白盒和黑盒设置下均能持续实现最先进的性能。此外，与现有基线方法相比，我们的方法在对抗改写攻击方面表现出了更高的鲁棒性。
+----------------------------------------------------------------------------------------------------
+[No.46] AutoUAD: Hyper-parameter Optimization for Unsupervised Anomaly Detection
+来源: ICLR 2025
+命中: detection
+标题: AutoUAD：无监督异常检测的超参数优化
+类别: unsupervised, self-supervised, semi-supervised, and supervised representation learning
+作者: Wei Dai;Jicong Fan;
+机构: Zhejiang University of Technology;Chinese University of Hong Kong;
+类型: Poster
+链接: https://iclr.cc/virtual/2025/poster/30384
+----------------------------------------------------------------------------------------------------
+[No.47] Cyclic Contrastive Knowledge Transfer for Open-Vocabulary Object Detection
+来源: ICLR 2025
+命中: detection
+标题: 循环对比知识转移在开放词汇量目标检测中的应用
+类别: transfer learning, meta learning, and lifelong learning
+作者: Chuhan ZHANG;Chaoyang Zhu;Pingcheng Dong;Long Chen;Dong Zhang;
+机构: Hong Kong University of Science and Technology;;
+类型: Poster
+链接: https://iclr.cc/virtual/2025/poster/30109
+arXi: https://arxiv.org/abs/2503.11005
+英摘: In pursuit of detecting unstinted objects that extend beyond predefined categories, prior arts of open-vocabulary object detection (OVD) typically resort to pretrained vision-language models (VLMs) for base-to-novel category generalization. However, to mitigate the misalignment between upstream image-text pretraining and downstream region-level perception, additional supervisions are indispensable, eg, image-text pairs or pseudo annotations generated via self-training strategies. In this work, we propose CCKT-Det trained without any extra supervision. The proposed framework constructs a cyclic and dynamic knowledge transfer from language queries and visual region features extracted from VLMs, which forces the detector to closely align with the visual-semantic space of VLMs. Specifically, 1) we prefilter and inject semantic priors to guide the learning of queries, and 2) introduce a regional contrastive loss to improve the awareness of queries on novel objects. CCKT-Det can consistently improve performance as the scale of VLMs increases, all while requiring the detector at a moderate level of computation overhead. Comprehensive experimental results demonstrate that our method achieves performance gain of +2.9% and +10.2% AP50 over previous state-of-the-arts on the challenging COCO benchmark, both without and with a stronger teacher model.
+中摘: 为了检测超出预定义类别的慷慨对象，先前的开放词汇对象检测（OVD）研究通常依赖于预训练的视觉-语言模型（VLMs）来进行基础到新颖类别的泛化。然而，为了缓解上游图像-文本预训练与下游区域级感知之间的不匹配问题，额外的监督信息是必不可少的，例如图像-文本配对或通过自我训练策略生成的伪标注。在本文中，我们提出了一种名为CCKT-Det的方法，该方法无需任何额外监督。所提出的框架构建了一个从语言查询到视觉区域特征的循环和动态知识转移过程，强制检测器紧密对齐于VLMs的视觉语义空间。具体而言，1）我们预先筛选并注入语义先验以引导查询的学习，2）引入区域对比损失以提高查询对新颖对象的认知能力。随着VLMs规模的增加，CCKT-Det可以持续提升性能，同时仅需适度增加计算开销。全面的实验结果表明，在挑战性的COCO基准上，我们的方法在无更强教师模型的情况下分别实现了2.9%和10.2%的AP50性能增益，而在使用更强教师模型的情况下则进一步提升了这些增益。
+----------------------------------------------------------------------------------------------------
+[No.48] Activation Gradient based Poisoned Sample Detection Against Backdoor Attacks
+来源: ICLR 2025
+命中: detection
+标题: 基于激活梯度的后门攻击中毒样本检测
+类别: alignment, fairness, safety, privacy, and societal considerations
+作者: Danni Yuan;Mingda Zhang;Shaokui Wei;Li Liu;Baoyuan Wu;
+机构: Chinese University of Hong Kong;Hong Kong University of Science and Technology;
+类型: Poster
+链接: https://iclr.cc/virtual/2025/poster/29418
+arXi: https://arxiv.org/abs/2312.06230
+英摘: This work studies the task of poisoned sample detection for defending against data poisoning based backdoor attacks. Its core challenge is finding a generalizable and discriminative metric to distinguish between clean and various types of poisoned samples (e.g., various triggers, various poisoning ratios). Inspired by a common phenomenon in backdoor attacks that the backdoored model tend to map significantly different poisoned and clean samples within the target class to similar activation areas, we introduce a novel perspective of the circular distribution of the gradients w.r.t. sample activation, dubbed gradient circular distribution (GCD). And, we find two interesting observations based on GCD. One is that the GCD of samples in the target class is much more dispersed than that in the clean class. The other is that in the GCD of target class, poisoned and clean samples are clearly separated. Inspired by above two observations, we develop an innovative three-stage poisoned sample detection approach, called Activation Gradient based Poisoned sample Detection (AGPD). First, we calculate GCDs of all classes from the model trained on the untrustworthy dataset. Then, we identify the target class(es) based on the difference on GCD dispersion between target and clean classes. Last, we filter out poisoned samples within the identified target class(es) based on the clear separation between poisoned and clean samples. Extensive experiments under various settings of backdoor attacks demonstrate the superior detection performance of the proposed method to existing poisoned detection approaches according to sample activation-based metrics.
+中摘: 这项工作研究了中毒样本检测的任务，以防御基于后门的数据中毒攻击。其核心挑战在于找到一个可泛化且区分性强的度量标准，以区分干净样本和各种类型的中毒样本（例如不同类型的触发器、不同的中毒比例）。受后门攻击中常见现象的启发，即被植入后门的模型倾向于在目标类内将显著不同的干净样本和中毒样本映射到相似的激活区域，我们引入了一种新的视角，称为样本激活梯度的圆分布（Gradient Circular Distribution，GCD）。基于GCD，我们发现了两个有趣的现象：一是目标类中的样本圆分布比干净类中的样本圆分布更为分散；二是目标类的GCD中，中毒样本和干净样本明显分离。受到这两个观察的启发，我们开发了一种创新的三阶段中毒样本检测方法，称为基于激活梯度的中毒样本检测（Activation Gradient based Poisoned sample Detection，AGPD）。首先，我们计算可信数据集训练模型后所有类别的GCD。然后，我们根据目标类与干净类之间的圆分布分散度差异来识别目标类。最后，我们根据中毒样本和干净样本之间的明显分离来过滤出目标类中的中毒样本。在各种后门攻击设置下的广泛实验表明，根据样本激活度量标准，所提出的方法在中毒样本检测性能上优于现有的检测方法。
+----------------------------------------------------------------------------------------------------

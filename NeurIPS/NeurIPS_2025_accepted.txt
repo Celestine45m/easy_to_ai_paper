@@ -27260,6 +27260,7 @@ No.3408. Model-Based Policy Adaptation for Closed-Loop End-to-end Autonomous Dri
    标题: 基于模型的策略适应性在闭环端到端自动驾驶中的应用
    链接: https://openreview.net/forum?id=4OLbpaTKJe
    类别: reinforcement learning
+
    作者: Haohong Lin;Yunzhi Zhang;Wenhao Ding;Jiajun Wu;Ding Zhao;
    机构: Carnegie Mellon University;Stanford University;NVIDIA;
    类型: Poster
@@ -28943,6 +28944,7 @@ No.3618. MALinZero: Efficient Low-Dimensional Search for Mastering Complex Multi
    作者: Sizhe Tang;Jiayu Chen;Tian Lan;
    机构: George Washington University;University of Hong Kong;Carnegie Mellon University;
    类型: Poster
+
 
 No.3619. Meta-Learning Objectives for Preference Optimization
    标题: 元学习目标：偏好优化
