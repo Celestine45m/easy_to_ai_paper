@@ -1,1 +1,5 @@
 huggingface_hub
+selenium
+beautifulsoup4
+requests
+webdriver-manager

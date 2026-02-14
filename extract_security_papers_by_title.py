@@ -156,14 +156,14 @@ def main():
     case_sensitive = False
     translate_titles = True  # 是否翻译标题
     request_delay = 2  # 翻译请求之间的延迟（秒）
-    output_file = "Security/papers_with_vuln.txt"
+    output_file = "Security/secpapers_with_vuln.txt"
     
     # 会议配置：文件名 -> 会议名称
     conferences = {
         "ccs.json": ("CCS", extract_papers_from_ccs),
         "ndss.json": ("NDSS", extract_papers_from_ndss_sp_uss),
         "sp.json": ("SP", extract_papers_from_ndss_sp_uss),
-        "uss.json": ("USS", extract_papers_from_ndss_sp_uss)
+        "usenix.json": ("USENIX", extract_papers_from_ndss_sp_uss)
     }
     
     all_matched_papers = []
