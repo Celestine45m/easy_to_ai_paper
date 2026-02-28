@@ -8,6 +8,7 @@
 
 **核心特性：**
 - 🎯 自动化论文信息提取和翻译
+- 🕷️ **论文列表爬虫**：从 Paper Copilot 自动爬取会议论文列表 HTML
 - 🔍 根据关键词智能筛选论文
 - 📄 从arXiv自动获取论文摘要并翻译
 - 📊 提供论文机构、类别等统计分析
@@ -16,7 +17,8 @@
 
 ## ✨ 主要功能
 
-- 🔍 **抓取论文信息**：从Paper Copilot网站获取AI会议论文的详细信息
+- 🕷️ **论文列表爬虫**：使用 `crawl_papercopilot.py` 从 [Paper Copilot](https://papercopilot.com/) 自动爬取会议论文列表并保存为 HTML，无需手动下载
+- 🔍 **抓取论文信息**：从 Paper Copilot 获取的 HTML 中解析并提取论文详细信息
 - 🌐 **智能翻译**：使用LLM自动将论文标题和摘要翻译为中文
 - 🔎 **关键词筛选**：根据关键词从所有会议中筛选目标论文
 - 📄 **摘要获取**：自动从arXiv获取论文摘要并翻译为中文
@@ -31,16 +33,17 @@
 
 ```
 easy_to_ai_papers/
-├── paper_list.py                    # 主程序：提取和翻译论文信息，支持从arXiv获取摘要
+├── crawl_papercopilot.py           # Paper Copilot 论文列表爬虫（自动获取会议 HTML）
+├── paper_list.py                   # 主程序：提取和翻译论文信息，支持从arXiv获取摘要
 ├── extract_papers_by_title.py      # 根据关键词提取论文，支持从arXiv获取摘要并翻译
-├── analyze_statistics.py            # 合并的统计分析工具（推荐使用）
+├── analyze_statistics.py           # 合并的统计分析工具（推荐使用）
 ├── analyze_affiliations.py         # 机构统计分析工具（独立版本）
 ├── analyze_categories.py           # 类别统计分析工具（独立版本）
 ├── test_html_structure.py          # HTML结构测试脚本
 ├── requirements.txt                # 项目依赖
 ├── README.md                       # 项目说明文档
 ├── LICENSE                         # 许可证文件
-├── RESEARCH_EVALUATION.md         # 研究评估报告
+├── RESEARCH_EVALUATION.md          # 研究评估报告
 ├── WANTED_PAPERS/                  # 关键词筛选的论文结果目录
 ├── src/                            # 源代码目录
 │   ├── conf/                       # 配置文件
@@ -100,7 +103,7 @@ easy_to_ai_papers/
 
 3. **配置LLM**（编辑 `src/conf/GlobalParament.py` 和 `src/llm/llm_client.py`）
 
-4. **准备HTML文件**（从Paper Copilot下载，保存到对应会议目录）
+4. **获取论文列表 HTML**（使用爬虫自动抓取，或从 Paper Copilot 手动下载，见下文）
 
 5. **运行程序**
    ```bash
@@ -134,7 +137,14 @@ pip install -r requirements.txt
 - `langchain-openai` - OpenAI兼容的LLM客户端
 - `huggingface_hub` - HuggingFace Hub支持
 
-如果 `requirements.txt` 不完整，可以手动安装：
+**爬虫可选依赖**（仅在使用 `crawl_papercopilot.py` 时需要）：
+```bash
+pip install selenium beautifulsoup4 requests
+# 推荐：自动管理 ChromeDriver
+pip install webdriver-manager
+```
+
+若 `requirements.txt` 不完整，可手动安装主项目依赖：
 ```bash
 pip install beautifulsoup4 requests langchain langchain-openai huggingface_hub
 ```
@@ -153,15 +163,53 @@ pip install beautifulsoup4 requests langchain langchain-openai huggingface_hub
 
 **注意**：如果你使用的是标准的OpenAI API或其他兼容的API，可以直接修改 `get_llm_client()` 函数中的配置。
 
-### 4. 准备HTML文件
+### 4. 获取论文列表 HTML
 
-从 [Paper Copilot](https://papercopilot.com/) 网站下载目标会议的HTML文件，保存到对应的会议目录下（如 `ICLR/`, `ICML/`, `NeurIPS/`），文件名格式为：`{会议名称}_{年份}.html`（如 `ICLR_2025.html`）。
+在运行 `paper_list.py` 前，需要先有各会议的论文列表 HTML 文件。有两种方式：
 
-**下载步骤：**
-1. 访问 [Paper Copilot](https://papercopilot.com/)
-2. 选择目标会议和年份
-3. 下载HTML格式的论文列表
-4. 将文件保存到对应的会议目录
+#### 方式一：使用 Paper Copilot 爬虫（推荐）
+
+使用项目自带的 `crawl_papercopilot.py` 从 [papercopilot.com](https://papercopilot.com/) 自动爬取论文列表，无需手动下载。
+
+**环境要求：** 已安装 Chrome 浏览器；可选安装 [webdriver-manager](https://pypi.org/project/webdriver-manager/) 以自动管理 ChromeDriver。
+
+**命令行示例：**
+```bash
+# 爬取单个会议
+python crawl_papercopilot.py --conference NeurIPS --year 2025
+
+# 批量爬取多个会议
+python crawl_papercopilot.py --conference NeurIPS ICLR ICML --year 2025
+
+# 无头模式（不显示浏览器窗口）
+python crawl_papercopilot.py --conference NeurIPS --year 2025 --headless
+
+# 指定输出目录、调整等待时间
+python crawl_papercopilot.py --conference NeurIPS --year 2025 --output-dir ./Papers --wait-time 10
+```
+
+**Python 调用示例：**
+```python
+from crawl_papercopilot import crawl_paper_list, crawl_multiple_conferences
+
+# 单个会议
+filepath = crawl_paper_list("NeurIPS", "2025", headless=False, wait_time=5)
+
+# 批量爬取
+results = crawl_multiple_conferences([
+    ("NeurIPS", "2025"), ("ICLR", "2025"), ("ICML", "2025"),
+], headless=False)
+```
+
+**爬虫支持的会议：** NeurIPS, ICLR, ICML, AAAI, IJCAI, ACL, EMNLP, NAACL, COLING, CVPR, ICCV, ECCV, WACV, KDD, WWW, SIGIR, ICRA, IROS, RSS, CoRL, AISTATS, ACML, UAI, COLT, ALT, ARR, COLM, SIGGRAPH, SIGGRAPH Asia, ACM-MM 等。未在列表中的会议会按「小写+连字符」自动拼 URL。
+
+**输出位置：** `{会议名称}/{会议名称}_{年份}.html`，例如 `NeurIPS/NeurIPS_2025.html`。
+
+**爬虫注意事项：** 需能访问 papercopilot.com；网络慢时可增大 `--wait-time`；遇反爬可关闭无头模式或增加请求间隔。
+
+#### 方式二：手动下载
+
+从 [Paper Copilot](https://papercopilot.com/) 打开目标会议与年份，手动保存论文列表页面为 HTML，放到对应会议目录下，文件名格式：`{会议名称}_{年份}.html`（如 `ICLR_2025.html`）。
 
 ### 5. 运行程序
 
@@ -405,7 +453,7 @@ ICLR 2025 论文统计分析汇总报告
 ## ⚠️ 注意事项
 
 1. **LLM API配置**：确保LLM API配置正确，否则翻译功能无法使用
-2. **HTML格式**：确保HTML文件格式正确，程序会解析表格结构提取论文信息
+2. **HTML格式**：确保HTML文件格式正确，程序会解析表格结构（如 `<table id="paperlist">`）提取论文信息
 3. **文件路径**：确保HTML文件路径与 `paper_list.py` 中的配置一致
 4. **翻译速度**：大量论文翻译可能需要较长时间，建议分批处理
 5. **数据过滤**：程序会自动过滤被拒绝（Reject）和撤回（Withdraw）的论文
@@ -415,6 +463,9 @@ ICLR 2025 论文统计分析汇总报告
    - 建议设置合适的请求延迟（至少2秒），避免触发API速率限制
    - 程序支持逐条处理，实时保存，即使中断也不会丢失数据
 7. **关键词筛选**：支持多个关键词，只要标题包含任意一个关键词就匹配（OR关系）
+8. **爬虫（crawl_papercopilot.py）**：
+   - 需安装 Chrome 浏览器；ChromeDriver 可手动加入 PATH 或使用 `webdriver-manager` 自动管理
+   - 网络慢时可增加 `--wait-time`；遇反爬可关闭无头模式或在两次爬取间增加延迟
 
 ## 🔧 故障排除
 
@@ -445,6 +496,13 @@ ICLR 2025 论文统计分析汇总报告
 - 尝试使用更通用的关键词
 - 确认JSON文件已生成且格式正确
 - 检查是否设置了正确的大小写敏感选项
+
+**Q: 爬虫相关**
+
+- **找不到 ChromeDriver？** 将 ChromeDriver 加入 PATH，或安装 `webdriver-manager` 并让脚本用其自动管理驱动。
+- **找不到「click to fetch all」按钮？** 页面可能已全部加载，脚本会继续提取表格；检查 URL 是否正确。
+- **超时错误？** 增大 `--wait-time`，检查网络与 URL。
+- **表格为空？** 确认页面已完全加载，可先手动打开 URL 看结构，或增大等待时间。
 
 ## 🤝 贡献
 

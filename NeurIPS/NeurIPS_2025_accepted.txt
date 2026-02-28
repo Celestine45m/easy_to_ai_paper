@@ -37645,7 +37645,8 @@ No.4705. Investigating and Mitigating Catastrophic Forgetting in Medical Knowled
    类型: Poster
 
 No.4706. Learn2Mix: Training Neural Networks Using Adaptive Data Integration
-   标题: Learn2Mix：使用自适应数据集成训练神经网络
+   标题: Learn2Mix：使用自适应数据集成
+   “”“”“”“”“”“”“”“训练神经网络
    链接: https://openreview.net/forum?id=35Rum4a6tC
    类别: deep learning
    作者: Shyam Venkatasubramanian;Vahid Tarokh;

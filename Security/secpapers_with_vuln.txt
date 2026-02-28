@@ -1,0 +1,2993 @@
+====================================================================================================
+论文标题包含关键词 'vuln' 的论文列表
+====================================================================================================
+
+共找到 425 篇论文
+
+====================================================================================================
+
+[No.1] The cascade vulnerability problem
+标题(中): 级联漏洞问题
+来源: SP 1993
+年份: 1993
+DOI: 10.1109/RISP.1993.287638
+----------------------------------------------------------------------------------------------------
+
+[No.2] NetKuang - A Multi-Host Configuration Vulnerability Checker
+标题(中): NetKuang - 多主机配置漏洞检查器
+来源: USENIX 1996
+年份: 1996
+链接: https://www.usenix.org/conference/6th-usenix-security-symposium/netkuang-multi-host-configuration-vulnerability-checker
+----------------------------------------------------------------------------------------------------
+
+[No.3] An Automated Approach for Identifying Potential Vulnerabilities in Software
+标题(中): 一种自动识别软件潜在漏洞的方法
+来源: SP 1998
+年份: 1998
+DOI: 10.1109/SECPRI.1998.674827
+----------------------------------------------------------------------------------------------------
+
+[No.4] Security of Web Browser Scripting Languages: Vulnerabilities, Attacks, and Remedies
+标题(中): 网络浏览器脚本语言的安全性：漏洞、攻击与补救措施
+来源: USENIX 1998
+年份: 1998
+链接: https://www.usenix.org/conference/7th-usenix-security-symposium/security-web-browser-scripting-languages-vulnerabilities
+----------------------------------------------------------------------------------------------------
+
+[No.5] BGP Vulnerabilities and Security Options
+标题(中): BGP漏洞与安全选项
+来源: NDSS 1999
+年份: 1999
+链接: https://www.ndss-symposium.org/ndss1999/securing-internets-exterior-routing-infrastructure/
+----------------------------------------------------------------------------------------------------
+
+[No.6] A First Step Towards Automated Detection of Buffer Overrun Vulnerabilities
+标题(中): 迈向自动化检测缓冲区溢出漏洞的第一步
+来源: NDSS 2000
+年份: 2000
+链接: https://www.ndss-symposium.org/ndss2000/first-step-towards-automated-detection-buffer-overrun-vulnerabilities-paper/
+----------------------------------------------------------------------------------------------------
+
+[No.7] Using Model Checking to Analyze Network Vulnerabilities
+标题(中): 使用模型检查分析网络漏洞
+来源: SP 2000
+年份: 2000
+DOI: 10.1109/SECPRI.2000.848453
+----------------------------------------------------------------------------------------------------
+
+[No.8] Detecting Format String Vulnerabilities with Type Qualifiers
+标题(中): 使用类型限定符检测格式字符串漏洞
+来源: USENIX 2001
+年份: 2001
+链接: http://www.usenix.org/publications/library/proceedings/sec01/shankar.html
+----------------------------------------------------------------------------------------------------
+
+[No.9] FormatGuard: Automatic Protection From printf Format String Vulnerabilities
+标题(中): FormatGuard：自动防护从`printf`格式字符串漏洞中
+来源: USENIX 2001
+年份: 2001
+链接: http://www.usenix.org/publications/library/proceedings/sec01/cowanbarringer.html
+----------------------------------------------------------------------------------------------------
+
+[No.10] RaceGuard: Kernel Protection From Temporary File Race Vulnerabilities
+标题(中): RaceGuard：防止临时文件竞争漏洞的内核保护
+来源: USENIX 2001
+年份: 2001
+链接: http://www.usenix.org/publications/library/proceedings/sec01/cowanbeattie.html
+----------------------------------------------------------------------------------------------------
+
+[No.11] Statically Detecting Likely Buffer Overflow Vulnerabilities
+标题(中): 静态检测可能的缓冲区溢出漏洞
+来源: USENIX 2001
+年份: 2001
+链接: http://www.usenix.org/publications/library/proceedings/sec01/larochelle.html
+----------------------------------------------------------------------------------------------------
+
+[No.12] Scalable, graph-based network vulnerability analysis.
+标题(中): 基于图的可扩展网络漏洞分析。
+来源: CCS 2002
+年份: 2002
+DOI: 10.1145/586110.586140
+----------------------------------------------------------------------------------------------------
+
+[No.13] 802.11 Denial-of-Service Attacks: Real Vulnerabilities and Practical Solutions
+标题(中): 802.11拒绝服务攻击：真实漏洞与实用解决方案
+来源: USENIX 2003
+年份: 2003
+链接: https://www.usenix.org/conference/12th-usenix-security-symposium/80211-denial-service-attacks-real-vulnerabilities-and
+----------------------------------------------------------------------------------------------------
+
+[No.14] PointGuard™: Protecting Pointers from Buffer Overflow Vulnerabilities
+标题(中): PointGuard™：保护指针免受缓冲区溢出漏洞的影响
+来源: USENIX 2003
+年份: 2003
+链接: https://www.usenix.org/conference/12th-usenix-security-symposium/pointguard%E2%84%A2-protecting-pointers-buffer-overflow
+----------------------------------------------------------------------------------------------------
+
+[No.15] Testing C Programs for Buffer Overflow Vulnerabilities
+标题(中): 测试C程序中的缓冲区溢出漏洞
+来源: NDSS 2003
+年份: 2003
+链接: https://www.ndss-symposium.org/ndss2003/testing-c-programs-buffer-overflow-vulnerabilities/
+----------------------------------------------------------------------------------------------------
+
+[No.16] Vulnerabilities in Synchronous IPC Designs
+标题(中): 同步IPC设计中的漏洞
+来源: SP 2003
+年份: 2003
+DOI: 10.1109/SECPRI.2003.1199341
+----------------------------------------------------------------------------------------------------
+
+[No.17] Automatic diagnosis and response to memory corruption vulnerabilities.
+标题(中): 自动诊断和响应内存损坏漏洞。
+来源: CCS 2005
+年份: 2005
+DOI: 10.1145/1102120.1102151
+----------------------------------------------------------------------------------------------------
+
+[No.18] Finding Security Vulnerabilities in Java Applications with Static Analysis
+标题(中): 使用静态分析在Java应用程序中查找安全漏洞
+来源: USENIX 2005
+年份: 2005
+链接: https://www.usenix.org/conference/14th-usenix-security-symposium/finding-security-vulnerabilities-java-applications-static
+----------------------------------------------------------------------------------------------------
+
+[No.19] On deriving unknown vulnerabilities from zero-day polymorphic and metamorphic worm exploits.
+标题(中): 从零日多态性和 metamorphic 病毒利用中推导未知漏洞
+来源: CCS 2005
+年份: 2005
+DOI: 10.1145/1102120.1102152
+----------------------------------------------------------------------------------------------------
+
+[No.20] Security market: incentives for disclosure of vulnerabilities.
+标题(中): 证券市场：披露漏洞的激励机制。
+来源: CCS 2005
+年份: 2005
+DOI: 10.1145/1102120.1102173
+----------------------------------------------------------------------------------------------------
+
+[No.21] Vulnerabilities of Passive Internet Threat Monitors
+标题(中): 被动互联网威胁监控的漏洞
+来源: USENIX 2005
+年份: 2005
+链接: https://www.usenix.org/conference/14th-usenix-security-symposium/vulnerabilities-passive-internet-threat-monitors
+----------------------------------------------------------------------------------------------------
+
+[No.22] Automated Web Patrol with Strider HoneyMonkeys: Finding Web Sites That Exploit Browser Vulnerabilities
+标题(中): 使用Strider蜜猴子进行自动网络巡逻：发现利用浏览器漏洞的网站
+来源: NDSS 2006
+年份: 2006
+链接: https://www.ndss-symposium.org/ndss2006/automated-web-patrol-strider-honeymonkeys-finding-web-sites-exploit-browser-vulnerabilities/
+----------------------------------------------------------------------------------------------------
+
+[No.23] Pixy: A Static Analysis Tool for Detecting Web Application Vulnerabilities (Short Paper)
+标题(中): Pixy：一种检测Web应用程序漏洞的静态分析工具（简短论文）
+来源: SP 2006
+年份: 2006
+DOI: 10.1109/SP.2006.29
+----------------------------------------------------------------------------------------------------
+
+[No.24] Security vulnerabilities: from measurements to design.
+标题(中): 安全漏洞：从测量到设计。
+来源: CCS 2006
+年份: 2006
+DOI: 10.1145/1128817.1128823
+----------------------------------------------------------------------------------------------------
+
+[No.25] Static Detection of Security Vulnerabilities in Scripting Languages
+标题(中): 脚本语言中的静态安全漏洞检测
+来源: USENIX 2006
+年份: 2006
+链接: https://www.usenix.org/conference/15th-usenix-security-symposium/static-detection-security-vulnerabilities-scripting
+----------------------------------------------------------------------------------------------------
+
+[No.26] Towards Automatic Generation of Vulnerability-Based Signatures
+标题(中): 基于漏洞的签名的自动生成
+来源: SP 2006
+年份: 2006
+DOI: 10.1109/SP.2006.41
+----------------------------------------------------------------------------------------------------
+
+[No.27] Vulnerability-Specific Execution Filtering for Exploit Prevention on Commodity Software
+标题(中): 针对商品软件的漏洞特定执行过滤以预防利用
+来源: NDSS 2006
+年份: 2006
+链接: https://www.ndss-symposium.org/ndss2006/vulnerability-specific-execution-filtering-exploit-prevention-commodity-software/
+----------------------------------------------------------------------------------------------------
+
+[No.28] Analyzing the vulnerability of superpeer networks against attack.
+标题(中): 分析超级节点网络抵御攻击的脆弱性。
+来源: CCS 2007
+年份: 2007
+DOI: 10.1145/1315245.1315274
+----------------------------------------------------------------------------------------------------
+
+[No.29] Exploiting Concurrency Vulnerabilities in System Call Wrappers
+标题(中): 利用系统调用包装器中的并发漏洞
+来源: USENIX 2007
+年份: 2007
+链接: https://www.usenix.org/conference/woot-07/exploiting-concurrency-vulnerabilities-system-call-wrappers
+----------------------------------------------------------------------------------------------------
+
+[No.30] Memsherlock: an automated debugger for unknown memory corruption vulnerabilities.
+标题(中): Memsherlock：一种针对未知内存损坏漏洞的自动化调试器。
+来源: CCS 2007
+年份: 2007
+DOI: 10.1145/1315245.1315314
+----------------------------------------------------------------------------------------------------
+
+[No.31] Multi-module vulnerability analysis of web-based applications.
+标题(中): 基于多模块的网络应用程序漏洞分析。
+来源: CCS 2007
+年份: 2007
+DOI: 10.1145/1315245.1315250
+----------------------------------------------------------------------------------------------------
+
+[No.32] Predicting vulnerable software components.
+标题(中): 预测易受攻击的软件组件。
+来源: CCS 2007
+年份: 2007
+DOI: 10.1145/1315245.1315311
+----------------------------------------------------------------------------------------------------
+
+[No.33] RICH: Automatically Protecting Against Integer-Based Vulnerabilities
+标题(中): RICH: 自动防护整数基漏洞
+来源: NDSS 2007
+年份: 2007
+链接: https://www.ndss-symposium.org/ndss2007/rich-automatically-protecting-against-integer-based-vulnerabilities/
+----------------------------------------------------------------------------------------------------
+
+[No.34] ShieldGen: Automatic Data Patch Generation for Unknown Vulnerabilities with Informed Probing
+标题(中): ShieldGen：基于有指导探测的未知漏洞自动数据补丁生成
+来源: SP 2007
+年份: 2007
+DOI: 10.1109/SP.2007.34
+----------------------------------------------------------------------------------------------------
+
+[No.35] Extending logical attack graphs for efficient vulnerability analysis.
+标题(中): 扩展逻辑攻击图以实现高效的漏洞分析。
+来源: CCS 2008
+年份: 2008
+DOI: 10.1145/1455770.1455780
+----------------------------------------------------------------------------------------------------
+
+[No.36] IntScope: Automatically Detecting Integer Overflow Vulnerability in X86 Binary Using Symbolic Execution
+标题(中): 自动检测X86二进制文件中的整数溢出漏洞利用符号执行
+来源: NDSS 2009
+年份: 2009
+链接: https://www.ndss-symposium.org/ndss2009/intscope-automatically-detecting-integer-overflow-vulnerability-in-x86-binary-using-symbolic-execution/
+----------------------------------------------------------------------------------------------------
+
+[No.37] Nemesis: Preventing Authentication & Access Control Vulnerabilities in Web Applications
+标题(中): Nemesis：防止网络应用中的身份验证与访问控制漏洞
+来源: USENIX 2009
+年份: 2009
+链接: http://www.usenix.org/events/sec09/tech/full_papers/dalton.pdf
+----------------------------------------------------------------------------------------------------
+
+[No.38] Recursive DNS Architectures and Vulnerability Implications
+标题(中): 递归DNS架构及其脆弱性影响
+来源: NDSS 2009
+年份: 2009
+链接: https://www.ndss-symposium.org/ndss2009/recursive-dns-architectures-and-vulnerability-implications/
+----------------------------------------------------------------------------------------------------
+
+[No.39] Exploiting the Client Vulnerabilities in Internet E-voting Systems: Hacking Helios 2.0 as an Example
+标题(中): 利用互联网电子投票系统中的客户端漏洞：以HeliOS 2.0为例进行黑客攻击
+来源: USENIX 2010
+年份: 2010
+链接: https://www.usenix.org/conference/evtwote-10/exploiting-client-vulnerabilities-internet-e-voting-systems-hacking-helios-20
+----------------------------------------------------------------------------------------------------
+
+[No.40] FLAX: Systematic Discovery of Client-side Validation Vulnerabilities in Rich Web Applications
+标题(中): FLAX：面向富网络应用程序的客户端验证漏洞系统性发现
+来源: NDSS 2010
+年份: 2010
+链接: https://www.ndss-symposium.org/ndss2010/flax-systematic-discovery-client-side-validation-vulnerabilities-rich-web-applications
+----------------------------------------------------------------------------------------------------
+
+[No.41] Protecting Browsers from Extension Vulnerabilities
+标题(中): 保护浏览器免受扩展程序漏洞的影响
+来源: NDSS 2010
+年份: 2010
+链接: https://www.ndss-symposium.org/ndss2010/protecting-browsers-extension-vulnerabilities
+----------------------------------------------------------------------------------------------------
+
+[No.42] Reconciling Belief and Vulnerability in Information Flow
+标题(中): 平衡信念与信息流中的脆弱性
+来源: SP 2010
+年份: 2010
+DOI: 10.1109/SP.2010.13
+----------------------------------------------------------------------------------------------------
+
+[No.43] Security and Privacy Vulnerabilities of In-Car Wireless Networks: A Tire Pressure Monitoring System Case Study
+标题(中): 车内无线网络的安全性和隐私漏洞：以胎压监测系统为例
+来源: USENIX 2010
+年份: 2010
+链接: http://www.usenix.org/events/sec10/tech/full_papers/Rouf.pdf
+----------------------------------------------------------------------------------------------------
+
+[No.44] State of the Art: Automated Black-Box Web Application Vulnerability Testing
+标题(中): State of the Art: 自动化黑盒Web应用漏洞测试
+来源: SP 2010
+年份: 2010
+DOI: 10.1109/SP.2010.27
+----------------------------------------------------------------------------------------------------
+
+[No.45] TaintScope: A Checksum-Aware Directed Fuzzing Tool for Automatic Software Vulnerability Detection
+标题(中): TaintScope：一种关注校验和的定向模糊测试工具，用于自动软件漏洞检测
+来源: SP 2010
+年份: 2010
+DOI: 10.1109/SP.2010.37
+----------------------------------------------------------------------------------------------------
+
+[No.46] Toward Automated Detection of Logic Vulnerabilities in Web Applications
+标题(中): 自动检测Web应用程序逻辑漏洞的方法
+来源: USENIX 2010
+年份: 2010
+链接: http://www.usenix.org/events/sec10/tech/full_papers/Felmetsger.pdf
+----------------------------------------------------------------------------------------------------
+
+[No.47] VEX: Vetting Browser Extensions for Security Vulnerabilities
+标题(中): VEX：审查浏览器扩展以查找安全漏洞
+来源: USENIX 2010
+年份: 2010
+链接: http://www.usenix.org/events/sec10/tech/full_papers/Bandhakavi.pdf
+----------------------------------------------------------------------------------------------------
+
+[No.48] When Good Randomness Goes Bad: Virtual Machine Reset Vulnerabilities and Hedging Deployed Cryptography
+标题(中): 当良好的随机性变成坏的随机性：虚拟机重置漏洞与部署加密技术的风险管理
+来源: NDSS 2010
+年份: 2010
+链接: https://www.ndss-symposium.org/ndss2010/when-good-randomness-goes-bad-virtual-machine-reset-vulnerabilities-and-hedging-deployed
+----------------------------------------------------------------------------------------------------
+
+[No.49] Zero-sized Heap Allocations Vulnerability Analysis
+标题(中): 零大小堆分配漏洞分析
+来源: USENIX 2010
+年份: 2010
+链接: https://www.usenix.org/conference/woot10/zero-sized-heap-allocations-vulnerability-analysis
+----------------------------------------------------------------------------------------------------
+
+[No.50] Automated Discovery of Parameter Pollution Vulnerabilities in Web Applications
+标题(中): 自动发现Web应用程序中的参数污染漏洞
+来源: NDSS 2011
+年份: 2011
+链接: https://www.ndss-symposium.org/ndss2011/automated-discovery-of-parameter-pollution-vulnerabilities-in-web-applications
+----------------------------------------------------------------------------------------------------
+
+[No.51] Automated black-box detection of side-channel vulnerabilities in web applications.
+标题(中): 自动检测网络应用侧信道漏洞的黑盒方法。
+来源: CCS 2011
+年份: 2011
+DOI: 10.1145/2046707.2046737
+----------------------------------------------------------------------------------------------------
+
+[No.52] Fear the EAR: discovering and mitigating execution after redirect vulnerabilities.
+标题(中): 警惕重定向执行漏洞：发现和减轻此类漏洞的方法。
+来源: CCS 2011
+年份: 2011
+DOI: 10.1145/2046707.2046736
+----------------------------------------------------------------------------------------------------
+
+[No.53] Fragmentation Considered Vulnerable: Blindly Intercepting and Discarding Fragments
+标题(中): 分片被认为是脆弱的：盲目拦截和丢弃分片
+来源: USENIX 2011
+年份: 2011
+链接: http://static.usenix.org/event/woot11/tech/final_files/Gilad.pdf
+----------------------------------------------------------------------------------------------------
+
+[No.54] How to tell if your cloud files are vulnerable to drive crashes.
+标题(中): 如何判断您的云文件是否容易受到硬盘崩溃的影响。
+来源: CCS 2011
+年份: 2011
+DOI: 10.1145/2046707.2046766
+----------------------------------------------------------------------------------------------------
+
+[No.55] MACE: Model-inference-Assisted Concolic Exploration for Protocol and Vulnerability Discovery
+标题(中): MACE：模型辅助的协议和漏洞发现条件性执行探索
+来源: USENIX 2011
+年份: 2011
+链接: http://static.usenix.org/events/sec11/tech/full_papers/Cho.pdf
+----------------------------------------------------------------------------------------------------
+
+[No.56] No Loitering: Exploiting Lingering Vulnerabilities in Default COM Objects
+标题(中): 禁止滞留：利用默认COM对象中的滞留漏洞
+来源: NDSS 2011
+年份: 2011
+链接: https://www.ndss-symposium.org/ndss2011/no-loitering-exploiting-lingering-vulnerabilities-in-default-com-objects
+----------------------------------------------------------------------------------------------------
+
+[No.57] On the vulnerability of FPGA bitstream encryption against power analysis attacks: extracting keys from xilinx Virtex-II FPGAs.
+标题(中): FPGA位流加密对电源分析攻击的脆弱性：从Xilinx Virtex-II FPGA提取密钥。
+来源: CCS 2011
+年份: 2011
+DOI: 10.1145/2046707.2046722
+----------------------------------------------------------------------------------------------------
+
+[No.58] Static Detection of Access Control Vulnerabilities in Web Applications
+标题(中): 静态检测Web应用程序中的访问控制漏洞
+来源: USENIX 2011
+年份: 2011
+链接: http://static.usenix.org/events/sec11/tech/full_papers/Sun.pdf
+----------------------------------------------------------------------------------------------------
+
+[No.59] Vulnerability Extrapolation: Assisted Discovery of Vulnerabilities Using Machine Learning
+标题(中): 漏洞外推：利用机器学习辅助发现漏洞
+来源: USENIX 2011
+年份: 2011
+链接: http://static.usenix.org/event/woot11/tech/final_files/Yamaguchi.pdf
+----------------------------------------------------------------------------------------------------
+
+[No.60] An historical examination of open source releases and their vulnerabilities.
+标题(中): 开源发布的历史检视及其漏洞分析。
+来源: CCS 2012
+年份: 2012
+DOI: 10.1145/2382196.2382218
+----------------------------------------------------------------------------------------------------
+
+[No.61] CHEX: statically vetting Android apps for component hijacking vulnerabilities.
+标题(中): CHEX：静态检查Android应用程序以检测组件劫持漏洞。
+来源: CCS 2012
+年份: 2012
+DOI: 10.1145/2382196.2382223
+----------------------------------------------------------------------------------------------------
+
+[No.62] Enemy of the State: A State-Aware Black-Box Web Vulnerability Scanner
+标题(中): 敌对状态：一种具备状态感知能力的黑盒网络漏洞扫描器
+来源: USENIX 2012
+年份: 2012
+链接: https://www.usenix.org/conference/usenixsecurity12/technical-sessions/presentation/doupe
+----------------------------------------------------------------------------------------------------
+
+[No.63] STING: Finding Name Resolution Vulnerabilities in Programs
+标题(中): STING：在程序中查找名称解析漏洞
+来源: USENIX 2012
+年份: 2012
+链接: https://www.usenix.org/conference/usenixsecurity12/technical-sessions/presentation/vijayakumar
+----------------------------------------------------------------------------------------------------
+
+[No.64] Static detection of C++ vtable escape vulnerabilities in binary code
+标题(中): 在二进制代码中静态检测C++虚函数表（vtable）逃逸漏洞
+来源: NDSS 2012
+年份: 2012
+链接: https://www.ndss-symposium.org/ndss2012/static-detection-c-vtable-escape-vulnerabilities-binary-code
+----------------------------------------------------------------------------------------------------
+
+[No.65] An Empirical Study of Vulnerability Rewards Programs
+标题(中): 漏洞奖励计划的实证研究
+来源: USENIX 2013
+年份: 2013
+链接: https://www.usenix.org/conference/usenixsecurity13/technical-sessions/presentation/finifter
+----------------------------------------------------------------------------------------------------
+
+[No.66] Attacker Economics for Internet-scale Vulnerability Risk Assessment
+标题(中): 互联网规模漏洞风险评估中的攻击者经济学
+来源: USENIX 2013
+年份: 2013
+链接: https://www.usenix.org/conference/leet13/workshop-program/presentation/allodi
+----------------------------------------------------------------------------------------------------
+
+[No.67] Breaking Cell Phone Authentication: Vulnerabilities in AKA, IMS, and Android
+标题(中): 破解手机认证：AKA、IMS和Android中的漏洞
+来源: USENIX 2013
+年份: 2013
+链接: https://www.usenix.org/conference/woot13/workshop-program/presentation/beekman
+----------------------------------------------------------------------------------------------------
+
+[No.68] BugBox: A Vulnerability Corpus for PHP Web Applications
+标题(中): BugBox：一个针对PHPWeb应用程序的漏洞语料库
+来源: USENIX 2013
+年份: 2013
+链接: https://www.usenix.org/conference/cset13/workshop-program/presentation/nilson
+----------------------------------------------------------------------------------------------------
+
+[No.69] Chucky: exposing missing checks in source code for vulnerability discovery.
+标题(中): 查克西：揭示源代码中的缺失检查以发现漏洞。
+来源: CCS 2013
+年份: 2013
+DOI: 10.1145/2508859.2516665
+----------------------------------------------------------------------------------------------------
+
+[No.70] FIE on Firmware: Finding Vulnerabilities in Embedded Systems Using Symbolic Execution
+标题(中): 固件FIE检测：使用符号执行在嵌入式系统中寻找漏洞
+来源: USENIX 2013
+年份: 2013
+链接: https://www.usenix.org/conference/usenixsecurity13/technical-sessions/paper/davidson
+----------------------------------------------------------------------------------------------------
+
+[No.71] Protecting sensitive web content from client-side vulnerabilities with CRYPTONS.
+标题(中): 使用CRYPTONS保护敏感网页内容免受客户端漏洞的影响。
+来源: CCS 2013
+年份: 2013
+DOI: 10.1145/2508859.2516743
+----------------------------------------------------------------------------------------------------
+
+[No.72] trend of online flash XSS vulnerabilities.
+标题(中): 在线闪客（XSS）漏洞的趋势
+来源: CCS 2013
+年份: 2013
+DOI: 10.1145/2508859.2512516
+----------------------------------------------------------------------------------------------------
+
+[No.73] AppSealer: Automatic Generation of Vulnerability-Specific Patches for Preventing Component Hijacking Attacks in Android Applications
+标题(中): AppSealer：自动生成针对组件劫持攻击的漏洞特定补丁以防止Android应用程序受攻击
+来源: NDSS 2014
+年份: 2014
+链接: https://www.ndss-symposium.org/ndss2014/appsealer-automatic-generation-vulnerability-specific-patches-preventing-component-hijacking
+----------------------------------------------------------------------------------------------------
+
+[No.74] Automatically Detecting Vulnerable Websites Before They Turn Malicious
+标题(中): 自动检测易受攻击的网站以防止其变恶意
+来源: USENIX 2014
+年份: 2014
+链接: https://www.usenix.org/conference/usenixsecurity14/technical-sessions/presentation/soska
+----------------------------------------------------------------------------------------------------
+
+[No.75] Detecting Logic Vulnerabilities in E-commerce Applications
+标题(中): 检测电子商务应用中的逻辑漏洞
+来源: NDSS 2014
+年份: 2014
+链接: https://www.ndss-symposium.org/ndss2014/detecting-logic-vulnerabilities-e-commerce-applications
+----------------------------------------------------------------------------------------------------
+
+[No.76] Hidden GEMs: Automated Discovery of Access Control Vulnerabilities in Graphical User Interfaces
+标题(中): 隐藏的瑰宝：图形用户界面中的访问控制漏洞自动发现
+来源: SP 2014
+年份: 2014
+DOI: 10.1109/SP.2014.17
+----------------------------------------------------------------------------------------------------
+
+[No.77] Large-Scale Evaluation of a Vulnerability Analysis Framework
+标题(中): 大规模评估漏洞分析框架
+来源: USENIX 2014
+年份: 2014
+链接: https://www.usenix.org/conference/cset14/workshop-program/presentation/benameur
+----------------------------------------------------------------------------------------------------
+
+[No.78] MACE: Detecting Privilege Escalation Vulnerabilities in Web Applications.
+标题(中): MACE：检测Web应用程序中的权限提升漏洞。
+来源: CCS 2014
+年份: 2014
+DOI: 10.1145/2660267.2660337
+----------------------------------------------------------------------------------------------------
+
+[No.79] Modeling and Discovering Vulnerabilities with Code Property Graphs
+标题(中): 使用代码属性图建模与发现漏洞
+来源: SP 2014
+年份: 2014
+DOI: 10.1109/SP.2014.44
+----------------------------------------------------------------------------------------------------
+
+[No.80] POSTER: UAFChecker: Scalable Static Detection of Use-After-Free Vulnerabilities.
+标题(中): 海报：UAFChecker：可扩展的静态检测使用后释放漏洞工具。
+来源: CCS 2014
+年份: 2014
+DOI: 10.1145/2660267.2662394
+----------------------------------------------------------------------------------------------------
+
+[No.81] S3: A Symbolic String Solver for Vulnerability Detection in Web Applications.
+标题(中): S3：一种符号字符串求解器，用于检测Web应用程序中的漏洞。
+来源: CCS 2014
+年份: 2014
+DOI: 10.1145/2660267.2660372
+----------------------------------------------------------------------------------------------------
+
+[No.82] SMV-Hunter: Large Scale, Automated Detection of SSL/TLS Man-in-the-Middle Vulnerabilities in Android Apps
+标题(中): SMV-Hunter：大规模、自动化检测Android应用SSL/TLS中间人攻击漏洞
+来源: NDSS 2014
+年份: 2014
+链接: https://www.ndss-symposium.org/ndss2014/smv-hunter-large-scale-automated-detection-ssltls-man-middle-vulnerabilities-android-apps
+----------------------------------------------------------------------------------------------------
+
+[No.83] SSOScan: Automated Testing of Web Applications for Single Sign-On Vulnerabilities
+标题(中): SSOScan：针对单点登录漏洞的自动化Web应用程序测试
+来源: USENIX 2014
+年份: 2014
+链接: https://www.usenix.org/conference/usenixsecurity14/technical-sessions/presentation/zhou
+----------------------------------------------------------------------------------------------------
+
+[No.84] Security Vulnerability in Processor-Interconnect Router Design.
+标题(中): 处理器互连路由器设计中的安全漏洞。
+来源: CCS 2014
+年份: 2014
+DOI: 10.1145/2660267.2660290
+----------------------------------------------------------------------------------------------------
+
+[No.85] Static Detection of Second-Order Vulnerabilities in Web Applications
+标题(中): Web应用程序中的静态检测第二-order漏洞
+来源: USENIX 2014
+年份: 2014
+链接: https://www.usenix.org/conference/usenixsecurity14/technical-sessions/presentation/dahse
+----------------------------------------------------------------------------------------------------
+
+[No.86] Stealing Webpages Rendered on Your Browser by Exploiting GPU Vulnerabilities
+标题(中): 通过利用GPU漏洞窃取你在浏览器中渲染的网页
+来源: SP 2014
+年份: 2014
+DOI: 10.1109/SP.2014.9
+----------------------------------------------------------------------------------------------------
+
+[No.87] Vulnerability and Protection of Channel State Information in Multiuser MIMO Networks.
+标题(中): 多用户MIMO网络中信道状态信息的脆弱性与保护
+来源: CCS 2014
+年份: 2014
+DOI: 10.1145/2660267.2660272
+----------------------------------------------------------------------------------------------------
+
+[No.88] A Placement Vulnerability Study in Multi-Tenant Public Clouds
+标题(中): 多租户公共云中的位置漏洞研究
+来源: USENIX 2015
+年份: 2015
+链接: https://www.usenix.org/conference/usenixsecurity15/technical-sessions/presentation/varadarajan
+----------------------------------------------------------------------------------------------------
+
+[No.89] An Empirical Study of Web Vulnerability Discovery Ecosystems.
+标题(中): 网络漏洞发现生态系统的研究
+来源: CCS 2015
+年份: 2015
+DOI: 10.1145/2810103.2813704
+----------------------------------------------------------------------------------------------------
+
+[No.90] Automatic Inference of Search Patterns for Taint-Style Vulnerabilities
+标题(中): 自动推断污染型漏洞的搜索模式
+来源: SP 2015
+年份: 2015
+DOI: 10.1109/SP.2015.54
+----------------------------------------------------------------------------------------------------
+
+[No.91] Detecting and Exploiting Second Order Denial-of-Service Vulnerabilities in Web Applications.
+标题(中): 检测和利用Web应用程序中的第二阶拒绝服务漏洞。
+来源: CCS 2015
+年份: 2015
+DOI: 10.1145/2810103.2813680
+----------------------------------------------------------------------------------------------------
+
+[No.92] Fast and Vulnerable: A Story of Telematic Failures
+标题(中): 快速而脆弱：关于电信故障的故事
+来源: USENIX 2015
+年份: 2015
+链接: https://www.usenix.org/conference/woot15/workshop-program/presentation/foster
+----------------------------------------------------------------------------------------------------
+
+[No.93] Firmalice - Automatic Detection of Authentication Bypass Vulnerabilities in Binary Firmware
+标题(中): Firmalice - 二进制固件中的身份验证绕过漏洞自动检测工具
+来源: NDSS 2015
+年份: 2015
+链接: https://www.ndss-symposium.org/ndss2015/firmalice-automatic-detection-authentication-bypass-vulnerabilities-binary-firmware
+----------------------------------------------------------------------------------------------------
+
+[No.94] FlowWatcher: Defending against Data Disclosure Vulnerabilities in Web Applications.
+标题(中): FlowWatcher：防御Web应用程序中的数据披露漏洞。
+来源: CCS 2015
+年份: 2015
+DOI: 10.1145/2810103.2813639
+----------------------------------------------------------------------------------------------------
+
+[No.95] FreeSentry: protecting against use-after-free vulnerabilities due to dangling pointers
+标题(中): FreeSentry：防止由于悬挂指针导致的使用后释放漏洞
+来源: NDSS 2015
+年份: 2015
+链接: https://www.ndss-symposium.org/ndss2015/freesentry-protecting-against-use-after-free-vulnerabilities-due-dangling-pointers
+----------------------------------------------------------------------------------------------------
+
+[No.96] From Collision To Exploitation: Unleashing Use-After-Free Vulnerabilities in Linux Kernel.
+标题(中): 从碰撞到利用：在Linux内核中释放后使用漏洞的触发
+来源: CCS 2015
+年份: 2015
+DOI: 10.1145/2810103.2813637
+----------------------------------------------------------------------------------------------------
+
+[No.97] One Class to Rule Them All: 0-Day Deserialization Vulnerabilities in Android
+标题(中): 一类统领一切：Android中的0-day反序列化漏洞
+来源: USENIX 2015
+年份: 2015
+链接: https://www.usenix.org/conference/woot15/workshop-program/presentation/peles
+----------------------------------------------------------------------------------------------------
+
+[No.98] P2P File-Sharing in Hell: Exploiting BitTorrent Vulnerabilities to Launch Distributed Reflective DoS Attacks
+标题(中): 《地狱中的P2P文件共享：利用BitTorrent漏洞发起分布式反射型DoS攻击》
+来源: USENIX 2015
+年份: 2015
+链接: https://www.usenix.org/conference/woot15/workshop-program/presentation/p2p-file-sharing-hell-exploiting-bittorrent
+----------------------------------------------------------------------------------------------------
+
+[No.99] POSTER: PatchGen: Towards Automated Patch Detection and Generation for 1-Day Vulnerabilities.
+标题(中): 海报：PatchGen：面向1日漏洞的自动补丁检测与生成。
+来源: CCS 2015
+年份: 2015
+DOI: 10.1145/2810103.2810122
+----------------------------------------------------------------------------------------------------
+
+[No.100] StackArmor: Comprehensive Protection From Stack-based Memory Error Vulnerabilities for Binaries
+标题(中): StackArmor：全面防范基于栈的内存错误漏洞的二进制代码综合保护措施
+来源: NDSS 2015
+年份: 2015
+链接: https://www.ndss-symposium.org/ndss2015/stackarmor-comprehensive-protection-stack-based-memory-error-vulnerabilities-binaries
+----------------------------------------------------------------------------------------------------
+
+[No.101] Static Detection of Packet Injection Vulnerabilities: A Case for Identifying Attacker-controlled Implicit Information Leaks.
+标题(中): 静态检测包注入漏洞：识别攻击者控制的隐式信息泄露
+来源: CCS 2015
+年份: 2015
+DOI: 10.1145/2810103.2813643
+----------------------------------------------------------------------------------------------------
+
+[No.102] The Attack of the Clones: A Study of the Impact of Shared Code on Vulnerability Patching
+标题(中): 克隆攻击：共享代码对漏洞修补的影响研究
+来源: SP 2015
+年份: 2015
+DOI: 10.1109/SP.2015.48
+----------------------------------------------------------------------------------------------------
+
+[No.103] VCCFinder: Finding Potential Vulnerabilities in Open-Source Projects to Assist Code Audits.
+标题(中): VCCFinder：在开源项目中寻找潜在漏洞以辅助代码审计。
+来源: CCS 2015
+年份: 2015
+DOI: 10.1145/2810103.2813604
+----------------------------------------------------------------------------------------------------
+
+[No.104] Vulnerability Disclosure in the Age of Social Media: Exploiting Twitter for Predicting Real-World Exploits
+标题(中): 社交媒体时代下的漏洞披露：利用Twitter预测现实世界中的攻击
+来源: USENIX 2015
+年份: 2015
+链接: https://www.usenix.org/conference/usenixsecurity15/technical-sessions/presentation/sabottke
+----------------------------------------------------------------------------------------------------
+
+[No.105] ZigZag: Automatically Hardening Web Applications Against Client-side Validation Vulnerabilities
+标题(中): ZigZag：自动强化Web应用程序以抵御客户端验证漏洞
+来源: USENIX 2015
+年份: 2015
+链接: https://www.usenix.org/conference/usenixsecurity15/technical-sessions/presentation/weissbacher
+----------------------------------------------------------------------------------------------------
+
+[No.106] Automatic Forgery of Cryptographically Consistent Messages to Identify Security Vulnerabilities in Mobile Services
+标题(中): 自动生成符合加密一致性要求的消息以识别移动服务中的安全漏洞
+来源: NDSS 2016
+年份: 2016
+链接: http://wp.internetsociety.org/ndss/wp-content/uploads/sites/25/2017/09/automatic-forgery-cryptographically-consistent-messages-identify-security-vulnerabilities.pdf
+----------------------------------------------------------------------------------------------------
+
+[No.107] CREDAL: Towards Locating a Memory Corruption Vulnerability with Your Core Dump.
+标题(中): 基于核心转储文件定位内存损坏漏洞的方法
+来源: CCS 2016
+年份: 2016
+DOI: 10.1145/2976749.2978340
+----------------------------------------------------------------------------------------------------
+
+[No.108] Can Knowledge of Technical Debt Help Identify Software Vulnerabilities?
+标题(中): 技术债务的知识能否帮助识别软件漏洞？
+来源: USENIX 2016
+年份: 2016
+链接: https://www.usenix.org/conference/cset16/workshop-program/presentation/nord
+----------------------------------------------------------------------------------------------------
+
+[No.109] CrossFire: An Analysis of Firefox Extension-Reuse Vulnerabilities
+标题(中): CrossFire：对Firefox扩展重用漏洞的分析
+来源: NDSS 2016
+年份: 2016
+链接: http://wp.internetsociety.org/ndss/wp-content/uploads/sites/25/2017/09/crossfire-analysis-firefox-extension-reuse-vulnerabilities.pdf
+----------------------------------------------------------------------------------------------------
+
+[No.110] Dependence Makes You Vulnberable: Differential Privacy Under Dependent Tuples
+标题(中): 依赖性让你变得脆弱：差分隐私在相关元组下的情况
+来源: NDSS 2016
+年份: 2016
+链接: https://dblp.org/rec/conf/ndss/LiuMC16
+----------------------------------------------------------------------------------------------------
+
+[No.111] Error Handling of In-vehicle Networks Makes Them Vulnerable.
+标题(中): 车内网络的错误处理使其容易受到攻击。
+来源: CCS 2016
+年份: 2016
+DOI: 10.1145/2976749.2978302
+----------------------------------------------------------------------------------------------------
+
+[No.112] Hey, You Have a Problem: On the Feasibility of Large-Scale Web Vulnerability Notification
+标题(中): 嘿，你有大问题：大规模网络漏洞通知的可能性研究
+来源: USENIX 2016
+年份: 2016
+链接: https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/stock
+----------------------------------------------------------------------------------------------------
+
+[No.113] LAVA: Large-Scale Automated Vulnerability Addition
+标题(中): LAVA：大规模自动化漏洞添加
+来源: SP 2016
+年份: 2016
+DOI: 10.1109/SP.2016.15
+----------------------------------------------------------------------------------------------------
+
+[No.114] MitM Attack by Name Collision: Cause Analysis and Vulnerability Assessment in the New gTLD Era
+标题(中): 名称碰撞中的中间人攻击：在新通用顶级域名时代的原因分析与漏洞评估
+来源: SP 2016
+年份: 2016
+DOI: 10.1109/SP.2016.46
+----------------------------------------------------------------------------------------------------
+
+[No.115] On Omitting Commits and Committing Omissions: Preventing Git Metadata Tampering That (Re)introduces Software Vulnerabilities
+标题(中): 《舍弃提交与确认省略：防止Git元数据篡改 reintroduce 软件漏洞》
+来源: USENIX 2016
+年份: 2016
+链接: https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/torres-arias
+----------------------------------------------------------------------------------------------------
+
+[No.116] POSTER: Mapping the Landscape of Large-Scale Vulnerability Notifications.
+标题(中): 海报：大规模漏洞通知的景观映射。
+来源: CCS 2016
+年份: 2016
+DOI: 10.1145/2976749.2989057
+----------------------------------------------------------------------------------------------------
+
+[No.117] POSTER: VUDEC: A Framework for Vulnerability Management in Decentralized Communication Networks.
+标题(中): 海报：VUDEC：去中心化通信网络中的漏洞管理框架。
+来源: CCS 2016
+年份: 2016
+DOI: 10.1145/2976749.2989049
+----------------------------------------------------------------------------------------------------
+
+[No.118] SoK: XML Parser Vulnerabilities
+标题(中): SoK：XML解析器漏洞
+来源: USENIX 2016
+年份: 2016
+链接: https://www.usenix.org/conference/woot16/workshop-program/presentation/spath
+----------------------------------------------------------------------------------------------------
+
+[No.119] Talos: Neutralizing Vulnerabilities with Security Workarounds for Rapid Response
+标题(中): 塔罗斯：通过安全变通方法快速响应来消除漏洞
+来源: SP 2016
+年份: 2016
+DOI: 10.1109/SP.2016.43
+----------------------------------------------------------------------------------------------------
+
+[No.120] Twice the Bits, Twice the Trouble: Vulnerabilities Induced by Migrating to 64-Bit Platforms.
+标题(中): 16位翻倍，麻烦也翻倍：迁移到64位平台引起的漏洞。
+来源: CCS 2016
+年份: 2016
+DOI: 10.1145/2976749.2978403
+----------------------------------------------------------------------------------------------------
+
+[No.121] You've Got Vulnerability: Exploring Effective Vulnerability Notifications
+标题(中): 你拥有脆弱性：探索有效的漏洞通知方法
+来源: USENIX 2016
+年份: 2016
+链接: https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/li
+----------------------------------------------------------------------------------------------------
+
+[No.122] AUTHSCOPE: Towards Automatic Discovery of Vulnerable Authorizations in Online Services.
+标题(中): 自动发现在线服务中易受攻击的授权范围。
+来源: CCS 2017
+年份: 2017
+DOI: 10.1145/3133956.3134089
+----------------------------------------------------------------------------------------------------
+
+[No.123] Client-side Name Collision Vulnerability in the New gTLD Era: A Systematic Study.
+标题(中): 新gTLD时代下的客户端名称冲突漏洞：一项系统性研究。
+来源: CCS 2017
+年份: 2017
+DOI: 10.1145/3133956.3134084
+----------------------------------------------------------------------------------------------------
+
+[No.124] Digtool: A Virtualization-Based Framework for Detecting Kernel Vulnerabilities
+标题(中): Digtool：基于虚拟化的一种内核漏洞检测框架
+来源: USENIX 2017
+年份: 2017
+链接: https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/pan
+----------------------------------------------------------------------------------------------------
+
+[No.125] Economic Factors of Vulnerability Trade and Exploitation.
+标题(中): 经济因素下的脆弱性贸易与剥削。
+来源: CCS 2017
+年份: 2017
+DOI: 10.1145/3133956.3133960
+----------------------------------------------------------------------------------------------------
+
+[No.126] Herding Vulnerable Cats: A Statistical Approach to Disentangle Joint Responsibility for Web Security in Shared Hosting.
+标题(中): 共管易受攻击的猫咪：一种统计方法来解开共享主机中网络安全部责问题。
+来源: CCS 2017
+年份: 2017
+DOI: 10.1145/3133956.3133971
+----------------------------------------------------------------------------------------------------
+
+[No.127] Hindsight: Understanding the Evolution of UI Vulnerabilities in Mobile Browsers.
+标题(中): hindsight: 理解移动浏览器UI漏洞的演变。
+来源: CCS 2017
+年份: 2017
+DOI: 10.1145/3133956.3133987
+----------------------------------------------------------------------------------------------------
+
+[No.128] How Double-Fetch Situations turn into Double-Fetch Vulnerabilities: A Study of Double Fetches in the Linux Kernel
+标题(中): 双取情况如何演变成双取漏洞：Linux 内核中双取的研究
+来源: USENIX 2017
+年份: 2017
+链接: https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/wang-pengfei
+----------------------------------------------------------------------------------------------------
+
+[No.129] IDE Plugins for Detecting Input-Validation Vulnerabilities
+标题(中): 用于检测输入验证漏洞的IDE插件
+来源: SP 2017
+年份: 2017
+DOI: 10.1109/SPW.2017.37
+----------------------------------------------------------------------------------------------------
+
+[No.130] Leveraging Flawed Tutorials for Seeding Large-Scale Web Vulnerability Discovery
+标题(中): 利用有缺陷的教学示例进行大规模网络漏洞发现种子生成
+来源: USENIX 2017
+年份: 2017
+链接: https://www.usenix.org/conference/woot17/workshop-program/presentation/unruh
+----------------------------------------------------------------------------------------------------
+
+[No.131] POSTER: Finding Vulnerabilities in P4 Programs with Assertion-based Verification.
+标题(中): 海报：基于断言的P4程序漏洞检测。
+来源: CCS 2017
+年份: 2017
+DOI: 10.1145/3133956.3138837
+----------------------------------------------------------------------------------------------------
+
+[No.132] POSTER: Vulnerability Discovery with Function Representation Learning from Unlabeled Projects.
+标题(中): 海报：基于无标签项目的功能表示学习漏洞发现。
+来源: CCS 2017
+年份: 2017
+DOI: 10.1145/3133956.3138840
+----------------------------------------------------------------------------------------------------
+
+[No.133] Precise Detection of Side-Channel Vulnerabilities using Quantitative Cartesian Hoare Logic.
+标题(中): 使用定量笛卡尔霍尔逻辑精确检测侧信道漏洞。
+来源: CCS 2017
+年份: 2017
+DOI: 10.1145/3133956.3134058
+----------------------------------------------------------------------------------------------------
+
+[No.134] Quantifying the Pressure of Legal Risks on Third-party Vulnerability Research.
+标题(中): 量化法律风险对第三方漏洞研究的压力。
+来源: CCS 2017
+年份: 2017
+DOI: 10.1145/3133956.3134047
+----------------------------------------------------------------------------------------------------
+
+[No.135] STACCO: Differentially Analyzing Side-Channel Traces for Detecting SSL/TLS Vulnerabilities in Secure Enclaves.
+标题(中): STACCO：通过差异分析侧信道痕迹检测安全 enclave 中的 SSL/TLS 漏洞。
+来源: CCS 2017
+年份: 2017
+DOI: 10.1145/3133956.3134016
+----------------------------------------------------------------------------------------------------
+
+[No.136] Safelnit: Comprehensive and Practical Mitigation of Uninitialized Read Vulnerabilities
+标题(中): Safelnit：全面实用的未初始化读取漏洞缓解方案
+来源: NDSS 2017
+年份: 2017
+链接: https://www.ndss-symposium.org/ndss2017/ndss-2017-programme/safelnit-comprehensive-and-practical-mitigation-uninitialized-read-vulnerabilities/
+----------------------------------------------------------------------------------------------------
+
+[No.137] Scalable Secure Multi-party Network Vulnerability Analysis via Symbolic Optimization
+标题(中): 通过符号优化实现可扩展的安全多方网络漏洞分析
+来源: SP 2017
+年份: 2017
+DOI: 10.1109/SPW.2017.21
+----------------------------------------------------------------------------------------------------
+
+[No.138] Security Scenario Generator (SecGen): A Framework for Generating Randomly Vulnerable Rich-scenario VMs for Learning Computer Security and Hosting CTF Events
+标题(中): 安全场景生成器（SecGen）：一个用于生成随机漏洞丰富场景虚拟机的学习计算机安全框架和CTF赛事托管平台
+来源: USENIX 2017
+年份: 2017
+链接: https://www.usenix.org/conference/ase17/workshop-program/presentation/schreuders
+----------------------------------------------------------------------------------------------------
+
+[No.139] SlowFuzz: Automated Domain-Independent Detection of Algorithmic Complexity Vulnerabilities.
+标题(中): SlowFuzz: 自动化跨领域算法复杂度漏洞检测。
+来源: CCS 2017
+年份: 2017
+DOI: 10.1145/3133956.3134073
+----------------------------------------------------------------------------------------------------
+
+[No.140] Static Exploration of Taint-Style Vulnerabilities Found by Fuzzing
+标题(中): 基于模糊测试发现的污点传播型漏洞的静态探索
+来源: USENIX 2017
+年份: 2017
+链接: https://www.usenix.org/conference/woot17/workshop-program/presentation/shastry
+----------------------------------------------------------------------------------------------------
+
+[No.141] Unleashing Use-Before-Initialization Vulnerabilities in the Linux Kernel Using Targeted Stack Spraying
+标题(中): 利用目标栈喷涂在Linux内核中触发使用前未初始化漏洞
+来源: NDSS 2017
+年份: 2017
+链接: https://www.ndss-symposium.org/ndss2017/ndss-2017-programme/unleashing-use-initialization-vulnerabilities-linux-kernel-using-targeted-stack-spraying/
+----------------------------------------------------------------------------------------------------
+
+[No.142] VUDDY: A Scalable Approach for Vulnerable Code Clone Discovery
+标题(中): VUDDY：一种可扩展的脆弱代码克隆发现方法
+来源: SP 2017
+年份: 2017
+DOI: 10.1109/SP.2017.62
+----------------------------------------------------------------------------------------------------
+
+[No.143] Venerable Variadic Vulnerabilities Vanquished
+标题(中): 可敬的变参漏洞已被征服
+来源: USENIX 2017
+年份: 2017
+链接: https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/biswas
+----------------------------------------------------------------------------------------------------
+
+[No.144] Vulnerable Implicit Service: A Revisit.
+标题(中): 易受攻击的隐式服务：重新审视。
+来源: CCS 2017
+年份: 2017
+DOI: 10.1145/3133956.3133975
+----------------------------------------------------------------------------------------------------
+
+[No.145] fastboot oem vuln: Android Bootloader Vulnerabilities in Vendor Customizations
+标题(中): 快速启动 OEM 安全漏洞：Android 启动加载程序在厂商自定义中的漏洞
+来源: USENIX 2017
+年份: 2017
+链接: https://www.usenix.org/conference/woot17/workshop-program/presentation/hay
+----------------------------------------------------------------------------------------------------
+
+[No.146] API Blindspots: Why Experienced Developers Write Vulnerable Code
+标题(中): API 漏洞点：为什么有经验的开发人员会编写易受攻击的代码
+来源: USENIX 2018
+年份: 2018
+链接: https://www.usenix.org/conference/soups2018/presentation/oliveira
+----------------------------------------------------------------------------------------------------
+
+[No.147] ATtention Spanned: Comprehensive Vulnerability Analysis of AT Commands Within the Android Ecosystem
+标题(中): 注意力跨度：Android生态系统内AT命令的全面漏洞分析
+来源: USENIX 2018
+年份: 2018
+链接: https://www.usenix.org/conference/usenixsecurity18/presentation/tian
+----------------------------------------------------------------------------------------------------
+
+[No.148] Didn't You Hear Me? - Towards More Successful Web Vulnerability Notifications
+标题(中): 《你没听到我说的话？——迈向更成功的网络漏洞通知》
+来源: NDSS 2018
+年份: 2018
+链接: https://www.ndss-symposium.org/wp-content/uploads/2018/02/ndss2018_01B-1_Stock_paper.pdf
+----------------------------------------------------------------------------------------------------
+
+[No.149] FUZE: Towards Facilitating Exploit Generation for Kernel Use-After-Free Vulnerabilities
+标题(中): FUZE：促进内核使用后空指针漏洞利用生成
+来源: USENIX 2018
+年份: 2018
+链接: https://www.usenix.org/conference/usenixsecurity18/presentation/wu-wei
+----------------------------------------------------------------------------------------------------
+
+[No.150] Freezing the Web: A Study of ReDoS Vulnerabilities in JavaScript-based Web Servers
+标题(中): 冻结网络：基于JavaScript的Web服务器中的重入型拒绝服务（ReDoS）漏洞研究
+来源: USENIX 2018
+年份: 2018
+链接: https://www.usenix.org/conference/usenixsecurity18/presentation/staicu
+----------------------------------------------------------------------------------------------------
+
+[No.151] From Patching Delays to Infection Symptoms: Using Risk Profiles for an Early Discovery of Vulnerabilities Exploited in the Wild
+标题(中): 从补丁延迟到感染症状：利用风险评估图谱实现对野生环境中利用的漏洞的早期发现
+来源: USENIX 2018
+年份: 2018
+链接: https://www.usenix.org/conference/usenixsecurity18/presentation/xiao
+----------------------------------------------------------------------------------------------------
+
+[No.152] Hackers vs. Testers: A Comparison of Software Vulnerability Discovery Processes
+标题(中): 黑客 vs. 测试人员：软件漏洞发现过程的比较
+来源: SP 2018
+年份: 2018
+DOI: 10.1109/SP.2018.00003
+----------------------------------------------------------------------------------------------------
+
+[No.153] InstaGuard: Instantly Deployable Hot-patches for Vulnerable System Programs on Android
+标题(中): InstaGuard：Android系统中易受攻击程序的即时部署热补丁
+来源: NDSS 2018
+年份: 2018
+链接: https://www.ndss-symposium.org/wp-content/uploads/2018/03/ndss2018_08-2_Chen_paper.pdf
+----------------------------------------------------------------------------------------------------
+
+[No.154] Mobile Application Web API Reconnaissance: Web-to-Mobile Inconsistencies & Vulnerabilities
+标题(中): 移动应用程序Web API探测：Web与移动不一致性及漏洞
+来源: SP 2018
+年份: 2018
+DOI: 10.1109/SP.2018.00039
+----------------------------------------------------------------------------------------------------
+
+[No.155] Reduced Cooling Redundancy: A New Security Vulnerability in a Hot Data Center
+标题(中): 减少冷却冗余：数据中心热环境下的一个新的安全漏洞
+来源: NDSS 2018
+年份: 2018
+链接: https://www.ndss-symposium.org/wp-content/uploads/2018/02/ndss2018_06A-1_Gao_paper.pdf
+----------------------------------------------------------------------------------------------------
+
+[No.156] Study and Mitigation of Origin Stripping Vulnerabilities in Hybrid-postMessage Enabled Mobile Applications
+标题(中): 研究及缓解混合-postMessage架构移动应用中的原点剥离漏洞
+来源: SP 2018
+年份: 2018
+DOI: 10.1109/SP.2018.00043
+----------------------------------------------------------------------------------------------------
+
+[No.157] Understanding the Reproducibility of Crowd-reported Security Vulnerabilities
+标题(中): 理解群众报告的安全漏洞的可重复性
+来源: USENIX 2018
+年份: 2018
+链接: https://www.usenix.org/conference/usenixsecurity18/presentation/mu
+----------------------------------------------------------------------------------------------------
+
+[No.158] VulDeePecker: A Deep Learning-Based System for Vulnerability Detection
+标题(中): VulDeePecker：一种基于深度学习的漏洞检测系统
+来源: NDSS 2018
+年份: 2018
+链接: https://www.ndss-symposium.org/wp-content/uploads/2018/02/ndss2018_03A-2_Li_paper.pdf
+----------------------------------------------------------------------------------------------------
+
+[No.159] With Great Training Comes Great Vulnerability: Practical Attacks against Transfer Learning
+标题(中): 强大的训练意味着巨大的脆弱性：针对迁移学习的实际攻击
+来源: USENIX 2018
+年份: 2018
+链接: https://www.usenix.org/conference/usenixsecurity18/presentation/wang-bolun
+----------------------------------------------------------------------------------------------------
+
+[No.160] A Study of Vulnerability Analysis of Popular Smart Devices Through Their Companion Apps
+标题(中): 通过伴侣应用程序对流行智能设备的漏洞分析研究
+来源: SP 2019
+年份: 2019
+DOI: 10.1109/SPW.2019.00042
+----------------------------------------------------------------------------------------------------
+
+[No.161] A Tale of Two Worlds: Assessing the Vulnerability of Enclave Shielding Runtimes.
+标题(中): 两世界的寓言：评估 enclave 屏蔽运行时的脆弱性。
+来源: CCS 2019
+年份: 2019
+DOI: 10.1145/3319535.3363206
+----------------------------------------------------------------------------------------------------
+
+[No.162] Automatic Fingerprinting of Vulnerable BLE IoT Devices with Static UUIDs from Mobile Apps.
+标题(中): 使用静态UUID从移动应用自动指纹识别易受攻击的BLE物联网设备。
+来源: CCS 2019
+年份: 2019
+DOI: 10.1145/3319535.3354240
+----------------------------------------------------------------------------------------------------
+
+[No.163] Automating Patching of Vulnerable Open-Source Software Versions in Application Binaries
+标题(中): 在应用程序二进制文件中自动化修补易受攻击的开源软件版本
+来源: NDSS 2019
+年份: 2019
+链接: https://www.ndss-symposium.org/ndss-paper/automating-patching-of-vulnerable-open-source-software-versions-in-application-binaries/
+----------------------------------------------------------------------------------------------------
+
+[No.164] Characterizing Vulnerability of DNS AXFR Transfers with Global-Scale Scanning
+标题(中): 基于全球规模扫描表征DNS AXFR传输的脆弱性
+来源: SP 2019
+年份: 2019
+DOI: 10.1109/SPW.2019.00044
+----------------------------------------------------------------------------------------------------
+
+[No.165] CodeAlchemist: Semantics-Aware Code Generation to Find Vulnerabilities in JavaScript Engines
+标题(中): CodeAlchemist: 具有语义意识的代码生成以在JavaScript引擎中发现漏洞
+来源: NDSS 2019
+年份: 2019
+链接: https://www.ndss-symposium.org/ndss-paper/codealchemist-semantics-aware-code-generation-to-find-vulnerabilities-in-javascript-engines/
+----------------------------------------------------------------------------------------------------
+
+[No.166] CryptoGuard: High Precision Detection of Cryptographic Vulnerabilities in Massive-sized Java Projects.
+标题(中): CryptoGuard：大规模Java项目中加密漏洞的高精度检测。
+来源: CCS 2019
+年份: 2019
+DOI: 10.1145/3319535.3345659
+----------------------------------------------------------------------------------------------------
+
+[No.167] Devils in the Guidance: Predicting Logic Vulnerabilities in Payment Syndication Services through Automated Documentation Analysis
+标题(中): 指导中的恶魔：通过自动化文档分析预测支付协同服务中的逻辑漏洞
+来源: USENIX 2019
+年份: 2019
+链接: https://www.usenix.org/conference/usenixsecurity19/presentation/chen-yi
+----------------------------------------------------------------------------------------------------
+
+[No.168] Iframes/Popups Are Dangerous in Mobile WebView: Studying and Mitigating Differential Context Vulnerabilities
+标题(中): 嵌入框架/弹出窗口在移动WebView中存在危险：研究和减轻差异性上下文漏洞
+来源: USENIX 2019
+年份: 2019
+链接: https://www.usenix.org/conference/usenixsecurity19/presentation/yang-guangliang
+----------------------------------------------------------------------------------------------------
+
+[No.169] KEPLER: Facilitating Control-flow Hijacking Primitive Evaluation for Linux Kernel Vulnerabilities
+标题(中): KEPLER: 促进对Linux内核漏洞中的控制流劫持原始操作的评估
+来源: USENIX 2019
+年份: 2019
+链接: https://www.usenix.org/conference/usenixsecurity19/presentation/wu-wei
+----------------------------------------------------------------------------------------------------
+
+[No.170] Medical Protocol Security: DICOM Vulnerability Mining Based on Fuzzing Technology.
+标题(中): 医学协议安全：基于 fuzzing 技术的 DICOM 漏洞挖掘。
+来源: CCS 2019
+年份: 2019
+DOI: 10.1145/3319535.3363253
+----------------------------------------------------------------------------------------------------
+
+[No.171] Mind Your Own Business: A Longitudinal Study of Threats and Vulnerabilities in Enterprises
+标题(中): 《Mind Your Own Business：企业威胁与脆弱性 longitudinal 研究》
+来源: NDSS 2019
+年份: 2019
+链接: https://www.ndss-symposium.org/ndss-paper/mind-your-own-business-a-longitudinal-study-of-threats-and-vulnerabilities-in-enterprises/
+----------------------------------------------------------------------------------------------------
+
+[No.172] Postcards from the Post-HTTP World: Amplification of HTTPS Vulnerabilities in the Web Ecosystem
+标题(中): 后HTTP时代明信片：HTTPS漏洞在Web生态系统中的放大
+来源: SP 2019
+年份: 2019
+DOI: 10.1109/SP.2019.00053
+----------------------------------------------------------------------------------------------------
+
+[No.173] Poster: TCLP: Enforcing Least Privileges to Prevent Containers from Kernel Vulnerabilities.
+标题(中): 海报：TCLP：防止容器受到内核漏洞影响的最小权限强制执行。
+来源: CCS 2019
+年份: 2019
+DOI: 10.1145/3319535.3363282
+----------------------------------------------------------------------------------------------------
+
+[No.174] Poster: Towards Automated Quantitative Analysis and Forecasting of Vulnerability Discoveries in Debian GNU/Linux.
+标题(中): 海报：面向Debian GNU/Linux 的漏洞发现的自动化定量分析与预测
+来源: CCS 2019
+年份: 2019
+DOI: 10.1145/3319535.3363285
+----------------------------------------------------------------------------------------------------
+
+[No.175] Poster: Towards a Framework for Assessing Vulnerabilities of Brainwave Authentication Systems.
+标题(中): Poster: 建立评估脑电认证系统漏洞框架的研究
+来源: CCS 2019
+年份: 2019
+DOI: 10.1145/3319535.3363260
+----------------------------------------------------------------------------------------------------
+
+[No.176] Principled Unearthing of TCP Side Channel Vulnerabilities.
+标题(中): 基于原则挖掘TCP侧信道漏洞
+来源: CCS 2019
+年份: 2019
+DOI: 10.1145/3319535.3354250
+----------------------------------------------------------------------------------------------------
+
+[No.177] ProFuzzer: On-the-fly Input Type Probing for Better Zero-Day Vulnerability Discovery
+标题(中): ProFuzzer：更好的零日漏洞发现的实时输入类型探测技术
+来源: SP 2019
+年份: 2019
+DOI: 10.1109/SP.2019.00057
+----------------------------------------------------------------------------------------------------
+
+[No.178] SLAKE: Facilitating Slab Manipulation for Exploiting Vulnerabilities in the Linux Kernel.
+标题(中): SLAKE：协助板坯操作以利用Linux内核中的漏洞。
+来源: CCS 2019
+年份: 2019
+DOI: 10.1145/3319535.3363212
+----------------------------------------------------------------------------------------------------
+
+[No.179] Scalable Scanning and Automatic Classification of TLS Padding Oracle Vulnerabilities
+标题(中): 可扩展扫描和自动分类TLS填充 oracle 漏洞
+来源: USENIX 2019
+年份: 2019
+链接: https://www.usenix.org/conference/usenixsecurity19/presentation/merget
+----------------------------------------------------------------------------------------------------
+
+[No.180] Thunderclap: Exploring Vulnerabilities in Operating System IOMMU Protection via DMA from Untrustworthy Peripherals
+标题(中): Thunderclap：通过不可信外设进行DMA访问探索操作系统IOMMU保护的漏洞
+来源: NDSS 2019
+年份: 2019
+链接: https://www.ndss-symposium.org/ndss-paper/thunderclap-exploring-vulnerabilities-in-operating-system-iommu-protection-via-dma-from-untrustworthy-peripherals/
+----------------------------------------------------------------------------------------------------
+
+[No.181] Towards the Detection of Inconsistencies in Public Security Vulnerability Reports
+标题(中): 公共安全漏洞报告中不一致性的检测
+来源: USENIX 2019
+年份: 2019
+链接: https://www.usenix.org/conference/usenixsecurity19/presentation/dong
+----------------------------------------------------------------------------------------------------
+
+[No.182] Understanding and Securing Device Vulnerabilities through Automated Bug Report Analysis
+标题(中): 通过自动化漏洞报告分析理解并保障设备安全性
+来源: USENIX 2019
+年份: 2019
+链接: https://www.usenix.org/conference/usenixsecurity19/presentation/feng
+----------------------------------------------------------------------------------------------------
+
+[No.183] Using Safety Properties to Generate Vulnerability Patches
+标题(中): 使用安全属性生成漏洞补丁
+来源: SP 2019
+年份: 2019
+DOI: 10.1109/SP.2019.00071
+----------------------------------------------------------------------------------------------------
+
+[No.184] "You've Got Your Nice List of Bugs, Now What?" Vulnerability Discovery and Management Processes in the Wild
+标题(中): “你列好了漂亮的bug清单，接下来怎么办？”野生环境中的漏洞发现与管理流程
+来源: USENIX 2020
+年份: 2020
+链接: https://www.usenix.org/conference/soups2020/presentation/alomar
+----------------------------------------------------------------------------------------------------
+
+[No.185] Armor Within: Defending Against Vulnerabilities in Third-Party Libraries
+标题(中): 内置防护：抵御第三方库中的漏洞
+来源: SP 2020
+年份: 2020
+DOI: 10.1109/SPW50608.2020.00063
+----------------------------------------------------------------------------------------------------
+
+[No.186] Automated Discovery of Cross-Plane Event-Based Vulnerabilities in Software-Defined Networking
+标题(中): 自动发现软件定义网络中的跨平面事件驱动型漏洞
+来源: NDSS 2020
+年份: 2020
+链接: https://www.ndss-symposium.org/ndss-paper/automated-discovery-of-cross-plane-event-based-vulnerabilities-in-software-defined-networking/
+----------------------------------------------------------------------------------------------------
+
+[No.187] Bankrupt Covert Channel: Turning Network Predictability into Vulnerability
+标题(中): 破产隐蔽信道：将网络可预测性转化为脆弱性
+来源: USENIX 2020
+年份: 2020
+链接: https://www.usenix.org/conference/woot20/presentation/ustiugov
+----------------------------------------------------------------------------------------------------
+
+[No.188] Cyber-Physical Inconsistency Vulnerability Identification for Safety Checks in Robotic Vehicles.
+标题(中): 基于网络物理不一致性漏洞识别在机器人车辆安全检查中的应用。
+来源: CCS 2020
+年份: 2020
+DOI: 10.1145/3372297.3417249
+----------------------------------------------------------------------------------------------------
+
+[No.189] FIRMSCOPE: Automatic Uncovering of Privilege-Escalation Vulnerabilities in Pre-Installed Apps in Android Firmware
+标题(中): FIRMSCOPE：自动发现Android固件中预装应用的权限提升漏洞
+来源: USENIX 2020
+年份: 2020
+链接: https://www.usenix.org/conference/usenixsecurity20/presentation/elsabagh
+----------------------------------------------------------------------------------------------------
+
+[No.190] FirmXRay: Detecting Bluetooth Link Layer Vulnerabilities From Bare-Metal Firmware.
+标题(中): FirmXRay：检测裸金属固件中的蓝牙链路层漏洞。
+来源: CCS 2020
+年份: 2020
+DOI: 10.1145/3372297.3423344
+----------------------------------------------------------------------------------------------------
+
+[No.191] HotFuzz: Discovering Algorithmic Denial-of-Service Vulnerabilities Through Guided Micro-Fuzzing
+标题(中): HotFuzz：通过引导式微 fuzzing 发现算法型拒绝服务漏洞
+来源: NDSS 2020
+年份: 2020
+链接: https://www.ndss-symposium.org/ndss-paper/hotfuzz-discovering-algorithmic-denial-of-service-vulnerabilities-through-guided-micro-fuzzing/
+----------------------------------------------------------------------------------------------------
+
+[No.192] InSpectre: Breaking and Fixing Microarchitectural Vulnerabilities by Formal Analysis.
+标题(中): InSpectre：通过形式分析打破并修复微架构漏洞。
+来源: CCS 2020
+年份: 2020
+DOI: 10.1145/3372297.3417246
+----------------------------------------------------------------------------------------------------
+
+[No.193] KOOBE: Towards Facilitating Exploit Generation of Kernel Out-Of-Bounds Write Vulnerabilities
+标题(中): KOOBE：促进内核越界写漏洞利用生成的研究
+来源: USENIX 2020
+年份: 2020
+链接: https://www.usenix.org/conference/usenixsecurity20/presentation/chen-weiteng
+----------------------------------------------------------------------------------------------------
+
+[No.194] LPET - Mining MS-Windows Software Privilege Escalation Vulnerabilities by Monitoring Interactive Behavior.
+标题(中): LPET - 通过监控交互行为挖掘MS-Windows软件特权提升漏洞。
+来源: CCS 2020
+年份: 2020
+DOI: 10.1145/3372297.3420014
+----------------------------------------------------------------------------------------------------
+
+[No.195] MVP: Detecting Vulnerabilities using Patch-Enhanced Vulnerability Signatures
+标题(中): MVP：利用补丁增强漏洞签名检测漏洞
+来源: USENIX 2020
+年份: 2020
+链接: https://www.usenix.org/conference/usenixsecurity20/presentation/xiao
+----------------------------------------------------------------------------------------------------
+
+[No.196] NXNSAttack: Recursive DNS Inefficiencies and Vulnerabilities
+标题(中): NXNSAttack：递归DNS效率低下与漏洞
+来源: USENIX 2020
+年份: 2020
+链接: https://www.usenix.org/conference/usenixsecurity20/presentation/afek
+----------------------------------------------------------------------------------------------------
+
+[No.197] Plug-N-Pwned: Comprehensive Vulnerability Analysis of OBD-II Dongles as A New Over-the-Air Attack Surface in Automotive IoT
+标题(中): 插拔即攻破：关于OBD-II适配器在汽车物联网中的空中攻击新漏洞面的全面漏洞分析
+来源: USENIX 2020
+年份: 2020
+链接: https://www.usenix.org/conference/usenixsecurity20/presentation/wen
+----------------------------------------------------------------------------------------------------
+
+[No.198] Representativeness in the Benchmark for Vulnerability Analysis Tools (B-VAT)
+标题(中): 漏洞分析工具基准中的代表性
+来源: USENIX 2020
+年份: 2020
+链接: https://www.usenix.org/conference/cset20/presentation/afanador
+----------------------------------------------------------------------------------------------------
+
+[No.199] SPEECHMINER: A Framework for Investigating and Measuring Speculative Execution Vulnerabilities
+标题(中): SPEECHMINER：一个探究和衡量推测执行漏洞的框架
+来源: NDSS 2020
+年份: 2020
+链接: https://www.ndss-symposium.org/ndss-paper/speechminer-a-framework-for-investigating-and-measuring-speculative-execution-vulnerabilities/
+----------------------------------------------------------------------------------------------------
+
+[No.200] SoK: Understanding the Prevailing Security Vulnerabilities in TrustZone-assisted TEE Systems
+标题(中): SoK: 理解信任区辅助的TEE系统中的主要安全漏洞
+来源: SP 2020
+年份: 2020
+DOI: 10.1109/SP40000.2020.00061
+----------------------------------------------------------------------------------------------------
+
+[No.201] SpecFuzz: Bringing Spectre-type vulnerabilities to the surface
+标题(中): SpecFuzz: 暴露类似Spectre的漏洞
+来源: USENIX 2020
+年份: 2020
+链接: https://www.usenix.org/conference/usenixsecurity20/presentation/oleksenko
+----------------------------------------------------------------------------------------------------
+
+[No.202] TeeRex: Discovery and Exploitation of Memory Corruption Vulnerabilities in SGX Enclaves
+标题(中): TeeRex：SGX enclave 中的内存损坏漏洞发现与利用
+来源: USENIX 2020
+年份: 2020
+链接: https://www.usenix.org/conference/usenixsecurity20/presentation/cloosters
+----------------------------------------------------------------------------------------------------
+
+[No.203] Why Can't Johnny Fix Vulnerabilities: A Usability Evaluation of Static Analysis Tools for Security
+标题(中): 为什么约翰尼无法修复漏洞：静态分析工具的安全可用性评估
+来源: USENIX 2020
+年份: 2020
+链接: https://www.usenix.org/conference/soups2020/presentation/smith
+----------------------------------------------------------------------------------------------------
+
+[No.204] A Devil of a Time: How Vulnerable is NTP to Malicious Timeservers?
+标题(中): 《一个棘手的问题：NTP对恶意时间服务器有多脆弱？》
+来源: NDSS 2021
+年份: 2021
+链接: https://www.ndss-symposium.org/ndss-paper/a-devil-of-a-time-how-vulnerable-is-ntp-to-malicious-timeservers/
+----------------------------------------------------------------------------------------------------
+
+[No.205] An Analysis of Speculative Type Confusion Vulnerabilities in the Wild
+标题(中): 野生环境中推测型类型混淆漏洞分析
+来源: USENIX 2021
+年份: 2021
+链接: https://www.usenix.org/conference/usenixsecurity21/presentation/kirzner
+----------------------------------------------------------------------------------------------------
+
+[No.206] Android SmartTVs Vulnerability Discovery via Log-Guided Fuzzing
+标题(中): 通过日志引导 fuzzing 发现 Android 智能电视漏洞
+来源: USENIX 2021
+年份: 2021
+链接: https://www.usenix.org/conference/usenixsecurity21/presentation/aafer
+----------------------------------------------------------------------------------------------------
+
+[No.207] Automated Discovery of Denial-of-Service Vulnerabilities in Connected Vehicle Protocols
+标题(中): 连接车辆协议中的自动化拒绝服务漏洞发现
+来源: USENIX 2021
+年份: 2021
+链接: https://www.usenix.org/conference/usenixsecurity21/presentation/hu-shengtuo
+----------------------------------------------------------------------------------------------------
+
+[No.208] Bookworm Game: Automatic Discovery of LTE Vulnerabilities Through Documentation Analysis
+标题(中): 书虫游戏：通过文档分析自动发现LTE漏洞
+来源: SP 2021
+年份: 2021
+DOI: 10.1109/SP40001.2021.00104
+----------------------------------------------------------------------------------------------------
+
+[No.209] Demo: Large Scale Analysis on Vulnerability Remediation in Open-source JavaScript Projects.
+标题(中): 示例：大规模分析开源JavaScript项目的漏洞修复。
+来源: CCS 2021
+年份: 2021
+DOI: 10.1145/3460120.3485357
+----------------------------------------------------------------------------------------------------
+
+[No.210] DoubleX: Statically Detecting Vulnerable Data Flows in Browser Extensions at Scale.
+标题(中): DoubleX: 大规模静态检测浏览器扩展中的脆弱数据流。
+来源: CCS 2021
+年份: 2021
+DOI: 10.1145/3460120.3484745
+----------------------------------------------------------------------------------------------------
+
+[No.211] Exposing New Vulnerabilities of Error Handling Mechanism in CAN
+标题(中): 暴露CAN错误处理机制的新漏洞
+来源: USENIX 2021
+年份: 2021
+链接: https://www.usenix.org/conference/usenixsecurity21/presentation/serag
+----------------------------------------------------------------------------------------------------
+
+[No.212] Facilitating Vulnerability Assessment through PoC Migration.
+标题(中): 通过PoC迁移促进漏洞评估。
+来源: CCS 2021
+年份: 2021
+DOI: 10.1145/3460120.3484594
+----------------------------------------------------------------------------------------------------
+
+[No.213] HackEd: A Pedagogical Analysis of Online Vulnerability Discovery Exercises
+标题(中): HackEd：在线漏洞发现练习的教学分析
+来源: SP 2021
+年份: 2021
+DOI: 10.1109/SP40001.2021.00092
+----------------------------------------------------------------------------------------------------
+
+[No.214] Locating the Security Patches for Disclosed OSS Vulnerabilities with Vulnerability-Commit Correlation Ranking.
+标题(中): 利用漏洞-提交相关性排名定位披露的OSS漏洞的安全补丁。
+来源: CCS 2021
+年份: 2021
+DOI: 10.1145/3460120.3484593
+----------------------------------------------------------------------------------------------------
+
+[No.215] Machine Learning Based Approach for the Automated Mapping of Discovered Vulnerabilities to Adversial Tactics
+标题(中): 基于机器学习的方法用于自动将发现的漏洞映射到敌对战术
+来源: SP 2021
+年份: 2021
+DOI: 10.1109/SPW53761.2021.00051
+----------------------------------------------------------------------------------------------------
+
+[No.216] Messy States of Wiring: Vulnerabilities in Emerging Personal Payment Systems
+标题(中): 凌乱的布线状态：新兴个人支付系统的漏洞
+来源: USENIX 2021
+年份: 2021
+链接: https://www.usenix.org/conference/usenixsecurity21/presentation/lou
+----------------------------------------------------------------------------------------------------
+
+[No.217] Randomized Last-Level Caches Are Still Vulnerable to Cache Side-Channel Attacks! But We Can Fix It
+标题(中): 随机化最后一级缓存仍然容易受到缓存侧信道攻击！但我们能够解决这个问题
+来源: SP 2021
+年份: 2021
+DOI: 10.1109/SP40001.2021.00050
+----------------------------------------------------------------------------------------------------
+
+[No.218] Revealer: Detecting and Exploiting Regular Expression Denial-of-Service Vulnerabilities
+标题(中): 揭示者：检测和利用正则表达式拒绝服务漏洞
+来源: SP 2021
+年份: 2021
+DOI: 10.1109/SP40001.2021.00062
+----------------------------------------------------------------------------------------------------
+
+[No.219] SGUARD: Towards Fixing Vulnerable Smart Contracts Automatically
+标题(中): SGUARD：自动修复易受攻击的智能合约
+来源: SP 2021
+年份: 2021
+DOI: 10.1109/SP40001.2021.00057
+----------------------------------------------------------------------------------------------------
+
+[No.220] SerialDetector: Principled and Practical Exploration of Object Injection Vulnerabilities for the Web
+标题(中): SerialDetector：系统而实用地探索网络对象注入漏洞
+来源: NDSS 2021
+年份: 2021
+链接: https://www.ndss-symposium.org/ndss-paper/serialdetector-principled-and-practical-exploration-of-object-injection-vulnerabilities-for-the-web/
+----------------------------------------------------------------------------------------------------
+
+[No.221] SmarTest: Effectively Hunting Vulnerable Transaction Sequences in Smart Contracts through Language Model-Guided Symbolic Execution
+标题(中): SmarTest：通过语言模型引导的符号执行有效检测智能合约中的脆弱交易序列
+来源: USENIX 2021
+年份: 2021
+链接: https://www.usenix.org/conference/usenixsecurity21/presentation/so
+----------------------------------------------------------------------------------------------------
+
+[No.222] Smart Contract Vulnerabilities: Vulnerable Does Not Imply Exploited
+标题(中): 智能合约漏洞：易受攻击并不意味着已被利用
+来源: USENIX 2021
+年份: 2021
+链接: https://www.usenix.org/conference/usenixsecurity21/presentation/perez
+----------------------------------------------------------------------------------------------------
+
+[No.223] Statically Discovering High-Order Taint Style Vulnerabilities in OS Kernels.
+标题(中): 静态发现操作系统内核中的高级篡改样式漏洞。
+来源: CCS 2021
+年份: 2021
+DOI: 10.1145/3460120.3484798
+----------------------------------------------------------------------------------------------------
+
+[No.224] Supply-Chain Vulnerability Elimination via Active Learning and Regeneration.
+标题(中): 通过主动学习和再生消除供应链漏洞。
+来源: CCS 2021
+年份: 2021
+DOI: 10.1145/3460120.3484736
+----------------------------------------------------------------------------------------------------
+
+[No.225] V0Finder: Discovering the Correct Origin of Publicly Reported Software Vulnerabilities
+标题(中): V0Finder：发现公开报道软件漏洞的正确源头
+来源: USENIX 2021
+年份: 2021
+链接: https://www.usenix.org/conference/usenixsecurity21/presentation/woo
+----------------------------------------------------------------------------------------------------
+
+[No.226] You Autocomplete Me: Poisoning Vulnerabilities in Neural Code Completion
+标题(中): 你 autocomplete 我：神经代码完成中的中毒漏洞
+来源: USENIX 2021
+年份: 2021
+链接: https://www.usenix.org/conference/usenixsecurity21/presentation/schuster
+----------------------------------------------------------------------------------------------------
+
+[No.227] "They Look at Vulnerability and Use That to Abuse You": Participatory Threat Modelling with Migrant Domestic Workers
+标题(中): “他们审视你的脆弱性然后以此来虐待你”： migrant 家务工人参与式威胁建模
+来源: USENIX 2022
+年份: 2022
+链接: https://www.usenix.org/conference/usenixsecurity22/presentation/slupska-vulnerability
+----------------------------------------------------------------------------------------------------
+
+[No.228] A Secret-Free Hypervisor: Rethinking Isolation in the Age of Speculative Vulnerabilities
+标题(中): 无秘密虚拟机：在推测性漏洞时代重新思考隔离问题
+来源: SP 2022
+年份: 2022
+DOI: 10.1109/SP46214.2022.9833726
+----------------------------------------------------------------------------------------------------
+
+[No.229] Acquirer: A Hybrid Approach to Detecting Algorithmic Complexity Vulnerabilities.
+标题(中): 收购者：一种检测算法复杂度漏洞的混合方法。
+来源: CCS 2022
+年份: 2022
+DOI: 10.1145/3548606.3559337
+----------------------------------------------------------------------------------------------------
+
+[No.230] AmpFuzz: Fuzzing for Amplification DDoS Vulnerabilities
+标题(中): AmpFuzz：放大DDoS漏洞的模糊测试
+来源: USENIX 2022
+年份: 2022
+链接: https://www.usenix.org/conference/usenixsecurity22/presentation/krupp
+----------------------------------------------------------------------------------------------------
+
+[No.231] Arbiter: Bridging the Static and Dynamic Divide in Vulnerability Discovery on Binary Programs
+标题(中): 仲裁者：在二进制程序漏洞发现中静态与动态差异的桥梁
+来源: USENIX 2022
+年份: 2022
+链接: https://www.usenix.org/conference/usenixsecurity22/presentation/vadayath
+----------------------------------------------------------------------------------------------------
+
+[No.232] Backporting Security Patches of Web Applications: A Prototype Design and Implementation on Injection Vulnerability Patches
+标题(中): Web应用程序安全补丁回ported设计与实现：以注入漏洞补丁为例
+来源: USENIX 2022
+年份: 2022
+链接: https://www.usenix.org/conference/usenixsecurity22/presentation/shi
+----------------------------------------------------------------------------------------------------
+
+[No.233] COMRace: Detecting Data Race Vulnerabilities in COM Objects
+标题(中): COMRace：检测COM对象中的数据竞争漏洞
+来源: USENIX 2022
+年份: 2022
+链接: https://www.usenix.org/conference/usenixsecurity22/presentation/gu-fangming
+----------------------------------------------------------------------------------------------------
+
+[No.234] Cerberus: Query-driven Scalable Vulnerability Detection in OAuth Service Provider Implementations.
+标题(中): Cerberus: 基于查询的大规模OAuth服务提供商实现中的漏洞检测。
+来源: CCS 2022
+年份: 2022
+DOI: 10.1145/3548606.3559381
+----------------------------------------------------------------------------------------------------
+
+[No.235] Counting in Regexes Considered Harmful: Exposing ReDoS Vulnerability of Nonbacktracking Matchers
+标题(中): 正则表达式中的计数被认为是有害的：揭示非回退匹配器的ReDoS漏洞
+来源: USENIX 2022
+年份: 2022
+链接: https://www.usenix.org/conference/usenixsecurity22/presentation/turonova
+----------------------------------------------------------------------------------------------------
+
+[No.236] Cross Miniapp Request Forgery: Root Causes, Attacks, and Vulnerability Detection.
+标题(中): 跨小程序请求伪造：根本原因、攻击手段与漏洞检测
+来源: CCS 2022
+年份: 2022
+DOI: 10.1145/3548606.3560597
+----------------------------------------------------------------------------------------------------
+
+[No.237] Detecting Missing-Permission-Check Vulnerabilities in Distributed Cloud Systems.
+标题(中): 检测分布式云系统中的缺失权限检查漏洞。
+来源: CCS 2022
+年份: 2022
+DOI: 10.1145/3548606.3560589
+----------------------------------------------------------------------------------------------------
+
+[No.238] Discovering IoT Physical Channel Vulnerabilities.
+标题(中): 发现物联网物理信道漏洞。
+来源: CCS 2022
+年份: 2022
+DOI: 10.1145/3548606.3560644
+----------------------------------------------------------------------------------------------------
+
+[No.239] Expected Exploitability: Predicting the Development of Functional Vulnerability Exploits
+标题(中): 预期可利用性：预测功能漏洞exploit的发展
+来源: USENIX 2022
+年份: 2022
+链接: https://www.usenix.org/conference/usenixsecurity22/presentation/suciu
+----------------------------------------------------------------------------------------------------
+
+[No.240] Exploring the Propagation of Vulnerabilities from GitHub Repositories Hosted by Major Technology Organizations
+标题(中): 探索来自主要科技组织托管在GitHub上的仓库中的漏洞传播情况
+来源: USENIX 2022
+年份: 2022
+DOI: 10.1145/3546096.3546114
+----------------------------------------------------------------------------------------------------
+
+[No.241] FUGIO: Automatic Exploit Generation for PHP Object Injection Vulnerabilities
+标题(中): FUGIO：针对PHP对象注入漏洞的自动exploit生成工具
+来源: USENIX 2022
+年份: 2022
+链接: https://www.usenix.org/conference/usenixsecurity22/presentation/park-sunnyeo
+----------------------------------------------------------------------------------------------------
+
+[No.242] FakeGuard: Exploring Haptic Response to Mitigate the Vulnerability in Commercial Fingerprint Anti-Spoofing
+标题(中): FakeGuard: 探索触觉响应以减轻商用指纹防伪漏洞
+来源: NDSS 2022
+年份: 2022
+链接: https://www.ndss-symposium.org/ndss-paper/auto-draft-230/
+----------------------------------------------------------------------------------------------------
+
+[No.243] Finding SMM Privilege-Escalation Vulnerabilities in UEFI Firmware with Protocol-Centric Static Analysis
+标题(中): 使用协议中心化的静态分析在UEFI固件中查找SMM权限提升漏洞
+来源: SP 2022
+年份: 2022
+DOI: 10.1109/SP46214.2022.9833723
+----------------------------------------------------------------------------------------------------
+
+[No.244] Formal Model-Driven Discovery of Bluetooth Protocol Design Vulnerabilities
+标题(中): 形式化模型驱动的蓝牙协议设计漏洞发现
+来源: SP 2022
+年份: 2022
+DOI: 10.1109/SP46214.2022.9833777
+----------------------------------------------------------------------------------------------------
+
+[No.245] FuzzOrigin: Detecting UXSS vulnerabilities in Browsers through Origin Fuzzing
+标题(中): 源模糊检测：通过源模糊测试检测浏览器中的UXSS漏洞
+来源: USENIX 2022
+年份: 2022
+链接: https://www.usenix.org/conference/usenixsecurity22/presentation/kim
+----------------------------------------------------------------------------------------------------
+
+[No.246] How Long Do Vulnerabilities Live in the Code? A Large-Scale Empirical Measurement Study on FOSS Vulnerability Lifetimes
+标题(中): 漏洞在代码中能存活多久？一项关于开源软件漏洞生命周期的大规模实证测量研究
+来源: USENIX 2022
+年份: 2022
+链接: https://www.usenix.org/conference/usenixsecurity22/presentation/alexopoulos
+----------------------------------------------------------------------------------------------------
+
+[No.247] MOVERY: A Precise Approach for Modified Vulnerable Code Clone Discovery from Modified Open-Source Software Components
+标题(中): MOVERY：一种精确的方法，用于发现修改后的开源软件组件中的修改过的漏洞代码克隆
+来源: USENIX 2022
+年份: 2022
+链接: https://www.usenix.org/conference/usenixsecurity22/presentation/woo
+----------------------------------------------------------------------------------------------------
+
+[No.248] Mining Node.js Vulnerabilities via Object Dependence Graph and Query
+标题(中): 通过对象依赖图和查询挖掘Node.js漏洞
+来源: USENIX 2022
+年份: 2022
+链接: https://www.usenix.org/conference/usenixsecurity22/presentation/li-song
+----------------------------------------------------------------------------------------------------
+
+[No.249] Mitigating Information Leakage Vulnerabilities with Type-based Data Isolation
+标题(中): 基于类型的数据隔离缓解信息泄露漏洞
+来源: SP 2022
+年份: 2022
+DOI: 10.1109/SP46214.2022.9833675
+----------------------------------------------------------------------------------------------------
+
+[No.250] OS-Aware Vulnerability Prioritization via Differential Severity Analysis
+标题(中): 基于操作系统感知的漏洞优先级分析与差异严重性评估
+来源: USENIX 2022
+年份: 2022
+链接: https://www.usenix.org/conference/usenixsecurity22/presentation/wu-qiushi
+----------------------------------------------------------------------------------------------------
+
+[No.251] Playing Without Paying: Detecting Vulnerable Payment Verification in Native Binaries of Unity Mobile Games
+标题(中): 免付即玩：检测Unity移动游戏原生二进制文件中的易受攻击的支付验证
+来源: USENIX 2022
+年份: 2022
+链接: https://www.usenix.org/conference/usenixsecurity22/presentation/zuo
+----------------------------------------------------------------------------------------------------
+
+[No.252] Poster: TaintGrep: A Static Analysis Tool for Detecting Vulnerabilities of Android Apps Supporting User-defined Rules.
+标题(中): 海报：TaintGrep：一款支持用户自定义规则的Android应用程序静态分析工具，用于检测漏洞。
+来源: CCS 2022
+年份: 2022
+DOI: 10.1145/3548606.3563527
+----------------------------------------------------------------------------------------------------
+
+[No.253] Probe the Proto: Measuring Client-Side Prototype Pollution Vulnerabilities of One Million Real-world Websites
+标题(中): 探查原型污染漏洞：测量一百万个真实网站的客户端原型污染漏洞
+来源: NDSS 2022
+年份: 2022
+链接: https://www.ndss-symposium.org/ndss-paper/auto-draft-207/
+----------------------------------------------------------------------------------------------------
+
+[No.254] Repairing DoS Vulnerability of Real-World Regexes
+标题(中): 修复实际应用中正则表达式的DoS漏洞
+来源: SP 2022
+年份: 2022
+DOI: 10.1109/SP46214.2022.9833597
+----------------------------------------------------------------------------------------------------
+
+[No.255] SpecDoctor: Differential Fuzz Testing to Find Transient Execution Vulnerabilities.
+标题(中): 差分模糊测试以发现瞬态执行漏洞。
+来源: CCS 2022
+年份: 2022
+DOI: 10.1145/3548606.3560578
+----------------------------------------------------------------------------------------------------
+
+[No.256] TChecker: Precise Static Inter-Procedural Analysis for Detecting Taint-Style Vulnerabilities in PHP Applications.
+标题(中): TChecker：一种用于检测PHP应用程序中类似污点风格漏洞的精确静态跨过程分析工具。
+来源: CCS 2022
+年份: 2022
+DOI: 10.1145/3548606.3559391
+----------------------------------------------------------------------------------------------------
+
+[No.257] TRACER: Signature-based Static Analysis for Detecting Recurring Vulnerabilities.
+标题(中): TRACER：基于签名的静态分析以检测反复出现的安全漏洞。
+来源: CCS 2022
+年份: 2022
+DOI: 10.1145/3548606.3560664
+----------------------------------------------------------------------------------------------------
+
+[No.258] TheHuzz: Instruction Fuzzing of Processors Using Golden-Reference Models for Finding Software-Exploitable Vulnerabilities
+标题(中): 《胡兹：基于金标准模型的处理器指令 fuzzing 及寻找可利用软件漏洞》
+来源: USENIX 2022
+年份: 2022
+链接: https://www.usenix.org/conference/usenixsecurity22/presentation/kande
+----------------------------------------------------------------------------------------------------
+
+[No.259] Timing-Based Browsing Privacy Vulnerabilities Via Site Isolation
+标题(中): 基于时间的浏览隐私漏洞通过站点隔离
+来源: SP 2022
+年份: 2022
+DOI: 10.1109/SP46214.2022.9833710
+----------------------------------------------------------------------------------------------------
+
+[No.260] Too Afraid to Drive: Systematic Discovery of Semantic DoS Vulnerability in Autonomous Driving Planning under Physical-World Attacks
+标题(中): 不敢开车：在物理世界攻击下的自动驾驶规划中的系统性发现语义级DoS漏洞
+来源: NDSS 2022
+年份: 2022
+链接: https://www.ndss-symposium.org/ndss-paper/auto-draft-214/
+----------------------------------------------------------------------------------------------------
+
+[No.261] Understanding and Mitigating Remote Code Execution Vulnerabilities in Cross-platform Ecosystem.
+标题(中): 理解并缓解跨平台生态系统中的远程代码执行漏洞。
+来源: CCS 2022
+年份: 2022
+DOI: 10.1145/3548606.3559340
+----------------------------------------------------------------------------------------------------
+
+[No.262] VRust: Automated Vulnerability Detection for Solana Smart Contracts.
+标题(中): VRust：用于Solana智能合约的自动化漏洞检测工具。
+来源: CCS 2022
+年份: 2022
+DOI: 10.1145/3548606.3560552
+----------------------------------------------------------------------------------------------------
+
+[No.263] Watching the watchers: bias and vulnerability in remote proctoring software
+标题(中): 监考者被监考：远程监考软件中的偏见与脆弱性
+来源: USENIX 2022
+年份: 2022
+链接: https://www.usenix.org/conference/usenixsecurity22/presentation/burgess
+----------------------------------------------------------------------------------------------------
+
+[No.264] A Systematic Evaluation of Automated Tools for Side-Channel Vulnerabilities Detection in Cryptographic Libraries.
+标题(中): 系统评估用于检测密码学库侧信道漏洞的自动化工具。
+来源: CCS 2023
+年份: 2023
+DOI: 10.1145/3576915.3623112
+----------------------------------------------------------------------------------------------------
+
+[No.265] A Two-Decade Retrospective Analysis of a University's Vulnerability to Attacks Exploiting Reused Passwords
+标题(中): 二十年来大学对利用重复密码进行攻击的脆弱性回顾分析
+来源: USENIX 2023
+年份: 2023
+链接: https://www.usenix.org/conference/usenixsecurity23/presentation/nisenoff-retrospective
+----------------------------------------------------------------------------------------------------
+
+[No.266] AEM: Facilitating Cross-Version Exploitability Assessment of Linux Kernel Vulnerabilities
+标题(中): AEM：促进Linux内核漏洞跨版本利用评估
+来源: SP 2023
+年份: 2023
+DOI: 10.1109/SP46215.2023.10179305
+----------------------------------------------------------------------------------------------------
+
+[No.267] AEM: Facilitating Cross-Version Exploitability Assessment of Linux Kernel Vulnerabilities
+标题(中): AEM：评估Linux内核漏洞在不同版本间的利用可能性
+来源: SP 2023
+年份: 2023
+DOI: 10.1109/SP46215.2023.10179286
+----------------------------------------------------------------------------------------------------
+
+[No.268] Assessing the Impact of Interface Vulnerabilities in Compartmentalized Software
+标题(中): 评估分隔化软件中接口漏洞的影响
+来源: NDSS 2023
+年份: 2023
+链接: https://www.ndss-symposium.org/ndss-paper/assessing-the-impact-of-interface-vulnerabilities-in-compartmentalized-software/
+----------------------------------------------------------------------------------------------------
+
+[No.269] BlockScope: Detecting and Investigating Propagated Vulnerabilities in Forked Blockchain Projects
+标题(中): BlockScope: 检测和调查分叉区块链项目中传播的漏洞
+来源: NDSS 2023
+年份: 2023
+链接: https://www.ndss-symposium.org/ndss-paper/blockscope-detecting-and-investigating-propagated-vulnerabilities-in-forked-blockchain-projects/
+----------------------------------------------------------------------------------------------------
+
+[No.270] CacheQL: Quantifying and Localizing Cache Side-Channel Vulnerabilities in Production Software
+标题(中): CacheQL：量化并定位生产软件中的缓存侧信道漏洞
+来源: USENIX 2023
+年份: 2023
+链接: https://www.usenix.org/conference/usenixsecurity23/presentation/yuan-yuanyuan-cacheql
+----------------------------------------------------------------------------------------------------
+
+[No.271] Cheesecloth: Zero-Knowledge Proofs of Real World Vulnerabilities
+标题(中): Cheesecloth：关于现实世界漏洞的零知识证明
+来源: USENIX 2023
+年份: 2023
+链接: https://www.usenix.org/conference/usenixsecurity23/presentation/cuellar
+----------------------------------------------------------------------------------------------------
+
+[No.272] CipherH: Automated Detection of Ciphertext Side-channel Vulnerabilities in Cryptographic Implementations
+标题(中): CipherH: 加密实现中密文侧信道漏洞的自动化检测
+来源: USENIX 2023
+年份: 2023
+链接: https://www.usenix.org/conference/usenixsecurity23/presentation/deng-sen
+----------------------------------------------------------------------------------------------------
+
+[No.273] CoCo: Efficient Browser Extension Vulnerability Detection via Coverage-guided, Concurrent Abstract Interpretation.
+标题(中): CoCo: 基于覆盖率引导并行抽象解释的高效浏览器扩展漏洞检测方法。
+来源: CCS 2023
+年份: 2023
+DOI: 10.1145/3576915.3616584
+----------------------------------------------------------------------------------------------------
+
+[No.274] Confusum Contractum: Confused Deputy Vulnerabilities in Ethereum Smart Contracts
+标题(中): 混淆代理漏洞：以太坊智能合约中的困惑执行者漏洞
+来源: USENIX 2023
+年份: 2023
+链接: https://www.usenix.org/conference/usenixsecurity23/presentation/gritti
+----------------------------------------------------------------------------------------------------
+
+[No.275] DDRace: Finding Concurrency UAF Vulnerabilities in Linux Drivers with Directed Fuzzing
+标题(中): DDRace：使用定向 fuzzing 在 Linux 驱动程序中查找并发 UAF 漏洞
+来源: USENIX 2023
+年份: 2023
+链接: https://www.usenix.org/conference/usenixsecurity23/presentation/yuan-ming
+----------------------------------------------------------------------------------------------------
+
+[No.276] Differential Testing of Cross Deep Learning Framework APIs: Revealing Inconsistencies and Vulnerabilities
+标题(中): 跨深度学习框架API的差异性测试：揭示不一致性与漏洞
+来源: USENIX 2023
+年份: 2023
+链接: https://www.usenix.org/conference/usenixsecurity23/presentation/deng-zizhuang
+----------------------------------------------------------------------------------------------------
+
+[No.277] Effective ReDoS Detection by Principled Vulnerability Modeling and Exploit Generation
+标题(中): 基于原理性的漏洞建模和利用生成的有效ReDoS检测
+来源: SP 2023
+年份: 2023
+DOI: 10.1109/SP46215.2023.10179328
+----------------------------------------------------------------------------------------------------
+
+[No.278] Examining Zero-Shot Vulnerability Repair with Large Language Models
+标题(中): 基于大型语言模型的零样本漏洞修复研究
+来源: SP 2023
+年份: 2023
+DOI: 10.1109/SP46215.2023.10179420
+----------------------------------------------------------------------------------------------------
+
+[No.279] Examining Zero-Shot Vulnerability Repair with Large Language Models
+标题(中): 探讨大规模语言模型在零样本漏洞修复中的应用
+来源: SP 2023
+年份: 2023
+DOI: 10.1109/SP46215.2023.10179324
+----------------------------------------------------------------------------------------------------
+
+[No.280] Exploration of Power Side-Channel Vulnerabilities in Quantum Computer Controllers.
+标题(中): 量子计算机控制器中的功率侧信道漏洞探索。
+来源: CCS 2023
+年份: 2023
+DOI: 10.1145/3576915.3623118
+----------------------------------------------------------------------------------------------------
+
+[No.281] FUZZILLI: Fuzzing for JavaScript JIT Compiler Vulnerabilities
+标题(中): FUZZILLI: 用于JavaScript JIT编译器漏洞 fuzzing 的工具/方法
+来源: NDSS 2023
+年份: 2023
+链接: https://www.ndss-symposium.org/ndss-paper/fuzzilli-fuzzing-for-javascript-jit-compiler-vulnerabilities/
+----------------------------------------------------------------------------------------------------
+
+[No.282] Ghost Domain Reloaded: Vulnerable Links in Domain Name Delegation and Revocation
+标题(中): 《幽灵域重载：域名委托与撤销中的脆弱链接》
+来源: NDSS 2023
+年份: 2023
+链接: https://www.ndss-symposium.org/ndss-paper/ghost-domain-reloaded-vulnerable-links-in-domain-name-delegation-and-revocation/
+----------------------------------------------------------------------------------------------------
+
+[No.283] GlitchHiker: Uncovering Vulnerabilities of Image Signal Transmission with IEMI
+标题(中): GlitchHiker：利用IEMI揭露图像信号传输的漏洞
+来源: USENIX 2023
+年份: 2023
+链接: https://www.usenix.org/conference/usenixsecurity23/presentation/jiang-qinhong
+----------------------------------------------------------------------------------------------------
+
+[No.284] ICSPatch: Automated Vulnerability Localization and Non-Intrusive Hotpatching in Industrial Control Systems using Data Dependence Graphs
+标题(中): ICSPatch：基于数据依赖图在工业控制系统中自动定位漏洞和非侵入式热补丁技术
+来源: USENIX 2023
+年份: 2023
+链接: https://www.usenix.org/conference/usenixsecurity23/presentation/rajput
+----------------------------------------------------------------------------------------------------
+
+[No.285] IvySyn: Automated Vulnerability Discovery in Deep Learning Frameworks
+标题(中): IvySyn：深度学习框架中的自动化漏洞发现
+来源: USENIX 2023
+年份: 2023
+链接: https://www.usenix.org/conference/usenixsecurity23/presentation/christou
+----------------------------------------------------------------------------------------------------
+
+[No.286] NAUTILUS: Automated RESTful API Vulnerability Detection
+标题(中): NAUTILUS：自动化RESTful API漏洞检测
+来源: USENIX 2023
+年份: 2023
+链接: https://www.usenix.org/conference/usenixsecurity23/presentation/deng-gelei
+----------------------------------------------------------------------------------------------------
+
+[No.287] No One Drinks From the Firehose: How Organizations Filter and Prioritize Vulnerability Information
+标题(中): 没有人直接从消防喉喝水：组织如何过滤和优先处理漏洞信息
+来源: SP 2023
+年份: 2023
+DOI: 10.1109/SP46215.2023.10179447
+----------------------------------------------------------------------------------------------------
+
+[No.288] ODDFuzz: Discovering Java Deserialization Vulnerabilities via Structure-Aware Directed Greybox Fuzzing
+标题(中): ODDFuzz：通过结构感知定向灰盒 fuzzing 发现 Java 反序列化漏洞
+来源: SP 2023
+年份: 2023
+DOI: 10.1109/SP46215.2023.10179377
+----------------------------------------------------------------------------------------------------
+
+[No.289] Poster: A Privacy-Preserving Smart Contract Vulnerability Detection Framework for Permissioned Blockchain.
+标题(中): Poster: 一种保护隐私的智能合约漏洞检测框架（适用于许可区块链）。
+来源: CCS 2023
+年份: 2023
+DOI: 10.1145/3576915.3624366
+----------------------------------------------------------------------------------------------------
+
+[No.290] Poster: Mujaz: A Summarization-based Approach for Normalized Vulnerability Description.
+标题(中): 海报：Mujaz：一种基于摘要的方法用于规范化漏洞描述。
+来源: CCS 2023
+年份: 2023
+DOI: 10.1145/3576915.3624386
+----------------------------------------------------------------------------------------------------
+
+[No.291] Practically-exploitable Cryptographic Vulnerabilities in Matrix
+标题(中): 矩阵中的可 practically 利用加密漏洞
+来源: SP 2023
+年份: 2023
+DOI: 10.1109/SP46215.2023.10351027
+----------------------------------------------------------------------------------------------------
+
+[No.292] Prediction Privacy in Distributed Multi-Exit Neural Networks: Vulnerabilities and Solutions.
+标题(中): 分布式多出口神经网络中的预测隐私：脆弱性与解决方案。
+来源: CCS 2023
+年份: 2023
+DOI: 10.1145/3576915.3623069
+----------------------------------------------------------------------------------------------------
+
+[No.293] RSFuzzer: Discovering Deep SMI Handler Vulnerabilities in UEFI Firmware with Hybrid Fuzzing
+标题(中): RSFuzzer：利用混合 fuzzing 技术在 UEFI 固件中发现深层 SMI 处理器漏洞
+来源: SP 2023
+年份: 2023
+DOI: 10.1109/SP46215.2023.10179421
+----------------------------------------------------------------------------------------------------
+
+[No.294] SQIRL: Grey-Box Detection of SQL Injection Vulnerabilities Using Reinforcement Learning
+标题(中): SQIRL：使用强化学习的灰盒SQL注入漏洞检测方法
+来源: USENIX 2023
+年份: 2023
+链接: https://www.usenix.org/conference/usenixsecurity23/presentation/al-wahaibi
+----------------------------------------------------------------------------------------------------
+
+[No.295] Scaling JavaScript Abstract Interpretation to Detect and Exploit Node.js Taint-style Vulnerability
+标题(中): 扩展JavaScript抽象解释以检测和利用Node.js污点风格漏洞
+来源: SP 2023
+年份: 2023
+DOI: 10.1109/SP46215.2023.10179352
+----------------------------------------------------------------------------------------------------
+
+[No.296] Scripted Henchmen: Leveraging XS-Leaks for Cross-Site Vulnerability Detection
+标题(中): 剧本化的手下：利用XS-Leaks进行跨站漏洞检测
+来源: SP 2023
+年份: 2023
+DOI: 10.1109/SPW59333.2023.00038
+----------------------------------------------------------------------------------------------------
+
+[No.297] Smarter Contracts: Detecting Vulnerabilities in Smart Contracts with Deep Transfer Learning
+标题(中): 智能合约：使用深度迁移学习检测智能合约中的漏洞
+来源: NDSS 2023
+年份: 2023
+链接: https://www.ndss-symposium.org/ndss-paper/smarter-contracts-detecting-vulnerabilities-in-smart-contracts-with-deep-transfer-learning/
+----------------------------------------------------------------------------------------------------
+
+[No.298] Sparsity Brings Vulnerabilities: Exploring New Metrics in Backdoor Attacks
+标题(中): 稀疏性带来漏洞：探索后门攻击中的新度量标准
+来源: USENIX 2023
+年份: 2023
+链接: https://www.usenix.org/conference/usenixsecurity23/presentation/tian
+----------------------------------------------------------------------------------------------------
+
+[No.299] Strategies and Vulnerabilities of Participants in Venezuelan Influence Operations
+标题(中): 委内瑞拉影响力操作中参与者的战略与漏洞
+来源: USENIX 2023
+年份: 2023
+链接: https://www.usenix.org/conference/usenixsecurity23/presentation/recabarren
+----------------------------------------------------------------------------------------------------
+
+[No.300] SymGX: Detecting Cross-boundary Pointer Vulnerabilities of SGX Applications via Static Symbolic Execution.
+标题(中): SymGX：通过静态符号执行检测SGX应用程序的跨边界指针漏洞。
+来源: CCS 2023
+年份: 2023
+DOI: 10.1145/3576915.3623213
+----------------------------------------------------------------------------------------------------
+
+[No.301] Targeted Attack Synthesis for Smart Grid Vulnerability Analysis.
+标题(中): 面向智能电网漏洞分析的目标攻击合成。
+来源: CCS 2023
+年份: 2023
+DOI: 10.1145/3576915.3623155
+----------------------------------------------------------------------------------------------------
+
+[No.302] The Most Dangerous Codec in the World: Finding and Exploiting Vulnerabilities in H.264 Decoders
+标题(中): 世界上最危险的编码器：在H.264解码器中发现和利用漏洞
+来源: USENIX 2023
+年份: 2023
+链接: https://www.usenix.org/conference/usenixsecurity23/presentation/vasquez
+----------------------------------------------------------------------------------------------------
+
+[No.303] Toss a Fault to Your Witcher: Applying Grey-box Coverage-Guided Mutational Fuzzing to Detect SQL and Command Injection Vulnerabilities
+标题(中): 将错误抛给你的猎魔人：应用灰盒覆盖率引导的变异模糊测试以检测SQL注入和命令注入漏洞
+来源: SP 2023
+年份: 2023
+DOI: 10.1109/SP46215.2023.10179317
+----------------------------------------------------------------------------------------------------
+
+[No.304] Trojan Source: Invisible Vulnerabilities
+标题(中): 特洛伊木马：隐形漏洞
+来源: USENIX 2023
+年份: 2023
+链接: https://www.usenix.org/conference/usenixsecurity23/presentation/boucher
+----------------------------------------------------------------------------------------------------
+
+[No.305] User Profiling and Vulnerability Introduction Prediction in Social Coding Repositories: A Dynamic Graph Embedding Approach: Vulnerability Introduction Prediction in Social Coding Repositories
+标题(中): 社会编码仓库中的用户画像与漏洞引入预测：一种动态图嵌入方法：社会编码仓库中的漏洞引入预测
+来源: USENIX 2023
+年份: 2023
+DOI: 10.1145/3607505.3607512
+----------------------------------------------------------------------------------------------------
+
+[No.306] V1SCAN: Discovering 1-day Vulnerabilities in Reused C/C++ Open-source Software Components Using Code Classification Techniques
+标题(中): V1SCAN：利用代码分类技术发现重复使用C/C++开源软件组件中的1日漏洞
+来源: USENIX 2023
+年份: 2023
+链接: https://www.usenix.org/conference/usenixsecurity23/presentation/woo
+----------------------------------------------------------------------------------------------------
+
+[No.307] VulChecker: Graph-based Vulnerability Localization in Source Code
+标题(中): VulChecker: 基于图的源代码漏洞定位
+来源: USENIX 2023
+年份: 2023
+链接: https://www.usenix.org/conference/usenixsecurity23/presentation/mirsky
+----------------------------------------------------------------------------------------------------
+
+[No.308] VulHawk: Cross-architecture Vulnerability Detection with Entropy-based Binary Code Search
+标题(中): VulHawk：基于熵值的二进制代码搜索跨架构漏洞检测
+来源: NDSS 2023
+年份: 2023
+链接: https://www.ndss-symposium.org/ndss-paper/vulhawk-cross-architecture-vulnerability-detection-with-entropy-based-binary-code-search/
+----------------------------------------------------------------------------------------------------
+
+[No.309] Vulnerability Discovery for All: Experiences of Marginalization in Vulnerability Discovery
+标题(中): 面向所有人的漏洞发现：边缘化在漏洞发现中的体验
+来源: SP 2023
+年份: 2023
+DOI: 10.1109/SP46215.2023.10179478
+----------------------------------------------------------------------------------------------------
+
+[No.310] Vulnerability Intelligence Alignment via Masked Graph Attention Networks.
+标题(中): 基于掩码图注意网络的漏洞情报对齐
+来源: CCS 2023
+年份: 2023
+DOI: 10.1145/3576915.3616686
+----------------------------------------------------------------------------------------------------
+
+[No.311] WHIP: Improving Static Vulnerability Detection in Web Application by Forcing tools to Collaborate
+标题(中): WHIP：通过促使工具协作以提高静态漏洞检测在Web应用中的效果
+来源: USENIX 2023
+年份: 2023
+链接: https://www.usenix.org/conference/usenixsecurity23/presentation/al-kassar
+----------------------------------------------------------------------------------------------------
+
+[No.312] A Comprehensive Analysis of Security Vulnerabilities and Attacks in Satellite Modems.
+标题(中): 卫星调制解调器中的安全漏洞与攻击综合分析。
+来源: CCS 2024
+年份: 2024
+DOI: 10.1145/3658644.3670390
+----------------------------------------------------------------------------------------------------
+
+[No.313] A Duty to Forget, a Right to be Assured? Exposing Vulnerabilities in Machine Unlearning Services
+标题(中): 《遗忘的义务，知情的权利？揭示机器卸载服务中的脆弱性》：探究机器卸学习服务中的漏洞
+来源: NDSS 2024
+年份: 2024
+链接: https://www.ndss-symposium.org/ndss-paper/a-duty-to-forget-a-right-to-be-assured-exposing-vulnerabilities-in-machine-unlearning-services/
+----------------------------------------------------------------------------------------------------
+
+[No.314] Accurate and Efficient Recurring Vulnerability Detection for IoT Firmware.
+标题(中): 准确高效的物联网固件重复性漏洞检测。
+来源: CCS 2024
+年份: 2024
+DOI: 10.1145/3658644.3670275
+----------------------------------------------------------------------------------------------------
+
+[No.315] All Your Tokens are Belong to Us: Demystifying Address Verification Vulnerabilities in Solidity Smart Contracts
+标题(中): 所有你的代币都归我们所有：揭开Solidity智能合约中的地址验证漏洞
+来源: USENIX 2024
+年份: 2024
+链接: https://www.usenix.org/conference/usenixsecurity24/presentation/sun-tianle
+----------------------------------------------------------------------------------------------------
+
+[No.316] An LLM-Assisted Easy-to-Trigger Backdoor Attack on Code Completion Models: Injecting Disguised Vulnerabilities against Strong Detection
+标题(中): 一种由LLM辅助的易触发后门攻击：在强检测环境下注入伪装漏洞
+来源: USENIX 2024
+年份: 2024
+链接: https://www.usenix.org/conference/usenixsecurity24/presentation/yan
+----------------------------------------------------------------------------------------------------
+
+[No.317] Atropos: Effective Fuzzing of Web Applications for Server-Side Vulnerabilities
+标题(中): Atropos：针对服务器端漏洞的有效Web应用 fuzzing 技术
+来源: USENIX 2024
+年份: 2024
+链接: https://www.usenix.org/conference/usenixsecurity24/presentation/g%C3%BCler
+----------------------------------------------------------------------------------------------------
+
+[No.318] Break the Wall from Bottom: Automated Discovery of Protocol-Level Evasion Vulnerabilities in Web Application Firewalls
+标题(中): 自底向上打破墙壁：在网络应用防火墙中自动发现协议级规避漏洞
+来源: SP 2024
+年份: 2024
+DOI: 10.1109/SP54263.2024.00129
+----------------------------------------------------------------------------------------------------
+
+[No.319] BreakSPF: How Shared Infrastructures Magnify SPF Vulnerabilities Across the Internet
+标题(中): 共享基础设施如何放大互联网上的SPF漏洞
+来源: NDSS 2024
+年份: 2024
+链接: https://www.ndss-symposium.org/ndss-paper/breakspf-how-shared-infrastructures-magnify-spf-vulnerabilities-across-the-internet/
+----------------------------------------------------------------------------------------------------
+
+[No.320] Demystifying RCE Vulnerabilities in LLM-Integrated Apps.
+标题(中): 揭秘集成LLM的应用中的RCE漏洞。
+来源: CCS 2024
+年份: 2024
+DOI: 10.1145/3658644.3690338
+----------------------------------------------------------------------------------------------------
+
+[No.321] Detecting Broken Object-Level Authorization Vulnerabilities in Database-Backed Applications.
+标题(中): 检测数据库驱动应用中的对象级授权漏洞
+来源: CCS 2024
+年份: 2024
+DOI: 10.1145/3658644.3690227
+----------------------------------------------------------------------------------------------------
+
+[No.322] EaTVul: ChatGPT-based Evasion Attack Against Software Vulnerability Detection
+标题(中): 基于ChatGPT的规避攻击针对软件漏洞检测
+来源: USENIX 2024
+年份: 2024
+链接: https://www.usenix.org/conference/usenixsecurity24/presentation/liu-shigang
+----------------------------------------------------------------------------------------------------
+
+[No.323] EnclaveFuzz: Finding Vulnerabilities in SGX Applications
+标题(中): enclaveFuzz：在SGX应用程序中寻找漏洞
+来源: NDSS 2024
+年份: 2024
+链接: https://www.ndss-symposium.org/ndss-paper/enclavefuzz-finding-vulnerabilities-in-sgx-applications/
+----------------------------------------------------------------------------------------------------
+
+[No.324] Exploiting Temporal Vulnerabilities for Unauthorized Access in Intent-based Networking.
+标题(中): 基于意图的网络中的未经授权访问利用时间漏洞。
+来源: CCS 2024
+年份: 2024
+DOI: 10.1145/3658644.3670301
+----------------------------------------------------------------------------------------------------
+
+[No.325] Exploring ChatGPT's Capabilities on Vulnerability Management
+标题(中): 探索ChatGPT在漏洞管理方面的功能
+来源: USENIX 2024
+年份: 2024
+链接: https://www.usenix.org/conference/usenixsecurity24/presentation/liu-peiyu
+----------------------------------------------------------------------------------------------------
+
+[No.326] FIRE: Combining Multi-Stage Filtering with Taint Analysis for Scalable Recurring Vulnerability Detection
+标题(中): FIRE：结合多阶段过滤与污点分析的大规模重复性漏洞检测方法
+来源: USENIX 2024
+年份: 2024
+链接: https://www.usenix.org/conference/usenixsecurity24/presentation/feng-siyue
+----------------------------------------------------------------------------------------------------
+
+[No.327] FORAY: Towards Effective Attack Synthesis against Deep Logical Vulnerabilities in DeFi Protocols.
+标题(中): FORAY：针对DeFi协议中深度逻辑漏洞的有效攻击合成研究。
+来源: CCS 2024
+年份: 2024
+DOI: 10.1145/3658644.3690293
+----------------------------------------------------------------------------------------------------
+
+[No.328] FVD-DPM: Fine-grained Vulnerability Detection via Conditional Diffusion Probabilistic Models
+标题(中): FVD-DPM：基于条件扩散概率模型的细粒度漏洞检测
+来源: USENIX 2024
+年份: 2024
+链接: https://www.usenix.org/conference/usenixsecurity24/presentation/shao
+----------------------------------------------------------------------------------------------------
+
+[No.329] Faster and Better: Detecting Vulnerabilities in Linux-based IoT Firmware with Optimized Reaching Definition Analysis
+标题(中): 更快更优：基于优化到达定义分析在Linux基础物联网固件中检测漏洞
+来源: NDSS 2024
+年份: 2024
+链接: https://www.ndss-symposium.org/ndss-paper/faster-and-better-detecting-vulnerabilities-in-linux-based-iot-firmware-with-optimized-reaching-definition-analysis/
+----------------------------------------------------------------------------------------------------
+
+[No.330] File Hijacking Vulnerability: The Elephant in the Room
+标题(中): 文件劫持漏洞：房间里的大象
+来源: NDSS 2024
+年份: 2024
+链接: https://www.ndss-symposium.org/ndss-paper/file-hijacking-vulnerability-the-elephant-in-the-room/
+----------------------------------------------------------------------------------------------------
+
+[No.331] Fuzz to the Future: Uncovering Occluded Future Vulnerabilities via Robust Fuzzing.
+标题(中): 未来模糊测试：通过稳健的模糊测试发现隐藏的未来漏洞
+来源: CCS 2024
+年份: 2024
+DOI: 10.1145/3658644.3690278
+----------------------------------------------------------------------------------------------------
+
+[No.332] Just another copy and paste? Comparing the security vulnerabilities of ChatGPT generated code and StackOverflow answers
+标题(中): 仅仅是复制粘贴吗？比较ChatGPT生成的代码与StackOverflow答案的安全漏洞
+来源: SP 2024
+年份: 2024
+DOI: 10.1109/SPW63631.2024.00014
+----------------------------------------------------------------------------------------------------
+
+[No.333] LLMs Cannot Reliably Identify and Reason About Security Vulnerabilities (Yet?): A Comprehensive Evaluation, Framework, and Benchmarks
+标题(中): 大型语言模型尚不能可靠地识别和推理关于安全漏洞的问题（目前仍不具备这一能力）：一项全面评估、框架与基准测试
+来源: SP 2024
+年份: 2024
+DOI: 10.1109/SP54263.2024.00210
+----------------------------------------------------------------------------------------------------
+
+[No.334] Large-Scale Study of Vulnerability Scanners for Ethereum Smart Contracts
+标题(中): 对以太坊智能合约漏洞扫描器的大规模研究
+来源: SP 2024
+年份: 2024
+DOI: 10.1109/SP54263.2024.00230
+----------------------------------------------------------------------------------------------------
+
+[No.335] MiniCAT: Understanding and Detecting Cross-Page Request Forgery Vulnerabilities in Mini-Programs.
+标题(中): MiniCAT：理解并检测小程序中的跨页面请求伪造漏洞。
+来源: CCS 2024
+年份: 2024
+DOI: 10.1145/3658644.3670294
+----------------------------------------------------------------------------------------------------
+
+[No.336] Mudjacking: Patching Backdoor Vulnerabilities in Foundation Models
+标题(中): 回填：修复基础模型中的后门漏洞
+来源: USENIX 2024
+年份: 2024
+链接: https://www.usenix.org/conference/usenixsecurity24/presentation/liu-hongbin
+----------------------------------------------------------------------------------------------------
+
+[No.337] Not your Type! Detecting Storage Collision Vulnerabilities in Ethereum Smart Contracts
+标题(中): 不是你的类型！检测以太坊智能合约中的存储碰撞漏洞
+来源: NDSS 2024
+年份: 2024
+链接: https://www.ndss-symposium.org/ndss-paper/not-your-type-detecting-storage-collision-vulnerabilities-in-ethereum-smart-contracts/
+----------------------------------------------------------------------------------------------------
+
+[No.338] Nyx: Detecting Exploitable Front-Running Vulnerabilities in Smart Contracts
+标题(中): 尼克斯：检测可利用的前端交易漏洞智能合约
+来源: SP 2024
+年份: 2024
+DOI: 10.1109/SP54263.2024.00146
+----------------------------------------------------------------------------------------------------
+
+[No.339] OctopusTaint: Advanced Data Flow Analysis for Detecting Taint-Based Vulnerabilities in IoT/IIoT Firmware.
+标题(中): 八爪鱼污点：一种检测物联网/工业物联网固件中基于污点的漏洞的高级数据流分析方法。
+来源: CCS 2024
+年份: 2024
+DOI: 10.1145/3658644.3690307
+----------------------------------------------------------------------------------------------------
+
+[No.340] Operation Mango: Scalable Discovery of Taint-Style Vulnerabilities in Binary Firmware Services
+标题(中): Operation Mango：二进制固件服务中的可扩展恶意代码漏洞发现方法
+来源: USENIX 2024
+年份: 2024
+链接: https://www.usenix.org/conference/usenixsecurity24/presentation/gibbs
+----------------------------------------------------------------------------------------------------
+
+[No.341] Patchy Performance? Uncovering the Vulnerability Management Practices of IoT-Centric Vendors
+标题(中): 断断续续的表现？揭开以物联网为中心的供应商的漏洞管理实践
+来源: SP 2024
+年份: 2024
+DOI: 10.1109/SP54263.2024.00154
+----------------------------------------------------------------------------------------------------
+
+[No.342] Phoenix: Surviving Unpatched Vulnerabilities via Accurate and Efficient Filtering of Syscall Sequences
+标题(中): Phoenix：通过准确高效的系统调用序列过滤来应对未打补丁的漏洞
+来源: NDSS 2024
+年份: 2024
+链接: https://www.ndss-symposium.org/ndss-paper/phoenix-surviving-unpatched-vulnerabilities-via-accurate-and-efficient-filtering-of-syscall-sequences/
+----------------------------------------------------------------------------------------------------
+
+[No.343] Poster: Analyzing and Correcting Inaccurate CVE-CWE Mappings in the National Vulnerability Database.
+标题(中): 海报：分析并修正国家漏洞数据库中的不准确CVE-CWE映射。
+来源: CCS 2024
+年份: 2024
+DOI: 10.1145/3658644.3691375
+----------------------------------------------------------------------------------------------------
+
+[No.344] Poster: The Concept of a System for Automatic Detection and Correction of Vulnerabilities in the Source Code.
+标题(中): 海报：自动检测和修正源代码漏洞的概念。
+来源: CCS 2024
+年份: 2024
+DOI: 10.1145/3658644.3691417
+----------------------------------------------------------------------------------------------------
+
+[No.345] PrintListener: Uncovering the Vulnerability of Fingerprint Authentication via the Finger Friction Sound
+标题(中): PrintListener：通过指纹摩擦声揭露指纹认证的安全漏洞
+来源: NDSS 2024
+年份: 2024
+链接: https://www.ndss-symposium.org/ndss-paper/printlistener-uncovering-the-vulnerability-of-fingerprint-authentication-via-the-finger-friction-sound/
+----------------------------------------------------------------------------------------------------
+
+[No.346] RIoTFuzzer: Companion App Assisted Remote Fuzzing for Detecting Vulnerabilities in IoT Devices.
+标题(中): RIoTFuzzer：辅助远程 fuzzing 的 Companion 应用程序，用于检测物联网设备中的漏洞。
+来源: CCS 2024
+年份: 2024
+DOI: 10.1145/3658644.3670342
+----------------------------------------------------------------------------------------------------
+
+[No.347] Racing on the Negative Force: Efficient Vulnerability Root-Cause Analysis through Reinforcement Learning on Counterexamples
+标题(中): 基于负向力竞速：通过反例强化学习进行高效漏洞根本原因分析
+来源: USENIX 2024
+年份: 2024
+链接: https://www.usenix.org/conference/usenixsecurity24/presentation/xu-dandan
+----------------------------------------------------------------------------------------------------
+
+[No.348] ReactAppScan: Mining React Application Vulnerabilities via Component Graph.
+标题(中): ReactAppScan：通过组件图挖掘React应用程序漏洞。
+来源: CCS 2024
+年份: 2024
+DOI: 10.1145/3658644.3670331
+----------------------------------------------------------------------------------------------------
+
+[No.349] ResolverFuzz: Automated Discovery of DNS Resolver Vulnerabilities with Query-Response Fuzzing
+标题(中): ResolverFuzz：基于查询-响应 fuzzing 的DNS解析器漏洞自动发现
+来源: USENIX 2024
+年份: 2024
+链接: https://www.usenix.org/conference/usenixsecurity24/presentation/zhang-qifan
+----------------------------------------------------------------------------------------------------
+
+[No.350] Rethinking IC Layout Vulnerability: Simulation-Based Hardware Trojan Threat Assessment with High Fidelity
+标题(中): 重新思考IC布局漏洞：基于仿真高保真硬件木马威胁评估
+来源: SP 2024
+年份: 2024
+DOI: 10.1109/SP54263.2024.00160
+----------------------------------------------------------------------------------------------------
+
+[No.351] Safeslab: Mitigating Use-After-Free Vulnerabilities via Memory Protection Keys.
+标题(中): Safeslab：通过内存保护键缓解使用后释放漏洞。
+来源: CCS 2024
+年份: 2024
+DOI: 10.1145/3658644.3670279
+----------------------------------------------------------------------------------------------------
+
+[No.352] SecurityNet: Assessing Machine Learning Vulnerabilities on Public Models
+标题(中): SecurityNet：评估公共模型中的机器学习漏洞
+来源: USENIX 2024
+年份: 2024
+链接: https://www.usenix.org/conference/usenixsecurity24/presentation/zhang-boyang
+----------------------------------------------------------------------------------------------------
+
+[No.353] Shedding Light on CVSS Scoring Inconsistencies: A User-Centric Study on Evaluating Widespread Security Vulnerabilities
+标题(中): 揭示CVSS评分不一致性之谜：一项以用户为中心的广泛安全漏洞评估研究
+来源: SP 2024
+年份: 2024
+DOI: 10.1109/SP54263.2024.00058
+----------------------------------------------------------------------------------------------------
+
+[No.354] SoK: What don't we know? Understanding Security Vulnerabilities in SNARKs
+标题(中): SoK: 我们不知道什么？理解SNARKs中的安全漏洞
+来源: USENIX 2024
+年份: 2024
+链接: https://www.usenix.org/conference/usenixsecurity24/presentation/chaliasos
+----------------------------------------------------------------------------------------------------
+
+[No.355] SymBisect: Accurate Bisection for Fuzzer-Exposed Vulnerabilities
+标题(中): SymBisect: 准确分割 fuzz 器发现的漏洞
+来源: USENIX 2024
+年份: 2024
+链接: https://www.usenix.org/conference/usenixsecurity24/presentation/zhang-zheng
+----------------------------------------------------------------------------------------------------
+
+[No.356] TAPFixer: Automatic Detection and Repair of Home Automation Vulnerabilities based on Negated-property Reasoning
+标题(中): TAPFixer：基于否定性质推理的家庭自动化漏洞自动检测与修复工具
+来源: USENIX 2024
+年份: 2024
+链接: https://www.usenix.org/conference/usenixsecurity24/presentation/yu-yinbo
+----------------------------------------------------------------------------------------------------
+
+[No.357] Test Suites Guided Vulnerability Validation for Node.js Applications.
+标题(中): Node.js应用程序指导性漏洞验证测试套件。
+来源: CCS 2024
+年份: 2024
+DOI: 10.1145/3658644.3690332
+----------------------------------------------------------------------------------------------------
+
+[No.358] The CURE to Vulnerabilities in RPKI Validation
+标题(中): RPKI验证中的漏洞补救措施
+来源: NDSS 2024
+年份: 2024
+链接: https://www.ndss-symposium.org/ndss-paper/the-cure-to-vulnerabilities-in-rpki-validation/
+----------------------------------------------------------------------------------------------------
+
+[No.359] The Great Request Robbery: An Empirical Study of Client-side Request Hijacking Vulnerabilities on the Web
+标题(中): 《巨大的请求劫持抢劫：对Web客户端请求劫持漏洞的实证研究》
+来源: SP 2024
+年份: 2024
+DOI: 10.1109/SP54263.2024.00098
+----------------------------------------------------------------------------------------------------
+
+[No.360] The Not-So-Silent Type: Vulnerabilities in Chinese IME Keyboards' Network Security Protocols.
+标题(中): 不那么安静的类型：中文输入法键盘在网络安全协议方面的漏洞。
+来源: CCS 2024
+年份: 2024
+DOI: 10.1145/3658644.3690302
+----------------------------------------------------------------------------------------------------
+
+[No.361] The Unpatchables: Why Municipalities Persist in Running Vulnerable Hosts
+标题(中): 无法修复的：为什么市政机构坚持运行易受攻击的主机
+来源: USENIX 2024
+年份: 2024
+链接: https://www.usenix.org/conference/usenixsecurity24/presentation/ethembabaoglu
+----------------------------------------------------------------------------------------------------
+
+[No.362] TuDoor Attack: Systematically Exploring and Exploiting Logic Vulnerabilities in DNS Response Pre-processing with Malformed Packets
+标题(中): TuDoor攻击：系统性地探索和利用DNS响应预处理中的畸形包逻辑漏洞
+来源: SP 2024
+年份: 2024
+DOI: 10.1109/SP54263.2024.00172
+----------------------------------------------------------------------------------------------------
+
+[No.363] Uncovering the Limits of Machine Learning for Automatic Vulnerability Detection
+标题(中): 揭开机器学习在自动漏洞检测方面的局限性
+来源: USENIX 2024
+年份: 2024
+链接: https://www.usenix.org/conference/usenixsecurity24/presentation/risse
+----------------------------------------------------------------------------------------------------
+
+[No.364] Unveiling the Vulnerability of Private Fine-Tuning in Split-Based Frameworks for Large Language Models: A Bidirectionally Enhanced Attack.
+标题(中): 揭示基于分割框架的大语言模型私有微调的脆弱性：一种双向增强攻击。
+来源: CCS 2024
+年份: 2024
+DOI: 10.1145/3658644.3690295
+----------------------------------------------------------------------------------------------------
+
+[No.365] VETEOS: Statically Vetting EOSIO Contracts for the "Groundhog Day" Vulnerabilities
+标题(中): VETEOS: 静态审核 EOSIO 合约以防范“ Groundhog Day ”漏洞
+来源: NDSS 2024
+年份: 2024
+链接: https://www.ndss-symposium.org/ndss-paper/veteos-statically-vetting-eosio-contracts-for-the-groundhog-day-vulnerabilities/
+----------------------------------------------------------------------------------------------------
+
+[No.366] VMud: Detecting Recurring Vulnerabilities with Multiple Fixing Functions via Function Selection and Semantic Equivalent Statement Matching.
+标题(中): VMud：通过函数选择和语义等价语句匹配检测重复的安全漏洞。
+来源: CCS 2024
+年份: 2024
+DOI: 10.1145/3658644.3690372
+----------------------------------------------------------------------------------------------------
+
+[No.367] VulSim: Leveraging Similarity of Multi-Dimensional Neighbor Embeddings for Vulnerability Detection
+标题(中): VulSim：利用多维邻居嵌入的相似性进行漏洞检测
+来源: USENIX 2024
+年份: 2024
+链接: https://www.usenix.org/conference/usenixsecurity24/presentation/shimmi
+----------------------------------------------------------------------------------------------------
+
+[No.368] Vulnerability Flow Type Systems
+标题(中): 漏洞流类型系统
+来源: SP 2024
+年份: 2024
+DOI: 10.1109/SPW63631.2024.00020
+----------------------------------------------------------------------------------------------------
+
+[No.369] Vulnerability-oriented Testing for RESTful APIs
+标题(中): 面向漏洞的RESTful APIs测试
+来源: USENIX 2024
+年份: 2024
+链接: https://www.usenix.org/conference/usenixsecurity24/presentation/du
+----------------------------------------------------------------------------------------------------
+
+[No.370] Where URLs Become Weapons: Automated Discovery of SSRF Vulnerabilities in Web Applications
+标题(中): URL变成武器：自动发现Web应用程序中的SSRF漏洞
+来源: SP 2024
+年份: 2024
+DOI: 10.1109/SP54263.2024.00198
+----------------------------------------------------------------------------------------------------
+
+[No.371] WhisperFuzz: White-Box Fuzzing for Detecting and Locating Timing Vulnerabilities in Processors
+标题(中): WhisperFuzz: 白盒 fuzzing 技术用于检测和定位处理器中的定时漏洞
+来源: USENIX 2024
+年份: 2024
+链接: https://www.usenix.org/conference/usenixsecurity24/presentation/borkar
+----------------------------------------------------------------------------------------------------
+
+[No.372] Your Firmware Has Arrived: A Study of Firmware Update Vulnerabilities
+标题(中): 您的固件已到达：关于固件更新漏洞的研究
+来源: USENIX 2024
+年份: 2024
+链接: https://www.usenix.org/conference/usenixsecurity24/presentation/wu-yuhao
+----------------------------------------------------------------------------------------------------
+
+[No.373] A Mixed-Methods Study of Open-Source Software Maintainers On Vulnerability Management and Platform Security Features
+标题(中): 一项关于开源软件维护者在漏洞管理及平台安全功能方面的混合方法研究
+来源: USENIX 2025
+年份: 2025
+链接: https://www.usenix.org/conference/usenixsecurity25/presentation/ayala
+----------------------------------------------------------------------------------------------------
+
+[No.374] APPATCH: Automated Adaptive Prompting Large Language Models for Real-World Software Vulnerability Patching
+标题(中): 自动化自适应提示大型语言模型在实际软件漏洞修复中的应用
+来源: USENIX 2025
+年份: 2025
+链接: https://www.usenix.org/conference/usenixsecurity25/presentation/nong
+----------------------------------------------------------------------------------------------------
+
+[No.375] Activation Approximations Can Incur Safety Vulnerabilities in Aligned LLMs: Comprehensive Analysis and Defense
+标题(中): 激活近似值在对齐的大语言模型中可能引入安全漏洞：全面分析与防御措施
+来源: USENIX 2025
+年份: 2025
+链接: https://www.usenix.org/conference/usenixsecurity25/presentation/zhang-jiawen
+----------------------------------------------------------------------------------------------------
+
+[No.376] Be Careful of What You Embed: Demystifying OLE Vulnerabilities
+标题(中): 小心所嵌入的内容：揭开OLE漏洞的神秘面纱
+来源: NDSS 2025
+年份: 2025
+链接: https://www.ndss-symposium.org/ndss-paper/be-careful-of-what-you-embed-demystifying-ole-vulnerabilities/
+----------------------------------------------------------------------------------------------------
+
+[No.377] BridgeRouter: Automated Capability Upgrading of Out-Of-Bounds Write Vulnerabilities to Arbitrary Memory Write Primitives in the Linux Kernel
+标题(中): BridgeRouter：将Linux内核中越界写入漏洞自动升级为任意内存写入原始操作的工具
+来源: SP 2025
+年份: 2025
+DOI: 10.1109/SP61157.2025.00132
+----------------------------------------------------------------------------------------------------
+
+[No.378] Careless Retention and Management: Understanding and Detecting Data Retention Denial-of-Service Vulnerabilities in Java Web Containers
+标题(中): 粗心的数据保留与管理：理解并在Java Web容器中检测数据保留拒绝服务漏洞
+来源: USENIX 2025
+年份: 2025
+链接: https://www.usenix.org/conference/usenixsecurity25/presentation/lian
+----------------------------------------------------------------------------------------------------
+
+[No.379] ChainFuzz: Exploiting Upstream Vulnerabilities in Open-Source Supply Chains
+标题(中): ChainFuzz：利用开源供应链中的上游漏洞
+来源: USENIX 2025
+年份: 2025
+链接: https://www.usenix.org/conference/usenixsecurity25/presentation/deng
+----------------------------------------------------------------------------------------------------
+
+[No.380] Chimera: Fuzzing P4 Network Infrastructure for Multi-Plane Bug Detection and Vulnerability Discovery
+标题(中): Chimera： fuzzing P4网络基础设施以进行多平面错误检测和漏洞发现
+来源: SP 2025
+年份: 2025
+DOI: 10.1109/SP61157.2025.00194
+----------------------------------------------------------------------------------------------------
+
+[No.381] Code Vulnerability Repair with Large Language Model Using Context-Aware Prompt Tuning
+标题(中): 使用上下文感知提示调优的大语言模型代码漏洞修复
+来源: SP 2025
+年份: 2025
+DOI: 10.1109/SPW67851.2025.00040
+----------------------------------------------------------------------------------------------------
+
+[No.382] CollisionRepair: First-Aid and Automated Patching for Storage Collision Vulnerabilities in Smart Contracts
+标题(中): 存储碰撞漏洞应急修复与自动化补丁修补：智能合约中的数据碰撞修复技术
+来源: USENIX 2025
+年份: 2025
+链接: https://www.usenix.org/conference/usenixsecurity25/presentation/pan-yu
+----------------------------------------------------------------------------------------------------
+
+[No.383] Destabilizing a Social Network Model via Intrinsic Feedback Vulnerabilities
+标题(中): 通过内在反馈脆弱性瓦解社会网络模型
+来源: SP 2025
+年份: 2025
+DOI: 10.1109/SPW67851.2025.00026
+----------------------------------------------------------------------------------------------------
+
+[No.384] Detecting Taint-Style Vulnerabilities in Microservice-Structured Web Applications
+标题(中): 检测微服务结构化网络应用中的污染型漏洞
+来源: SP 2025
+年份: 2025
+DOI: 10.1109/SP61157.2025.00137
+----------------------------------------------------------------------------------------------------
+
+[No.385] Disparate Privacy Vulnerability: Targeted Attribute Inference Attacks and Defenses
+标题(中): 异质隐私漏洞：针对属性推断攻击及其防御措施
+来源: USENIX 2025
+年份: 2025
+链接: https://www.usenix.org/conference/usenixsecurity25/presentation/kabir
+----------------------------------------------------------------------------------------------------
+
+[No.386] Effective Directed Fuzzing with Hierarchical Scheduling for Web Vulnerability Detection
+标题(中): 基于分层调度的有效定向模糊测试用于Web漏洞检测
+来源: USENIX 2025
+年份: 2025
+链接: https://www.usenix.org/conference/usenixsecurity25/presentation/lin-zihan
+----------------------------------------------------------------------------------------------------
+
+[No.387] Email Spoofing with SMTP Smuggling: How the Shared Email Infrastructures Magnify this Vulnerability
+标题(中): SMTP 鱼叉攻击中的电子邮件欺骗：共享电子邮件基础设施如何放大这一漏洞
+来源: USENIX 2025
+年份: 2025
+链接: https://www.usenix.org/conference/usenixsecurity25/presentation/wang-chuhan
+----------------------------------------------------------------------------------------------------
+
+[No.388] Enhancing Security in Third-Party Library Reuse - Comprehensive Detection of 1-day Vulnerability through Code Patch Analysis
+标题(中): 通过代码补丁分析全面检测第三方库重用中的安全增强——一日漏洞检测
+来源: NDSS 2025
+年份: 2025
+链接: https://www.ndss-symposium.org/ndss-paper/enhancing-security-in-third-party-library-reuse-comprehensive-detection-of-1-day-vulnerability-through-code-patch-analysis/
+----------------------------------------------------------------------------------------------------
+
+[No.389] Exploiting Task-Level Vulnerabilities: An Automatic Jailbreak Attack and Defense Benchmarking for LLMs
+标题(中): 利用任务级别漏洞：针对LLMs的自动越狱攻击与防御基准测试
+来源: USENIX 2025
+年份: 2025
+链接: https://www.usenix.org/conference/usenixsecurity25/presentation/zhang-lan
+----------------------------------------------------------------------------------------------------
+
+[No.390] From Constraints to Cracks: Constraint Semantic Inconsistencies as Vulnerability Beacons for Embedded Systems
+标题(中): 从约束到裂缝：约束语义不一致性作为嵌入式系统的脆弱性信号灯
+来源: USENIX 2025
+年份: 2025
+链接: https://www.usenix.org/conference/usenixsecurity25/presentation/zhao
+----------------------------------------------------------------------------------------------------
+
+[No.391] From Large to Mammoth: A Comparative Evaluation of Large Language Models in Vulnerability Detection
+标题(中): 从大型到巨无霸：大型语言模型在漏洞检测方面的比较评估
+来源: NDSS 2025
+年份: 2025
+链接: https://www.ndss-symposium.org/ndss-paper/from-large-to-mammoth-a-comparative-evaluation-of-large-language-models-in-vulnerability-detection/
+----------------------------------------------------------------------------------------------------
+
+[No.392] Fun-tuning: Characterizing the Vulnerability of Proprietary LLMs to Optimization-Based Prompt Injection Attacks via the Fine-Tuning Interface
+标题(中): 调优：通过微调接口表征专有语言模型对基于优化的提示注入攻击的脆弱性
+来源: SP 2025
+年份: 2025
+DOI: 10.1109/SP61157.2025.00121
+----------------------------------------------------------------------------------------------------
+
+[No.393] GoSonar: Detecting Logical Vulnerabilities in Memory Safe Language Using Inductive Constraint Reasoning
+标题(中): GoSonar：使用归纳约束推理检测内存安全语言中的逻辑漏洞
+来源: SP 2025
+年份: 2025
+DOI: 10.1109/SP61157.2025.00043
+----------------------------------------------------------------------------------------------------
+
+[No.394] Haunted by Legacy: Discovering and Exploiting Vulnerable Tunnelling Hosts
+标题(中): 遗留问题缠身：发现和利用易受攻击的隧道主机
+来源: USENIX 2025
+年份: 2025
+链接: https://www.usenix.org/conference/usenixsecurity25/presentation/beitis
+----------------------------------------------------------------------------------------------------
+
+[No.395] HouseFuzz: Service-Aware Grey-Box Fuzzing for Vulnerability Detection in Linux-Based Firmware
+标题(中): HouseFuzz：面向服务的灰盒 fuzzing 技术在 Linux 基础固件漏洞检测中的应用
+来源: SP 2025
+年份: 2025
+DOI: 10.1109/SP61157.2025.00213
+----------------------------------------------------------------------------------------------------
+
+[No.396] Is MPC Secure? Leveraging Neural Network Classifiers to Detect Data Leakage Vulnerabilities in MPC Implementations
+标题(中): MPC安全吗？利用神经网络分类器检测MPC实现中的数据泄露漏洞
+来源: SP 2025
+年份: 2025
+DOI: 10.1109/SP61157.2025.00181
+----------------------------------------------------------------------------------------------------
+
+[No.397] LLMxCPG: Context-Aware Vulnerability Detection Through Code Property Graph-Guided Large Language Models
+标题(中): 基于代码属性图引导的大语言模型的上下文感知漏洞检测
+来源: USENIX 2025
+年份: 2025
+链接: https://www.usenix.org/conference/usenixsecurity25/presentation/lekssays
+----------------------------------------------------------------------------------------------------
+
+[No.398] Logs In, Patches Out: Automated Vulnerability Repair via Tree-of-Thought LLM Analysis
+标题(中): 登录日志，修复补丁：通过树状思考大语言模型分析自动化漏洞修复
+来源: USENIX 2025
+年份: 2025
+链接: https://www.usenix.org/conference/usenixsecurity25/presentation/kim-youngjoon
+----------------------------------------------------------------------------------------------------
+
+[No.399] MOCGuard: Automatically Detecting Missing-Owner-Check Vulnerabilities in Java Web Applications
+标题(中): MOCGuard：自动检测Java网络应用程序中的缺失所有者检查漏洞
+来源: SP 2025
+年份: 2025
+DOI: 10.1109/SP61157.2025.00010
+----------------------------------------------------------------------------------------------------
+
+[No.400] Make Agent Defeat Agent: Automatic Detection of Taint-Style Vulnerabilities in LLM-based Agents
+标题(中): 让智能代理击败智能代理：基于LLM的智能代理中的污点风格漏洞自动检测
+来源: USENIX 2025
+年份: 2025
+链接: https://www.usenix.org/conference/usenixsecurity25/presentation/liu-fengyu
+----------------------------------------------------------------------------------------------------
+
+[No.401] Mens Sana In Corpore Sano: Sound Firmware Corpora for Vulnerability Research
+标题(中): 身心健康：稳健的固件库用于漏洞研究
+来源: NDSS 2025
+年份: 2025
+链接: https://www.ndss-symposium.org/ndss-paper/mens-sana-in-corpore-sano-sound-firmware-corpora-for-vulnerability-research/
+----------------------------------------------------------------------------------------------------
+
+[No.402] NodeMedic-FINE: Automatic Detection and Exploit Synthesis for Node.js Vulnerabilities
+标题(中): NodeMedic-FINE：自动检测与漏洞利用合成针对Node.js漏洞
+来源: NDSS 2025
+年份: 2025
+链接: https://www.ndss-symposium.org/ndss-paper/nodemedic-fine-automatic-detection-and-exploit-synthesis-for-node-js-vulnerabilities/
+----------------------------------------------------------------------------------------------------
+
+[No.403] Pig in a Poke: Automatically Detecting and Exploiting Link Following Vulnerabilities in Windows File Operations
+标题(中): 猪仔交易：自动检测和利用Windows文件操作中的链接跟随漏洞
+来源: USENIX 2025
+年份: 2025
+链接: https://www.usenix.org/conference/usenixsecurity25/presentation/xiang-bocheng
+----------------------------------------------------------------------------------------------------
+
+[No.404] Predator: Directed Web Application Fuzzing for Efficient Vulnerability Validation
+标题(中): 猎手：面向高效漏洞验证的定向Web应用模糊测试
+来源: SP 2025
+年份: 2025
+DOI: 10.1109/SP61157.2025.00066
+----------------------------------------------------------------------------------------------------
+
+[No.405] Racedb: Detecting Request Race Vulnerabilities in Database-Backed Web Applications
+标题(中): Racedb：检测基于数据库的Web应用程序中的请求竞态漏洞
+来源: SP 2025
+年份: 2025
+DOI: 10.1109/SP61157.2025.00029
+----------------------------------------------------------------------------------------------------
+
+[No.406] SCAD: Towards a Universal and Automated Network Side-Channel Vulnerability Detection
+标题(中): SCAD：迈向通用且自动化的网络侧信道漏洞检测
+来源: SP 2025
+年份: 2025
+DOI: 10.1109/SP61157.2025.00068
+----------------------------------------------------------------------------------------------------
+
+[No.407] SV-TrustEval-C: Evaluating Structure and Semantic Reasoning in Large Language Models for Source Code Vulnerability Analysis
+标题(中): 评估大型语言模型在源代码漏洞分析中的结构和语义推理能力
+来源: SP 2025
+年份: 2025
+DOI: 10.1109/SP61157.2025.00191
+----------------------------------------------------------------------------------------------------
+
+[No.408] Sheep's Clothing, Wolf's Data: Detecting Server-Induced Client Vulnerabilities in Windows Remote IPC
+标题(中): 羊皮狼的数据：检测Windows远程IPC服务器诱导的客户端漏洞
+来源: NDSS 2025
+年份: 2025
+链接: https://www.ndss-symposium.org/ndss-paper/sheeps-clothing-wolfs-data-detecting-server-induced-client-vulnerabilities-in-windows-remote-ipc/
+----------------------------------------------------------------------------------------------------
+
+[No.409] SoK: Automated Vulnerability Repair: Methods, Tools, and Assessments
+标题(中): SoK：自动化漏洞修复：方法、工具和评估
+来源: USENIX 2025
+年份: 2025
+链接: https://www.usenix.org/conference/usenixsecurity25/presentation/hu-yiwei
+----------------------------------------------------------------------------------------------------
+
+[No.410] SoK: Space Infrastructures Vulnerabilities, Attacks and Defenses
+标题(中): SoK: 空间基础设施的脆弱性、攻击与防御
+来源: SP 2025
+年份: 2025
+DOI: 10.1109/SP61157.2025.00138
+----------------------------------------------------------------------------------------------------
+
+[No.411] SoK: Towards Effective Automated Vulnerability Repair
+标题(中): SoK：迈向有效的自动化漏洞修复
+来源: USENIX 2025
+年份: 2025
+链接: https://www.usenix.org/conference/usenixsecurity25/presentation/li-ying
+----------------------------------------------------------------------------------------------------
+
+[No.412] Statically Discover Cross-Entry Use-After-Free Vulnerabilities in the Linux Kernel
+标题(中): 静态发现Linux内核中的跨入口使用后释放漏洞
+来源: NDSS 2025
+年份: 2025
+链接: https://www.ndss-symposium.org/ndss-paper/statically-discover-cross-entry-use-after-free-vulnerabilities-in-the-linux-kernel/
+----------------------------------------------------------------------------------------------------
+
+[No.413] The Doom of Device Drivers: Your Android Device (Most Likely) has N-Day Kernel Vulnerabilities
+标题(中): 设备驱动程序的末日：你的Android设备（很可能）存在N日 kernel 漏洞
+来源: USENIX 2025
+年份: 2025
+链接: https://www.usenix.org/conference/usenixsecurity25/presentation/maar-doom
+----------------------------------------------------------------------------------------------------
+
+[No.414] The Ghost Navigator: Revisiting the Hidden Vulnerability of Localization in Autonomous Driving
+标题(中): Ghost导航员：重访自主驾驶中的隐藏漏洞 localization
+来源: USENIX 2025
+年份: 2025
+链接: https://www.usenix.org/conference/usenixsecurity25/presentation/zhang-junqi
+----------------------------------------------------------------------------------------------------
+
+[No.415] The Silent Danger in HTTP: Identifying HTTP Desync Vulnerabilities with Gray-box Testing
+标题(中): HTTP中的沉默危险：通过灰盒测试识别HTTP脱同步漏洞
+来源: USENIX 2025
+年份: 2025
+链接: https://www.usenix.org/conference/usenixsecurity25/presentation/mu
+----------------------------------------------------------------------------------------------------
+
+[No.416] Towards Automatic Detection and Exploitation of Java Web Application Vulnerabilities via Concolic Execution guided by Cross-thread Object Manipulation
+标题(中): 通过跨线程对象操作引导的符号执行自动检测和利用Java_web应用程序漏洞
+来源: USENIX 2025
+年份: 2025
+链接: https://www.usenix.org/conference/usenixsecurity25/presentation/huang-xinyou
+----------------------------------------------------------------------------------------------------
+
+[No.417] Towards Programming Languages Free of Injection-Based Vulnerabilities by Design
+标题(中): 设计上消除基于注入的漏洞的编程语言
+来源: SP 2025
+年份: 2025
+DOI: 10.1109/SPW67851.2025.00008
+----------------------------------------------------------------------------------------------------
+
+[No.418] Trust but Verify: An Assessment of Vulnerability Tagging Services
+标题(中): 信任但验证：对漏洞标签服务的评估
+来源: USENIX 2025
+年份: 2025
+链接: https://www.usenix.org/conference/usenixsecurity25/presentation/huang-szu-chun
+----------------------------------------------------------------------------------------------------
+
+[No.419] Unveiling Security Vulnerabilities in Git Large File Storage Protocol
+标题(中): 揭示Git大文件存储协议中的安全漏洞
+来源: SP 2025
+年份: 2025
+DOI: 10.1109/SP61157.2025.00123
+----------------------------------------------------------------------------------------------------
+
+[No.420] VulShield: Protecting Vulnerable Code Before Deploying Patches
+标题(中): VulShield：在部署补丁之前保护易受攻击的代码
+来源: NDSS 2025
+年份: 2025
+链接: https://www.ndss-symposium.org/ndss-paper/vulshield-protecting-vulnerable-code-before-deploying-patches/
+----------------------------------------------------------------------------------------------------
+
+[No.421] Vulnerability of Text-Matching in ML/AI Conference Reviewer Assignments to Collusions
+标题(中): 机器学习/人工智能会议审稿人分配中基于文本匹配的脆弱性对抗合谋的风险
+来源: USENIX 2025
+年份: 2025
+链接: https://www.usenix.org/conference/usenixsecurity25/presentation/hsieh
+----------------------------------------------------------------------------------------------------
+
+[No.422] Vulnerability, Where Art Thou? An Investigation of Vulnerability Management in Android Smartphone Chipsets
+标题(中): 《漏洞在哪里？——关于Android智能手机芯片漏洞管理的研究》
+来源: NDSS 2025
+年份: 2025
+链接: https://www.ndss-symposium.org/ndss-paper/vulnerability-where-art-thou-an-investigation-of-vulnerability-management-in-android-smartphone-chipsets/
+----------------------------------------------------------------------------------------------------
+
+[No.423] Wallbleed: A Memory Disclosure Vulnerability in the Great Firewall of China
+标题(中): 墙渗漏：中国Great Firewall中的一个内存泄露漏洞
+来源: NDSS 2025
+年份: 2025
+链接: https://www.ndss-symposium.org/ndss-paper/wallbleed-a-memory-disclosure-vulnerability-in-the-great-firewall-of-china/
+----------------------------------------------------------------------------------------------------
+
+[No.424] X.509DoS: Exploiting and Detecting Denial-of-Service Vulnerabilities in Cryptographic Libraries using Crafted X.509 Certificates
+标题(中): X.509DoS：利用伪造的X.509证书在 cryptographic 库中exploit 和检测拒绝服务（DoS）漏洞
+来源: USENIX 2025
+年份: 2025
+链接: https://www.usenix.org/conference/usenixsecurity25/presentation/shi-bing
+----------------------------------------------------------------------------------------------------
+
+[No.425] XSSky: Detecting XSS Vulnerabilities through Local Path-Persistent Fuzzing
+标题(中): XSSky：通过本地路径持久化 fuzzing 检测 XSS 漏洞
+来源: USENIX 2025
+年份: 2025
+链接: https://www.usenix.org/conference/usenixsecurity25/presentation/shi-youkun
+----------------------------------------------------------------------------------------------------
+
+====================================================================================================
+报告生成完成
+已翻译 425 篇论文标题
+
+按会议统计:
+  CCS: 105 篇
+  NDSS: 67 篇
+  SP: 85 篇
+  USENIX: 168 篇
+====================================================================================================
