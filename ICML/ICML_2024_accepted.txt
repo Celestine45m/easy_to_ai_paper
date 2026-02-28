@@ -1,0 +1,688 @@
+No.1. ${\rm E}(3)$-Equivariant Actor-Critic Methods for Cooperative Multi-Agent Reinforcement Learning
+   标题: ${\rm E}(3)$-共不变的演员-评论家方法在协同多智能体强化学习中的应用
+   链接: https://icml.cc/virtual/2024/poster/32670
+   类别: 
+   作者: Dingyang Chen;Qi Zhang;
+   机构: University of South Carolina;
+   类型: Poster
+
+No.2. $\bf{\Phi}_\textrm{Flow}$: Differentiable Simulations for PyTorch, TensorFlow and Jax
+   标题: $\bf{\Phi}_{\text{Flow}}$: 可微模拟库支持 PyTorch、TensorFlow 和 Jax
+   链接: https://icml.cc/virtual/2024/poster/35005
+   类别: 
+   作者: Philipp Holl;Nils Thuerey;
+   机构: Technical University of Munich;
+   类型: Poster
+
+No.3. $\mathtt{VITS}$ : Variational Inference Thompson Sampling for contextual bandits
+   标题: VITS：变分推断特勒蒙采样用于上下文臂赛问题
+   链接: https://icml.cc/virtual/2024/poster/33706
+   类别: 
+   作者: Pierre Clavier;Tom Huix;Alain Oliviero Durmus;
+   机构: Ecole Polytechnique;
+   类型: Poster
+
+No.4. $\texttt{MoE-RBench}$: Towards Building Reliable Language Models with Sparse Mixture-of-Experts
+   标题: $\texttt{MoE-RBench}$：构建可靠的稀疏专家混合语言模型的研究
+   链接: https://icml.cc/virtual/2024/poster/34261
+   类别: 
+   作者: Guanjie Chen;Xinyu Zhao;Tianlong Chen;Yu Cheng;
+   机构: Nanjing University;Peking University;Harvard University;Chinese University of Hong Kong;
+   类型: Poster
+
+No.5. $f$-Divergence Based Classification: Beyond the Use of Cross-Entropy
+   标题: 基于$f$散度的分类：超越交叉熵的应用
+   链接: https://icml.cc/virtual/2024/poster/34057
+   类别: 
+   作者: Nicola Novello;Andrea M Tonello;
+   机构: Alpen-Adria-Universität Klagenfurt;
+   类型: Poster
+
+No.6. $H$-Consistency Guarantees for Regression
+   标题: $H$-一致性保证回归
+   链接: https://icml.cc/virtual/2024/poster/33103
+   类别: 
+   作者: Anqi Mao;Mehryar Mohri;Yutao Zhong;
+   机构: New York University;Google;
+   类型: Poster
+
+No.7. $S^2$IP-LLM: Semantic Space Informed Prompt Learning with LLM for Time Series Forecasting
+   标题: 基于语义空间的提示学习方法：通过大语言模型（LLM）进行时间序列预测
+   链接: https://icml.cc/virtual/2024/poster/32972
+   类别: 
+   作者: Zijie Pan;Yushan Jiang;Sahil Garg;Anderson Schneider;Yuriy Nevmyvaka;Dongjin Song;
+   机构: University of Connecticut;Morgan Stanley;
+   类型: Poster
+
+No.8. 3D Geometric Shape Assembly via Efficient Point Cloud Matching
+   标题: 基于高效点云匹配的三维几何形状装配
+   链接: https://icml.cc/virtual/2024/poster/34528
+   类别: 
+   作者: Nahyuk Lee;Juhong Min;Junha Lee;Seungwook Kim;Kanghee Lee;Jaesik Park;Minsu Cho;
+   机构: Pohang University of Science and Technology;Seoul National University;
+   类型: Poster
+
+No.9. 3D-VLA: A 3D Vision-Language-Action Generative World Model
+   标题: 3D-VLA：三维视觉-语言-动作生成世界模型
+   链接: https://icml.cc/virtual/2024/poster/34575
+   类别: 
+   作者: Haoyu Zhen;Xiaowen Qiu;Peihao Chen;Jincheng Yang;Xin Yan;Yilun Du;Yining Hong;Chuang Gan;
+   机构: Shanghai Jiao Tong University;University of Massachusetts Amherst;South China University of Technology;Wuhan University;Massachusetts Institute of Technology;University of California, Los Angeles;
+   类型: Poster
+
+No.10. A Bayesian Approach to Online Planning
+   标题: 基于贝叶斯方法的在线规划
+   链接: https://icml.cc/virtual/2024/poster/34204
+   类别: 
+   作者: Nir Greshler;David Ben Eli;Carmel Rabinovitz;Gabi Guetta;Liran Gispan;Guy Zohar;Aviv Tamar;
+   机构: Technion - Israel Institute of Technology;
+   类型: Poster
+
+No.11. A Bias-Variance-Covariance Decomposition of Kernel Scores for Generative Models
+   标题: 生成模型中核得分的偏差-方差-协方差分解
+   链接: https://icml.cc/virtual/2024/poster/34065
+   类别: 
+   作者: Sebastian Gregor Gruber;Florian Buettner;
+   机构: Johann Wolfgang Goethe University Frankfurt am Main;Deutsches Krebsforschungszentrum;
+   类型: Poster
+
+No.12. A Circuit Domain Generalization Framework for Efficient Logic Synthesis in Chip Design
+   标题: 一种电路域泛化框架，用于芯片设计中的高效逻辑综合
+   链接: https://icml.cc/virtual/2024/poster/35155
+   类别: 
+   作者: Zhihai Wang;Lei Chen;Jie Wang;Yinqi Bai;Xing Li;Xijun Li;Mingxuan Yuan;Jianye HAO;Yongdong Zhang;Feng Wu;
+   机构: University of Science and Technology of China;Huawei;Tianjin University;
+   类型: Spotlight
+
+No.13. A Closer Look at the Limitations of Instruction Tuning
+   标题: 更深入地探讨指令调优的局限性
+   链接: https://icml.cc/virtual/2024/poster/33808
+   类别: 
+   作者: Sreyan Ghosh;Chandra Kiran Reddy Evuru;Sonal Kumar;Ramaneswaran S;Deepali Aneja;Zeyu Jin;Ramani Duraiswami;Dinesh Manocha;
+   机构: University of Maryland;NVIDIA;Adobe;
+   类型: Poster
+
+No.14. A Computational Framework for Solving Wasserstein Lagrangian Flows
+   标题: 解决沃斯泰因拉格朗日流的计算框架
+   链接: https://icml.cc/virtual/2024/poster/32732
+   类别: 
+   作者: Kirill Neklyudov;Rob Brekelmans;Alexander Tong;Lazar Atanackovic;qiang liu;Alireza Makhzani;
+   机构: Vector Institute;Université de Montréal;Valence Labs;University of Texas at Austin;
+   类型: Poster
+
+No.15. A connection between Tempering and Entropic Mirror Descent
+   标题: 调和与熵镜下降之间的联系
+   链接: https://icml.cc/virtual/2024/poster/34707
+   类别: 
+   作者: Nicolas Chopin;Francesca Crucinio;Anna Korba;
+   机构: Ecole Nationale de la Statistique et de l'Administration Economique;ENSAE ParisTech;
+   类型: Poster
+
+No.16. A Contextual Combinatorial Bandit Approach to Negotiation
+   标题: 基于上下文组合臂赛马的方法在谈判中的应用
+   链接: https://icml.cc/virtual/2024/poster/34817
+   类别: 
+   作者: Yexin Li;Zhancun Mu;Siyuan Qi;
+   机构: State Key Laboratory of General Artificial Intelligence;Peking University;Beijing Institute for General Artificial Intelligence;
+   类型: Poster
+
+No.17. A decoder-only foundation model for time-series forecasting
+   标题: 仅解码器的时间序列预测基础模型
+   链接: https://icml.cc/virtual/2024/poster/33288
+   类别: 
+   作者: Abhimanyu Das;Weihao Kong;Rajat Sen;Yichen Zhou;
+   机构: Google;
+   类型: Poster
+
+No.18. A Dense Reward View on Aligning Text-to-Image Diffusion with Preference
+   标题: 基于密集奖励的观点将文本到图像扩散模型与用户偏好对齐
+   链接: https://icml.cc/virtual/2024/poster/32707
+   类别: 
+   作者: Shentao Yang;Tianqi Chen;Mingyuan Zhou;
+   机构: University of Texas at Austin;Google;
+   类型: Poster
+
+No.19. A Differentiable Partially Observable Generalized Linear Model with Forward-Backward Message Passing
+   标题: 具有前向-后向消息传递的可微部分可观测广义线性模型
+   链接: https://icml.cc/virtual/2024/poster/35114
+   类别: 
+   作者: Chengrui Li;Weihan Li;Yule Wang;Anqi Wu;
+   机构: Georgia Institute of Technology;
+   类型: Poster
+
+No.20. A Diffusion Model Framework for Unsupervised Neural Combinatorial Optimization
+   标题: 无监督神经组合优化的扩散模型框架
+   链接: https://icml.cc/virtual/2024/poster/34775
+   类别: 
+   作者: Sebastian Sanokowski;Sepp Hochreiter;Sebastian Lehner;
+   机构: Johannes Kepler University;
+   类型: Poster
+
+No.21. A Distributional Analogue to the Successor Representation
+   标题: 分布式的后继表示类推
+   链接: https://icml.cc/virtual/2024/poster/32627
+   类别: 
+   作者: Harley Wiltzer;Jesse Farebrother;Arthur Gretton;Yunhao Tang;Andre Barreto;Will Dabney;Marc G Bellemare;Mark Rowland;
+   机构: Mila;Google;University College London;
+   类型: Spotlight
+
+No.22. A Doubly Recursive Stochastic Compositional Gradient Descent Method for Federated Multi-Level Compositional Optimization
+   标题: 一种递归嵌套的随机复合梯度下降方法用于联邦多级复合优化
+   链接: https://icml.cc/virtual/2024/poster/34494
+   类别: 
+   作者: Hongchang Gao;
+   机构: 
+   类型: Poster
+
+No.23. A Dual-module Framework for Counterfactual Estimation over Time
+   标题: 一种双模块框架，用于时间序列上的反事实估计
+   链接: https://icml.cc/virtual/2024/poster/35167
+   类别: 
+   作者: Xin Wang;Shengfei Lyu;Lishan Yang;Yibing Zhan;Huanhuan Chen;
+   机构: University of Science and Technology of China;Nanyang Technological University;
+   类型: Poster
+
+No.24. A Dynamic Algorithm for Weighted Submodular Cover Problem
+   标题: 加权子模覆盖问题的一种动态算法
+   链接: https://icml.cc/virtual/2024/poster/32825
+   类别: 
+   作者: Kiarash Banihashem;Samira Goudarzi;MohammadTaghi Hajiaghayi;Peyman Jabbarzade;Morteza Monemizadeh;
+   机构: University of Maryland;Eindhoven University of Technology;University of Maryland, College Park;
+   类型: Oral
+
+No.25. A Dynamical Model of Neural Scaling Laws
+   标题: 神经缩放定律的动力学模型
+   链接: https://icml.cc/virtual/2024/poster/33116
+   类别: 
+   作者: Blake Bordelon;Alexander Atanasov;Cengiz Pehlevan;
+   机构: Harvard University;
+   类型: Poster
+
+No.26. A fast algorithm to simulate nonlinear resistive networks
+   标题: 一种快速模拟非线性电阻网络的算法
+   链接: https://icml.cc/virtual/2024/poster/33137
+   类别: 
+   作者: Benjamin Scellier;
+   机构: 
+   类型: Poster
+
+No.27. A Federated Stochastic Multi-level Compositional Minimax Algorithm for Deep AUC Maximization
+   标题: 联邦随机多层复合极小极大算法用于深度AUC最大化
+   链接: https://icml.cc/virtual/2024/poster/34192
+   类别: 
+   作者: Xinwen Zhang;Ali Payani;Myungjin Lee;Richard Souvenir;Hongchang Gao;
+   机构: Temple University;Cisco Systems;
+   类型: Poster
+
+No.28. A Field Guide for Pacing Budget and ROS Constraints
+   标题: 一本关于 pacing 预算和ROS约束的实用指南
+   链接: https://icml.cc/virtual/2024/poster/34463
+   类别: 
+   作者: Santiago R. Balseiro;Kshipra Bhawalkar;Zhe Feng;Haihao Lu;Vahab Mirrokni;Balasubramanian Sivan;Di Wang;
+   机构: Columbia University;Google;University of Chicago;
+   类型: Poster
+
+No.29. A Fine-grained Analysis of Fitted Q-evaluation: Beyond Parametric Models
+   标题: 细粒度分析拟合Q评估：超越参数化模型
+   链接: https://icml.cc/virtual/2024/poster/34647
+   类别: 
+   作者: Jiayi Wang;Zhengling Qi;Raymond K. W. Wong;
+   机构: University of Texas at Dallas;George Washington University;
+   类型: Poster
+
+No.30. A Fixed-Point Approach for Causal Generative Modeling
+   标题: 固定点方法在因果生成建模中的应用
+   链接: https://icml.cc/virtual/2024/poster/34365
+   类别: 
+   作者: Meyer Scetbon;Joel Jennings;Agrin Hilmkil;Cheng Zhang;Chao Ma;
+   机构: Microsoft;
+   类型: Poster
+
+No.31. A Fresh Take on Stale Embeddings: Improving Dense Retriever Training with Corrector Networks
+   标题: 陈旧嵌入的全新视角：通过正确网络改进密集检索器训练
+   链接: https://icml.cc/virtual/2024/poster/33999
+   类别: 
+   作者: Nicholas Monath;Will Sussman Grathwohl;Michael Boratko;Rob Fergus;Andrew McCallum;Manzil Zaheer;
+   机构: Google;University of Massachusetts Amherst;
+   类型: Poster
+
+No.32. A General Framework for Learning from Weak Supervision
+   标题: 弱监督学习的一般框架
+   链接: https://icml.cc/virtual/2024/poster/34867
+   类别: 
+   作者: Hao Chen;Jindong Wang;Lei Feng;Xiang Li;Yidong Wang;Xing Xie;Masashi Sugiyama;Rita Singh;Bhiksha Raj;
+   机构: Carnegie Mellon University;Singapore University of Technology and Design;Peking University;Microsoft;University of Tokyo;Mohamed bin Zayed University of Artificial Intelligence;
+   类型: Poster
+
+No.33. A General Framework for Sequential Decision-Making under Adaptivity Constraints
+   标题: 适应性约束下的序列决策制定通用框架
+   链接: https://icml.cc/virtual/2024/poster/34424
+   类别: 
+   作者: Nuoya Xiong;Zhaoran Wang;Zhuoran Yang;
+   机构: Tsinghua University;Northwestern University;Yale University;
+   类型: Poster
+
+No.34. A General Online Algorithm for Optimizing Complex Performance Metrics
+   标题: 一种优化复杂性能指标的一般在线算法
+   链接: https://icml.cc/virtual/2024/poster/33035
+   类别: 
+   作者: Wojciech Kotlowski;Marek Wydmuch;Erik Schultheis;Rohit Babbar;Krzysztof Dembczynski;
+   机构: Poznan University of Technology;Aalto University;Politechnika Poznanska;
+   类型: Poster
+
+No.35. A General Theory for Softmax Gating Multinomial Logistic Mixture of Experts
+   标题: 软性门控多项逻辑专家混合的一般理论
+   链接: https://icml.cc/virtual/2024/poster/35105
+   类别: 
+   作者: Huy Nguyen;Pedram Akbarian;TrungTin Nguyen;Nhat Ho;
+   机构: Microsoft;University of Texas at Austin;University of Queensland;
+   类型: Poster
+
+No.36. A Generative Approach for Treatment Effect Estimation under Collider Bias: From an Out-of-Distribution Perspective
+   标题: 基于生成方法的治疗效果估计：从分布外视角探讨 collider 偏差问题
+   链接: https://icml.cc/virtual/2024/poster/33253
+   类别: 
+   作者: Baohong Li;Haoxuan Li;Anpeng Wu;Minqin Zhu;shiyuan Peng;Qingyu Cao;Kun Kuang;
+   机构: Zhejiang University;Peking University;Mohamed bin Zayed University of Artificial Intelligence;
+   类型: Poster
+
+No.37. A Geometric Decomposition of Finite Games: Convergence vs. Recurrence under Exponential Weights
+   标题: 有限博弈的几何分解：指数权重下的收敛性与周期性
+   链接: https://icml.cc/virtual/2024/poster/34881
+   类别: 
+   作者: Davide Legacci;Panayotis Mertikopoulos;Bary Pradelski;
+   机构: French National Center for Scientific Research;Centre National de la Recherche Scientifique;
+   类型: Spotlight
+
+No.38. A Geometric Explanation of the Likelihood OOD Detection Paradox
+   标题: 几何解释下的似然性OOD检测悖论
+   链接: https://icml.cc/virtual/2024/poster/34582
+   类别: 
+   作者: Hamidreza Kamkari;Brendan Leigh Ross;Jesse C. Cresswell;Anthony L. Caterini;Rahul Krishnan;Gabriel Loaiza-Ganem;
+   机构: Unknown Institution;Layer 6 AI;Layer6 AI;University of Toronto;
+   类型: Poster
+
+No.39. A Global Geometric Analysis of Maximal Coding Rate Reduction
+   标题: 全局几何分析下的最大编码率降低
+   链接: https://icml.cc/virtual/2024/poster/32840
+   类别: 
+   作者: Peng Wang;Huikang Liu;Druv Pai;Yaodong Yu;Zhihui Zhu;Qing Qu;Yi Ma;
+   机构: University of Michigan;Shanghai University of Finance and Economics;University of California, Berkeley;Ohio State University;
+   类型: Poster
+
+No.40. A Graph is Worth $K$ Words: Euclideanizing Graph using Pure Transformer
+   标题: 一图胜千言：使用纯变压器欧几里得化图
+   链接: https://icml.cc/virtual/2024/poster/32612
+   类别: 
+   作者: Zhangyang Gao;Daize Dong;Cheng Tan;Jun Xia;Bozhen Hu;Stan Z. Li;
+   机构: Westlake University;Zhejiang University;
+   类型: Poster
+
+No.41. A Hierarchical Adaptive Multi-Task Reinforcement Learning Framework for Multiplier Circuit Design
+   标题: 一种分层自适应多任务强化学习框架用于乘法电路设计
+   链接: https://icml.cc/virtual/2024/poster/34306
+   类别: 
+   作者: Zhihai Wang;Jie Wang;Dongsheng Zuo;Ji Yunjie;Xilin Xia;Yuzhe Ma;Jianye HAO;Mingxuan Yuan;Yongdong Zhang;Feng Wu;
+   机构: University of Science and Technology of China;Hong Kong University of Science and Technology;Nanjing University;Tianjin University;Huawei;
+   类型: Poster
+
+No.42. A Human-Inspired Reading Agent with Gist Memory of Very Long Contexts
+   标题: 一种受人类启发的阅读代理，具有非常长上下文的要点记忆能力
+   链接: https://icml.cc/virtual/2024/poster/34161
+   类别: 
+   作者: Kuang-Huei Lee;Xinyun Chen;Hiroki Furuta;John Canny;Ian Fischer;
+   机构: Google;University of California, Berkeley;
+   类型: Poster
+
+No.43. A Language Model’s Guide Through Latent Space
+   标题: 语言模型在潜在空间中的导航指南
+   链接: https://icml.cc/virtual/2024/poster/33611
+   类别: 
+   作者: Dimitri von Rütte;Sotiris Anagnostidis;Gregor Bachmann;Thomas Hofmann;
+   机构: ETH Zurich;Swiss Federal Institute of Technology;
+   类型: Poster
+
+No.44. A Linear Time and Space Local Point Cloud Geometry Encoder via Vectorized Kernel Mixture (VecKM)
+   标题: 基于向量内核混合（VecKM）的局部点云几何局部编码器（线性时间和空间复杂度）
+   链接: https://icml.cc/virtual/2024/poster/33079
+   类别: 
+   作者: Dehao Yuan;Cornelia Fermuller;Tahseen Rabbani;Furong Huang;Yiannis Aloimonos;
+   机构: University of Maryland;
+   类型: Poster
+
+No.45. A Mechanistic Understanding of Alignment Algorithms: A Case Study on DPO and Toxicity
+   标题: 对齐算法的机制理解：以DPO和毒性为例的案例研究
+   链接: https://icml.cc/virtual/2024/poster/33565
+   类别: 
+   作者: Andrew Lee;Xiaoyan Bai;Itamar Pres;Martin Wattenberg;Jonathan K. Kummerfeld;Rada Mihalcea;
+   机构: University of Michigan;Google;
+   类型: Oral
+
+No.46. A Minimaximalist Approach to Reinforcement Learning from Human Feedback
+   标题: 一种从人类反馈进行强化学习的最小最大化主义方法
+   链接: https://icml.cc/virtual/2024/poster/34967
+   类别: 
+   作者: Gokul Swamy;Christoph Dann;Rahul Kidambi;Steven Wu;Alekh Agarwal;
+   机构: Carnegie Mellon University;Google;
+   类型: Poster
+
+No.47. A Multimodal Automated Interpretability Agent
+   标题: 多模态自动可解释性代理
+   链接: https://icml.cc/virtual/2024/poster/33183
+   类别: 
+   作者: Tamar Rott Shaham;Sarah Schwettmann;Franklin Wang;Achyuta Rajaram;Evan Hernandez;Jacob Andreas;Antonio Torralba;
+   机构: Massachusetts Institute of Technology;Microsoft;
+   类型: Poster
+
+No.48. A Near-Linear Time Approximation Algorithm for Beyond-Worst-Case Graph Clustering
+   标题: 超越最坏情况图聚类的接近线性时间近似算法
+   链接: https://icml.cc/virtual/2024/poster/34239
+   类别: 
+   作者: Vincent Cohen-Addad;Tommaso d'Orsi;Aida Mousavifar;
+   机构: Google;Bocconi University;
+   类型: Poster
+
+No.49. A Nearly Optimal Single Loop Algorithm for Stochastic Bilevel Optimization under Unbounded Smoothness
+   标题: 近最优的一次循环算法用于具有未定界光滑度的随机 bilevel 优化
+   链接: https://icml.cc/virtual/2024/poster/35081
+   类别: 
+   作者: Xiaochuan Gong;Jie Hao;Mingrui Liu;
+   机构: George Mason University;
+   类型: Poster
+
+No.50. A Neural-Guided Dynamic Symbolic Network for Exploring Mathematical Expressions from Data
+   标题: 一种神经引导的动力符号网络，用于从数据探索数学表达式
+   链接: https://icml.cc/virtual/2024/poster/34421
+   类别: 
+   作者: Wenqiang Li;Weijun Li;Lina Yu;Min Wu;Linjun Sun;Jingyi Liu;Yanjie Li;Shu Wei;Deng Yusong;Meilan Hao;
+   机构: University of Chinese Academy of Sciences;Chinese Academy of Sciences;
+   类型: Poster
+
+No.51. A Neural-Preconditioned Poisson Solver for Mixed Dirichlet and Neumann Boundary Conditions
+   标题: 基于神经预处理的泊松求解器用于混合狄利克雷和诺伊曼边界条件
+   链接: https://icml.cc/virtual/2024/poster/33924
+   类别: 
+   作者: Kai Weixian Lan;Elias Gueidon;Ayano Kaneda;Julian Panetta;Joseph Teran;
+   机构: University of California, Los Angeles;Waseda University;University of California, Davis;
+   类型: Poster
+
+No.52. A New Branch-and-Bound Pruning Framework for $\ell_0$-Regularized Problems
+   标题: 一种用于$\ell_0$正则化问题的新分支定界剪枝框架
+   链接: https://icml.cc/virtual/2024/poster/32714
+   类别: 
+   作者: Theo Guyard;Cédric Herzet;Clément Elvira;Ayse-Nur Arslan;
+   机构: Institut National des Sciences Appliquées de Rennes;CentraleSupélec;
+   类型: Poster
+
+No.53. A New Computationally Efficient Algorithm to solve Feature Selection for Functional Data Classification in High-dimensional Spaces
+   标题: 一种在高维空间解决功能性数据分类特征选择的新高效算法
+   链接: https://icml.cc/virtual/2024/poster/33700
+   类别: 
+   作者: Tobia Boschi;Francesca Bonin;Rodrigo Ordonez-Hurtado;Alessandra Pascale;Jonathan P Epperlein;
+   机构: International Business Machines Corporation;
+   类型: Poster
+
+No.54. A New Linear Scaling Rule for Private Adaptive Hyperparameter Optimization
+   标题: 一种新的线性缩放规则用于私有自适应超参数优化
+   链接: https://icml.cc/virtual/2024/poster/34966
+   类别: 
+   作者: Ashwinee Panda;Xinyu Tang;Saeed Mahloujifar;Vikash Sehwag;Prateek Mittal;
+   机构: Princeton University;Meta;Sony;
+   类型: Poster
+
+No.55. A New Robust Partial p-Wasserstein-Based Metric for Comparing Distributions
+   标题: 一种新的稳健部分 p-Wasserstein 距离用于分布比较
+   链接: https://icml.cc/virtual/2024/poster/33067
+   类别: 
+   作者: Sharath Raghvendra;Pouyan Shirzadian;Kaiyi Zhang;
+   机构: North Carolina State University;Virginia Tech;
+   类型: Poster
+
+No.56. A New Theoretical Perspective on Data Heterogeneity in Federated Optimization
+   标题: 联邦优化中的数据异质性新理论视角
+   链接: https://icml.cc/virtual/2024/poster/32945
+   类别: 
+   作者: Jiayi Wang;Shiqiang Wang;Rong-Rong Chen;Mingyue Ji;
+   机构: Oak Ridge National Laboratory;International Business Machines;University of Utah;University of Florida;
+   类型: Poster
+
+No.57. A Persuasive Approach to Combating Misinformation
+   标题: 一种有说服力的方法对抗 misinformation
+   链接: https://icml.cc/virtual/2024/poster/33949
+   类别: 
+   作者: Safwan Hossain;Andjela Mladenovic;Yiling Chen;Gauthier Gidel;
+   机构: Harvard University;University of Montreal;Quebec Artificial Intelligence Institute;
+   类型: Poster
+
+No.58. A Primal-Dual Algorithm for Offline Constrained Reinforcement Learning with Linear MDPs
+   标题: 基于原始对偶算法的线性MDP的离线约束强化学习方法
+   链接: https://icml.cc/virtual/2024/poster/34025
+   类别: 
+   作者: Kihyuk Hong;Ambuj Tewari;
+   机构: University of Michigan;
+   类型: Poster
+
+No.59. A Probabilistic Approach to Learning the Degree of Equivariance in Steerable CNNs
+   标题: 基于概率方法学习可旋转不变性的程度在可旋转卷积神经网络中的应用
+   链接: https://icml.cc/virtual/2024/poster/35033
+   类别: 
+   作者: Lars Veefkind;Gabriele Cesa;
+   机构: Qualcomm Incorporated;
+   类型: Poster
+
+No.60. A Provable Decision Rule for Out-of-Distribution Detection
+   标题: 可验证的出域检测决策规则
+   链接: https://icml.cc/virtual/2024/poster/34009
+   类别: 
+   作者: Xinsong Ma;Xin Zou;Weiwei Liu;
+   机构: Wuhan University;
+   类型: Poster
+
+No.61. A Provably Effective Method for Pruning Experts in Fine-tuned Sparse Mixture-of-Experts
+   标题: 一种在细调稀疏混合专家模型中证明有效的专家剪枝方法
+   链接: https://icml.cc/virtual/2024/poster/35133
+   类别: 
+   作者: Mohammed Nowaz Rabbani Chowdhury;Meng Wang;Kaoutar El Maghraoui;Naigang Wang;Pin-Yu Chen;Christopher Carothers;
+   机构: University of Dhaka;Rensselaer Polytechnic Institute;International Business Machines Corporation;International Business Machines;
+   类型: Poster
+
+No.62. A Rate-Distortion View of Uncertainty Quantification
+   标题: 一种速率-失真视角下的不确定性量化
+   链接: https://icml.cc/virtual/2024/poster/32634
+   类别: 
+   作者: Ifigeneia Apostolopoulou;Benjamin Eysenbach;Frank Nielsen;Artur Dubrawski;
+   机构: Carnegie Mellon University;Princeton University;Sony Computer Science Laboratories Inc;
+   类型: Poster
+
+No.63. A Resilient and Accessible Distribution-Preserving Watermark for Large Language Models
+   标题: 一种健壮且可访问的大规模语言模型分布保留水印
+   链接: https://icml.cc/virtual/2024/poster/33605
+   类别: 
+   作者: Yihan Wu;Zhengmian Hu;Junfeng Guo;Hongyang Zhang;Heng Huang;
+   机构: University of Maryland;University of Waterloo;University of Maryland, College Park;
+   类型: Poster
+
+No.64. A sampling theory perspective on activations for implicit neural representations
+   标题: 从抽样理论角度看隐式神经表示中的激活函数
+   链接: https://icml.cc/virtual/2024/poster/33593
+   类别: 
+   作者: Hemanth Saratchandran;Sameera Ramasinghe;Violetta Shevchenko;Alexander Long;Simon Lucey;
+   机构: Amazon;University of Adelaide;
+   类型: Poster
+
+No.65. A Simple Early Exiting Framework for Accelerated Sampling in Diffusion Models
+   标题: 一种简单的早期退出框架，用于加速扩散模型的采样
+   链接: https://icml.cc/virtual/2024/poster/34144
+   类别: 
+   作者: Taehong Moon;Moonseok Choi;EungGu Yun;Jongmin Yoon;Gayoung Lee;Jaewoong Cho;Juho Lee;
+   机构: KRAFTON Inc.;Korea Advanced Institute of Science and Technology;SAIGE;NAVER Corporation;
+   类型: Poster
+
+No.66. A Single-Loop Robust Policy Gradient Method for Robust Markov Decision Processes
+   标题: 单环鲁棒策略梯度方法用于鲁棒马尔可夫决策过程
+   链接: https://icml.cc/virtual/2024/poster/33907
+   类别: 
+   作者: Zhenwei Lin;Chenyu Xue;Qi Deng;Yinyu Ye;
+   机构: Shanghai University of Finance and Economics;National University of Singapore;
+   类型: Poster
+
+No.67. A Sober Look at LLMs for Material Discovery: Are They Actually Good for Bayesian Optimization Over Molecules?
+   标题: 对材料发现中的LLMs进行严肃审视：它们实际上适合于分子的贝叶斯优化吗？
+   链接: https://icml.cc/virtual/2024/poster/34116
+   类别: 
+   作者: Agustinus Kristiadi;Felix Strieth-Kalthoff;Marta Skreta;Pascal Poupart;Alan Aspuru-Guzik;Geoff Pleiss;
+   机构: Vector Institute;University of Toronto;University of Waterloo;
+   类型: Poster
+
+No.68. A Space Group Symmetry Informed Network for O(3) Equivariant Crystal Tensor Prediction
+   标题: 基于空间群对称性的网络在O(3)等变晶体张量预测中的应用
+   链接: https://icml.cc/virtual/2024/poster/34727
+   类别: 
+   作者: Keqiang Yan;Alexandra Saxton;Xiaofeng Qian;Xiaoning Qian;Shuiwang Ji;
+   机构: Texas A&M University;
+   类型: Poster
+
+No.69. A Sparsity Principle for Partially Observable Causal Representation Learning
+   标题: 部分可观测因果表示学习的稀疏性原则
+   链接: https://icml.cc/virtual/2024/poster/34245
+   类别: 
+   作者: Danru Xu;Dingling Yao;Sebastien Lachapelle;Perouz Taslakian;Julius von Kügelgen;Francesco Locatello;Sara Magliacane;
+   机构: Institute of Science and Technology;University of Montreal;ServiceNow;University of Amsterdam;
+   类型: Poster
+
+No.70. A Statistical Framework for Data-dependent Retrieval-Augmented Models
+   标题: 数据依赖检索增强模型的统计框架
+   链接: https://icml.cc/virtual/2024/poster/34784
+   类别: 
+   作者: Soumya Basu;Ankit Singh Rawat;Manzil Zaheer;
+   机构: Google;
+   类型: Poster
+
+No.71. A Statistical Theory of Regularization-Based Continual Learning
+   标题: 基于正则化的一种统计理论连续学习方法
+   链接: https://icml.cc/virtual/2024/poster/34787
+   类别: 
+   作者: Xuyang Zhao;Huiyuan Wang;Weiran Huang;Wei Lin;
+   机构: Peking University;University of Pennsylvania;Shanghai AI Laboratory;
+   类型: Poster
+
+No.72. A Study of First-Order Methods with a Deterministic Relative-Error Gradient Oracle
+   标题: 关于具有确定相对误差梯度查询的一阶方法研究
+   链接: https://icml.cc/virtual/2024/poster/34143
+   类别: 
+   作者: Nadav Hallak;Kfir Yehuda Levy;
+   机构: Technion - Israel Institute of Technology;
+   类型: Poster
+
+No.73. A Subquadratic Time Algorithm for Robust Sparse Mean Estimation
+   标题: 一个次平方时间算法用于鲁棒稀疏均值估计
+   链接: https://icml.cc/virtual/2024/poster/33869
+   类别: 
+   作者: Ankit Pensia;
+   机构: IBM;
+   类型: Spotlight
+
+No.74. A Tale of Tails: Model Collapse as a Change of Scaling Laws
+   标题: 尾的故事：模型崩溃作为一种尺度定律的变化
+   链接: https://icml.cc/virtual/2024/poster/34339
+   类别: 
+   作者: Elvis Dohmatob;Yunzhen Feng;Pu Yang;Francois Charton;Julia Kempe;
+   机构: Meta;Peking University;
+   类型: Poster
+
+No.75. A Tensor Decomposition Perspective on Second-order RNNs
+   标题: 张量分解视角下的第二阶RNN
+   链接: https://icml.cc/virtual/2024/poster/34560
+   类别: 
+   作者: Maude Lizaire;Michael Rizvi-Martel;Marawan Gamal;Guillaume Rabusseau;
+   机构: Université de Montréal;Quebec AI Institute;
+   类型: Spotlight
+
+No.76. A Theoretical Analysis of Backdoor Poisoning Attacks in Convolutional Neural Networks
+   标题: 《卷积神经网络中的后门中毒攻击理论分析》
+   链接: https://icml.cc/virtual/2024/poster/33997
+   类别: 
+   作者: Boqi Li;Weiwei Liu;
+   机构: Wuhan University;
+   类型: Spotlight
+
+No.77. A Theory of Fault-Tolerant Learning
+   标题: 一种容错学习理论
+   链接: https://icml.cc/virtual/2024/poster/33070
+   类别: 
+   作者: Changlong Wu;Yifan Wang;Ananth Grama;
+   机构: Purdue University;
+   类型: Spotlight
+
+No.78. A Theory of Non-Linear Feature Learning with One Gradient Step in Two-Layer Neural Networks
+   标题: 两层神经网络中一阶梯度步长的非线性特征学习理论
+   链接: https://icml.cc/virtual/2024/poster/33970
+   类别: 
+   作者: Behrad Moniri;Donghwan Lee;Hamed Hassani;Edgar Dobriban;
+   机构: University of Pennsylvania;
+   类型: Poster
+
+No.79. A Touch, Vision, and Language Dataset for Multimodal Alignment
+   标题: 多模态对齐的触觉、视觉和语言数据集
+   链接: https://icml.cc/virtual/2024/poster/32873
+   类别: 
+   作者: Letian Fu;Gaurav Datta;Huang Huang;William Chung-Ho Panitch;Jaimyn Drake;Joseph Ortiz;Mustafa Mukadam;Mike Lambeta;Roberto Calandra;Ken Goldberg;
+   机构: University of California, Berkeley;Google;Meta;Technische Universität Dresden;
+   类型: Oral
+
+No.80. A Unified Adaptive Testing System Enabled by Hierarchical Structure Search
+   标题: 基于层次结构搜索的统一自适应测试系统
+   链接: https://icml.cc/virtual/2024/poster/33744
+   类别: 
+   作者: Junhao Yu;Yan Zhuang;Zhenya Huang;Qi Liu;Xin Li;Rui LI;Enhong Chen;
+   机构: University of Science and Technology of China;
+   类型: Poster
+
+No.81. A Unified Framework for Learning with Nonlinear Model Classes from Arbitrary Linear Samples
+   标题: 一个统一的学习框架，用于从任意线性样本中学习非线性模型类
+   链接: https://icml.cc/virtual/2024/poster/32752
+   类别: 
+   作者: Ben Adcock;Juan M. Cardenas;Nick Dexter;
+   机构: Florida State University;
+   类型: Poster
+
+No.82. A Unified Linear Programming Framework for Offline Reward Learning from Human Demonstrations and Feedback
+   标题: 基于人类示范和反馈的离线奖励学习统一线性规划框架
+   链接: https://icml.cc/virtual/2024/poster/34146
+   类别: 
+   作者: Kihyun Kim;Jiawei Zhang;Asuman E. Ozdaglar;Pablo Parrilo;
+   机构: Massachusetts Institute of Technology;
+   类型: Poster
+
+No.83. A Unified View of FANOVA: A Comprehensive Bayesian Framework for Component Selection and Estimation
+   标题: 统一视角下的FANOVA：一个全面的贝叶斯框架用于组件选择与估计
+   链接: https://icml.cc/virtual/2024/poster/33553
+   类别: 
+   作者: yosra marnissi;Maxime Leiber;
+   机构: 
+   类型: Poster
+
+No.84. A Universal Class of Sharpness-Aware Minimization Algorithms
+   标题: 一类通用的锐化意识最小化算法
+   链接: https://icml.cc/virtual/2024/poster/34803
+   类别: 
+   作者: Behrooz Tahmasebi;Ashkan Soleymani;Dara Bahri;Stefanie Jegelka;Patrick Jaillet;
+   机构: Microsoft;Massachusetts Institute of Technology;Google;
+   类型: Poster
+
+No.85. A Universal Transfer Theorem for Convex Optimization Algorithms Using Inexact First-order Oracles
+   标题: 使用不精确一阶或acles的凸优化算法通用传输定理
+   链接: https://icml.cc/virtual/2024/poster/33688
+   类别: 
+   作者: Phillip Kerger;Marco Molinaro;Hongyi Jiang;Amitabh Basu;
+   机构: Pontifical Catholic University of Rio de Janeiro;Cornell University;Johns Hopkins University;
+   类型: Poster
+
+No.86. A2Q+: Improving Accumulator-Aware Weight Quantization
+   标题: A2Q+: 提升累加器感知权重量化
+   链接: https://icml.cc/virtual/2024/poster/33165
+   类别: 
+   作者: Ian Colbert;Alessandro Pappalardo;Jakoba Petri-Koenig;Yaman Umuroglu;
+   机构: AMD Research;Advanced Micro Devices, Inc.;Advanced Micro Devices;
+   类型: Poster
+

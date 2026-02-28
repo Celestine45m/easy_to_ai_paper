@@ -120,9 +120,10 @@ def setup_driver(headless=False):
         raise
 
 
-def click_fetch_all_button(driver, timeout=30):
+def click_fetch_all_button(driver, timeout=120):
     """
-    查找并点击"click to fetch all"按钮
+    查找并点击 "Click to Fetch All" 按钮。
+    页面按钮为: <a id="btn_fetchall" class="wp-block-button__link wp-element-button">Click to Fetch All</a>
     
     Args:
         driver: WebDriver实例
@@ -131,56 +132,32 @@ def click_fetch_all_button(driver, timeout=30):
     Returns:
         bool: 是否成功点击
     """
-    try:
-        # 尝试多种可能的按钮文本和选择器
-        button_selectors = [
-            "//button[contains(text(), 'Click to Fetch All')]",
-            "//button[contains(text(), 'Click to fetch all')]",
-            "//button[contains(text(), 'Fetch All')]",
-            "//a[contains(text(), 'Click to Fetch All')]",
-            "//a[contains(text(), 'Click to fetch all')]",
-            "//*[contains(text(), 'click to fetch all')]",
-            "//*[@id='fetch-all']",
-            "//button[@class='fetch-all']",
-        ]
-        
-        for selector in button_selectors:
-            try:
-                if selector.startswith("//"):
-                    # XPath选择器
-                    button = WebDriverWait(driver, 5).until(
-                        EC.element_to_be_clickable((By.XPATH, selector))
-                    )
-                else:
-                    # CSS选择器
-                    button = WebDriverWait(driver, 5).until(
-                        EC.element_to_be_clickable((By.CSS_SELECTOR, selector))
-                    )
-                
-                # 滚动到按钮位置
-                driver.execute_script("arguments[0].scrollIntoView(true);", button)
-                time.sleep(1)
-                
-                # 点击按钮
-                button.click()
-                print(f"  ✓ 成功点击按钮: {selector}")
-                
-                # 等待内容加载
-                time.sleep(3)
-                return True
-                
-            except TimeoutException:
-                continue
-            except Exception as e:
-                print(f"  ⚠ 尝试选择器 {selector} 时出错: {e}")
-                continue
-        
-        print("  ⚠ 未找到'click to fetch all'按钮，可能页面已自动加载所有内容")
-        return False
-        
-    except Exception as e:
-        print(f"  ⚠ 查找按钮时出错: {e}")
-        return False
+    # 按优先级：先按 id（最稳定），再按文本/class
+    selectors = [
+        ("id", By.ID, "btn_fetchall"),
+        ("css", By.CSS_SELECTOR, "#btn_fetchall"),
+        ("xpath", By.XPATH, "//*[@id='btn_fetchall']"),
+        ("xpath", By.XPATH, "//a[contains(text(), 'Click to Fetch All')]"),
+        ("xpath", By.XPATH, "//a[contains(text(), 'Click to fetch all')]"),
+        ("xpath", By.XPATH, "//a[contains(@class, 'wp-block-button__link') and contains(text(), 'Fetch All')]"),
+        ("xpath", By.XPATH, "//button[contains(text(), 'Click to Fetch All')]"),
+        ("xpath", By.XPATH, "//*[contains(text(), 'click to fetch all')]"),
+    ]
+    wait = WebDriverWait(driver, 5)
+    for name, by, value in selectors:
+        try:
+            button = wait.until(EC.element_to_be_clickable((by, value)))
+            driver.execute_script("arguments[0].scrollIntoView(true);", button)
+            time.sleep(0.5)
+            button.click()
+            print(f"  ✓ 成功点击 'Click to Fetch All' 按钮 (通过 {name}: {value})")
+            return True
+        except TimeoutException:
+            continue
+        except Exception as e:
+            continue
+    print("  ⚠ 未找到 'Click to Fetch All' 按钮，可能页面已自动加载所有内容")
+    return False
 
 
 def extract_paperlist_table(driver):
@@ -265,7 +242,7 @@ def save_table_html(table_html, conference, year, output_dir=None):
     return str(filepath)
 
 
-def crawl_paper_list(conference, year, headless=False, wait_time=5, output_dir=None, overwrite=False):
+def crawl_paper_list(conference, year, headless=False, wait_time=120, output_dir=None, overwrite=False):
     """
     爬取指定会议和年份的论文列表
     
@@ -316,11 +293,11 @@ def crawl_paper_list(conference, year, headless=False, wait_time=5, output_dir=N
         
         # 尝试点击"click to fetch all"按钮
         print("正在查找并点击'click to fetch all'按钮...")
-        click_fetch_all_button(driver, timeout=30)
+        click_fetch_all_button(driver, timeout=120)
         
         # 额外等待，确保内容加载完成
         print("等待内容加载完成...")
-        time.sleep(5)
+        time.sleep(60)
         
         # 提取表格
         print("正在提取表格内容...")
@@ -348,7 +325,7 @@ def crawl_paper_list(conference, year, headless=False, wait_time=5, output_dir=N
             driver.quit()
 
 
-def crawl_multiple_conferences(conferences_years, headless=False, wait_time=5):
+def crawl_multiple_conferences(conferences_years, headless=False, wait_time=120):
     """
     批量爬取多个会议和年份的论文列表
     
@@ -398,17 +375,18 @@ def main():
         """
     )
     
-    parser.add_argument(
-        '--conference', '-c',
-        nargs='+',
-        required=True,
-        help='会议名称（可指定多个，如: NeurIPS ICLR ICML）'
-    )
-    parser.add_argument(
-        '--year', '-y',
-        required=True,
-        help='年份（如: 2025）'
-    )
+    # parser.add_argument(
+    #     '--conference', '-c',
+    #     nargs='+',
+    #     required=True,
+    #     help='会议名称（可指定多个，如: NeurIPS ICLR ICML）'
+    # )
+    # parser.add_argument(
+    #     '--year', '-y',
+    #     required=True,
+    #     help='年份（如: 2025）'
+    # )
+    
     parser.add_argument(
         '--headless', '-H',
         action='store_true',
@@ -427,6 +405,7 @@ def main():
     )
     parser.add_argument(
         '--overwrite',
+        default=True,
         action='store_true',
         help='如果文件已存在，覆盖现有文件'
     )
@@ -434,11 +413,39 @@ def main():
     args = parser.parse_args()
     
     # 构建会议和年份列表
-    conferences_years = [(conf, args.year) for conf in args.conference]
+    # conferences_years = [(conf, args.year) for conf in args.conference]
+
+    paper_dict = {
+        # "NeurIPS": "2025",
+        # "NeurIPS": "2024",
+        "NeurIPS": "2023",
+
+        # "ICLR": "2025",
+        # "ICLR": "2024",
+        # "ICLR": "2023",
+
+        # "ICML": "2025",
+        # "ICML": "2024",
+        # "ICML": "2023",
+
+        # "AAAI": "2025",
+        # "AAAI": "2024",
+        # "AAAI": "2023",
+        
+        # "IJCAI": "2024",
+        # "IJCAI": "2023",
+
+        # "ACL": "2024",
+        # "ACL": "2023",
+
+        # "EMNLP": "2024",
+        # "EMNLP": "2023",
+
+    }
     
     # 批量爬取
     results = {}
-    for conference, year in conferences_years:
+    for conference, year in paper_dict.items():
         print(f"\n{'='*100}")
         print(f"处理: {conference} {year}")
         print(f"{'='*100}")
@@ -454,7 +461,7 @@ def main():
         results[f"{conference}_{year}"] = filepath
         
         # 在两次爬取之间等待
-        if len(conferences_years) > 1:
+        if len(paper_dict) > 1:
             print(f"\n等待3秒后继续下一个...")
             time.sleep(3)
     

@@ -504,12 +504,12 @@ if __name__ == "__main__":
         # "NeurIPS": "2024",
         # "NeurIPS": "2023",
 
-        # "ICLR": "2026",
         # "ICLR": "2025",
         # "ICLR": "2024",
+        # "ICLR": "2023",
 
         # "ICML": "2025",
-        # "ICML": "2024",
+        "ICML": "2024",
         # "ICML": "2023",
 
         # "AAAI": "2025",
@@ -518,18 +518,18 @@ if __name__ == "__main__":
         
         # "IJCAI": "2024",
         # "IJCAI": "2023",
-        # "IJCAI": "2022",
 
         # "ACL": "2024",
         # "ACL": "2023",
-        # "ACL": "2022",
 
-        "EMNLP": "2024",
+        # "EMNLP": "2024",
         # "EMNLP": "2023",
-        # "EMNLP": "2022",
 
     }
+    
     for conference,year in paper_dict.items():
+        print(f"处理: {conference} {year}")
+        print(f"{'='*100}")
         input_file_path = f"{conference}/{conference}_{year}.html"
         output_file_path = f"{conference}/{conference}_{year}_accepted.txt"
         output_json_path = f"{conference}/{conference}_{year}_accepted.json"
