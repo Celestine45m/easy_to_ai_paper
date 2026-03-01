@@ -4875,7 +4875,8 @@ arXi: https://arxiv.org/abs/2406.12197
 英摘: We propose a multi-agent debate as optimization (DAO) system for event extraction, where the primary objective is to iteratively refine the large language models (LLMs) outputs through debating without parameter tuning. In DAO, we introduce two novel modules: the Diverse-RAG (DRAG) module and the Adaptive Conformal Prediction (AdaCP) module. DRAG systematically retrieves supporting information that best fits the debate discussion, while AdaCP enhances the accuracy and reliability of event extraction by effectively rejecting less promising answers. Experimental results demonstrate a significant reduction in the performance gap between supervised approaches and tuning-free LLM-based methods by 18.1% and 17.8% on ACE05 and 17.9% and 15.2% on CASIE for event detection and argument extraction respectively.
 中摘: 我们提出了一种多智能体辩论作为优化（DAO）系统用于事件提取，其主要目标是通过辩论逐步细化大型语言模型（LLMs）的输出，而不进行参数调整。在DAO中，我们引入了两个新型模块：Diverse-RAG（DRAG）模块和自适应符合预测（AdaCP）模块。DRAG系统性地检索出最符合辩论讨论的支持信息，而AdaCP则通过有效排除不太有希望的答案来增强事件提取的准确性和可靠性。实验结果表明，DAO显著缩小了监督方法与无需调参的LLM基方法之间的性能差距，在ACE05数据集上分别在事件检测和论据提取方面减少了18.1%和17.8%，在CASIE数据集上分别减少了17.9%和15.2%。
 ----------------------------------------------------------------------------------------------------
-[No.414] DKEC: Domain Knowledge Enhanced Multi-Label Classification for Diagnosis Prediction
+[No.414] 
+
 来源: EMNLP 2025
 命中: prediction
 标题: DKEC：基于领域知识增强的多标签分类诊断预测

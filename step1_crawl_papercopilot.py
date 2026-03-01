@@ -415,37 +415,38 @@ def main():
     # 构建会议和年份列表
     # conferences_years = [(conf, args.year) for conf in args.conference]
 
-    paper_dict = {
-        # "NeurIPS": "2025",
-        # "NeurIPS": "2024",
-        "NeurIPS": "2023",
-
-        # "ICLR": "2025",
-        # "ICLR": "2024",
-        # "ICLR": "2023",
-
-        # "ICML": "2025",
-        # "ICML": "2024",
-        # "ICML": "2023",
-
-        # "AAAI": "2025",
-        # "AAAI": "2024",
-        # "AAAI": "2023",
+    # 使用 (会议, 年份) 元组列表，避免 dict 中同会议多届被重复 key 覆盖
+    paper_list = [
+        # ("NeurIPS", "2025"),
+        # ("NeurIPS", "2024"),
+        # ("NeurIPS", "2023"),
         
-        # "IJCAI": "2024",
-        # "IJCAI": "2023",
+        # ("ICLR", "2025"),
+        # ("ICLR", "2024"),
+        # ("ICLR", "2023"),
+        
+        # ("ICML", "2025"),
+        # ("ICML", "2024"),
+        # ("ICML", "2023"),
+        
+        # ("AAAI", "2025"),
+        ("AAAI", "2024"),
+        # ("AAAI", "2023"),
+        
+        # ("IJCAI", "2024"),
+        # ("IJCAI", "2023"),
+        
+        # ("ACL", "2024"),
+        # ("ACL", "2023"),
 
-        # "ACL": "2024",
-        # "ACL": "2023",
+        # ("EMNLP", "2024"),
+        # ("EMNLP", "2023"),
+    ]
 
-        # "EMNLP": "2024",
-        # "EMNLP": "2023",
-
-    }
     
     # 批量爬取
     results = {}
-    for conference, year in paper_dict.items():
+    for conference, year in paper_list:
         print(f"\n{'='*100}")
         print(f"处理: {conference} {year}")
         print(f"{'='*100}")
@@ -461,7 +462,7 @@ def main():
         results[f"{conference}_{year}"] = filepath
         
         # 在两次爬取之间等待
-        if len(paper_dict) > 1:
+        if len(paper_list) > 1:
             print(f"\n等待3秒后继续下一个...")
             time.sleep(3)
     

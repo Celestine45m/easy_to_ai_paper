@@ -324,11 +324,37 @@ def save_summary_statistics(category_counter, affiliation_counter, total_papers,
 def main():
     """主函数：同时执行类别统计和机构统计"""
     # 配置参数
-    paper_list = ["ICLR", "ICML", "NeurIPS", "AAAI", "IJCAI", "ACL", "EMNLP"]
-    year = "2024"
+        # 使用 (会议, 年份) 元组列表，避免 dict 中同会议多届被重复 key 覆盖
+    paper_list = [
+        ("NeurIPS", "2025"),
+        ("NeurIPS", "2024"),
+        ("NeurIPS", "2023"),
+        
+        ("ICLR", "2025"),
+        ("ICLR", "2024"),
+        ("ICLR", "2023"),
+        
+        ("ICML", "2025"),
+        ("ICML", "2024"),
+        ("ICML", "2023"),
+        
+        ("AAAI", "2025"),
+        ("AAAI", "2024"),
+        ("AAAI", "2023"),
+        
+        ("IJCAI", "2024"),
+        ("IJCAI", "2023"),
+        
+        ("ACL", "2024"),
+        ("ACL", "2023"),
+
+        ("EMNLP", "2024"),
+        ("EMNLP", "2023"),
+    ]
+
     first_author_only = False  # 改为True只统计第一作者机构
     
-    for paper in paper_list:
+    for paper, year in paper_list:
         json_file = Path(f"{paper}/{paper}_{year}_accepted.json")
         
         if not json_file.exists():

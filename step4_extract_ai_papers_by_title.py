@@ -161,8 +161,34 @@ def extract_papers_by_keyword(keywords, case_sensitive=False, fetch_abstracts=Fa
         keywords = [keywords]
     
     # 配置参数
-    paper_list = ["ICLR", "ICML", "NeurIPS", "AAAI", "IJCAI", "ACL", "EMNLP"]
-    years = ["2025", "2024", "2023"]
+        # 使用 (会议, 年份) 元组列表，避免 dict 中同会议多届被重复 key 覆盖
+    paper_list = [
+        ("NeurIPS", "2025"),
+        ("NeurIPS", "2024"),
+        ("NeurIPS", "2023"),
+        
+        ("ICLR", "2025"),
+        ("ICLR", "2024"),
+        ("ICLR", "2023"),
+        
+        ("ICML", "2025"),
+        ("ICML", "2024"),
+        ("ICML", "2023"),
+        
+        ("AAAI", "2025"),
+        ("AAAI", "2024"),
+        ("AAAI", "2023"),
+        
+        ("IJCAI", "2024"),
+        ("IJCAI", "2023"),
+        
+        ("ACL", "2024"),
+        ("ACL", "2023"),
+
+        ("EMNLP", "2024"),
+        ("EMNLP", "2023"),
+    ]
+
     
     matched_papers = []
     paper_count = 0
@@ -179,71 +205,71 @@ def extract_papers_by_keyword(keywords, case_sensitive=False, fetch_abstracts=Fa
         print(f"已启用摘要获取功能，将逐篇获取摘要并翻译")
         print(f"{'='*100}\n")
     
-    for conference in paper_list:
-        for year in years:
-            json_file = Path(f"{conference}/{conference}_{year}_accepted.json")
+    for conference, year in paper_list:
+
+        json_file = Path(f"{conference}/{conference}_{year}_accepted.json")
+    
+        if not json_file.exists():
+            print(f"警告: 文件不存在，跳过: {json_file}")
+            continue
         
-            if not json_file.exists():
-                print(f"警告: 文件不存在，跳过: {json_file}")
-                continue
-            
-            print(f"正在处理: {conference} {year}...")
-            conference_count = 0
-            
-            # 读取JSON文件（每行一个JSON对象）
-            with open(json_file, 'r', encoding='utf-8') as f:
-                for line_num, line in enumerate(f, 1):
-                    line = line.strip()
-                    if not line:  # 跳过空行
-                        continue
+        print(f"正在处理: {conference} {year}...")
+        conference_count = 0
+        
+        # 读取JSON文件（每行一个JSON对象）
+        with open(json_file, 'r', encoding='utf-8') as f:
+            for line_num, line in enumerate(f, 1):
+                line = line.strip()
+                if not line:  # 跳过空行
+                    continue
+                
+                try:
+                    # 解析JSON对象
+                    paper = json.loads(line)
                     
-                    try:
-                        # 解析JSON对象
-                        paper = json.loads(line)
-                        
-                        # 提取title字段
-                        title = paper.get('title', '')
-                        
-                        # 检查title中是否包含任意一个关键词，并记录所有命中的关键词
-                        matched_keywords = []
-                        if case_sensitive:
-                            for keyword in keywords:
-                                if keyword in title:
-                                    matched_keywords.append(keyword)
-                        else:
-                            title_lower = title.lower()
-                            for keyword in keywords:
-                                if keyword.lower() in title_lower:
-                                    matched_keywords.append(keyword)
-                        
-                        if matched_keywords:
-                            # 添加来源字段和命中的关键词
-                            paper['source'] = f"{conference} {year}"
-                            paper['matched_keywords'] = matched_keywords
-                            paper_count += 1
-                            conference_count += 1
-                            
-                            # 如果启用，立即获取摘要并翻译
-                            if fetch_abstracts:
-                                print(f"\n[{paper_count}] 开始获取摘要: {title[:60]}...")
-                                paper = _fetch_single_paper_abstract(paper, delay)
-                                time.sleep(delay)  # 延迟，避免请求过快
-                            
-                            matched_papers.append(paper)
-                            
-                            # 如果提供输出文件，立即写入
-                            if output_file:
-                                _write_single_paper_to_file(paper, paper_count, output_file, keywords, is_first_paper=(paper_count == 1))
-                                print(f"  📝 已保存第 {paper_count} 篇论文到 {output_file}")
+                    # 提取title字段
+                    title = paper.get('title', '')
                     
-                    except json.JSONDecodeError as e:
-                        print(f"警告: {conference} 第 {line_num} 行JSON解析失败: {e}")
-                        continue
-                    except Exception as e:
-                        print(f"警告: {conference} 第 {line_num} 行处理出错: {e}")
-                        continue
-            
-            print(f"  ✓ {conference} 处理完成，找到 {conference_count} 篇匹配论文")
+                    # 检查title中是否包含任意一个关键词，并记录所有命中的关键词
+                    matched_keywords = []
+                    if case_sensitive:
+                        for keyword in keywords:
+                            if keyword in title:
+                                matched_keywords.append(keyword)
+                    else:
+                        title_lower = title.lower()
+                        for keyword in keywords:
+                            if keyword.lower() in title_lower:
+                                matched_keywords.append(keyword)
+                    
+                    if matched_keywords:
+                        # 添加来源字段和命中的关键词
+                        paper['source'] = f"{conference} {year}"
+                        paper['matched_keywords'] = matched_keywords
+                        paper_count += 1
+                        conference_count += 1
+                        
+                        # 如果启用，立即获取摘要并翻译
+                        if fetch_abstracts:
+                            print(f"\n[{paper_count}] 开始获取摘要: {title[:60]}...")
+                            paper = _fetch_single_paper_abstract(paper, delay)
+                            time.sleep(delay)  # 延迟，避免请求过快
+                        
+                        matched_papers.append(paper)
+                        
+                        # 如果提供输出文件，立即写入
+                        if output_file:
+                            _write_single_paper_to_file(paper, paper_count, output_file, keywords, is_first_paper=(paper_count == 1))
+                            print(f"  📝 已保存第 {paper_count} 篇论文到 {output_file}")
+                
+                except json.JSONDecodeError as e:
+                    print(f"警告: {conference} 第 {line_num} 行JSON解析失败: {e}")
+                    continue
+                except Exception as e:
+                    print(f"警告: {conference} 第 {line_num} 行处理出错: {e}")
+                    continue
+        
+        print(f"  ✓ {conference} 处理完成，找到 {conference_count} 篇匹配论文")
     
     # 如果提供输出文件，写入文件尾
     if output_file and matched_papers:

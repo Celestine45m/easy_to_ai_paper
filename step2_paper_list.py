@@ -61,7 +61,7 @@ def extract_paper_titles_with_details(input_file_path, output_file_path, output_
                         index += 1
 
                         presentation_type = td_elements[7].get_text(strip=True) if len(td_elements) > 7 else ''
-                        if 'Reject'in presentation_type or 'Withdraw'in presentation_type or 'Findings' in presentation_type or 'Short' in presentation_type or 'Demo' in presentation_type:
+                        if 'Reject'in presentation_type or 'Withdraw'in presentation_type  or 'Short' in presentation_type or 'Demo' in presentation_type:
                             continue
                         print(f"index: {index} , td_elements: {td_elements[7].get_text(strip=True)}")
 
@@ -499,35 +499,35 @@ def fetch_abstracts_and_translate(papers, delay=2):
 # 使用示例
 if __name__ == "__main__":
 
-    paper_dict = {
-        # "NeurIPS": "2025",
-        # "NeurIPS": "2024",
-        # "NeurIPS": "2023",
-
-        # "ICLR": "2025",
-        # "ICLR": "2024",
-        # "ICLR": "2023",
-
-        # "ICML": "2025",
-        "ICML": "2024",
-        # "ICML": "2023",
-
-        # "AAAI": "2025",
-        # "AAAI": "2024",
-        # "AAAI": "2023",
+    # 使用 (会议, 年份) 元组列表，避免 dict 中同会议多届被重复 key 覆盖
+    paper_list = [
+        # ("NeurIPS", "2025"),
+        # ("NeurIPS", "2024"),
+        # ("NeurIPS", "2023"),
         
-        # "IJCAI": "2024",
-        # "IJCAI": "2023",
+        # ("ICLR", "2025"),
+        # ("ICLR", "2024"),
+        # ("ICLR", "2023"),
+        
+        # ("ICML", "2025"),
+        # ("ICML", "2024"),
+        # ("ICML", "2023"),
+        
+        # ("AAAI", "2025"),
+        ("AAAI", "2024"),
+        # ("AAAI", "2023"),
+        
+        # ("IJCAI", "2024"),
+        # ("IJCAI", "2023"),
+        
+        # ("ACL", "2024"),
+        # ("ACL", "2023"),
 
-        # "ACL": "2024",
-        # "ACL": "2023",
+        # ("EMNLP", "2024"),
+        # ("EMNLP", "2023"),
+    ]
 
-        # "EMNLP": "2024",
-        # "EMNLP": "2023",
-
-    }
-    
-    for conference,year in paper_dict.items():
+    for conference, year in paper_list:
         print(f"处理: {conference} {year}")
         print(f"{'='*100}")
         input_file_path = f"{conference}/{conference}_{year}.html"
