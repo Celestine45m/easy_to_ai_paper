@@ -91,6 +91,58 @@ def parse_summary_file(filepath: Path) -> dict | None:
     return result
 
 
+def parse_wanted_papers(root: Path) -> dict:
+    """解析 WANTED_PAPERS 下 aipapers_with_keywords_*.txt，按关键词返回论文列表。"""
+    wanted_dir = root / "WANTED_PAPERS"
+    if not wanted_dir.is_dir():
+        return {}
+    out: dict[str, list[dict]] = {}
+    sep = "----------------------------------------------------------------------------------------------------"
+    file_pattern = re.compile(r"aipapers_with_keywords_(.+)\.txt$")
+    for path in sorted(wanted_dir.glob("aipapers_with_keywords_*.txt")):
+        m = file_pattern.match(path.name)
+        if not m:
+            continue
+        keyword = m.group(1).strip().lower()
+        text = path.read_text(encoding="utf-8")
+        blocks = [b.strip() for b in text.split(sep) if b.strip()]
+        papers = []
+        for block in blocks:
+            no_m = re.search(r"\[No\.(\d+)\]\s*(.+)", block)
+            if not no_m:
+                continue
+            no_str, title_en = no_m.group(1), no_m.group(2).strip()
+            source = ""
+            title_zh = ""
+            ptype = ""
+            link = ""
+            category = ""
+            for line in block.splitlines():
+                line = line.strip()
+                if line.startswith("来源:"):
+                    source = line.replace("来源:", "").strip()
+                elif line.startswith("标题:"):
+                    title_zh = line.replace("标题:", "").strip()
+                elif line.startswith("类型:"):
+                    ptype = line.replace("类型:", "").strip()
+                elif line.startswith("链接:"):
+                    link = line.replace("链接:", "").strip()
+                elif line.startswith("类别:"):
+                    category = line.replace("类别:", "").strip()
+            papers.append({
+                "no": int(no_str) if no_str.isdigit() else len(papers) + 1,
+                "title_en": title_en[:200] if title_en else "",
+                "title_zh": title_zh[:150] if title_zh else "",
+                "source": source,
+                "type": ptype,
+                "link": link,
+                "category": category,
+            })
+        if papers:
+            out[keyword] = papers
+    return out
+
+
 def collect_all_summaries(root: Path) -> list[dict]:
     """遍历项目目录，收集所有 statistics_summary.txt 的解析结果。"""
     data = []
@@ -144,6 +196,7 @@ def main():
         return
 
     agg = build_aggregate(data)
+    agg["wanted_papers"] = parse_wanted_papers(root)
     out_json = root / "dashboard_data.json"
     out_json.write_text(json.dumps(agg, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"已生成: {out_json}")
@@ -326,6 +379,17 @@ def get_inline_template() -> str:
     .sub-tab-btn.active { background: rgba(0, 212, 255, 0.2); border-color: #00d4ff; color: #00d4ff; }
     .sub-tab-panel { display: none; }
     .sub-tab-panel.active { display: block; }
+    .wanted-wrap { max-height: 70vh; overflow: auto; margin-top: 8px; }
+    .wanted-table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+    .wanted-table th, .wanted-table td { padding: 8px 10px; text-align: left; border-bottom: 1px solid rgba(255,255,255,0.08); }
+    .wanted-table th { color: #00d4ff; font-weight: 600; position: sticky; top: 0; background: rgba(20,20,40,0.98); }
+    .wanted-table tr:hover { background: rgba(0, 212, 255, 0.06); }
+    .wanted-table .col-no { width: 48px; text-align: center; }
+    .wanted-table .col-type { width: 80px; }
+    .wanted-table .col-source { width: 100px; }
+    .wanted-table a { color: #00d4ff; text-decoration: none; }
+    .wanted-table a:hover { text-decoration: underline; }
+    .wanted-title { max-width: 420px; }
   </style>
 </head>
 <body>
@@ -345,7 +409,9 @@ def get_inline_template() -> str:
       const details = DATA.details || [];
       const conferences = DATA.conferences || [];
       const years = DATA.years || [];
-      if (!details.length) {
+      var wantedPapers = DATA.wanted_papers || {};
+      var wantedKeywords = Object.keys(wantedPapers);
+      if (!details.length && !wantedKeywords.length) {
         document.body.innerHTML = '<div class="dashboard"><header><h1>AI 顶会论文统计大屏</h1><p>暂无数据。请在项目根目录运行 <code>python build_dashboard.py</code> 生成数据后刷新本页。</p></header></div>';
         return;
       }
@@ -508,6 +574,65 @@ def get_inline_template() -> str:
 
         tabPanels.appendChild(panel);
       });
+
+      if (wantedKeywords.length > 0) {
+        var wantBtn = document.createElement('button');
+        wantBtn.className = 'tab-btn';
+        wantBtn.type = 'button';
+        wantBtn.textContent = '\u7cbe\u9009\u8bba\u6587';
+        wantBtn.dataset.conf = 'WANTED';
+        tabBar.appendChild(wantBtn);
+
+        var wantPanel = document.createElement('div');
+        wantPanel.id = 'panel-WANTED';
+        wantPanel.className = 'tab-panel';
+        wantPanel.setAttribute('role', 'tabpanel');
+        wantPanel.setAttribute('aria-label', 'WANTED');
+
+        var wantSubBar = document.createElement('div');
+        wantSubBar.className = 'sub-tab-bar';
+        wantedKeywords.forEach(function(kw, i) {
+          var sb = document.createElement('button');
+          sb.type = 'button';
+          sb.className = 'sub-tab-btn' + (i === 0 ? ' active' : '');
+          sb.textContent = kw;
+          sb.dataset.kw = kw;
+          wantSubBar.appendChild(sb);
+        });
+        wantPanel.appendChild(wantSubBar);
+        if (conferences.length === 0) {
+          wantBtn.classList.add('active');
+          wantPanel.classList.add('active');
+        }
+
+        wantedKeywords.forEach(function(kw, i) {
+          var subPanel = document.createElement('div');
+          subPanel.className = 'sub-tab-panel' + (i === 0 ? ' active' : '');
+          subPanel.dataset.kw = kw;
+          var list = wantedPapers[kw] || [];
+          var rows = list.map(function(p) {
+            var linkHtml = p.link ? '<a href="' + escapeHtml(p.link) + '" target="_blank" rel="noopener">\u67e5\u770b</a>' : '\u2014';
+            var title = (p.title_en || p.title_zh || '').substring(0, 80);
+            if ((p.title_en || p.title_zh || '').length > 80) title += '\u2026';
+            return '<tr><td class="col-no">' + p.no + '</td><td class="wanted-title" title="' + escapeHtml(p.title_en || p.title_zh) + '">' + escapeHtml(title) + '</td><td class="col-source">' + escapeHtml(p.source) + '</td><td class="col-type">' + escapeHtml(p.type) + '</td><td>' + linkHtml + '</td></tr>';
+          }).join('');
+          subPanel.innerHTML = '<div class="wanted-wrap"><table class="wanted-table"><thead><tr><th class="col-no">\u5e8f\u53f7</th><th>\u6807\u9898</th><th class="col-source">\u6765\u6e90</th><th class="col-type">\u7c7b\u578b</th><th>\u94fe\u63a5</th></tr></thead><tbody>' + (rows || '<tr><td colspan="5">\u65e0</td></tr>') + '</tbody></table></div>';
+          wantPanel.appendChild(subPanel);
+        });
+
+        wantSubBar.addEventListener('click', function(e) {
+          var b = e.target;
+          if (!b.classList || !b.classList.contains('sub-tab-btn')) return;
+          var kw = b.dataset.kw;
+          wantSubBar.querySelectorAll('.sub-tab-btn').forEach(function(x) { x.classList.remove('active'); });
+          b.classList.add('active');
+          wantPanel.querySelectorAll('.sub-tab-panel').forEach(function(p) { p.classList.remove('active'); });
+          var sp = wantPanel.querySelector('.sub-tab-panel[data-kw="' + kw + '"]');
+          if (sp) sp.classList.add('active');
+        });
+
+        tabPanels.appendChild(wantPanel);
+      }
 
       tabBar.addEventListener('click', function(e) {
         var btn = e.target;
