@@ -2454,7 +2454,7 @@ arXi: https://arxiv.org/abs/2406.04508
 [No.199] Salvage: Shapley-distribution Approximation Learning Via Attribution Guided Exploration for Explainable Image Classification
 来源: ICLR 2025
 命中: classif
-标题:  Salvage: 基于 attribution 引导探索的可解释图像分类的夏普利分配近似学习
+标题: Salvage: 基于 attribution 引导探索的可解释图像分类的夏普利分配近似学习
 类别: interpretability and explainable AI
 作者: Mehdi Naouar;Hanne Raum;Jens Rahnfeld;Yannick Vogt;Joschka Boedecker;Gabriel Kalweit;Maria Kalweit;
 机构: University of Freiburg;Albert-Ludwigs-Universität Freiburg;;Collaborative Research Institute;
@@ -5543,7 +5543,7 @@ arXi: https://arxiv.org/abs/2410.10573
 命中: classif
 标题: 基于成对特征增强和灵活提示学习的多标签少样本图像分类
 类别: computer vision iv
-作者: Han Liu;Yuanyuan Wang;Xiaotong Zhang;Feng Zhang;Wei Wang;Fenglong Ma;Hong Yu;
+作者: Han Liu;Yuanyuan Wang;Xiaotong Zhang;Feng Zhang;Wei W234ang;Fenglong Ma;Hong Yu;
 机构: Dalian University of Technology;Peking University;Shenzhen MSU-BIT University;Pennsylvania State University;
 类型: Technical
 链接: https://ojs.aaai.org/index.php/AAAI/article/view/32578

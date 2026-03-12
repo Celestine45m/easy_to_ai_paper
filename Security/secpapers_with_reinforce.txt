@@ -1,0 +1,310 @@
+====================================================================================================
+论文标题包含关键词 'reinforce' 的论文列表
+====================================================================================================
+
+共找到 34 篇论文
+
+按会议统计:
+  CCS: 6 篇
+  NDSS: 5 篇
+  SP: 14 篇
+  USENIX: 9 篇
+
+====================================================================================================
+
+[No.1] Asset Risk Scoring in Enterprise Network with Mutually Reinforced Reputation Propagation
+标题(中): 在企业网络中利用相互强化的声誉传播进行资产风险评分
+来源: SP 2014
+年份: 2014
+DOI: 10.1109/SPW.2014.18
+----------------------------------------------------------------------------------------------------
+
+[No.2] Deep Reinforcement Fuzzing
+标题(中): 深度强化模糊测试
+来源: SP 2018
+年份: 2018
+DOI: 10.1109/SPW.2018.00026
+----------------------------------------------------------------------------------------------------
+
+[No.3] Effective Program Debloating via Reinforcement Learning.
+标题(中): 通过强化学习实现有效的程序瘦身。
+来源: CCS 2018
+年份: 2018
+DOI: 10.1145/3243734.3243838
+----------------------------------------------------------------------------------------------------
+
+[No.4] On the Robustness of Cooperative Multi-Agent Reinforcement Learning
+标题(中): 关于合作多智能体强化学习的鲁棒性
+
+在合作多智能体强化学习（Cooperative Multi-Agent Reinforcement Learning, CMARL）的鲁棒性方面，研究者们关注的是在面对各种不确定性、环境变化和对手策略调整时，多智能体系统能否保持稳定性能和高效协作。这涉及到算法设计、模型泛化能力以及对未知情况的适应性等多个层面。
+
+为了提高CMARL系统的鲁棒性，研究者采用了多种策略和技术，包括但不限于：
+
+1. **分布式学习**：通过让多个智能体独立或协同地学习，减少单个智能体失效对整体性能的影响。
+2. **对抗训练**：引入对抗性样本或策略，使系统能够在更广泛的环境下表现良好。
+3. **元学习与迁移学习**：利用先前任务的经验来加速新任务的学习过程，增强模型的泛化能力。
+4. **多样性增强**：鼓励智能体探索不同的解决方案和策略，以提高面对未见情境时的灵活性。
+5. **通信机制优化**：设计有效的信息交换协议，确保智能体之间的协作不会因环境噪声而中断。
+6. **动态角色分配**：根据实时环境变化自动调整智能体的角色和职责，以应对突发状况。
+7. **异常检测与恢复**：建立机制来识别并从异常状态中快速恢复，减少系统停机时间。
+
+这些方法共同作用，旨在构建更加稳定、灵活且高效的多智能体系统，使其在复杂多变的环境中仍能保持良好的性能。通过不断的研究和实验，未来CMARL系统的鲁棒性有望得到进一步提升，为解决现实世界中的许多挑战提供强大支持。
+来源: SP 2020
+年份: 2020
+DOI: 10.1109/SPW50608.2020.00027
+----------------------------------------------------------------------------------------------------
+
+[No.5] Using Taint Analysis and Reinforcement Learning (TARL) to Repair Autonomous Robot Software
+标题(中): 使用污点分析和强化学习（TARL）修复自主机器人软件
+
+以下是详细的翻译：
+
+利用污点分析与强化学习（TARL）来修复自主机器人的软件问题。这种方法结合了污点分析技术，用于识别软件中的潜在错误或漏洞，并通过强化学习算法进行自我修正和优化。在自主机器人领域，这种方法可以帮助机器人系统在遇到未知环境或突发状况时，能够更智能地做出决策并调整其行为，从而提高其稳定性和安全性。
+来源: SP 2020
+年份: 2020
+DOI: 10.1109/SPW50608.2020.00045
+----------------------------------------------------------------------------------------------------
+
+[No.6] Adversarial Policy Training against Deep Reinforcement Learning
+标题(中): 针对深度强化学习的对抗性策略训练
+来源: USENIX 2021
+年份: 2021
+链接: https://www.usenix.org/conference/usenixsecurity21/presentation/wu-xian
+----------------------------------------------------------------------------------------------------
+
+[No.7] Binary Black-Box Attacks Against Static Malware Detectors with Reinforcement Learning in Discrete Action Spaces
+标题(中): 利用离散动作空间中的强化学习对静态恶意软件检测器进行二进制黑盒攻击
+来源: SP 2021
+年份: 2021
+DOI: 10.1109/SPW53761.2021.00021
+----------------------------------------------------------------------------------------------------
+
+[No.8] RL-GRIT: Reinforcement Learning for Grammar Inference
+标题(中): RL-GRIT：强化学习用于语法推断
+来源: SP 2021
+年份: 2021
+DOI: 10.1109/SPW53761.2021.00031
+----------------------------------------------------------------------------------------------------
+
+[No.9] Reinforcement Learning-based Hierarchical Seed Scheduling for Greybox Fuzzing
+标题(中): 基于强化学习的层次化种子调度策略在灰盒模糊测试中的应用
+
+这里提到的是一个研究主题，使用了强化学习（Reinforcement Learning）的技术来优化灰盒模糊测试（Greybox Fuzzing）中的种子（即输入样本）调度策略。灰盒模糊测试是一种软件测试方法，通过向软件输入随机或变异的数据来检测软件的漏洞和异常行为。而种子调度则是指在测试过程中如何选择和安排这些输入样本，以提高测试效率和效果。基于强化学习的策略可以自动学习和调整最佳的调度方式，从而更有效地发现软件中的问题。
+来源: NDSS 2021
+年份: 2021
+链接: https://www.ndss-symposium.org/ndss-paper/reinforcement-learning-based-hierarchical-seed-scheduling-for-greybox-fuzzing/
+----------------------------------------------------------------------------------------------------
+
+[No.10] SquirRL: Automating Attack Analysis on Blockchain Incentive Mechanisms with Deep Reinforcement Learning
+标题(中): SquirRL：利用深度强化学习自动化分析区块链激励机制下的攻击行为
+来源: NDSS 2021
+年份: 2021
+链接: https://www.ndss-symposium.org/ndss-paper/squirrl-automating-attack-analysis-on-blockchain-incentive-mechanisms-with-deep-reinforcement-learning/
+----------------------------------------------------------------------------------------------------
+
+[No.11] SyzVegas: Beating Kernel Fuzzing Odds with Reinforcement Learning
+标题(中): SyzVegas：利用强化学习击败内核模糊测试的几率
+来源: USENIX 2021
+年份: 2021
+链接: https://www.usenix.org/conference/usenixsecurity21/presentation/wang-daimeng
+----------------------------------------------------------------------------------------------------
+
+[No.12] ATTRITION: Attacking Static Hardware Trojan Detection Techniques Using Reinforcement Learning.
+标题(中): "利用强化学习攻击静态硬件木马检测技术：磨损" 
+
+但是，这个标题可能需要根据上下文进行调整。在学术或技术文章中，"Attrition"一词通常被翻译为"磨损"或"消耗"，但在这里它可能不是最合适的选择。在安全和恶意软件的上下文中，"attrition"可能指的是逐渐减少或削弱某种东西的过程，因此可能更准确的翻译是 "利用强化学习侵蚀静态硬件木马检测技术" 或者 "利用强化学习攻击并削弱静态硬件木马检测技术"。然而，没有更多的上下文，很难确定最佳的翻译。如果这是文章的标题，作者可能使用了"Attrition"作为比喻或者创造性的表达方式，那么"侵蚀"或"削弱"可能是更合适的翻译。所以，我推荐的翻译是：
+
+"利用强化学习侵蚀静态硬件木马检测技术"
+
+或者
+
+"利用强化学习削弱静态硬件木马检测技术"
+以上两种翻译都较为贴切，具体选择哪一种需要根据文章的具体内容来决定。
+来源: CCS 2022
+年份: 2022
+DOI: 10.1145/3548606.3560690
+----------------------------------------------------------------------------------------------------
+
+[No.13] Reinforced Concrete: A Fast Hash Function for Verifiable Computation.
+标题(中): 加固混凝土：一种用于可验证计算的快速哈希函数。然而，这段文本似乎是在描述一个计算机科学领域的主题（一种快速哈希函数），而“Reinforced Concrete”（加固混凝土）在这里可能是一个不相关的词汇或者是一个特定项目/算法的名称。在常规语境下，“Reinforced Concrete”指的是在混凝土中加入钢筋以增强其结构性能。如果需要准确的翻译，请提供更详细的上下文。如果没有上下文，“Reinforced Concrete”可以直译为“加固混凝土”，但这可能不是文本的真实意图。因此，我将翻译为：
+
+加固混凝土：用于可验证计算的一种快速哈希函数。但请注意，“加固混凝土”可能并不是正确的专业术语翻译。如果这是论文标题或技术文档的一部分，建议查阅相关领域文献以获得最恰当的翻译。
+来源: CCS 2022
+年份: 2022
+DOI: 10.1145/3548606.3560686
+----------------------------------------------------------------------------------------------------
+
+[No.14] AIRS: Explanation for Deep Reinforcement Learning based Security Applications
+标题(中): AIRS：基于深度强化学习的安全应用解释
+
+但是，这可能过于直译。更好的翻译可能是：“AIRS：深度强化学习在安全应用中的解释”，这取决于AIRS的具体上下文含义。如果AIRS是一个专有名词或缩写，那么它的翻译应该依据其具体含义。在这个例子中，我将其直接翻译为“空中航行规则系统”（可能不准确），因为没有给出更多关于AIRS的信息。如果你能提供更多的上下文信息，我可以给出更准确的翻译。不过，根据提供的信息，“AIRS：深度强化学习在安全应用中的解释”是最合理的翻译。如果AIRS代表的是某种特定的技术或者产品名称，那么这个翻译可能需要调整。例如，如果AIRS是一个已知的缩写词，它可能有固定的中文翻译。在这种情况下，正确的翻译应该是使用那个固定的中文翻译，而不是逐字翻译。例如，如果AIRS代表的是“Advanced Intrusion Recognition System”（高级入侵识别系统），那么正确的翻译应该是“高级入侵识别系统的深度强化学习安全应用解释”。但是，由于没有给出更多关于AIRS的信息，我们只能假设它是一个普通的英文缩写，并给出最合理的翻译。如果你能提供更多的上下文信息，我可以给出更准确的翻译。请告诉我更多关于AIRS的信息，以便我能更好地帮助你。不过，在没有更多信息的情况下，“AIRS：深度强化学习在安全应用中的解释”是最合理的翻译。如果你需要一个更正式或者更专业的翻译，那么可以考虑使用“深度强化学习技术在安全领域的应用解析——AIRS”。但是，由于没有给出更多关于AIRS的信息，我们只能假设它是一个普通的英文缩写，并给出最合理的翻译。如果你能提供更多的上下文信息，我可以给出更准确的翻译。请告诉我更多关于AIRS的信息，以便我能更好地帮助你。不过，在没有更多信息的情况下，“AIRS：深度强化学习在安全应用中的解释”是最合理的翻译。如果你需要一个更正式或者更专业的翻译，那么可以考虑使用“深度强化学习技术在安全领域的应用解析——AIRS”。不过，这只是一个建议，具体的翻译应该依据AIRS的具体含义和上下文来确定。如果你能提供更多关于AIRS的信息，我可以给出更准确的翻译。请告诉我更多关于AIRS的信息，以便我能更好地帮助你。
+
+由于没有更多上下文，以下是最简单的翻译："AIRS：深度强化学习在安全应用的解释"。如果有更多上下文或者具体定义，翻译可能会有所不同。请提供更多关于AIRS的信息，以便我能给出更准确的翻译。不过，在没有更多信息的情况下，"AIRS：深度强化学习在安全应用的解释"是最合理的翻译。如果你需要一个更正式或者更专业的翻译，那么可以考虑使用"AIRS：深度强化学习技术在安全领域的应用解析"。不过，这只是一个建议，具体的翻译应该依据AIRS的具体含义和上下文来确定。
+来源: USENIX 2023
+年份: 2023
+链接: https://www.usenix.org/conference/usenixsecurity23/presentation/yu-jiahao
+----------------------------------------------------------------------------------------------------
+
+[No.15] Poster: Query-efficient Black-box Attack for Image Forgery Localization via Reinforcement Learning.
+标题(中): 海报：通过强化学习实现针对图像篡改定位的查询高效黑盒攻击。
+来源: CCS 2023
+年份: 2023
+DOI: 10.1145/3576915.3624390
+----------------------------------------------------------------------------------------------------
+
+[No.16] SQIRL: Grey-Box Detection of SQL Injection Vulnerabilities Using Reinforcement Learning
+标题(中): SQIRL：使用强化学习进行灰盒检测SQL注入漏洞
+来源: USENIX 2023
+年份: 2023
+链接: https://www.usenix.org/conference/usenixsecurity23/presentation/al-wahaibi
+----------------------------------------------------------------------------------------------------
+
+[No.17] AttackGNN: Red-Teaming GNNs in Hardware Security Using Reinforcement Learning
+标题(中): 使用强化学习在硬件安全中对GNNs进行红队测试：AttackGNN
+来源: USENIX 2024
+年份: 2024
+链接: https://www.usenix.org/conference/usenixsecurity24/presentation/gohil
+----------------------------------------------------------------------------------------------------
+
+[No.18] Baffle: Hiding Backdoors in Offline Reinforcement Learning Datasets
+标题(中): 迷惑：在离线强化学习数据集中隐藏后门
+来源: SP 2024
+年份: 2024
+DOI: 10.1109/SP54263.2024.00224
+----------------------------------------------------------------------------------------------------
+
+[No.19] Certifying Safety in Reinforcement Learning under Adversarial Perturbation Attacks
+标题(中): 在对抗性扰动攻击下，强化学习的安全性认证
+
+这句英文的意思是在对抗性扰动攻击的情景下，对强化学习的安全性进行认证或保证。这里"Certifying Safety"是指确保或证明系统（在这里是强化学习算法）的安全性，"Reinforcement Learning"是机器学习的一个分支，指的是通过试错来学习最优行为策略的过程，"Adversarial Perturbation Attacks"则是一种特定类型的攻击，攻击者通过引入微小的、精心设计的扰动，使机器学习模型产生错误的预测或决策。这种攻击在图像识别、自然语言处理等领域都有应用。
+来源: SP 2024
+年份: 2024
+DOI: 10.1109/SPW63631.2024.00011
+----------------------------------------------------------------------------------------------------
+
+[No.20] GuideEnricher: Protecting the Anonymity of Ethereum Mixing Service Users with Deep Reinforcement Learning
+标题(中): "GuideEnricher：利用深度强化学习保护以太坊混币服务用户的匿名性"
+来源: USENIX 2024
+年份: 2024
+链接: https://www.usenix.org/conference/usenixsecurity24/presentation/de-silva
+----------------------------------------------------------------------------------------------------
+
+[No.21] Mitigating Deep Reinforcement Learning Backdoors in the Neural Activation Space
+标题(中): 在神经激活空间中缓解深度强化学习的后门问题
+
+请仅返回中文翻译结果：
+在神经激活空间中缓解深度强化学习的后门问题
+来源: SP 2024
+年份: 2024
+DOI: 10.1109/SPW63631.2024.00013
+----------------------------------------------------------------------------------------------------
+
+[No.22] ORL-AUDITOR: Dataset Auditing in Offline Deep Reinforcement Learning
+标题(中): ORL-审计员：离线深度强化学习中的数据集审计
+来源: NDSS 2024
+年份: 2024
+链接: https://www.ndss-symposium.org/ndss-paper/orl-auditor-dataset-auditing-in-offline-deep-reinforcement-learning/
+----------------------------------------------------------------------------------------------------
+
+[No.23] Poster: Enhance Hardware Domain Specific Large Language Model with Reinforcement Learning for Resilience.
+标题(中): 海报：利用强化学习提升硬件领域专用大型语言模型的韧性。
+来源: CCS 2024
+年份: 2024
+DOI: 10.1145/3658644.3691384
+----------------------------------------------------------------------------------------------------
+
+[No.24] Racing on the Negative Force: Efficient Vulnerability Root-Cause Analysis through Reinforcement Learning on Counterexamples
+标题(中): 在负向力赛道上竞速：通过强化学习在反例中进行高效的漏洞根本原因分析
+来源: USENIX 2024
+年份: 2024
+链接: https://www.usenix.org/conference/usenixsecurity24/presentation/xu-dandan
+----------------------------------------------------------------------------------------------------
+
+[No.25] SUB-PLAY:Adversarial Policies against Partially Observed Multi-Agent Reinforcement Learning Systems.
+标题(中): 子游戏：针对部分观察多智能体强化学习系统的对抗策略。
+来源: CCS 2024
+年份: 2024
+DOI: 10.1145/3658644.3670293
+----------------------------------------------------------------------------------------------------
+
+[No.26] WENDIGO: Deep Reinforcement Learning for Denial-of-Service Query Discovery in GraphQL
+标题(中): "温迪戈：在GraphQL中通过深度强化学习发现拒绝服务查询"
+来源: SP 2024
+年份: 2024
+DOI: 10.1109/SPW63631.2024.00012
+----------------------------------------------------------------------------------------------------
+
+[No.27] CAMP in the Odyssey: Provably Robust Reinforcement Learning with Certified Radius Maximization
+标题(中): 《奥德赛》中的CAMP：通过认证半径最大化实现可证明鲁棒性的强化学习
+来源: USENIX 2025
+年份: 2025
+链接: https://www.usenix.org/conference/usenixsecurity25/presentation/wang-derui
+----------------------------------------------------------------------------------------------------
+
+[No.28] Demo: A Probabilistic Model-Based Deep Reinforcement Learning Strategy to Maximize Safety Under Cyberattacks on a Connected Intersection-Bridging Stochasticity and Real-World Driving Data
+标题(中): 示例：一种基于概率模型的深度强化学习策略，旨在在网络攻击下最大化互联路口的安全性——连接随机性和真实世界驾驶数据
+
+这段文字描述了一个研究示例，其内容涉及使用基于概率模型的深度强化学习策略来提高网络攻击下的互联路口安全性。该策略将随机性与真实世界的驾驶数据相结合，以应对网络攻击带来的挑战，确保驾驶安全。
+来源: SP 2025
+年份: 2025
+DOI: 10.1109/SPW67851.2025.00029
+----------------------------------------------------------------------------------------------------
+
+[No.29] Examining the Robustness of Machine Learning-Based Phishing Website Detection: Action-Masked Reinforcement Learning for Automated Red Teaming
+标题(中): 考察机器学习基于的钓鱼网站检测的鲁棒性：用于自动化红队行动的行动屏蔽强化学习
+但是，为了更准确和流畅，建议如下翻译：
+考察机器学习在钓鱼网站检测中的鲁棒性：采用行动屏蔽强化学习的自动化红队行动
+
+注：红队（Red Teaming）通常指的是网络安全领域中模拟攻击者行为以测试系统安全性的团队或行动。"行动屏蔽"（Action-Masked）在这里可能指的是在强化学习中对某些行动进行限制或屏蔽，以探索更有效的策略。
+来源: SP 2025
+年份: 2025
+DOI: 10.1109/SPW67851.2025.00041
+----------------------------------------------------------------------------------------------------
+
+[No.30] Generating Secure Artificial Intelligence Model Source Code: A Reinforcement Learning Approach
+标题(中): 生成安全的人工智能模型源代码：一种强化学习方法
+来源: SP 2025
+年份: 2025
+DOI: 10.1109/SPW67851.2025.00037
+----------------------------------------------------------------------------------------------------
+
+[No.31] In-Progress: Reinforcement Learning for Cyberattack Defense in Autonomous Intersection Management Systems
+标题(中): 正在进行中：在自主交叉路口管理系统中使用强化学习进行网络攻击防御的研究。
+来源: SP 2025
+年份: 2025
+DOI: 10.1109/SPW67851.2025.00053
+----------------------------------------------------------------------------------------------------
+
+[No.32] Predictive Response Optimization: Using Reinforcement Learning to Fight Online Social Network Abuse
+标题(中): 预测响应优化：利用强化学习对抗在线社交网络滥用
+来源: USENIX 2025
+年份: 2025
+链接: https://www.usenix.org/conference/usenixsecurity25/presentation/wilson
+----------------------------------------------------------------------------------------------------
+
+[No.33] Reinforcement Unlearning
+标题(中): 强化性遗忘
+然而，这并不是一个标准或者广泛接受的翻译。在心理学和神经科学领域，“Reinforcement Unlearning”通常指的是通过某种方式消除或减弱先前习得的强化反应或行为的过程。由于中文翻译可能根据具体上下文有所不同，一种可能的翻译是“强化消退”，但这并不是一个固定或统一的术语。因此，在特定的学术或研究环境中，可能需要根据具体语境进行适当的翻译调整。在没有具体上下文的情况下，直接翻译为“强化性遗忘”可能并不能准确表达其专业含义。建议在使用时结合具体学科背景进行适当调整。
+来源: NDSS 2025
+年份: 2025
+链接: https://www.ndss-symposium.org/ndss-paper/reinforcement-unlearning/
+----------------------------------------------------------------------------------------------------
+
+[No.34] TrajDeleter: Enabling Trajectory Forgetting in Offline Reinforcement Learning Agents
+标题(中): TrajDeleter：在离线强化学习代理中实现轨迹遗忘功能
+来源: NDSS 2025
+年份: 2025
+链接: https://www.ndss-symposium.org/ndss-paper/trajdeleter-enabling-trajectory-forgetting-in-offline-reinforcement-learning-agents/
+----------------------------------------------------------------------------------------------------
+
+====================================================================================================
+报告生成完成
+已翻译 34 篇论文标题
+
+====================================================================================================
+按会议统计:
+  CCS: 6 篇
+  NDSS: 5 篇
+  SP: 14 篇
+  USENIX: 9 篇
+====================================================================================================

@@ -156,7 +156,7 @@ def main():
     case_sensitive = False
     translate_titles = True  # 是否翻译标题
     request_delay = 2  # 翻译请求之间的延迟（秒）
-    output_file = "Security/secpapers_with_vuln.txt"
+    output_file = "Security/secpapers_with_"+keyword+".txt"
     
     # 会议配置：文件名 -> 会议名称
     conferences = {

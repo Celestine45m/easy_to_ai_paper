@@ -473,7 +473,7 @@ DOI: 10.1145/2382196.2382223
 来源: USENIX 2013
 年份: 2013
 链接: https://www.usenix.org/conference/woot13/workshop-program/presentation/beekman
-----------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
 
 [No.68] BugBox: A Vulnerability Corpus for PHP Web Applications
 标题(中): BugBox：一个针对PHPWeb应用程序的漏洞语料库
@@ -1216,7 +1216,7 @@ DOI: 10.1109/SP.2019.00053
 年份: 2019
 DOI: 10.1145/3319535.3363282
 ----------------------------------------------------------------------------------------------------
-
+j
 [No.174] Poster: Towards Automated Quantitative Analysis and Forecasting of Vulnerability Discoveries in Debian GNU/Linux.
 标题(中): 海报：面向Debian GNU/Linux 的漏洞发现的自动化定量分析与预测
 来源: CCS 2019

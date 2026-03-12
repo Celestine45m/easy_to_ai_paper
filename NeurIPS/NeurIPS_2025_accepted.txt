@@ -7541,8 +7541,10 @@ No.943. Learning and Planning Multi-Agent Tasks via an MoE-based World Model
    链接: https://openreview.net/forum?id=fi24ry0BX5
    类别: reinforcement learning
    作者: Zijie Zhao;Zhongyue Zhao;Kaixuan Xu;Yuqian Fu;Jiajun Chai;Yuanheng Zhu;Dongbin Zhao;
-   机构: Chinese Academy of Sciences;Nanjing University;;
+   机构: Chinese Academy of Sciences;Nanjing University;
    类型: Poster
+
+
 
 No.944. From Counterfactuals to Trees: Competitive Analysis of Model Extraction Attacks
    标题: 从反事实到树结构：模型提取攻击的竞争性分析
