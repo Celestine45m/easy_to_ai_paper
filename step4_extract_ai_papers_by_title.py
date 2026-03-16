@@ -241,8 +241,10 @@ def extract_papers_by_keyword(keywords, case_sensitive=False, fetch_abstracts=Fa
                     else:
                         title_lower = title.lower()
                         for keyword in keywords:
-                            if keyword.lower() in title_lower:
-                                matched_keywords.append(keyword)
+                            if keyword.lower() in title_lower :
+                                # rank有点特殊，需要额外处理下
+                                if "-rank" not in title_lower:
+                                    matched_keywords.append(keyword)
                     
                     if matched_keywords:
                         # 添加来源字段和命中的关键词
@@ -364,7 +366,7 @@ def save_to_txt(papers, output_file, keywords):
 def main():
     """主函数"""
     # 配置参数
-    keywords = ["rank"]  # 要搜索的关键词列表，可以包含多个关键词（OR关系）
+    keywords = ["vuln"]  # 要搜索的关键词列表，可以包含多个关键词（OR关系）
 
     # keywords = ["prediction","evaluation","rank"]  # 要搜索的关键词列表，可以包含多个关键词（OR关系）
     # 示例：keywords = ["prediction", "forecast", "prediction"]  # 只要标题包含任意一个关键词就匹配
