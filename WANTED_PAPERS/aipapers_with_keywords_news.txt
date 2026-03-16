@@ -23,7 +23,7 @@
 链接: https://neurips.cc/virtual/2024/poster/93316
 arXi: https://arxiv.org/abs/2409.17515
 英摘: This paper introduces a novel approach that leverages Large Language Models (LLMs) and Generative Agents to enhance time series forecasting by reasoning across both text and time series data. With language as a medium, our method adaptively integrates social events into forecasting models, aligning news content with time series fluctuations to provide richer insights. Specifically, we utilize LLM-based agents to iteratively filter out irrelevant news and employ human-like reasoning to evaluate predictions. This enables the model to analyze complex events, such as unexpected incidents and shifts in social behavior, and continuously refine the selection logic of news and the robustness of the agent's output. By integrating selected news events with time series data, we fine-tune a pre-trained LLM to predict sequences of digits in time series. The results demonstrate significant improvements in forecasting accuracy, suggesting a potential paradigm shift in time series forecasting through the effective utilization of unstructured news data.
-中摘: 本文介绍了一种创新方法，该方法利用大型语言模型（LLM）和生成式代理来增强时间序列预测，通过在文本和时间序列数据之间进行推理。以语言为媒介，我们的方法自适应地将社会事件整合进预测模型中，将新闻内容与时间序列波动对齐，以提供更丰富的洞察。具体而言，我们使用基于LLM的代理迭代地过滤掉不相关的新闻，并运用类似人类的推理来评估预测。这使得模型能够分析复杂事件，如突发事件和社会行为的变化，并持续优化新闻选择逻辑和代理输出的稳健性。通过将选定的新闻事件与时间序列数据结合，我们微调了一个预训练的LLM来预测时间序列中的数字序列。实验结果表明预测准确度有显著提高，这暗示了通过有效利用非结构化的新闻数据，在时间序列预测领域可能带来范式的转变。
+中摘: 本文介绍了一种创新方法，该方法利用大型语言模型(LLM)和生成式代理来增强时间序列预测，通过跨文本和时间序列数据进行推理。以语言为媒介，我们的方法自适应地将社会事件整合进预测模型中，将新闻内容与时间序列波动对齐，提供更丰富的洞察。具体而言，我们利用基于LLM的代理迭代筛选无关新闻，并运用类似人类的推理来评估预测。这使得模型能够分析复杂事件，如突发事件和社会行为的变化，并持续优化新闻选择逻辑和代理输出的稳健性。通过将选定的新闻事件与时间序列数据相结合，我们对预训练的LLM进行微调，以预测时间序列中的数字序列。实验结果表明，预测准确度有显著提高，这表明通过有效利用非结构化的新闻数据，可能引发时间序列预测领域的一场范式转变。
 ----------------------------------------------------------------------------------------------------
 [No.3] CausalStock: Deep End-to-end Causal Discovery for News-driven Multi-stock Movement Prediction
 来源: NeurIPS 2024
@@ -46,346 +46,9 @@ arXi: https://arxiv.org/abs/2409.17515
 链接: https://icml.cc/virtual/2025/poster/43699
 arXi: https://arxiv.org/abs/2411.08324
 英摘: Many existing evaluation benchmarks for Large Language Models (LLMs) quickly become outdated due to the emergence of new models and training data. These benchmarks also fall short in assessing how LLM performance changes over time, as they consist of a static set of questions without a temporal dimension. To address these limitations, we propose using future event prediction as a continuous evaluation method to assess LLMs' temporal generalization and forecasting abilities. Our benchmark, Daily Oracle, automatically generates question-answer (QA) pairs from daily news, challenging LLMs to predict "future" event outcomes. Our findings reveal that as pre-training data becomes outdated, LLM performance degrades over time. While Retrieval Augmented Generation (RAG) has the potential to enhance prediction accuracy, the performance degradation pattern persists, highlighting the need for continuous model updates. Code and data are available at https://agenticlearning.ai/daily-oracle.
-中摘: 许多现有的大型语言模型（LLM）评估基准因新模型和训练数据的出现而迅速过时。这些基准在评估LLM随时间变化的表现方面也存在不足，因为它们由一组静态问题组成，缺乏时间维度。为了解决这些限制，我们提议采用未来事件预测作为连续评估方法，以评估LLM的时间泛化能力和预测能力。我们的基准，Daily Oracle，自动从每日新闻中生成问题-答案（QA）对，挑战LLM预测“未来”事件结果。我们的发现表明，随着预训练数据变得过时，LLM的表现会随时间下降。虽然检索增强生成（RAG）有可能提高预测准确性，但表现下降的模式依然存在，突显了持续更新模型的需求。代码和数据可在https://agenticlearning.ai/daily-oracle获取。
+中摘: 许多现有的大型语言模型（LLM）评估基准因新模型和训练数据的出现而迅速过时。这些基准在评估LLM随时间变化的表现方面也存在不足，因为它们由一组静态问题组成，缺乏时间维度。为了解决这些局限性，我们提出使用未来事件预测作为一种持续的评估方法，以评估LLM的时间泛化能力和预测能力。我们的基准，Daily Oracle，自动从每日新闻中生成问答（QA）对，挑战LLM预测“未来”事件结果。我们的发现表明，随着预训练数据变得过时，LLM的表现会随时间下降。虽然增强检索生成（RAG）有可能提高预测准确性，但表现下降的模式依然存在，突显了持续更新模型的需求。代码和数据可在https://agenticlearning.ai/daily-oracle获取。
 ----------------------------------------------------------------------------------------------------
-[No.5] Collaborative Evolution: Multi-Round Learning Between Large and Small Language Models for Emergent Fake News Detection
-来源: AAAI 2025
-命中: news
-标题: 协作进化：大型和小型语言模型多轮学习以实现新兴虚假新闻检测
-类别: application domains
-作者: Ziyi Zhou;Xiaoming Zhang;Shenghan Tan;Litian Zhang;Chaozhuo Li;
-机构: Beihang University;
-类型: Technical
-链接: https://ojs.aaai.org/index.php/AAAI/article/view/32109
-arXi: https://arxiv.org/abs/2503.21127
-英摘: The proliferation of fake news on social media platforms has exerted a substantial influence on society, leading to discernible impacts and deleterious consequences. Conventional deep learning methodologies employing small language models (SLMs) suffer from the necessity for extensive supervised training and the challenge of adapting to rapidly evolving circumstances. Large language models (LLMs), despite their robust zero-shot capabilities, have fallen short in effectively identifying fake news due to a lack of pertinent demonstrations and the dynamic nature of knowledge. In this paper, a novel framework Multi-Round Collaboration Detection (MRCD) is proposed to address these aforementioned limitations. The MRCD framework is capable of enjoying the merits from both LLMs and SLMs by integrating their generalization abilities and specialized functionalities, respectively. Our approach features a two-stage retrieval module that selects relevant and up-to-date demonstrations and knowledge, enhancing in-context learning for better detection of emerging news events. We further design a multi-round learning framework to ensure more reliable detection results. Our framework MRCD achieves SOTA results on two real-world datasets Pheme and Twitter16, with accuracy improvements of 7.4\% and 12.8\% compared to using only SLMs, which effectively addresses the limitations of current models and improves the detection of emergent fake news.
-中摘: 社交媒体平台上虚假新闻的泛滥对社会产生了重大影响，导致了可察觉的影响和有害后果。使用小型语言模型(SLMs)的传统深度学习方法面临着需要大量有监督训练的必要性以及适应快速变化环境的挑战。尽管大型语言模型(LLMs)具有强大的零样本能力，但由于缺乏相关示例和知识的动态性质，它们在有效识别虚假新闻方面表现不足。在这篇论文中，我们提出了一种名为多轮协作检测(MRCD)的新框架来解决上述限制。通过结合LLMs的泛化能力和SLMs的专业功能，MRCD框架能够充分利用两者的优势。我们的方法包括一个两阶段检索模块，该模块选择相关且最新的示例和知识，以增强上下文学习，从而更好地检测新兴新闻事件。此外，我们设计了一个多轮学习框架以确保更可靠的检测结果。我们的MRCD框架在两个真实世界数据集Pheme和Twitter16上实现了最先进的成果，与仅使用SLMs相比，准确率分别提高了7.4%和12.8%，这有效地解决了现有模型的局限性并改善了新兴虚假新闻的检测。
-----------------------------------------------------------------------------------------------------
-[No.6] DAMMFND: Domain-Aware Multimodal Multi-view Fake News Detection
-来源: AAAI 2025
-命中: news
-标题: DAMMFND：领域意识多模态多视角假新闻检测
-类别: application domains
-作者: Weihai Lu;Yu Tong;Zhiqiu Ye;
-机构: Peking University;Wuhan University;Anhui University;
-类型: Technical
-链接: https://ojs.aaai.org/index.php/AAAI/article/view/32036
-----------------------------------------------------------------------------------------------------
-[No.7] Each Fake News Is Fake in Its Own Way: An Attribution Multi-Granularity Benchmark for Multimodal Fake News Detection
-来源: AAAI 2025
-命中: news
-标题: 每条假新闻都有其独特的虚假之处：一种多粒度基准，用于多媒体假新闻检测的归因
-类别: application domains
-作者: Hao Guo;Zihan Ma;Zhi Zeng;Minnan Luo;Weixin Zeng;Jiuyang Tang;Xiang Zhao;
-机构: Nation University of Defense Technology;Xi'an Jiao Tong University;
-类型: Technical
-链接: https://ojs.aaai.org/index.php/AAAI/article/view/31999
-arXi: https://arxiv.org/abs/2412.14686
-英摘: Social platforms, while facilitating access to information, have also become saturated with a plethora of fake news, resulting in negative consequences. Automatic multimodal fake news detection is a worthwhile pursuit. Existing multimodal fake news datasets only provide binary labels of real or fake. However, real news is alike, while each fake news is fake in its own way. These datasets fail to reflect the mixed nature of various types of multimodal fake news. To bridge the gap, we construct an attributing multi-granularity multimodal fake news detection dataset \amg, revealing the inherent fake pattern. Furthermore, we propose a multi-granularity clue alignment model \our to achieve multimodal fake news detection and attribution. Experimental results demonstrate that \amg is a challenging dataset, and its attribution setting opens up new avenues for future research.
-中摘: 社交平台在方便获取信息的同时，也充斥着大量的假新闻，导致了负面后果。自动多模态假新闻检测是一项值得追求的目标。现有的多模态假新闻数据集仅提供真实或虚假的二元标签。然而，真实的新闻都是相似的，而每一条假新闻都有其独特的方式造假。这些数据集未能反映各种类型多模态假新闻的混合特性。为填补这一空白，我们构建了一个属性多粒度多模态假新闻检测数据集\amg，揭示了内在的造假模式。此外，我们提出了一种多粒度线索对齐模型\our，以实现多模态假新闻的检测和归因。实验结果表明，\amg是一个具有挑战性的数据集，其归因设置为未来的研究开辟了新的方向。
-----------------------------------------------------------------------------------------------------
-[No.8] External Reliable Information-enhanced Multimodal Contrastive Learning for Fake News Detection
-来源: AAAI 2025
-命中: news
-标题: 基于外部可靠信息的多模态对比学习的假新闻检测方法
-类别: application domains
-作者: Biwei Cao;Qihang Wu;Jiuxin Cao;Bo Liu;Jie Gui;
-机构: Southeast University;Key Laboratory of Computer Network and Information;Purple Mountain Laboratories;
-类型: Technical
-链接: https://ojs.aaai.org/index.php/AAAI/article/view/31977
-arXi: https://arxiv.org/abs/2503.03107
-英摘: With the rapid development of the Internet, the information dissemination paradigm has changed and the efficiency has been improved greatly. While this also brings the quick spread of fake news and leads to negative impacts on cyberspace. Currently, the information presentation formats have evolved gradually, with the news formats shifting from texts to multimodal contents. As a result, detecting multimodal fake news has become one of the research hotspots. However, multimodal fake news detection research field still faces two main challenges: the inability to fully and effectively utilize multimodal information for detection, and the low credibility or static nature of the introduced external information, which limits dynamic updates. To bridge the gaps, we propose ERIC-FND, an external reliable information-enhanced multimodal contrastive learning framework for fake news detection. ERIC-FND strengthens the representation of news contents by entity-enriched external information enhancement method. It also enriches the multimodal news information via multimodal semantic interaction method where the multimodal constrative learning is employed to make different modality representations learn from each other. Moreover, an adaptive fusion method is taken to integrate the news representations from different dimensions for the eventual classification. Experiments are done on two commonly used datasets in different languages, X (Twitter) and Weibo. Experiment results demonstrate that our proposed model ERIC-FND outperforms existing state-of-the-art fake news detection methods under the same settings.
-中摘: 随着互联网的迅速发展，信息传播模式发生了变化，传播效率得到了极大的提高。然而，这也导致了假新闻的快速传播，并对网络空间造成了负面影响。目前，信息展示格式正在逐步演变，新闻格式从纯文本转向多模态内容。因此，检测多模态假新闻已成为研究热点之一。然而，多模态假新闻检测领域仍面临两大主要挑战：一是无法充分有效地利用多模态信息进行检测；二是引入的外部信息可信度低或具有静态特性，限制了动态更新。为了解决这些问题，我们提出了ERIC-FND，这是一种基于外部可靠信息增强的多模态对比学习框架，用于假新闻检测。ERIC-FND通过实体丰富型外部信息增强方法强化了新闻内容的表现。它还通过多模态语义交互方法丰富了多模态新闻信息，在该方法中，采用多模态对比学习使不同模态的表示相互学习。此外，采取了一种自适应融合方法，将来自不同维度的新闻表示整合起来，以进行最终分类。在两种不同语言的常用数据集上进行了实验，分别是X（Twitter）和微博。实验结果表明，在相同设置下，我们提出的模型ERIC-FND在假新闻检测方面优于现有的最先进方法。
-----------------------------------------------------------------------------------------------------
-[No.9] Is LLMs Hallucination Usable? LLM-based Negative Reasoning for Fake News Detection
-来源: AAAI 2025
-命中: news
-标题: 基于LLM的反向推理在虚假新闻检测中的可用性：LLM的幻觉是否可利用？
-类别: application domains
-作者: Chaowei Zhang;Zongling Feng;Zewei Zhang;Jipeng Qiang;Guandong Xu;Yun Li;
-机构: Yangzhou University;Auburn University;Education University of Hong Kong;
-类型: Technical
-链接: https://ojs.aaai.org/index.php/AAAI/article/view/32089
-arXi: https://arxiv.org/abs/2503.09153
-英摘: The questionable responses caused by knowledge hallucination may lead to LLMs' unstable ability in decision-making. However, it has never been investigated whether the LLMs' hallucination is possibly usable to generate negative reasoning for facilitating the detection of fake news. This study proposes a novel supervised self-reinforced reasoning rectification approach - SR$^3$ that yields both common reasonable reasoning and wrong understandings (negative reasoning) for news via LLMs reflection for semantic consistency learning. Upon that, we construct a negative reasoning-based news learning model called - \emph{NRFE}, which leverages positive or negative news-reasoning pairs for learning the semantic consistency between them. To avoid the impact of label-implicated reasoning, we deploy a student model - \emph{NRFE-D} that only takes news content as input to inspect the performance of our method by distilling the knowledge from \emph{NRFE}. The experimental results verified on three popular fake news datasets demonstrate the superiority of our method compared with three kinds of baselines including prompting on LLMs, fine-tuning on pre-trained SLMs, and other representative fake news detection methods.
-中摘: 由知识幻觉引起的问题回答可能导致大型语言模型(LLMs)在决策能力上的不稳定。然而，从未有研究探讨过LLMs的幻觉是否可能被用于生成负面推理，以促进假新闻的检测。本研究提出了一种新颖的监督自强化推理修正方法——SR$^3$，它通过LLMs的反思来学习语义一致性，从而产生既合理又错误的理解（负面推理）的新闻。基于此，我们构建了一个基于负面推理的新闻学习模型，称为\emph{NRFE}，该模型利用正负新闻推理对来学习它们之间的语义一致性。为了避免标签蕴含推理的影响，我们部署了一个学生模型——\emph{NRFE-D}，仅将新闻内容作为输入，从\emph{NRFE}中提炼知识，以此检验我们方法的性能。实验结果在三个流行的假新闻数据集上验证了我们的方法相较于三种基线，包括在LLMs上的提示、在预训练SLMs上的微调以及其它代表性假新闻检测方法的优越性。
-----------------------------------------------------------------------------------------------------
-[No.10] Learning Complex Heterogeneous Multimodal Fake News via Social Latent Network Inference
-来源: AAAI 2025
-命中: news
-标题: 通过社会潜在网络推断学习复杂异构多模态假新闻
-类别: application domains
-作者: Mingxin Li;Yuchen Zhang;Haowei Xu;Xianghua Li;Chao Gao;Zhen Wang;
-机构: Northwestern Polytechnical University;
-类型: Technical
-链接: https://ojs.aaai.org/index.php/AAAI/article/view/32022
-arXi: https://arxiv.org/abs/2501.15508
-英摘: With the diversification of online social platforms, news dissemination has become increasingly complex, heterogeneous, and multimodal, making the fake news detection task more challenging and crucial. Previous works mainly focus on obtaining social relationships of news via retweets, limiting the accurate detection when real cascades are inaccessible. Given the proven assessment of the spreading influence of events, this paper proposes a method called HML (Complex Heterogeneous Multimodal Fake News Detection method via Latent Network Inference). Specifically, an improved social latent network inference strategy is designed to estimate the maximum likelihood of news influences under the same event. Meanwhile, a novel heterogeneous graph is built based on social attributes for multimodal news under different events. Further, to better aggregate the relationships among heterogeneous multimodal features, this paper proposes a self-supervised-based multimodal content learning strategy, to enhance, align, fuse and compare heterogeneous modal contents. Based above, a personalized heterogeneous graph representation learning is designed to classify fake news. Extensive experiments demonstrate that the proposed method outperforms the SOTA in real social media news datasets.
-中摘: 随着在线社交平台的多样化，新闻传播变得越来越复杂、异构和多模态，这使得假新闻检测任务更具挑战性和重要性。先前的工作主要集中在通过转发来获取新闻的社会关系，当真实的传播链无法获取时，这种做法限制了准确检测的能力。鉴于对事件传播影响力评估的有效性，本文提出了一种名为HML（基于潜在网络推断的复杂异构多模态假新闻检测方法）。具体而言，设计了一种改进的社会潜在网络推断策略，以估计在相同事件下新闻影响力的最大可能性。同时，根据不同事件下的社会属性，构建了一个新型的异构图，用于多模态新闻。进一步地，为了更好地聚合异构多模态特征之间的关系，本文提出了一种基于自监督的多模态内容学习策略，以增强、对齐、融合和比较异构模态内容。基于以上，设计了一种个性化异构图表示学习方法，用于分类假新闻。广泛的实验表明，在真实社交媒体新闻数据集上，所提出的方法优于现有最先进技术（SOTA）。
-----------------------------------------------------------------------------------------------------
-[No.11] RaCMC: Residual-Aware Compensation Network with Multi-Granularity Constraints for Fake News Detection
-来源: AAAI 2025
-命中: news
-标题: 残差意识补偿网络：带有多粒度约束的假新闻检测模型
-类别: application domains
-作者: Xinquan Yu;Ziqi Sheng;Wei Lu;Xiangyang Luo;Jiantao Zhou;
-机构: Sun Yat-sen University;State Key Laboratory of Mathematical Engineering and Advanced Computing;University of Macau;
-类型: Technical
-链接: https://ojs.aaai.org/index.php/AAAI/article/view/32084
-arXi: https://arxiv.org/abs/2412.18254
-英摘: Multimodal fake news detection aims to automatically identify real or fake news, thereby mitigating the adverse effects caused by such misinformation. Although prevailing approaches have demonstrated their effectiveness, challenges persist in cross-modal feature fusion and refinement for classification. To address this, we present a residual-aware compensation network with multi-granularity constraints (RaCMC) for fake news detection, that aims to sufficiently interact and fuse cross-modal features while amplifying the differences between real and fake news. First, a multiscale residual-aware compensation module is designed to interact and fuse features at different scales, and ensure both the consistency and exclusivity of feature interaction, thus acquiring high-quality features. Second, a multi-granularity constraints module is implemented to limit the distribution of both the news overall and the image-text pairs within the news, thus amplifying the differences between real and fake news at the news and feature levels. Finally, a dominant feature fusion reasoning module is developed to comprehensively evaluate news authenticity from the perspectives of both consistency and inconsistency. Experiments on three public datasets, including Weibo17, Politifact and GossipCop, reveal the superiority of the proposed method.
-中摘: 多模态假新闻检测旨在自动识别真实或虚假新闻，从而减轻此类错误信息带来的不利影响。尽管现有方法已经证明了其有效性，但在跨模态特征融合与精炼以进行分类方面仍存在挑战。为了解决这个问题，我们提出了一种具有多粒度约束的残差感知补偿网络（RaCMC），用于假新闻检测，旨在充分交互和融合跨模态特征，同时放大真实新闻与虚假新闻之间的差异。首先，设计了一个多尺度残差感知补偿模块来在不同尺度上交互和融合特征，并确保特征交互的一致性和排他性，从而获得高质量的特征。其次，实施了一个多粒度约束模块来限制新闻整体以及新闻内的图像-文本对的分布，从而在新闻和特征层面放大真实新闻与虚假新闻之间的差异。最后，开发了一个主导特征融合推理模块，从一致性和不一致性两个角度全面评估新闻的真实性。在Weibo17、Politifact和GossipCop三个公开数据集上的实验揭示了所提出方法的优越性。
-----------------------------------------------------------------------------------------------------
-[No.12] Text-Guided Fine-grained Counterfactual Inference for Short Video Fake News Detection
-来源: AAAI 2025
-命中: news
-标题: 基于文本引导的细粒度反事实推理在短视频假新闻检测中的应用
-类别: application domains
-作者: Linlin Zong;Wenmin Lin;Jiahui Zhou;Xinyue Liu;Xianchao Zhang;Bo Xu;Shimin Wu;
-机构: Dalian University of Technology;
-类型: Technical
-链接: https://ojs.aaai.org/index.php/AAAI/article/view/32112
-----------------------------------------------------------------------------------------------------
-[No.13] ViFactCheck: A New Benchmark Dataset and Methods for Multi-Domain News Fact-Checking In Vietnamese
-来源: AAAI 2025
-命中: news
-标题: ViFactCheck：一种新的多领域越南语新闻事实核查基准数据集和方法
-类别: application domains
-作者: Tran Thai Hoa;Tran Quang Duy;Khanh Quoc Tran;Kiet Van Nguyen;
-机构: University of Information Technology;Vietnam National University;
-类型: Technical
-链接: https://ojs.aaai.org/index.php/AAAI/article/view/32008
-arXi: https://arxiv.org/abs/2412.15308
-英摘: The rapid spread of information in the digital age highlights the critical need for effective fact-checking tools, particularly for languages with limited resources, such as Vietnamese. In response to this challenge, we introduce ViFactCheck, the first publicly available benchmark dataset designed specifically for Vietnamese fact-checking across multiple online news domains. This dataset contains 7,232 human-annotated pairs of claim-evidence combinations sourced from reputable Vietnamese online news, covering 12 diverse topics. It has been subjected to a meticulous annotation process to ensure high quality and reliability, achieving a Fleiss Kappa inter-annotator agreement score of 0.83. Our evaluation leverages state-of-the-art pre-trained and large language models, employing fine-tuning and prompting techniques to assess performance. Notably, the Gemma model demonstrated superior effectiveness, with an impressive macro F1 score of 89.90%, thereby establishing a new standard for fact-checking benchmarks. This result highlights the robust capabilities of Gemma in accurately identifying and verifying facts in Vietnamese. To further promote advances in fact-checking technology and improve the reliability of digital media, we have made the ViFactCheck dataset, model checkpoints, fact-checking pipelines, and source code freely available on GitHub. This initiative aims to inspire further research and enhance the accuracy of information in low-resource languages.
-中摘: 在数字时代信息迅速传播的背景下，有效事实核查工具的需求显得尤为迫切，特别是对于资源有限的语言，如越南语。为应对这一挑战，我们推出了ViFactCheck，这是首个公开可用的基准数据集，专门设计用于跨多个在线新闻领域的越南语文本事实核查。该数据集包含7,232个人工标注的声明与证据组合对，这些材料来源于信誉良好的越南在线新闻网站，涵盖了12个不同的主题领域。为了确保高质量和可靠性，我们进行了严谨的标注流程，达到了0.83的Fleiss Kappa注释者间一致性的评分标准。我们的评估利用了最先进的预训练和大型语言模型，通过微调和提示技术来衡量性能。值得注意的是，Gemma模型展现出了卓越的效果，其宏平均F1分数高达89.90%，从而为事实核查基准设立了新的标准。这一成果凸显了Gemma在准确识别和验证越南语文本中的事实方面所具备的强大能力。为了进一步推动事实核查技术的发展并提高数字媒体的可靠性，我们已在GitHub上免费提供了ViFactCheck数据集、模型检查点、事实核查管道以及源代码。这一举措旨在激发更多的研究，并增强低资源语言信息的准确性。
-----------------------------------------------------------------------------------------------------
-[No.14] Towards S²-Challenges Underlying LLM-Based Augmentation for Personalized News Recommendation
-来源: AAAI 2025
-命中: news
-标题: 面向S²挑战：基于LLM的个性化新闻推荐增强技术
-类别: data mining knowledge management ii
-作者: Shicheng Wang;Hengzhu Tang;Li Gao;Shu Guo;Suqi Cheng;Junfeng Wang;Dawei Yin;Tingwen Liu;Lihong Wang;
-机构: Chinese Academy of Sciences;University of Chinese Academy of Sciences;Baidu;National Computer Network Emergency Response Technical Team/Coordination Center;
-类型: Technical
-链接: https://ojs.aaai.org/index.php/AAAI/article/view/33389
-----------------------------------------------------------------------------------------------------
-[No.15] Contradicted in Reliable, Replicated in Unreliable: Dual-Source Reference for Fake News Early Detection
-来源: AAAI 2025
-命中: news
-标题: 可信与不可信来源的双重参考：假新闻早期检测的矛盾验证和重复验证方法
-类别: natural language processing i
-作者: Yifan Feng;Weimin Li;Yue Wang;Jingchao Wang;Fangfang Liu;Zhongming Han;
-机构: Shanghai University;Beijing Technology and Business University;
-类型: Technical
-链接: https://ojs.aaai.org/index.php/AAAI/article/view/34562
-----------------------------------------------------------------------------------------------------
-[No.16] CROSSNEWS: A Cross-Genre Authorship Verification and Attribution Benchmark
-来源: AAAI 2025
-命中: news
-标题: 跨体裁作者身份验证和归属基准（CrossNews）
-类别: natural language processing ii
-作者: Marcus Ma;Duong Minh Le;Junmo Kang;Yao Dou;John Cadigan;Dayne Freitag;Alan Ritter;Wei Xu;
-机构: Georgia Institute of Technology;SRI International;
-类型: Technical
-链接: https://ojs.aaai.org/index.php/AAAI/article/view/34659
-----------------------------------------------------------------------------------------------------
-[No.17] EventSum: A Large-Scale Event-Centric Summarization Dataset for Chinese Multi-News Documents
-来源: AAAI 2025
-命中: news
-标题: 事件总结：面向中文多新闻文档的大规模事件中心总结数据集
-类别: natural language processing iii
-作者: Mengna Zhu;Kaisheng Zeng;Mao Wang;Kaiming Xiao;Lei Hou;Hongbin Huang;Juanzi Li;
-机构: National University of Defense Technology;Tsinghua University;
-类型: Technical
-链接: https://ojs.aaai.org/index.php/AAAI/article/view/34810
-arXi: https://arxiv.org/abs/2412.11814
-英摘: In real life, many dynamic events, such as major disasters and large-scale sports events, evolve continuously over time. Obtaining an overview of these events can help people quickly understand the situation and respond more effectively. This is challenging because the key information of the event is often scattered across multiple documents, involving complex event knowledge understanding and reasoning, which is under-explored in previous work. Therefore, we proposed the Event-Centric Multi-Document Summarization (ECS) task, which aims to generate concise and comprehensive summaries of a given event based on multiple related news documents. Based on this, we constructed the EventSum dataset, which was constructed using Baidu Baike entries and underwent extensive human annotation, to facilitate relevant research. It is the first large scale Chinese multi-document summarization dataset, containing 5,100 events and a total of 57,984 news documents, with an average of 11.4 input news documents and 13,471 characters per event. To ensure data quality and mitigate potential data leakage, we adopted a multi-stage annotation approach for manually labeling the test set. Given the complexity of event-related information, existing metrics struggle to comprehensively assess the quality of generated summaries. We designed specific metrics including Event Recall, Argument Recall, Causal Recall, and Temporal Recall along with corresponding calculation methods for evaluation. We conducted comprehensive experiments on EventSum to evaluate the performance of advanced long-context Large Language Models (LLMs) on this task. Our experimental results indicate that: 1) The event-centric multi-document summarization task remains challenging for existing long-context LLMs; 2) The recall metrics we designed are crucial for evaluating the comprehensiveness of the summary information.
-中摘: 在现实生活中，许多动态事件，如重大灾难和大型体育赛事，会随时间持续演变。获取这些事件的概览可以帮助人们快速理解情况并更有效地应对。这极具挑战性，因为事件的关键信息往往分散在多篇文档中，涉及复杂的事件知识理解和推理，而在先前的工作中对此探索不足。因此，我们提出了以事件为中心的多文档摘要（ECS）任务，旨在根据多篇相关新闻文档为给定事件生成精炼而全面的摘要。基于此，我们构建了EventSum数据集，该数据集使用百度百科条目构建，并经过广泛的人工注释，以促进相关研究。这是第一个大规模的中文多文档摘要数据集，包含5,100个事件和总计57,984篇新闻文档，每个事件平均有11.4篇输入新闻文档和13,471个字符。为了确保数据质量并缓解潜在的数据泄露，我们采用了多阶段注释方法来人工标记测试集。鉴于事件相关信息的复杂性，现有指标难以全面评估生成摘要的质量。我们设计了特定的指标，包括事件召回率、论据召回率、因果召回率和时间召回率，以及相应的计算方法进行评估。我们在EventSum上进行了全面的实验，以评估先进的长上下文大语言模型（LLM）在此任务上的表现。我们的实验结果表明：1）现有的长上下文LLM在以事件为中心的多文档摘要任务上仍面临挑战；2）我们设计的召回指标对于评估摘要信息的全面性至关重要。
-----------------------------------------------------------------------------------------------------
-[No.18] Bad Actor, Good Advisor: Exploring the Role of Large Language Models in Fake News Detection
-来源: AAAI 2024
-命中: news
-标题: 恶意行为者，良师益友：探索大型语言模型在假新闻检测中的角色
-类别: ai for social impact track
-作者: Beizhe Hu;Qiang Sheng;Juan Cao;Yuhui Shi;Yang Li;Danding Wang;Peng Qi;
-机构: Chinese Academy of Sciences;University of Chinese Academy of Sciences;National University of Singapore;
-类型: Technical
-链接: https://ojs.aaai.org/index.php/AAAI/article/view/30214
-arXi: https://arxiv.org/abs/2309.12247
-英摘: Detecting fake news requires both a delicate sense of diverse clues and a profound understanding of the real-world background, which remains challenging for detectors based on small language models (SLMs) due to their knowledge and capability limitations. Recent advances in large language models (LLMs) have shown remarkable performance in various tasks, but whether and how LLMs could help with fake news detection remains underexplored. In this paper, we investigate the potential of LLMs in fake news detection. First, we conduct an empirical study and find that a sophisticated LLM such as GPT 3.5 could generally expose fake news and provide desirable multi-perspective rationales but still underperforms the basic SLM, fine-tuned BERT. Our subsequent analysis attributes such a gap to the LLM's inability to select and integrate rationales properly to conclude. Based on these findings, we propose that current LLMs may not substitute fine-tuned SLMs in fake news detection but can be a good advisor for SLMs by providing multi-perspective instructive rationales. To instantiate this proposal, we design an adaptive rationale guidance network for fake news detection (ARG), in which SLMs selectively acquire insights on news analysis from the LLMs' rationales. We further derive a rationale-free version of ARG by distillation, namely ARG-D, which services cost-sensitive scenarios without querying LLMs. Experiments on two real-world datasets demonstrate that ARG and ARG-D outperform three types of baseline methods, including SLM-based, LLM-based, and combinations of small and large language models.
-中摘: 检测假新闻需要对各种线索有敏锐的感知和对现实世界背景有深刻的理解，这对基于小型语言模型(SLMs)的检测器来说仍然是一个挑战，因为它们在知识和能力上有局限性。大型语言模型(LLMs)的最新进展在各种任务上显示出了卓越的表现，但LLMs是否以及如何帮助检测假新闻仍有待探索。在这篇论文中，我们研究了LLMs在假新闻检测中的潜力。首先，我们进行了一项实证研究，发现像GPT 3.5这样复杂的大模型通常能够揭露假新闻并提供理想的多角度理由，但在性能上仍然不如基础的小型语言模型，如微调过的BERT。随后的分析将这种差距归因于大模型无法正确选择和整合理由以得出结论。基于这些发现，我们提出当前的大模型可能不会取代微调过的小模型在假新闻检测中的作用，但可以作为小模型的良好顾问，通过提供多角度指导性的理由来辅助。为了实现这一提议，我们为假新闻检测设计了一个自适应理由引导网络(Adaptive Rationale Guidance Network, ARG)，其中小模型从大模型的理由中选择性地获取新闻分析的见解。此外，我们还通过蒸馏方法推导出一个无需理由的ARG版本，即ARG-D，它服务于成本敏感的场景，无需查询大模型。在两个真实数据集上的实验表明，ARG和ARG-D优于三类基线方法，包括基于SLM的方法、基于LLM的方法以及小型和大型语言模型的组合。
-
-简而言之，ARG和ARG-D在假新闻检测方面表现出了更好的性能，能够有效地利用大型语言模型的多角度理由，同时克服了其选择和整合信息的不足，从而在成本敏感的场景下也能提供更准确的检测结果。
-----------------------------------------------------------------------------------------------------
-[No.19] Harnessing Network Effect for Fake News Mitigation: Selecting Debunkers via Self-Imitation Learning
-来源: AAAI 2024
-命中: news
-标题: 利用网络效应对抗假新闻：通过自我模仿学习选择辟谣者
-类别: ai for social impact track
-作者: Xiaofei Xu;Ke Deng;Michael Dann;Xiuzhen Zhang;
-机构: RMIT University;
-类型: Technical
-链接: https://ojs.aaai.org/index.php/AAAI/article/view/30252
-arXi: https://arxiv.org/abs/2402.03357
-英摘: This study aims to minimize the influence of fake news on social networks by deploying debunkers to propagate true news. This is framed as a reinforcement learning problem, where, at each stage, one user is selected to propagate true news. A challenging issue is episodic reward where the "net" effect of selecting individual debunkers cannot be discerned from the interleaving information propagation on social networks, and only the collective effect from mitigation efforts can be observed. Existing Self-Imitation Learning (SIL) methods have shown promise in learning from episodic rewards, but are ill-suited to the real-world application of fake news mitigation because of their poor sample efficiency. To learn a more effective debunker selection policy for fake news mitigation, this study proposes NAGASIL - Negative sampling and state Augmented Generative Adversarial Self-Imitation Learning, which consists of two improvements geared towards fake news mitigation: learning from negative samples, and an augmented state representation to capture the "real" environment state by integrating the current observed state with the previous state-action pairs from the same campaign. Experiments on two social networks show that NAGASIL yields superior performance to standard GASIL and state-of-the-art fake news mitigation models.
-中摘: 本研究旨在通过部署辟谣者传播真实新闻来最小化虚假新闻在社交网络上的影响。这被构架为一个强化学习问题，在每个阶段选择一个用户来传播真实新闻。一个具有挑战性的问题是阶段性奖励，在社交网络上交织的信息传播中，无法单独辨识选择个别辟谣者的“净”效果，只能观察到缓解努力的集体效果。现有的自我模仿学习（SIL）方法在从阶段性奖励中学习方面显示出潜力，但因其样本效率低下而不适合实际应用中的虚假新闻缓解工作。为了学习更有效的辟谣者选择策略以缓解虚假新闻，本研究提出了NAGASIL——负采样和状态增强的生成对抗自我模仿学习，它包括两个针对虚假新闻缓解的改进：从负面样本中学习，以及增强的状态表示，通过将当前观测状态与同一活动中的先前状态-动作对整合，捕捉“真实”的环境状态。在两个社交网络上的实验表明，NAGASIL相比标准GASIL和其他最先进的虚假新闻缓解模型表现更优。
-----------------------------------------------------------------------------------------------------
-[No.20] GAMC: An Unsupervised Method for Fake News Detection Using Graph Autoencoder with Masking
-来源: AAAI 2024
-命中: news
-标题: GAMC：一种基于图自编码器掩码的无监督假新闻检测方法
-类别: application domains
-作者: Shu Yin;Peican Zhu;Lianwei Wu;Chao Gao;Zhen Wang;
-机构: Northwestern Polytechnical University;
-类型: Technical
-链接: https://ojs.aaai.org/index.php/AAAI/article/view/27788
-arXi: https://arxiv.org/abs/2312.05739
-英摘: With the rise of social media, the spread of fake news has become a significant concern, potentially misleading public perceptions and impacting social stability. Although deep learning methods like CNNs, RNNs, and Transformer-based models like BERT have enhanced fake news detection, they primarily focus on content, overlooking social context during news propagation. Graph-based techniques have incorporated this social context but are limited by the need for large labeled datasets. Addressing these challenges, this paper introduces GAMC, an unsupervised fake news detection technique using the Graph Autoencoder with Masking and Contrastive learning. By leveraging both the context and content of news propagation as self-supervised signals, our method negates the requirement for labeled datasets. We augment the original news propagation graph, encode these with a graph encoder, and employ a graph decoder for reconstruction. A unique composite loss function, including reconstruction error and contrast loss, is designed. The method's contributions are: introducing self-supervised learning to fake news detection, proposing a graph autoencoder integrating two distinct losses, and validating our approach's efficacy through real-world dataset experiments.
-中摘: 随着社交媒体的兴起，假新闻的传播已成为一个重大关切，可能误导公众认知并影响社会稳定。尽管像CNN（卷积神经网络）、RNN（循环神经网络）以及基于Transformer的模型如BERT等深度学习方法已经增强了假新闻的检测能力，但它们主要关注内容，忽略了新闻传播过程中的社会背景。图论技术虽然已经将这种社会背景纳入考虑，但受限于需要大规模标注数据集。为应对这些挑战，本文引入了GAMC，一种利用带有屏蔽和对比学习的图自编码器进行无监督假新闻检测的技术。通过将新闻传播的背景和内容作为自我监督信号，我们的方法消除了对标注数据集的需求。我们增强原始的新闻传播图，使用图编码器对其进行编码，并采用图解码器进行重构。设计了一个独特的复合损失函数，包括重构误差和对比损失。该方法的贡献在于：将自我监督学习引入假新闻检测领域，提出了一种整合两种不同损失的图自编码器，并通过真实世界数据集实验验证了我们方法的有效性。
-----------------------------------------------------------------------------------------------------
-[No.21] Unveiling Implicit Deceptive Patterns in Multi-Modal Fake News via Neuro-Symbolic Reasoning
-来源: AAAI 2024
-命中: news
-标题: 通过神经符号推理揭示多模态假新闻中的隐含欺骗模式
-类别: data mining knowledge management
-作者: Yiqi Dong;Dongxiao He;Xiaobao Wang;Youzhu Jin;Meng Ge;Carl Yang;Di Jin;
-机构: Tianjin University;Beijing University of Technology;National University of Singapore;Emory University;
-类型: Technical
-链接: https://ojs.aaai.org/index.php/AAAI/article/view/28677
-----------------------------------------------------------------------------------------------------
-[No.22] Reinforced Adaptive Knowledge Learning for Multimodal Fake News Detection
-来源: AAAI 2024
-命中: news
-标题: 强化自适应多模态假新闻检测的知识学习
-类别: machine learning vi
-作者: Litian Zhang;Xiaoming Zhang;Ziyi Zhou;Feiran Huang;Chaozhuo Li;
-机构: Beihang University;Jinan University;Beijing University of Posts and Telecommunications;
-类型: Technical
-链接: https://ojs.aaai.org/index.php/AAAI/article/view/29618
-----------------------------------------------------------------------------------------------------
-[No.23] BAND: Biomedical Alert News Dataset
-来源: AAAI 2024
-命中: news
-标题: BAND：生物医学警报新闻数据集
-类别: natural language processing i
-作者: Zihao Fu;Meiru Zhang;Zaiqiao Meng;Yannan Shen;David Buckeridge;Nigel Collier;
-机构: University of Cambridge;University of Glasgow;McGill University;
-类型: Technical
-链接: https://ojs.aaai.org/index.php/AAAI/article/view/29757
-arXi: https://arxiv.org/abs/2305.14480
-英摘: Infectious disease outbreaks continue to pose a significant threat to human health and well-being. To improve disease surveillance and understanding of disease spread, several surveillance systems have been developed to monitor daily news alerts and social media. However, existing systems lack thorough epidemiological analysis in relation to corresponding alerts or news, largely due to the scarcity of well-annotated reports data. To address this gap, we introduce the Biomedical Alert News Dataset (BAND), which includes 1,508 samples from existing reported news articles, open emails, and alerts, as well as 30 epidemiology-related questions. These questions necessitate the model's expert reasoning abilities, thereby offering valuable insights into the outbreak of the disease. The BAND dataset brings new challenges to the NLP world, requiring better disguise capability of the content and the ability to infer important information. We provide several benchmark tasks, including Named Entity Recognition (NER), Question Answering (QA), and Event Extraction (EE), to show how existing models are capable of handling these tasks in the epidemiology domain. To the best of our knowledge, the BAND corpus is the largest corpus of well-annotated biomedical outbreak alert news with elaborately designed questions, making it a valuable resource for epidemiologists and NLP researchers alike.
-中摘: 传染病爆发持续对人类健康和福祉构成重大威胁。为了改进疾病监测并加深对疾病传播的理解，已经开发了多个监控系统来跟踪每日新闻警报和社会媒体。然而，现有系统在与相应警报或新闻相关的流行病学分析方面存在不足，这主要是由于标注良好的报告数据稀缺。为了解决这一缺口，我们引入了生物医学警报新闻数据集（BAND），其中包括从现有报道的新闻文章、公开邮件和警报中选取的1508个样本，以及30个与流行病学相关的问题。这些问题要求模型具备专业推理能力，从而为疾病的爆发提供了有价值的见解。BAND数据集为自然语言处理（NLP）领域带来了新的挑战，需要内容更好的掩饰能力和推断重要信息的能力。我们提供了一些基准任务，包括命名实体识别（NER）、问题回答（QA）和事件抽取（EE），以展示现有模型如何在流行病学领域处理这些任务。据我们所知，BAND语料库是最大的、经过良好标注的生物医学爆发警报新闻数据集，设计精良的问题使其成为流行病学家和NLP研究者宝贵的资源。
-----------------------------------------------------------------------------------------------------
-[No.24] LANCER: A Lifetime-Aware News Recommender System
-来源: AAAI 2023
-命中: news
-标题: LANCER：一种具备生命周期意识的新闻推荐系统
-类别: data mining and knowledge management
-作者: Hong-Kyun Bae;Jeewon Ahn;Dongwon Lee;Sang-Wook Kim;
-机构: Hanyang University;Pennsylvania State University;
-类型: Technical
-链接: https://ojs.aaai.org/index.php/AAAI/article/view/25530
-----------------------------------------------------------------------------------------------------
-[No.25] Bootstrapping Multi-View Representations for Fake News Detection
-来源: AAAI 2023
-命中: news
-标题: 基于多视图表示的假新闻检测Bootstraping Multi-View Representations for Fake News Detection
-类别: domain s of application
-作者: Qichao Ying;Xiaoxiao Hu;Yangming Zhou;Zhenxing Qian;Dan Zeng;Shiming Ge;
-机构: Fudan University;Shanghai University;Chinese Academy of Sciences;
-类型: Technical
-链接: https://ojs.aaai.org/index.php/AAAI/article/view/25670
-arXi: https://arxiv.org/abs/2206.05741
-英摘: Previous researches on multimedia fake news detection include a series of complex feature extraction and fusion networks to gather useful information from the news. However, how cross-modal consistency relates to the fidelity of news and how features from different modalities affect the decision-making are still open questions. This paper presents a novel scheme of Bootstrapping Multi-view Representations (BMR) for fake news detection. Given a multi-modal news, we extract representations respectively from the views of the text, the image pattern and the image semantics. Improved Multi-gate Mixture-of-Expert networks (iMMoE) are proposed for feature refinement and fusion. Representations from each view are separately used to coarsely predict the fidelity of the whole news, and the multimodal representations are able to predict the cross-modal consistency. With the prediction scores, we reweigh each view of the representations and bootstrap them for fake news detection. Extensive experiments conducted on typical fake news detection datasets prove that the proposed BMR outperforms state-of-the-art schemes.
-中摘: 先前关于多媒体假新闻检测的研究包括一系列复杂的特征提取和融合网络，以从新闻中收集有用信息。然而，跨模态一致性与新闻真实性之间的关系，以及不同模态的特征如何影响决策仍然是开放问题。本文提出了一种名为“引导多视图表示”（BMR）的新型方案，用于假新闻检测。对于一个多模态新闻，我们分别从文本、图像模式和图像语义的角度提取表示。提出了改进的多门混合专家网络（iMMoE）进行特征细化和融合。每个视图的表示分别用于粗略预测整个新闻的真实性，而多模态表示能够预测跨模态一致性。利用预测得分，我们重新加权每个视图的表示，并对其进行引导，用于假新闻检测。在典型假新闻检测数据集上进行的广泛实验证明，提出的BMR方案优于最先进的方法。
-----------------------------------------------------------------------------------------------------
-[No.26] HG-SL: Jointly Learning of Global and Local User Spreading Behavior for Fake News Early Detection
-来源: AAAI 2023
-命中: news
-标题: 联合学习全局和局部用户传播行为以实现虚假新闻早期检测
-类别: domain s of application
-作者: Ling Sun;Yuan Rao;Yuqian Lan;Bingcan Xia;Yangyang Li;
-机构: Xi'an Jiao Tong University;National Engineering Laboratory for Risk Perception and Prevention;
-类型: Technical
-链接: https://ojs.aaai.org/index.php/AAAI/article/view/25655
-----------------------------------------------------------------------------------------------------
-[No.27] See How You Read? Multi-Reading Habits Fusion Reasoning for Multi-Modal Fake News Detection
-来源: AAAI 2023
-命中: news
-标题: 你是如何阅读的？融合多读取习惯进行多模态假新闻检测的原因分析
-类别: speech natural language processing
-作者: Lianwei Wu;Pusheng Liu;Yanning Zhang;
-机构: Northwestern Polytechnical University;
-类型: Technical
-链接: https://ojs.aaai.org/index.php/AAAI/article/view/26609
-----------------------------------------------------------------------------------------------------
-[No.28] SumREN: Summarizing Reported Speech about Events in News
-来源: AAAI 2023
-命中: news
-标题: SumREN: 汇总新闻中关于事件的引语报道摘要
-类别: speech natural language processing
-作者: Revanth Gangi Reddy;Heba Elfardy;Hou Pong Chan;Kevin Small;Heng Ji;
-机构: University of Illinois Urbana-Champaign;Amazon;University of Macau;
-类型: Technical
-链接: https://ojs.aaai.org/index.php/AAAI/article/view/26506
-arXi: https://arxiv.org/abs/2212.01146
-英摘: A primary objective of news articles is to establish the factual record for an event, frequently achieved by conveying both the details of the specified event (i.e., the 5 Ws; Who, What, Where, When and Why regarding the event) and how people reacted to it (i.e., reported statements). However, existing work on news summarization almost exclusively focuses on the event details. In this work, we propose the novel task of summarizing the reactions of different speakers, as expressed by their reported statements, to a given event. To this end, we create a new multi-document summarization benchmark, SUMREN, comprising 745 summaries of reported statements from various public figures obtained from 633 news articles discussing 132 events. We propose an automatic silver training data generation approach for our task, which helps smaller models like BART achieve GPT-3 level performance on this task. Finally, we introduce a pipeline-based framework for summarizing reported speech, which we empirically show to generate summaries that are more abstractive and factual than baseline query-focused summarization approaches.
-中摘: 新闻文章的主要目标之一是为事件建立事实记录，通常通过传达事件的具体细节（即5W：谁、什么、地点、时间和事件的原因）以及人们对此事的反应（即报道的言论）来实现。然而，现有的新闻摘要工作几乎完全集中在事件细节上。在本工作中，我们提出了一个新颖的任务，即总结不同发言者对给定事件的反应，这些反应通过他们发表的言论表达。为此，我们创建了一个新的多文档摘要基准，名为SUMREN，它包含从讨论132个事件的633篇新闻文章中获得的745个公共人物的报道言论的摘要。我们为我们的任务提出了一种自动银色训练数据生成方法，这有助于较小的模型如BART在这个任务上达到GPT-3级别的性能。最后，我们引入了一个基于管道的框架，用于总结报道的言论，实证显示，与基线查询聚焦的摘要方法相比，该框架生成的摘要更具有抽象性和事实性。
-----------------------------------------------------------------------------------------------------
-[No.29] A General Black-box Adversarial Attack on Graph-based Fake News Detectors
-来源: IJCAI 2024
-命中: news
-标题: 基于图的假新闻检测器的一般黑盒对抗攻击
-类别: AI Ethics, Trust, Fairness
-作者: Peican Zhu;Zechen Pan;Yang Liu;Jiwei Tian;Keke Tang;Zhen Wang;
-机构: Northwestern Polytechnical University;Air Force Engineering University;Guangzhou University;
-类型: Poster
-链接: https://www.ijcai.org/proceedings/2024/63
-arXi: https://arxiv.org/abs/2404.15744
-英摘: Graph Neural Network (GNN)-based fake news detectors apply various methods to construct graphs, aiming to learn distinctive news embeddings for classification. Since the construction details are unknown for attackers in a black-box scenario, it is unrealistic to conduct the classical adversarial attacks that require a specific adjacency matrix. In this paper, we propose the first general black-box adversarial attack framework, i.e., General Attack via Fake Social Interaction (GAFSI), against detectors based on different graph structures. Specifically, as sharing is an important social interaction for GNN-based fake news detectors to construct the graph, we simulate sharing behaviors to fool the detectors. Firstly, we propose a fraudster selection module to select engaged users leveraging local and global information. In addition, a post injection module guides the selected users to create shared relations by sending posts. The sharing records will be added to the social context, leading to a general attack against different detectors. Experimental results on empirical datasets demonstrate the effectiveness of GAFSI.
-中摘: 图神经网络（GNN）基偺虚假新闻检测器采用各种方法构建图，旨在为分类学习独特的新闻嵌入。由于攻击者在黑盒场景中无法得知构建细节，进行需要特定邻接矩阵的经典对抗性攻击是不现实的。在这篇论文中，我们提出了首个通用的黑盒对抗性攻击框架，即通过伪造社交互动进行的通用攻击（GAFSI），针对基于不同图结构的检测器。具体而言，鉴于分享是GNN基偺虚假新闻检测器构建图的重要社交互动，我们模拟分享行为以欺骗检测器。首先，我们提出了一种欺诈者选择模块，利用局部和全局信息来挑选参与的用户。此外，一个帖子注入模块指导选定的用户通过发送帖子创建共享关系。这些分享记录将被添加到社交情境中，从而对不同的检测器实施普遍攻击。在经验数据集上的实验结果证明了GAFSI的有效性。
-----------------------------------------------------------------------------------------------------
-[No.30] Natural Language-centered Inference Network for Multi-modal Fake News Detection
-来源: IJCAI 2024
-命中: news
-标题: 基于自然语言的多模态假新闻检测推理网络
-类别: Data Mining
-作者: Qiang Zhang;Jiawei Liu;Fanrui Zhang;Jingyi Xie;Zheng-Jun Zha;
-机构: University of Science and Technology of China;
-类型: Poster
-链接: https://www.ijcai.org/proceedings/2024/281
-----------------------------------------------------------------------------------------------------
-[No.31] Unified Evidence Enhancement Inference Framework for Fake News Detection
-来源: IJCAI 2024
-命中: news
-标题: 统一证据增强推理框架以检测假新闻
-类别: Natural Language Processing
-作者: Lianwei Wu;Linyong Wang;Yongqiang Zhao;
-机构: Northwestern Polytechnical University;Peking University;
-类型: Poster
-链接: https://www.ijcai.org/proceedings/2024/723
-----------------------------------------------------------------------------------------------------
-[No.32] A Generalized Deep Markov Random Fields Framework for Fake News Detection
-来源: IJCAI 2023
-命中: news
-标题: 一种广义深度马尔可夫随机场框架用于假新闻检测
-类别: Multidisciplinary Topics and Applications
-作者: Yiqi Dong;Dongxiao He;Xiaobao Wang;Yawen Li;Xiaowen Su;Di Jin;
-机构: Tianjin University;Beijing University of Posts and Telecommunications;
-类型: Poster
-链接: https://www.ijcai.org/proceedings/2023/529
-----------------------------------------------------------------------------------------------------
-[No.33] Spotlight News Driven Quantitative Trading Based on Trajectory Optimization
-来源: IJCAI 2023
-命中: news
-标题: 聚光灯新闻驱动的基于轨迹优化的量化交易
-类别: Multidisciplinary Topics and Applications
-作者: Mengyuan Yang;Mengying Zhu;Qianqiao Liang;Xiaolin Zheng;MengHan Wang;
-机构: Zhejiang University;MYbank;eBay Inc.;
-类型: Poster
-链接: https://www.ijcai.org/proceedings/2023/548
-----------------------------------------------------------------------------------------------------
-[No.34] A Survey on Predicting the Factuality and the Bias of News Media
+[No.5] A Survey on Predicting the Factuality and the Bias of News Media
 来源: ACL 2024
 命中: news
 标题: 对预测新闻媒体的事实性和偏见性的调查
@@ -396,9 +59,9 @@ arXi: https://arxiv.org/abs/2404.15744
 链接: https://aclanthology.org/2024.findings-acl.944/
 arXi: https://arxiv.org/abs/2103.12506
 英摘: The present level of proliferation of fake, biased, and propagandistic content online has made it impossible to fact-check every single suspicious claim or article, either manually or automatically. Thus, many researchers are shifting their attention to higher granularity, aiming to profile entire news outlets, which makes it possible to detect likely "fake news" the moment it is published, by simply checking the reliability of its source. Source factuality is also an important element of systems for automatic fact-checking and "fake news" detection, as they need to assess the reliability of the evidence they retrieve online. Political bias detection, which in the Western political landscape is about predicting left-center-right bias, is an equally important topic, which has experienced a similar shift towards profiling entire news outlets. Moreover, there is a clear connection between the two, as highly biased media are less likely to be factual; yet, the two problems have been addressed separately. In this survey, we review the state of the art on media profiling for factuality and bias, arguing for the need to model them jointly. We further discuss interesting recent advances in using different information sources and modalities, which go beyond the text of the articles the target news outlet has published. Finally, we discuss current challenges and outline future research directions.
-中摘: 当前网络上充斥着大量虚假、偏见和宣传性质的内容，这使得无论是手动还是自动地核查每一个可疑声明或文章都变得不可能。因此，许多研究者正在转向更高层次的分析，目标是对整个新闻机构进行画像，这样可以通过简单检查信息来源的可靠性，在假新闻发布的瞬间就检测出可能的“假新闻”。信息源的真实性也是自动事实核查系统和“假新闻”检测系统中的一个重要组成部分，因为它们需要评估在线检索到证据的可靠性。政治偏见检测同样是一个重要的话题，尤其是在西方政治背景下，预测左翼、中间派和右翼偏见；这一领域也经历了类似的转变，即对整个新闻机构进行画像。此外，真实性和偏见之间存在明显的联系，因为极度偏向的媒体不太可能做到客观真实；然而，这两个问题通常是分开处理的。在这篇综述中，我们回顾了关于媒体真实性和偏见画像领域的最新进展，强调了将两者联合建模的必要性。我们进一步讨论了使用不同信息源和模式的有趣新进展，这些进展超越了目标新闻机构发布文章的文字内容。最后，我们探讨了当前面临的挑战，并概述了未来的研究方向。
+中摘: 当前在线上泛滥的虚假、有偏见和宣传性质内容的程度，使得无论是手动还是自动，都无法核实每一个可疑的声明或文章。因此，许多研究者正在转向更高层次的颗粒度，旨在对整个新闻机构进行画像，这使得在假新闻发布的瞬间就能通过简单检查其来源的可靠性来检测可能的“假新闻”。来源的真实性也是自动事实核查和“假新闻”检测系统的重要组成部分，因为它们需要评估在线获取证据的可靠性。政治倾向性检测，在西方政治背景下，即预测左翼、中间派和右翼的偏见，同样是一个重要的议题，并且经历了类似的转向，即对整个新闻机构进行画像。此外，这两个问题之间存在明显的联系，因为高度偏向性的媒体不太可能是真实的；然而，这两个问题却一直被分开处理。在这篇综述中，我们回顾了关于媒体真实性和偏见画像的最新研究进展，主张需要将它们联合建模。我们还讨论了使用不同信息源和模态的有趣的新进展，这些进展超出了目标新闻机构所发表文章的文字内容。最后，我们讨论了当前面临的挑战，并概述了未来的研究方向。
 ----------------------------------------------------------------------------------------------------
-[No.35] AI ‘News’ Content Farms Are Easy to Make and Hard to Detect: A Case Study in Italian
+[No.6] AI ‘News’ Content Farms Are Easy to Make and Hard to Detect: A Case Study in Italian
 来源: ACL 2024
 命中: news
 标题: AI “新闻”内容农场容易建立但难以检测：意大利案例研究
@@ -411,13 +74,13 @@ arXi: https://arxiv.org/abs/2406.12128
 英摘: Large Language Models (LLMs) are increasingly used as "content farm" models (CFMs), to generate synthetic text that could pass for real news articles. This is already happening even for languages that do not have high-quality monolingual LLMs. We show that fine-tuning Llama (v1), mostly trained on English, on as little as 40K Italian news articles, is sufficient for producing news-like texts that native speakers of Italian struggle to identify as synthetic.
   We investigate three LLMs and three methods of detecting synthetic texts (log-likelihood, DetectGPT, and supervised classification), finding that they all perform better than human raters, but they are all impractical in the real world (requiring either access to token likelihood information or a large dataset of CFM texts). We also explore the possibility of creating a proxy CFM: an LLM fine-tuned on a similar dataset to one used by the real "content farm". We find that even a small amount of fine-tuning data suffices for creating a successful detector, but we need to know which base LLM is used, which is a major challenge.
   Our results suggest that there are currently no practical methods for detecting synthetic news-like texts 'in the wild', while generating them is too easy. We highlight the urgency of more NLP research on this problem.
-中摘: 大型语言模型（LLMs）越来越多地被用作“内容农场”模型（CFMs），生成可以冒充真实新闻文章的合成文本。即使对于那些没有高质量单语种LLMs的语言，这种情况也已经发生。我们展示，仅需使用4万篇意大利语新闻文章对主要以英语训练的Llama（v1）进行微调，就足以产生类似新闻的文本，让意大利母语者难以辨别其为合成文本。
+中摘: 大型语言模型（LLM）越来越多地被用作“内容农场”模型（CFM），生成可以冒充真实新闻文章的合成文本。即使在没有高质量单语LLM的语言中，这种情况也已经发生。我们证明，仅需对主要基于英语训练的Llama（v1）模型进行微调，使用4万篇意大利语新闻文章就足以生成类似新闻的文本，让意大利母语者难以辨识其为合成文本。
 
-我们研究了三种LLMs和三种检测合成文本的方法（对数似然性、DetectGPT和监督分类），发现它们的表现都优于人类评估者，但在现实世界中都不切实际（要么需要访问令牌似然信息，要么需要大量CFM文本的数据集）。我们还探讨了创建代理CFM的可能性：一个在与真实“内容农场”使用的数据集相似的数据集上进行微调的LLM。我们发现，即使少量的微调数据也足以创建一个成功的检测器，但我们需要知道使用的是哪个基础LLM，这是一个重大挑战。
+我们研究了三种LLM和三种检测合成文本的方法（对数似然性、DetectGPT和监督分类），发现它们的表现都优于人类评估员，但在现实世界中都不切实际（要么需要访问令牌似然信息，要么需要大量CFM文本数据集）。我们还探讨了创建代理CFM的可能性：一个在与真实“内容农场”使用的数据集相似的数据集上进行微调的LLM。我们发现，即使少量的微调数据也足以创建一个成功的检测器，但我们必须知道使用的是哪个基础LLM，这是一个重大挑战。
 
-我们的结果表明，目前还没有实用的方法来检测野外的合成新闻类文本，而生成它们却太过容易。我们强调了在这个问题上进行更多自然语言处理研究的紧迫性。
+我们的结果表明，目前没有实用方法可以在野外环境中检测合成的类似新闻的文本，而生成这类文本却过于容易。我们强调了在这一问题上迫切需要更多自然语言处理（NLP）研究的重要性。
 ----------------------------------------------------------------------------------------------------
-[No.36] Assessing News Thumbnail Representativeness: Counterfactual text can enhance the cross-modal matching ability
+[No.7] Assessing News Thumbnail Representativeness: Counterfactual text can enhance the cross-modal matching ability
 来源: ACL 2024
 命中: news
 标题: 评估新闻缩略图的代表性：反事实文本可以增强跨模态匹配能力
@@ -428,9 +91,9 @@ arXi: https://arxiv.org/abs/2406.12128
 链接: https://aclanthology.org/2024.findings-acl.534/
 arXi: https://arxiv.org/abs/2402.11159
 英摘: This paper addresses the critical challenge of assessing the representativeness of news thumbnail images, which often serve as the first visual engagement for readers when an article is disseminated on social media. We focus on whether a news image represents the actors discussed in the news text. To serve the challenge, we introduce NewsTT, a manually annotated dataset of 1000 news thumbnail images and text pairs. We found that the pretrained vision and language models, such as BLIP-2, struggle with this task. Since news subjects frequently involve named entities or proper nouns, the pretrained models could have a limited capability to match news actors' visual and textual appearances. We hypothesize that learning to contrast news text with its counterfactual, of which named entities are replaced, can enhance the cross-modal matching ability of vision and language models. We propose CFT-CLIP, a contrastive learning framework that updates vision and language bi-encoders according to the hypothesis. We found that our simple method can boost the performance for assessing news thumbnail representativeness, supporting our assumption. Code and data can be accessed at https://github.com/ssu-humane/news-images-acl24.
-中摘: 本文针对评估新闻缩略图代表性的关键挑战进行了探讨，这类图片在文章通过社交媒体传播时，往往成为读者首次视觉接触的焦点。我们专注于探究新闻图片是否能够代表新闻文本中所讨论的人物。为此，我们引入了NewsTT，一个包含1000对人工标注的新闻缩略图和文本的数据集。我们发现，预训练的视觉和语言模型，如BLIP-2，在处理这项任务时存在困难。由于新闻主题经常涉及命名实体或专有名词，预训练模型可能在匹配新闻人物的视觉和文本表现方面能力有限。我们假设，学习对比新闻文本与其反事实版本（其中命名实体被替换）可以增强视觉和语言模型的跨模态匹配能力。我们提出了CFT-CLIP，一种根据这一假设更新视觉和语言双编码器的对比学习框架。我们发现，我们的简单方法可以提升评估新闻缩略图代表性任务的表现，从而支持我们的假设。代码和数据可在https://github.com/ssu-humane/news-images-acl24访问。
+中摘: 本文针对评估新闻缩略图图像的代表性这一关键挑战，这类图像在文章通过社交媒体传播时通常作为读者首次视觉接触的对象。我们关注的是新闻图片是否代表了新闻文本中讨论的人物。为应对这一挑战，我们引入了NewsTT，一个包含1000对新闻缩略图图像和文本的手动标注数据集。我们发现，预训练的视觉和语言模型，如BLIP-2，在这项任务上遇到了困难。由于新闻主题经常涉及命名实体或专有名词，预训练模型可能有限于匹配新闻人物的视觉和文本表现的能力。我们假设学习对比新闻文本与其反事实版本（其中命名实体被替换）可以增强视觉和语言模型的跨模态匹配能力。为此，我们提出了CFT-CLIP，一种根据该假设更新视觉和语言双编码器的对比学习框架。我们发现，我们的简单方法能够提升评估新闻缩略图代表性的性能，支持了我们的假设。代码和数据可在https://github.com/ssu-humane/news-images-acl24获取。
 ----------------------------------------------------------------------------------------------------
-[No.37] Bias in News Summarization: Measures, Pitfalls and Corpora
+[No.8] Bias in News Summarization: Measures, Pitfalls and Corpora
 来源: ACL 2024
 命中: news
 标题: 新闻摘要中的偏见：衡量方法、陷阱和语料库
@@ -441,9 +104,9 @@ arXi: https://arxiv.org/abs/2402.11159
 链接: https://aclanthology.org/2024.findings-acl.356/
 arXi: https://arxiv.org/abs/2309.08047
 英摘: Summarization is an important application of large language models (LLMs). Most previous evaluation of summarization models has focused on their content selection, faithfulness, grammaticality and coherence. However, it is well known that LLMs can reproduce and reinforce harmful social biases. This raises the question: Do biases affect model outputs in a constrained setting like summarization? To help answer this question, we first motivate and introduce a number of definitions for biased behaviours in summarization models, along with practical operationalizations. Since we find that biases inherent to input documents can confound bias analysis in summaries, we propose a method to generate input documents with carefully controlled demographic attributes. This allows us to study summarizer behavior in a controlled setting, while still working with realistic input documents. We measure gender bias in English summaries generated by both purpose-built summarization models and general purpose chat models as a case study. We find content selection in single document summarization to be largely unaffected by gender bias, while hallucinations exhibit evidence of bias. To demonstrate the generality of our approach, we additionally investigate racial bias, including intersectional settings.
-中摘: 总结是大型语言模型（LLM）的重要应用之一。以往对总结模型的评估主要集中在内容选择、忠实度、语法正确性和连贯性上。然而，众所周知的是，LLM可能会复制并加剧有害的社会偏见。这就引出了一个问题：在像总结这样的受限环境中，偏见是否会影响模型的输出？为了解答这个问题，我们首先提出了对总结模型中的偏见行为的定义，并给出了实际的操作化方法。由于我们发现输入文档中固有的偏见可能使总结中的偏见分析变得复杂，我们提出了一种生成具有精心控制的人口统计属性输入文档的方法。这让我们能够在受控环境下研究总结器的行为，同时仍然使用现实的输入文档。我们以案例研究的方式，测量了由专门构建的总结模型和通用聊天模型生成的英文总结中的性别偏见。我们发现，在单文档总结中，内容选择基本不受性别偏见的影响，而幻觉则显示出偏见的证据。为了证明我们方法的普遍性，我们还额外研究了种族偏见，包括交叉性的场景。
+中摘: 摘要生成是大型语言模型（LLM）的重要应用之一。以往对摘要模型的评估大多集中在内容选择、忠实度、语法正确性和连贯性上。然而，众所周知，LLM可能会复制并加剧有害的社会偏见。这引出了一个问题：在像摘要这样的受限环境中，偏见是否会影响模型的输出？为了解答这个问题，我们首先阐述并引入了摘要模型中偏见行为的一些定义，以及实际的操作方法。由于我们发现输入文档中的内在偏见可能混淆摘要中的偏见分析，我们提出了一种生成具有精心控制的人口统计属性输入文档的方法。这使我们能够在受控环境下研究摘要器的行为，同时仍然使用现实的输入文档。我们以个案研究的形式，测量了由专门设计的摘要模型和通用聊天模型生成的英语摘要中的性别偏见。我们发现，在单一文档摘要的内容选择上，性别偏见的影响不大，但在幻觉（hallucination，指模型生成与原文无关或矛盾的信息）中则显示出偏见的证据。为了展示我们方法的普遍性，我们还额外研究了种族偏见，包括交叉性的场景。
 ----------------------------------------------------------------------------------------------------
-[No.38] Event-Radar: Event-driven Multi-View Learning for Multimodal Fake News Detection
+[No.9] Event-Radar: Event-driven Multi-View Learning for Multimodal Fake News Detection
 来源: ACL 2024
 命中: news
 标题: 事件雷达：事件驱动的多视图学习在多模态假新闻检测中的应用
@@ -453,7 +116,7 @@ arXi: https://arxiv.org/abs/2309.08047
 类型: Long
 链接: https://aclanthology.org/2024.acl-long.316/
 ----------------------------------------------------------------------------------------------------
-[No.39] Framing in the Presence of Supporting Data: A Case Study in U.S. Economic News
+[No.10] Framing in the Presence of Supporting Data: A Case Study in U.S. Economic News
 来源: ACL 2024
 命中: news
 标题: 在支持性数据存在的情况下构建框架：美国经济新闻案例研究
@@ -463,7 +126,7 @@ arXi: https://arxiv.org/abs/2309.08047
 类型: Long
 链接: https://aclanthology.org/2024.acl-long.24/
 ----------------------------------------------------------------------------------------------------
-[No.40] NewsBench: A Systematic Evaluation Framework for Assessing Editorial Capabilities of Large Language Models in Chinese Journalism
+[No.11] NewsBench: A Systematic Evaluation Framework for Assessing Editorial Capabilities of Large Language Models in Chinese Journalism
 来源: ACL 2024
 命中: news
 标题: 新闻基准：评估大型语言模型在中文 journalism 编辑能力方面的系统评价框架
@@ -474,9 +137,9 @@ arXi: https://arxiv.org/abs/2309.08047
 链接: https://aclanthology.org/2024.acl-long.538/
 arXi: https://arxiv.org/abs/2403.00862
 英摘: We present NewsBench, a novel evaluation framework to systematically assess the capabilities of Large Language Models (LLMs) for editorial capabilities in Chinese journalism. Our constructed benchmark dataset is focused on four facets of writing proficiency and six facets of safety adherence, and it comprises manually and carefully designed 1,267 test samples in the types of multiple choice questions and short answer questions for five editorial tasks in 24 news domains. To measure performances, we propose different GPT-4 based automatic evaluation protocols to assess LLM generations for short answer questions in terms of writing proficiency and safety adherence, and both are validated by the high correlations with human evaluations. Based on the systematic evaluation framework, we conduct a comprehensive analysis of ten popular LLMs which can handle Chinese. The experimental results highlight GPT-4 and ERNIE Bot as top performers, yet reveal a relative deficiency in journalistic safety adherence in creative writing tasks. Our findings also underscore the need for enhanced ethical guidance in machine-generated journalistic content, marking a step forward in aligning LLMs with journalistic standards and safety considerations.
-中摘: 我们推出了NewsBench，这是一个创新的评估框架，用于系统地评估大型语言模型（LLM）在中文新闻编辑能力方面的表现。我们构建的基准数据集专注于写作技巧的四个方面和安全遵循的六个方面，它包含了为五个编辑任务在24个新闻领域精心设计的1,267个测试样本，类型包括选择题和简答题。为了衡量性能，我们提出了基于GPT-4的不同自动评估协议，以评估LLM生成的简答题在写作技巧和安全遵循方面的表现，并且这些评估与人工评价的高度相关性得到了验证。基于这一系统性的评估框架，我们对十种流行的能够处理中文的LLM进行了全面分析。实验结果突显了GPT-4和ERNIE Bot作为顶尖的表现者，但也揭示了在创造性写作任务中相对缺乏新闻安全性遵循的问题。我们的发现还强调了在机器生成的新闻内容中增强伦理指导的必要性，标志着向使LLM符合新闻标准和安全考量迈出了重要一步。
+中摘: 我们推出了NewsBench，这是一个创新的评估框架，用于系统地评估大型语言模型（LLM）在中文新闻编辑能力方面的表现。我们构建的基准数据集专注于写作技巧的四个方面和安全遵守的六个方面，包含了为五个编辑任务在24个新闻领域精心设计的1,267个测试样本，类型包括选择题和简答题。为了衡量表现，我们提出了基于GPT-4的不同自动评估协议，以评估LLM生成的简答题在写作技巧和安全遵守方面的表现，这些协议与人工评估具有高度相关性。基于这个系统性的评估框架，我们对十种流行的能够处理中文的LLM进行了全面分析。实验结果突显了GPT-4和ERNIE Bot作为顶尖表现者，但也揭示了在创造性写作任务中相对缺乏新闻安全遵守的问题。我们的发现还强调了在机器生成的新闻内容中增强伦理指导的必要性，这标志着在使LLM与新闻标准和安全考量相一致方面迈出了重要一步。
 ----------------------------------------------------------------------------------------------------
-[No.41] TELLER: A Trustworthy Framework for Explainable, Generalizable and Controllable Fake News Detection
+[No.12] TELLER: A Trustworthy Framework for Explainable, Generalizable and Controllable Fake News Detection
 来源: ACL 2024
 命中: news
 标题: TELLER：一种可信赖的框架，用于实现可解释性、泛化能力和可控性假新闻检测
@@ -487,9 +150,9 @@ arXi: https://arxiv.org/abs/2403.00862
 链接: https://aclanthology.org/2024.findings-acl.919/
 arXi: https://arxiv.org/abs/2402.07776
 英摘: The proliferation of fake news has emerged as a severe societal problem, raising significant interest from industry and academia. While existing deep-learning based methods have made progress in detecting fake news accurately, their reliability may be compromised caused by the non-transparent reasoning processes, poor generalization abilities and inherent risks of integration with large language models (LLMs). To address this challenge, we propose {\methodname}, a novel framework for trustworthy fake news detection that prioritizes explainability, generalizability and controllability of models. This is achieved via a dual-system framework that integrates cognition and decision systems, adhering to the principles above. The cognition system harnesses human expertise to generate logical predicates, which guide LLMs in generating human-readable logic atoms. Meanwhile, the decision system deduces generalizable logic rules to aggregate these atoms, enabling the identification of the truthfulness of the input news across diverse domains and enhancing transparency in the decision-making process. Finally, we present comprehensive evaluation results on four datasets, demonstrating the feasibility and trustworthiness of our proposed framework. Our implementation is available at \url{https://github.com/less-and-less-bugs/Trust_TELLER}.
-中摘: 假新闻的泛滥已成为一个严重的社会问题，引起了业界和学术界的广泛关注。尽管现有的基于深度学习的方法在准确检测假新闻方面取得了进展，但其可靠性可能因不透明的推理过程、较差的泛化能力和与大型语言模型（LLM）整合时固有的风险而受到损害。为应对这一挑战，我们提出了{\methodname}，这是一种旨在优先考虑模型可解释性、泛化性和可控性的可信假新闻检测新框架。通过结合认知系统和决策系统的双系统框架，并遵循上述原则来实现这一点。认知系统利用人类专家知识生成逻辑谓词，指导LLM生成人类可读的逻辑原子。同时，决策系统推导出可泛化的逻辑规则来聚合这些原子，从而实现在不同领域识别输入新闻真实性，增强决策过程中的透明度。最后，我们在四个数据集上展示了全面的评估结果，证明了我们所提出的框架的可行性和可信度。我们的实现可在\url{https://github.com/less-and-less-bugs/Trust_TELLER}获取。
+中摘: 假新闻的泛滥已成为一个严重的社会问题，引起了业界和学术界的广泛关注。尽管现有的基于深度学习的方法在准确检测假新闻方面取得了进展，但它们的可靠性可能因不透明的推理过程、较差的泛化能力和与大型语言模型（LLM）结合时固有的风险而受到损害。为了解决这一挑战，我们提出了{\methodname}，这是一种注重模型可解释性、泛化性和可控性的新型可信假新闻检测框架。通过遵循上述原则，该框架采用双系统结构，整合认知和决策系统。认知系统利用人类专业知识生成逻辑谓词，引导LLM生成人类可读的逻辑原子。同时，决策系统推导出可泛化的逻辑规则来聚合这些原子，从而能够在不同领域识别输入新闻的真实性，并增强决策过程的透明度。最后，我们在四个数据集上展示了全面的评估结果，证明了我们提出的框架的可行性和可信度。我们的实现可在\url{https://github.com/less-and-less-bugs/Trust_TELLER}获取。
 ----------------------------------------------------------------------------------------------------
-[No.42] Tracking the Newsworthiness of Public Documents
+[No.13] Tracking the Newsworthiness of Public Documents
 来源: ACL 2024
 命中: news
 标题: 追踪公共文件的新闻价值
@@ -500,9 +163,9 @@ arXi: https://arxiv.org/abs/2402.07776
 链接: https://aclanthology.org/2024.acl-long.763/
 arXi: https://arxiv.org/abs/2311.09734
 英摘: Journalists must find stories in huge amounts of textual data (e.g. leaks, bills, press releases) as part of their jobs: determining when and why text becomes news can help us understand coverage patterns and help us build assistive tools. Yet, this is challenging because very few labelled links exist, language use between corpora is very different, and text may be covered for a variety of reasons. In this work we focus on news coverage of local public policy in the San Francisco Bay Area by the San Francisco Chronicle. First, we gather news articles, public policy documents and meeting recordings and link them using probabilistic relational modeling, which we show is a low-annotation linking methodology that outperforms other retrieval-based baselines. Second, we define a new task: newsworthiness prediction, to predict if a policy item will get covered. We show that different aspects of public policy discussion yield different newsworthiness signals. Finally we perform human evaluation with expert journalists and show our systems identify policies they consider newsworthy with 68% F1 and our coverage recommendations are helpful with an 84% win-rate.
-中摘: 记者必须在大量的文本数据（例如泄露、法案、新闻稿）中寻找新闻故事，这是他们工作的一部分：确定何时以及为何文本成为新闻有助于我们理解报道模式，并帮助我们构建辅助工具。然而，这极具挑战性，因为极少有标注过的链接存在，不同语料库之间的语言使用差异很大，而且文本可能因多种原因被报道。在此项工作中，我们专注于《旧金山纪事报》对旧金山湾区地方公共政策的新闻报道。首先，我们收集新闻文章、公共政策文件和会议录音，并使用概率关系模型将它们链接起来，这种方法是一种低注释的链接方法，我们证明其优于其他基于检索的基线。其次，我们定义了一项新任务：新闻价值预测，用于预测某个政策项目是否会得到报道。我们表明，公共政策讨论的不同方面会产生不同的新闻价值信号。最后，我们进行了由专业记者参与的人工评估，结果显示我们的系统以68%的F1分数识别出他们认为具有新闻价值的政策，而我们的报道推荐准确率高达84%。
+中摘: 记者必须在大量文本数据（例如泄露、法案、新闻稿）中寻找新闻故事，这是他们工作的一部分：确定何时以及为何文本会成为新闻有助于我们理解报道模式并帮助我们构建辅助工具。然而，这极具挑战性，因为极少存在标注过的链接，不同语料库之间的语言使用差异很大，而且文本可能因多种原因被报道。在这项工作中，我们专注于旧金山纪事报对旧金山湾区地方公共政策的新闻报道。首先，我们收集新闻文章、公共政策文件和会议录音，并使用概率关系模型将它们关联起来，这种方法我们证明是一种低注释链接方法，其效果优于其他基于检索的基线。其次，我们定义了一项新任务：新闻价值预测，以预测某个政策项目是否会得到报道。我们发现，公共政策讨论的不同方面会产生不同的新闻价值信号。最后，我们通过与专业记者的人工评估，证明我们的系统能以68%的F1分数识别他们认为具有新闻价值的政策，而我们的报道推荐准确率高达84%。
 ----------------------------------------------------------------------------------------------------
-[No.43] Unveiling Opinion Evolution via Prompting and Diffusion for Short Video Fake News Detection
+[No.14] Unveiling Opinion Evolution via Prompting and Diffusion for Short Video Fake News Detection
 来源: ACL 2024
 命中: news
 标题: 通过提示和扩散揭示短视频假新闻中的意见演变
@@ -512,7 +175,7 @@ arXi: https://arxiv.org/abs/2311.09734
 类型: Findings
 链接: https://aclanthology.org/2024.findings-acl.642/
 ----------------------------------------------------------------------------------------------------
-[No.44] XL-HeadTags: Leveraging Multimodal Retrieval Augmentation for the Multilingual Generation of News Headlines and Tags
+[No.15] XL-HeadTags: Leveraging Multimodal Retrieval Augmentation for the Multilingual Generation of News Headlines and Tags
 来源: ACL 2024
 命中: news
 标题: 利用多模态检索增强技术进行多语言新闻标题和标签的生成
@@ -523,11 +186,9 @@ arXi: https://arxiv.org/abs/2311.09734
 链接: https://aclanthology.org/2024.findings-acl.771/
 arXi: https://arxiv.org/abs/2406.03776
 英摘: Millions of news articles published online daily can overwhelm readers. Headlines and entity (topic) tags are essential for guiding readers to decide if the content is worth their time. While headline generation has been extensively studied, tag generation remains largely unexplored, yet it offers readers better access to topics of interest. The need for conciseness in capturing readers' attention necessitates improved content selection strategies for identifying salient and relevant segments within lengthy articles, thereby guiding language models effectively. To address this, we propose to leverage auxiliary information such as images and captions embedded in the articles to retrieve relevant sentences and utilize instruction tuning with variations to generate both headlines and tags for news articles in a multilingual context. To make use of the auxiliary information, we have compiled a dataset named XL-HeadTags, which includes 20 languages across 6 diverse language families. Through extensive evaluation, we demonstrate the effectiveness of our plug-and-play multimodal-multilingual retrievers for both tasks. Additionally, we have developed a suite of tools for processing and evaluating multilingual texts, significantly contributing to the research community by enabling more accurate and efficient analysis across languages.
-中摘: 每日在线发布的数百万篇新闻文章可能会让读者感到应接不暇。标题和实体（主题）标签对于引导读者判断内容是否值得他们花时间阅读至关重要。虽然标题生成已经得到了广泛研究，但标签生成仍然在很大程度上未被探索，然而它为读者提供了更好的途径来关注感兴趣的主题。为了吸引读者注意力而需要的简洁性促使我们改进内容选择策略，以识别长篇文章中突出且相关的内容片段，从而有效地指导语言模型。为此，我们提出利用文章中嵌入的辅助信息，如图片和图说，来检索相关的句子，并利用指令调优及其变体，在多语言环境下为新闻文章同时生成标题和标签。为了利用这些辅助信息，我们编制了一个名为XL-HeadTags的数据集，其中包括来自6个不同语系的20种语言。通过广泛的评估，我们证明了我们插件式的多模态、多语言检索器在这两项任务上的有效性。此外，我们还开发了一套工具用于处理和评估多语言文本，对研究社区做出了重大贡献，使跨语言分析更加准确和高效。
-
-
+中摘: 每日在线发布的数百万篇新闻文章可能会让读者感到应接不暇。标题和实体（主题）标签对于引导读者判断内容是否值得花费时间至关重要。虽然标题生成已经得到了广泛研究，但标签生成仍大多未被探索，然而它能为读者提供更好的途径去触及他们感兴趣的主题。为了吸引读者注意力而需要的简洁性促使我们改进内容选择策略，以识别长篇文章中显著且相关的内容片段，从而有效地指导语言模型。为此，我们提出利用文章中嵌入的辅助信息，如图片和图说，来检索相关句子，并利用指令调优及其变体在多语境下为新闻文章同时生成标题和标签。为了利用这些辅助信息，我们编制了一个名为XL-HeadTags的数据集，其中包括跨越6个不同语系的20种语言。通过广泛的评估，我们证明了我们即插即用的多模态-多语言检索器在这两项任务上的有效性。此外，我们还开发了一套用于处理和评估多语言文本的工具，对研究社区做出了重大贡献，使跨语言分析更加准确和高效。
 ----------------------------------------------------------------------------------------------------
-[No.45] Causal Intervention and Counterfactual Reasoning for Multi-modal Fake News Detection
+[No.16] Causal Intervention and Counterfactual Reasoning for Multi-modal Fake News Detection
 来源: ACL 2023
 命中: news
 标题: 因果干预与反事实推理在多模态假新闻检测中的应用
@@ -537,7 +198,7 @@ arXi: https://arxiv.org/abs/2406.03776
 类型: Long
 链接: https://aclanthology.org/2023.acl-long.37/
 ----------------------------------------------------------------------------------------------------
-[No.46] Check-COVID: Fact-Checking COVID-19 News Claims with Scientific Evidence
+[No.17] Check-COVID: Fact-Checking COVID-19 News Claims with Scientific Evidence
 来源: ACL 2023
 命中: news
 标题: 查证COVID：用科学证据核查COVID-19新闻声明
@@ -548,9 +209,9 @@ arXi: https://arxiv.org/abs/2406.03776
 链接: https://aclanthology.org/2023.findings-acl.888/
 arXi: https://arxiv.org/abs/2305.18265
 英摘: We present a new fact-checking benchmark, Check-COVID, that requires systems to verify claims about COVID-19 from news using evidence from scientific articles. This approach to fact-checking is particularly challenging as it requires checking internet text written in everyday language against evidence from journal articles written in formal academic language. Check-COVID contains 1, 504 expert-annotated news claims about the coronavirus paired with sentence-level evidence from scientific journal articles and veracity labels. It includes both extracted (journalist-written) and composed (annotator-written) claims. Experiments using both a fact-checking specific system and GPT-3.5, which respectively achieve F1 scores of 76.99 and 69.90 on this task, reveal the difficulty of automatically fact-checking both claim types and the importance of in-domain data for good performance. Our data and models are released publicly at https://github.com/posuer/Check-COVID.
-中摘: 我们提出了一项新的事实核查基准，名为“Check-COVID”，它要求系统利用科学文章的证据来验证关于COVID-19的新闻报道中的声明。这种事实核查方法尤其具有挑战性，因为它需要将互联网上用日常语言编写的文本与学术期刊文章中正式的学术语言撰写的证据进行比对。Check-COVID包含了1,504个由专家注释的关于冠状病毒的新闻声明，这些声明与科学期刊文章的句子级证据及真实性标签配对。它既包括提取的（记者撰写的）声明，也包括组成的（注释者撰写的）声明。使用专门的事实核查系统和GPT-3.5进行的实验，分别在这项任务上实现了76.99和69.90的F1分数，揭示了自动核查两种类型声明的难度以及领域内数据对于良好性能的重要性。我们的数据和模型已公开发布在https://github.com/posuer/Check-COVID。
+中摘: 我们提出了一项新的事实核查基准测试，名为Check-COVID，它要求系统利用科学文章中的证据来验证关于COVID-19的新闻报道中的声明。这种事实核查方法尤其具有挑战性，因为它需要将互联网上的日常语言文本与学术期刊文章中的正式语言证据进行比对。Check-COVID包含了1,504个由专家注释的关于冠状病毒的新闻声明，这些声明与科学期刊文章的句子级证据以及真实性标签相匹配。它既包括提取的（记者撰写的）声明，也包括编写的（注释者撰写的）声明。使用专门针对事实核查的系统和GPT-3.5进行的实验分别在这项任务上达到了76.99和69.90的F1分数，这揭示了自动核查两种类型声明的难度，以及在领域内数据对于良好性能的重要性。我们的数据和模型已公开发布于https://github.com/posuer/Check-COVID。
 ----------------------------------------------------------------------------------------------------
-[No.47] Evaluating the Factual Consistency of Large Language Models Through News Summarization
+[No.18] Evaluating the Factual Consistency of Large Language Models Through News Summarization
 来源: ACL 2023
 命中: news
 标题: 通过新闻总结评估大型语言模型的事实一致性
@@ -561,9 +222,9 @@ arXi: https://arxiv.org/abs/2305.18265
 链接: https://aclanthology.org/2023.findings-acl.322/
 arXi: https://arxiv.org/abs/2211.08412
 英摘: While large language models (LLMs) have proven to be effective on a large variety of tasks, they are also known to hallucinate information. To measure whether an LLM prefers factually consistent continuations of its input, we propose a new benchmark called FIB(Factual Inconsistency Benchmark) that focuses on the task of summarization. Specifically, our benchmark involves comparing the scores an LLM assigns to a factually consistent versus a factually inconsistent summary for an input news article. For factually consistent summaries, we use human-written reference summaries that we manually verify as factually consistent. To generate summaries that are factually inconsistent, we generate summaries from a suite of summarization models that we have manually annotated as factually inconsistent. A model's factual consistency is then measured according to its accuracy, i.e.\ the proportion of documents where it assigns a higher score to the factually consistent summary. To validate the usefulness of FIB, we evaluate 23 large language models ranging from 1B to 176B parameters from six different model families including BLOOM and OPT. We find that existing LLMs generally assign a higher score to factually consistent summaries than to factually inconsistent summaries. However, if the factually inconsistent summaries occur verbatim in the document, then LLMs assign a higher score to these factually inconsistent summaries than factually consistent summaries. We validate design choices in our benchmark including the scoring method and source of distractor summaries. Our code and benchmark data can be found at https://github.com/r-three/fib.
-中摘: 虽然大型语言模型（LLM）在各种任务上已被证明是有效的，但它们也以产生错误信息而闻名。为了衡量LLM是否倾向于对其输入提供事实一致的延续，我们提出了一项新的基准测试，称为FIB（事实不一致性基准），专注于总结任务。具体而言，我们的基准测试涉及比较LLM为输入新闻文章的事实一致性和事实不一致性摘要分配的分数。对于事实一致性的摘要，我们使用人工编写的参考摘要，并手动验证其事实一致性。为了生成事实不一致的摘要，我们从一组被手动标注为事实不一致的总结模型中生成摘要。然后根据准确性，即它为事实一致的摘要分配更高分数的文档比例，来衡量模型的事实一致性。为了验证FIB的实用性，我们评估了来自六个不同模型家族（包括BLOOM和OPT）的23个大型语言模型，参数范围从10亿到1760亿。我们发现现有的LLM通常会给事实一致的摘要分配比事实不一致的摘要更高的分数。然而，如果事实不一致的摘要在文档中完全出现，那么LLM会为这些事实不一致的摘要分配比事实一致的摘要更高的分数。我们验证了基准设计中的选择，包括评分方法和干扰摘要的来源。我们的代码和基准数据可以在https://github.com/r-three/fib找到。
+中摘: 虽然大型语言模型（LLM）在多种任务上已被证明是有效的，但它们也以产生虚假信息而闻名。为了衡量LLM是否倾向于对其输入进行事实一致的续写，我们提出了一项新的基准测试，称为FIB（事实不一致性基准测试），重点关注摘要任务。具体而言，我们的基准测试涉及比较LLM为输入新闻文章的事实一致与事实不一致摘要分配的分数。对于事实一致的摘要，我们使用了人工编写的参考摘要，并手动验证其事实一致性。为了生成事实不一致的摘要，我们从一组被手动标注为事实不一致的摘要模型中生成摘要。然后根据准确性，即在文档中分配更高分数给事实一致摘要的比例，来衡量模型的事实一致性。为了验证FIB的有效性，我们评估了来自六个不同模型家族（包括BLOOM和OPT）的23个大型语言模型，参数范围从10亿到1760亿。我们发现现有的LLM通常会给事实一致的摘要分配更高的分数，而不是事实不一致的摘要。然而，如果事实不一致的摘要在文档中完全出现，那么LLM会为这些事实不一致的摘要分配比事实一致摘要更高的分数。我们验证了基准测试中的设计选择，包括评分方法和干扰摘要的来源。我们的代码和基准数据可以在https://github.com/r-three/fib找到。
 ----------------------------------------------------------------------------------------------------
-[No.48] Exploring the Impact of Vision Features in News Image Captioning
+[No.19] Exploring the Impact of Vision Features in News Image Captioning
 来源: ACL 2023
 命中: news
 标题: 探索新闻图像描述中视觉特征的影响
@@ -573,7 +234,7 @@ arXi: https://arxiv.org/abs/2211.08412
 类型: Findings
 链接: https://aclanthology.org/2023.findings-acl.818/
 ----------------------------------------------------------------------------------------------------
-[No.49] Faking Fake News for Real Fake News Detection: Propaganda-Loaded Training Data Generation
+[No.20] Faking Fake News for Real Fake News Detection: Propaganda-Loaded Training Data Generation
 来源: ACL 2023
 命中: news
 标题: 为了真实地检测假新闻而伪造假新闻：带有宣传内容的训练数据生成
@@ -584,9 +245,9 @@ arXi: https://arxiv.org/abs/2211.08412
 链接: https://aclanthology.org/2023.acl-long.815/
 arXi: https://arxiv.org/abs/2203.05386
 英摘: Despite recent advances in detecting fake news generated by neural models, their results are not readily applicable to effective detection of human-written disinformation. What limits the successful transfer between them is the sizable gap between machine-generated fake news and human-authored ones, including the notable differences in terms of style and underlying intent. With this in mind, we propose a novel framework for generating training examples that are informed by the known styles and strategies of human-authored propaganda. Specifically, we perform self-critical sequence training guided by natural language inference to ensure the validity of the generated articles, while also incorporating propaganda techniques, such as appeal to authority and loaded language. In particular, we create a new training dataset, PropaNews, with 2,256 examples, which we release for future use. Our experimental results show that fake news detectors trained on PropaNews are better at detecting human-written disinformation by 3.62 - 7.69% F1 score on two public datasets.
-中摘: 尽管在检测由神经模型生成的假新闻方面取得了近期进展，但其成果并不直接适用于有效检测人为编写的虚假信息。限制两者成功迁移的是机器生成的假新闻与人类撰写的文章之间存在巨大差距，包括风格和潜在意图上的显著差异。鉴于此，我们提出了一种新颖的框架，用于生成受已知的人为宣传风格和策略指导的训练示例。具体而言，我们在自然语言推理的指导下执行自我批判序列训练，以确保生成文章的有效性，同时结合宣传技巧，如诉诸权威和情感化的语言。特别是，我们创建了一个新的训练数据集，PropaNews，包含2,256个示例，我们将此数据集公开以供未来使用。我们的实验结果显示，在PropaNews上训练的假新闻检测器在两个公开数据集上检测人为编写的虚假信息的能力提高了3.62%-7.69%的F1分数。
+中摘: 尽管在检测由神经模型生成的假新闻方面取得了近期进展，但其成果并不直接适用于有效识别人类编写的虚假信息。限制它们之间成功转移的是机器生成的假新闻与人类创作的内容之间存在的巨大鸿沟，包括风格和潜在意图上的显著差异。鉴于此，我们提出了一种创新框架，用于生成受已知的人类编造宣传风格和策略指导的训练示例。具体而言，我们在自然语言推理的指导下执行自我批判序列训练，以确保生成文章的有效性，同时融入宣传技巧，如诉诸权威和情感化的语言。特别是，我们创建了一个新的训练数据集，PropaNews，包含2,256个示例，我们将其公开供未来使用。我们的实验结果表明，在PropaNews上训练的假新闻检测器在两个公共数据集上检测人类编写的虚假信息的能力提高了3.62%至7.69%的F1分数。
 ----------------------------------------------------------------------------------------------------
-[No.50] Generating User-Engaging News Headlines
+[No.21] Generating User-Engaging News Headlines
 来源: ACL 2023
 命中: news
 标题: 生成吸引用户的新闻标题
@@ -596,7 +257,7 @@ arXi: https://arxiv.org/abs/2203.05386
 类型: Long
 链接: https://aclanthology.org/2023.acl-long.183/
 ----------------------------------------------------------------------------------------------------
-[No.51] Learn over Past, Evolve for Future: Forecasting Temporal Trends for Fake News Detection
+[No.22] Learn over Past, Evolve for Future: Forecasting Temporal Trends for Fake News Detection
 来源: ACL 2023
 命中: news
 标题: 基于过去学习，为了未来的发展：预测时间趋势以检测假新闻
@@ -607,9 +268,9 @@ arXi: https://arxiv.org/abs/2203.05386
 链接: https://aclanthology.org/2023.acl-industry.13/
 arXi: https://arxiv.org/abs/2306.14728
 英摘: Fake news detection has been a critical task for maintaining the health of the online news ecosystem. However, very few existing works consider the temporal shift issue caused by the rapidly-evolving nature of news data in practice, resulting in significant performance degradation when training on past data and testing on future data. In this paper, we observe that the appearances of news events on the same topic may display discernible patterns over time, and posit that such patterns can assist in selecting training instances that could make the model adapt better to future data. Specifically, we design an effective framework FTT (Forecasting Temporal Trends), which could forecast the temporal distribution patterns of news data and then guide the detector to fast adapt to future distribution. Experiments on the real-world temporally split dataset demonstrate the superiority of our proposed framework. The code is available at https://github.com/ICTMCG/FTT-ACL23.
-中摘: 检测假新闻一直是维护在线新闻生态系统健康的关键任务。然而，由于实际中新闻数据的快速演变特性导致的时间偏移问题，鲜有现有研究考虑到这一点，这在用过去的数据训练、未来的数据测试时会导致显著的性能下降。在这篇论文中，我们观察到同一主题的新闻事件随时间展现出了可辨识的模式，并假设这些模式能帮助选择训练样本，使模型更好地适应未来数据。具体来说，我们设计了一个有效的框架FTT（预测时间趋势），它可以预测新闻数据的时间分布模式，然后指导检测器快速适应未来的分布。在现实世界中按时间划分的数据集上的实验表明了我们提出的框架的优越性。代码可在https://github.com/ICTMCG/FTT-ACL23上获取。
+中摘: 检测假新闻一直是维护在线新闻生态系统健康的关键任务。然而，很少有现有工作考虑到在实践中由新闻数据快速演变特性导致的时间偏移问题，这会导致在过去的数据显示训练但在未来数据上测试时性能显著下降。在这篇论文中，我们观察到同一主题的新闻事件随时间展现可辨识的模式，并假设这些模式有助于选择训练实例，从而使模型能更好地适应未来数据。具体来说，我们设计了一个有效的框架FTT（预测时间趋势），它能够预测新闻数据的时间分布模式，然后指导检测器快速适应未来的分布。在现实世界中按时间划分的数据集上的实验表明了我们提出的框架的优越性。代码可在https://github.com/ICTMCG/FTT-ACL23获取。
 ----------------------------------------------------------------------------------------------------
-[No.52] MAD-TSC: A Multilingual Aligned News Dataset for Target-dependent Sentiment Classification
+[No.23] MAD-TSC: A Multilingual Aligned News Dataset for Target-dependent Sentiment Classification
 来源: ACL 2023
 命中: news
 标题: MAD-TSC：一种针对目标依赖情感分类的多语言对齐新闻数据集
@@ -619,7 +280,7 @@ arXi: https://arxiv.org/abs/2306.14728
 类型: Long
 链接: https://aclanthology.org/2023.acl-long.461/
 ----------------------------------------------------------------------------------------------------
-[No.53] Multilingual Event Extraction from Historical Newspaper Adverts
+[No.24] Multilingual Event Extraction from Historical Newspaper Adverts
 来源: ACL 2023
 命中: news
 标题: 多语言历史报纸广告事件提取
@@ -630,9 +291,9 @@ arXi: https://arxiv.org/abs/2306.14728
 链接: https://aclanthology.org/2023.acl-long.574/
 arXi: https://arxiv.org/abs/2305.10928
 英摘: NLP methods can aid historians in analyzing textual materials in greater volumes than manually feasible. Developing such methods poses substantial challenges though. First, acquiring large, annotated historical datasets is difficult, as only domain experts can reliably label them. Second, most available off-the-shelf NLP models are trained on modern language texts, rendering them significantly less effective when applied to historical corpora. This is particularly problematic for less well studied tasks, and for languages other than English. This paper addresses these challenges while focusing on the under-explored task of event extraction from a novel domain of historical texts. We introduce a new multilingual dataset in English, French, and Dutch composed of newspaper ads from the early modern colonial period reporting on enslaved people who liberated themselves from enslavement. We find that: 1) even with scarce annotated data, it is possible to achieve surprisingly good results by formulating the problem as an extractive QA task and leveraging existing datasets and models for modern languages; and 2) cross-lingual low-resource learning for historical languages is highly challenging, and machine translation of the historical datasets to the considered target languages is, in practice, often the best-performing solution.
-中摘: NLP方法能够帮助历史学家以远超手动操作的规模分析文本资料。然而，开发这些方法面临着重大挑战。首先，获取大量、有注释的历史数据集很困难，因为只有领域专家才能可靠地标记它们。其次，大多数现成的NLP模型都是基于现代语言文本训练的，当应用于历史语料库时，其效果会显著降低。对于研究较少的任务以及非英语语言，这个问题尤其严重。本文针对这些挑战，专注于从历史文本这一未充分探索的领域提取事件的任务。我们引入了一个新的多语言数据集，包括英语、法语和荷兰语，由早期近代殖民时期的报纸广告组成，报道了从奴役中自我解放的人们。我们发现：1）即使标注数据稀缺，通过将问题表述为抽取式问答任务，并利用现有现代语言的数据集和模型，仍有可能获得令人惊讶的好结果；2）对于历史语言的跨语言低资源学习极具挑战性，实践中，将历史数据集机器翻译成目标语言往往是表现最佳的解决方案。
+中摘: NLP方法可以帮助历史学家以远超手动处理的能力分析大量文本资料。然而，开发这些方法存在相当大的挑战。首先，获取大规模、标注过的歷史数据集很困难，因为只有领域专家才能可靠地标记它们。其次，大多数现成的NLP模型都是基于现代语言文本训练的，当应用于歷史语料库时，其效果会显著降低。对于研究较少的任务以及非英语语言，这个问题尤为严重。本文针对从歷史文本这一未充分探索领域的事件抽取任务，应对上述挑战。我们引入了一个新的多语言数据集，包含英语、法语和荷兰语的报纸广告，这些广告来自早期现代殖民时期，报道了自我解放的被奴役者。我们发现：1）即使标注数据稀缺，通过将问题表述为抽取式问答任务，并利用现有现代语言的数据集和模型，也可以获得令人惊讶的良好结果；2）对歷史语言进行跨语言低资源学习极具挑战性，在实践中，将歷史数据集机器翻译成目标语言往往是表现最佳的解决方案。
 ----------------------------------------------------------------------------------------------------
-[No.54] Multilingual Multifaceted Understanding of Online News in Terms of Genre, Framing, and Persuasion Techniques
+[No.25] Multilingual Multifaceted Understanding of Online News in Terms of Genre, Framing, and Persuasion Techniques
 来源: ACL 2023
 命中: news
 标题: 在线新闻在体裁、框架和说服技巧方面的多语言多维度理解
@@ -642,7 +303,7 @@ arXi: https://arxiv.org/abs/2305.10928
 类型: Long
 链接: https://aclanthology.org/2023.acl-long.169/
 ----------------------------------------------------------------------------------------------------
-[No.55] NewsDialogues: Towards Proactive News Grounded Conversation
+[No.26] NewsDialogues: Towards Proactive News Grounded Conversation
 来源: ACL 2023
 命中: news
 标题: 新闻对话：面向未来的基于新闻的主动对话
@@ -653,11 +314,9 @@ arXi: https://arxiv.org/abs/2305.10928
 链接: https://aclanthology.org/2023.findings-acl.224/
 arXi: https://arxiv.org/abs/2308.06501
 英摘: Hot news is one of the most popular topics in daily conversations. However, news grounded conversation has long been stymied by the lack of well-designed task definition and scarce data. In this paper, we propose a novel task, Proactive News Grounded Conversation, in which a dialogue system can proactively lead the conversation based on some key topics of the news. In addition, both information-seeking and chit-chat scenarios are included realistically, where the user may ask a series of questions about the news details or express their opinions and be eager to chat. To further develop this novel task, we collect a human-to-human Chinese dialogue dataset \ts{NewsDialogues}, which includes 1K conversations with a total of 14.6K utterances and detailed annotations for target topics and knowledge spans. Furthermore, we propose a method named Predict-Generate-Rank, consisting of a generator for grounded knowledge prediction and response generation, and a ranker for the ranking of multiple responses to alleviate the exposure bias. We conduct comprehensive experiments to demonstrate the effectiveness of the proposed method and further present several key findings and challenges to prompt future research.
-中摘: 热点新闻是日常对话中最受欢迎的话题之一。然而，基于新闻的对话长期以来一直受到任务定义不完善和数据稀缺的阻碍。在这篇论文中，我们提出了一项新任务，即主动式新闻对话，其中对话系统能够根据新闻的关键主题主动引导对话。此外，我们真实地包含了信息查询和闲聊场景，用户可能就新闻细节提出一系列问题，或表达自己的观点并渴望聊天。为了进一步开发这项新颖的任务，我们收集了一个人与人之间的中文对话数据集《NewsDialogues》，其中包括1000次对话，共计14600条发言，并对目标主题和知识跨度进行了详细注释。此外，我们提出了一种名为预测-生成-排名的方法，包括一个用于基于知识预测和响应生成的生成器，以及一个排名器，用于缓解暴露偏差，通过排名多个响应来实现这一目标。我们进行了全面的实验以证明所提出方法的有效性，并进一步提出了几个关键发现和挑战，以激发未来的研究。
-
-这篇论文的核心内容在于提出了一种新的主动式新闻对话任务，并构建了一个包含丰富对话和注释的人工中文对话数据集。同时，研究者们还设计了一种预测-生成-排名的方法，以提高对话系统的性能和减少偏差，最后通过实验验证了该方法的有效性，并指出了未来研究的方向和挑战。
+中摘: 热点新闻是日常对话中最受欢迎的话题之一。然而，基于新闻的对话长期以来因缺乏精心设计的任务定义和数据稀缺而受阻。在本文中，我们提出了一项新任务，即主动式新闻对话，其中对话系统能够根据新闻的关键主题主动引导对话。此外，该任务真实地涵盖了信息查询和闲聊场景，用户可能会就新闻细节提出一系列问题，或表达自己的观点，并渴望聊天。为了进一步发展这项新任务，我们收集了一个人与人之间的中文对话数据集《NewsDialogues》，它包含了1000次对话，共计14,600条话语，并对目标主题和知识跨度进行了详细注释。此外，我们提出了一种名为“预测-生成-排名”的方法，包括用于基于知识预测和响应生成的生成器，以及用于缓解曝光偏差的多个响应排名的排名器。我们进行了全面的实验以证明所提出方法的有效性，并进一步提出了几个关键发现和挑战，以促进未来的研究。
 ----------------------------------------------------------------------------------------------------
-[No.56] NewsMet : A ‘do it all’ Dataset of Contemporary Metaphors in News Headlines
+[No.27] NewsMet : A ‘do it all’ Dataset of Contemporary Metaphors in News Headlines
 来源: ACL 2023
 命中: news
 标题: NewsMet：一个包含当代新闻标题中各种隐喻的“一站式”数据集
@@ -667,7 +326,7 @@ arXi: https://arxiv.org/abs/2308.06501
 类型: Findings
 链接: https://aclanthology.org/2023.findings-acl.641/
 ----------------------------------------------------------------------------------------------------
-[No.57] Responsibility Perspective Transfer for Italian Femicide News
+[No.28] Responsibility Perspective Transfer for Italian Femicide News
 来源: ACL 2023
 命中: news
 标题: 意大利女杀事件的责任视角转换
@@ -678,9 +337,9 @@ arXi: https://arxiv.org/abs/2308.06501
 链接: https://aclanthology.org/2023.findings-acl.501/
 arXi: https://arxiv.org/abs/2306.00437
 英摘: Different ways of linguistically expressing the same real-world event can lead to different perceptions of what happened. Previous work has shown that different descriptions of gender-based violence (GBV) influence the reader's perception of who is to blame for the violence, possibly reinforcing stereotypes which see the victim as partly responsible, too. As a contribution to raise awareness on perspective-based writing, and to facilitate access to alternative perspectives, we introduce the novel task of automatically rewriting GBV descriptions as a means to alter the perceived level of responsibility on the perpetrator. We present a quasi-parallel dataset of sentences with low and high perceived responsibility levels for the perpetrator, and experiment with unsupervised (mBART-based), zero-shot and few-shot (GPT3-based) methods for rewriting sentences. We evaluate our models using a questionnaire study and a suite of automatic metrics.
-中摘: 不同的语言表达方式可以导致对同一现实事件的不同看法。先前的研究表明，对基于性别的暴力（GBV）的不同描述会影响读者对暴力责任归属的看法，可能会强化将受害者视为部分责任人的一种刻板印象。为了提高对基于视角写作的认识，并便于获取不同视角，我们引入了一项新的自动重写任务，旨在通过改变施暴者所承担的责任程度来改写GBV描述。我们提供了一个准并行数据集，其中包含了对施暴者责任感知低和高的句子，并尝试了无监督（基于mBART）、零样本和少量样本（基于GPT3）的方法来重写这些句子。我们通过问卷调查和一系列自动评估指标来评估我们的模型。
+中摘: 不同的语言表达方式描述同一现实事件可能导致对所发生事情的不同认知。先前的研究表明，对基于性别的暴力（GBV）的不同描述会影响读者对暴力责任归属的认知，可能会强化将受害者视为部分有责的刻板印象。为了提高对基于视角写作的认识，并便于获取不同视角，我们引入了一项新任务：自动重写GBV描述，以改变对施暴者责任程度的感知。我们提供了一个准平行语料库，其中包含对施暴者责任感知低和高的句子，并尝试了无监督（基于mBART）、零样本和少量样本（基于GPT3）的方法来重写句子。我们通过问卷调查和一系列自动评估指标来评估我们的模型。
 ----------------------------------------------------------------------------------------------------
-[No.58] Two Heads Are Better Than One: Improving Fake News Video Detection by Correlating with Neighbors
+[No.29] Two Heads Are Better Than One: Improving Fake News Video Detection by Correlating with Neighbors
 来源: ACL 2023
 命中: news
 标题: 两人胜过一人：通过与邻居相关联提高假新闻视频检测效果
@@ -691,9 +350,9 @@ arXi: https://arxiv.org/abs/2306.00437
 链接: https://aclanthology.org/2023.findings-acl.756/
 arXi: https://arxiv.org/abs/2306.05241
 英摘: The prevalence of short video platforms has spawned a lot of fake news videos, which have stronger propagation ability than textual fake news. Thus, automatically detecting fake news videos has been an important countermeasure in practice. Previous works commonly verify each news video individually with multimodal information. Nevertheless, news videos from different perspectives regarding the same event are commonly posted together, which contain complementary or contradictory information and thus can be used to evaluate each other mutually. To this end, we introduce a new and practical paradigm, i.e., cross-sample fake news video detection, and propose a novel framework, Neighbor-Enhanced fakE news video Detection (NEED), which integrates the neighborhood relationship of new videos belonging to the same event. NEED can be readily combined with existing single-sample detectors and further enhance their performances with the proposed graph aggregation (GA) and debunking rectification (DR) modules. Specifically, given the feature representations obtained from single-sample detectors, GA aggregates the neighborhood information with the dynamic graph to enrich the features of independent samples. After that, DR explicitly leverages the relationship between debunking videos and fake news videos to refute the candidate videos via textual and visual consistency. Extensive experiments on the public benchmark demonstrate that NEED greatly improves the performance of both single-modal (up to 8.34% in accuracy) and multimodal (up to 4.97% in accuracy) base detectors. Codes are available in https://github.com/ICTMCG/NEED.
-中摘: 短视频平台的普及催生了大量的假新闻视频，这些视频比文字形式的假新闻具有更强的传播能力。因此，自动检测假新闻视频已成为实践中的一项重要对策。以往的研究通常使用多模态信息独立地验证每个新闻视频。然而，关于同一事件的不同视角的新闻视频往往会被一起发布，它们可能包含互补或矛盾的信息，因此可以相互评估。为此，我们引入了一种新的、实用的方法，即跨样本假新闻视频检测，并提出了一种创新框架，邻域增强假新闻视频检测（NEED），该框架整合了属于同一事件的新视频之间的邻域关系。NEED可以与现有的单样本检测器轻松结合，并通过提出的图聚合（GA）和辟谣修正（DR）模块进一步提升其性能。具体而言，在获得单样本检测器的特征表示后，GA通过动态图聚集邻域信息，以丰富独立样本的特征。之后，DR明确利用辟谣视频与假新闻视频之间的关系，通过文本和视觉一致性来驳斥候选视频。在公共基准上的广泛实验表明，NEED显著提高了单模态（准确率最高提升8.34%）和多模态（准确率最高提升4.97%）基础检测器的性能。代码可在https://github.com/ICTMCG/NEED获取。
+中摘: 短视频平台的普及催生了大量的假新闻视频，这些视频比文字形式的假新闻具有更强的传播能力。因此，自动检测假新闻视频已成为实践中的一项重要对策。以往的工作通常使用多模态信息单独验证每个新闻视频。然而，针对同一事件的不同视角的新闻视频常常一起发布，其中包含互补或矛盾的信息，因此可以相互评估。为此，我们引入了一个新的、实用的范式，即跨样本假新闻视频检测，并提出了一种新型框架，称为邻域增强型假新闻视频检测（NEED），它整合了属于同一事件的新视频之间的邻域关系。NEED可以轻松地与现有的单样本检测器结合，并通过提出的图聚合（GA）和辟谣修正（DR）模块进一步提升其性能。具体而言，基于从单样本检测器获得的特征表示，GA利用动态图聚集邻域信息，以丰富独立样本的特征。之后，DR明确利用辟谣视频和假新闻视频之间的关系，通过文本和视觉一致性来反驳候选视频。在公共基准上的广泛实验表明，NEED显著提高了单模态（准确率最高提高8.34%）和多模态（准确率最高提高4.97%）基础检测器的性能。代码可在https://github.com/ICTMCG/NEED上获取。
 ----------------------------------------------------------------------------------------------------
-[No.59] Building Resources for Emakhuwa: Machine Translation and News Classification Benchmarks
+[No.30] Building Resources for Emakhuwa: Machine Translation and News Classification Benchmarks
 来源: EMNLP 2024
 命中: news
 标题: 构建伊马库瓦语资源：机器翻译和新闻分类基准
@@ -703,7 +362,7 @@ arXi: https://arxiv.org/abs/2306.05241
 类型: Main
 链接: https://aclanthology.org/2024.emnlp-main.824/
 ----------------------------------------------------------------------------------------------------
-[No.60] CoCoLoFa: A Dataset of News Comments with Common Logical Fallacies Written by LLM-Assisted Crowds
+[No.31] CoCoLoFa: A Dataset of News Comments with Common Logical Fallacies Written by LLM-Assisted Crowds
 来源: EMNLP 2024
 命中: news
 标题: CoCoLoFa：由LLM辅助众包撰写的新闻评论中存在的常见逻辑谬误数据集
@@ -714,22 +373,9 @@ arXi: https://arxiv.org/abs/2306.05241
 链接: https://aclanthology.org/2024.emnlp-main.39/
 arXi: https://arxiv.org/abs/2410.03457
 英摘: Detecting logical fallacies in texts can help users spot argument flaws, but automating this detection is not easy. Manually annotating fallacies in large-scale, real-world text data to create datasets for developing and validating detection models is costly. This paper introduces CoCoLoFa, the largest known logical fallacy dataset, containing 7,706 comments for 648 news articles, with each comment labeled for fallacy presence and type. We recruited 143 crowd workers to write comments embodying specific fallacy types (e.g., slippery slope) in response to news articles. Recognizing the complexity of this writing task, we built an LLM-powered assistant into the workers' interface to aid in drafting and refining their comments. Experts rated the writing quality and labeling validity of CoCoLoFa as high and reliable. BERT-based models fine-tuned using CoCoLoFa achieved the highest fallacy detection (F1=0.86) and classification (F1=0.87) performance on its test set, outperforming the state-of-the-art LLMs. Our work shows that combining crowdsourcing and LLMs enables us to more effectively construct datasets for complex linguistic phenomena that crowd workers find challenging to produce on their own.
-中摘: 在文本中识别逻辑谬误能帮助用户发现论证中的缺陷，但要实现这种识别的自动化并不容易。为了创建用于开发和验证检测模型的数据集，手动标注大规模真实文本数据中的逻辑谬误成本高昂。本文介绍了CoCoLoFa，这是目前所知最大的逻辑谬误数据集，包含了针对648篇新闻文章的7,706条评论，每条评论都标注了是否存在谬误及其类型。我们招募了143名众包工作者，根据特定的谬误类型（例如滑坡谬误）撰写回应新闻文章的评论。鉴于这项写作任务的复杂性，我们在工作者的界面中构建了一个基于大型语言模型(LLM)的助手，以协助他们起草和完善评论。专家评估CoCoLoFa的写作质量和标注有效性高且可靠。使用CoCoLoFa进行微调的基于BERT的模型在其测试集上实现了最高的谬误检测（F1=0.86）和分类（F1=0.87）性能，超越了最先进的LLM。我们的工作表明，结合众包和LLM可以更有效地构建数据集，用于处理众包工作者难以独立产生的复杂语言现象。
+中摘: 在文本中检测逻辑谬误能帮助用户识别论证缺陷，但要自动化这一检测过程并非易事。为了创建用于开发和验证检测模型的数据集，对大规模真实文本数据中的谬误进行人工标注成本高昂。本文介绍了一种名为CoCoLoFa的数据集，这是目前所知最大的逻辑谬误数据集，包含了针对648篇新闻文章的7,706条评论，每条评论都标记了是否存在谬误及其类型。我们招募了143名众包工作者，要求他们根据特定的谬误类型（如滑坡谬误）撰写评论以回应新闻文章。鉴于这项写作任务的复杂性，我们在工作者的界面中构建了一个由大型语言模型(LLM)驱动的助手，以协助他们起草和修改评论。专家们评价CoCoLoFa的写作质量和标签的有效性高且可靠。基于BERT的模型利用CoCoLoFa进行微调后，在其测试集上实现了最高的谬误检测（F1=0.86）和分类（F1=0.87）性能，超越了最先进的LLM。我们的工作表明，结合众包和LLM可以更有效地构建数据集，用于处理众包工作者单独难以产生的复杂语言现象。
 ----------------------------------------------------------------------------------------------------
-[No.61] Efficient Pointwise-Pairwise Learning-to-Rank for News Recommendation
-来源: EMNLP 2024
-命中: news
-标题: 高效的点对点学习排序方法在新闻推荐中的应用
-类别: 
-作者: Nithish Kannen;Yao Ma;Gerrit J.j. Van Den Burg;Jean Baptiste Faddoul;
-机构: Amazon;Zalando SE;
-类型: finding
-链接: https://aclanthology.org/2024.findings-emnlp.723/
-arXi: https://arxiv.org/abs/2409.17711
-英摘: News recommendation is a challenging task that involves personalization based on the interaction history and preferences of each user. Recent works have leveraged the power of pretrained language models (PLMs) to directly rank news items by using inference approaches that predominately fall into three categories: pointwise, pairwise, and listwise learning-to-rank. While pointwise methods offer linear inference complexity, they fail to capture crucial comparative information between items that is more effective for ranking tasks. Conversely, pairwise and listwise approaches excel at incorporating these comparisons but suffer from practical limitations: pairwise approaches are either computationally expensive or lack theoretical guarantees, and listwise methods often perform poorly in practice. In this paper, we propose a novel framework for PLM-based news recommendation that integrates both pointwise relevance prediction and pairwise comparisons in a scalable manner. We present a rigorous theoretical analysis of our framework, establishing conditions under which our approach guarantees improved performance. Extensive experiments show that our approach outperforms the state-of-the-art methods on the MIND and Adressa news recommendation datasets.
-中摘: 新闻推荐是一项具有挑战性的任务，它涉及到根据每位用户的互动历史和偏好进行个性化处理。近期的研究工作利用了预训练语言模型（PLM）的力量，通过主要分为三类的推理方法直接对新闻条目进行排名：点对点、两两对比和列表式学习排序。虽然点对点方法提供了线性的推理复杂度，但它们未能捕捉在排序任务中更有效的项目间的比较信息。相反，两两对比和列表式方法擅长融入这些比较，但受到实际限制：两两对比方法要么计算成本高昂，要么缺乏理论保证，而列表式方法在实践中往往表现不佳。在这篇论文中，我们提出了一种新的基于PLM的新闻推荐框架，以可扩展的方式集成了点对点相关性预测和两两对比。我们对框架进行了严格的理论分析，确立了在何种条件下我们的方法可以保证提升性能。广泛的实验表明，我们的方法在MIND和Adressa新闻推荐数据集上超越了现有最先进的方法。
-----------------------------------------------------------------------------------------------------
-[No.62] Explaining Mixtures of Sources in News Articles
+[No.32] Explaining Mixtures of Sources in News Articles
 来源: EMNLP 2024
 命中: news
 标题: 解释新闻文章中的混合来源
@@ -740,9 +386,9 @@ arXi: https://arxiv.org/abs/2409.17711
 链接: https://aclanthology.org/2024.findings-emnlp.930/
 arXi: https://arxiv.org/abs/2411.05192
 英摘: Human writers plan, then write. For large language models (LLMs) to play a role in longer-form article generation, we must understand the planning steps humans make before writing. We explore one kind of planning, source-selection in news, as a case-study for evaluating plans in long-form generation. We ask: why do specific stories call for specific kinds of sources? We imagine a generative process for story writing where a source-selection schema is first selected by a journalist, and then sources are chosen based on categories in that schema. Learning the article's plan means predicting the schema initially chosen by the journalist. Working with professional journalists, we adapt five existing schemata and introduce three new ones to describe journalistic plans for the inclusion of sources in documents. Then, inspired by Bayesian latent-variable modeling, we develop metrics to select the most likely plan, or schema, underlying a story, which we use to compare schemata. We find that two schemata: stance and social affiliation best explain source plans in most documents. However, other schemata like textual entailment explain source plans in factually rich topics like "Science". Finally, we find we can predict the most suitable schema given just the article's headline with reasonable accuracy. We see this as an important case-study for human planning, and provides a framework and approach for evaluating other kinds of plans. We release a corpora, NewsSources, with annotations for 4M articles.
-中摘: 人类作者先规划，然后写作。为了让大型语言模型（LLM）在长篇幅文章生成中发挥作用，我们必须理解人类在写作前进行的规划步骤。我们将新闻中的来源选择作为一种规划形式，作为评估长篇幅生成中规划情况的案例研究。我们追问：为什么特定的故事需要特定类型的来源？我们设想了一个故事创作的生成过程，其中记者首先选择一个来源选择框架，然后根据该框架中的类别来挑选来源。学习文章的规划意味着预测记者最初选择的框架。与专业记者合作，我们调整了五个现有的框架，并引入了三个新的框架，以描述文件中包含来源的新闻规划。受到贝叶斯潜在变量建模的启发，我们开发了指标来选择最有可能的规划，或者说，支撑一个故事的框架，并用这些指标来比较不同的框架。我们发现有两个框架：立场和社会归属，最能解释大多数文档中的来源规划。然而，像文本蕴含这样的其他框架，在事实丰富的主题如“科学”中，能更好地解释来源规划。最后，我们发现仅凭文章的标题就能以合理的准确度预测出最适合的框架。我们认为这是对人类规划的一个重要案例研究，并提供了一个框架和方法来评估其他类型的规划。我们发布了一个语料库，NewsSources，其中包含了400万篇文章的注释。
+中摘: 人类作者先规划，然后写作。为了让大型语言模型（LLM）在长篇文章生成中发挥作用，我们必须理解人类在写作前进行的规划步骤。我们以新闻中的来源选择作为一种规划方式，作为评估长篇生成中规划情况的案例研究。我们探讨：为什么特定的故事需要特定类型的来源？我们设想了一个故事创作的生成过程，首先由记者选择一个来源选择框架，然后根据该框架中的类别来挑选来源。学习文章的计划意味着预测记者最初选择的框架。与专业记者合作，我们调整了五个现有的框架，并引入了三个新的框架，用于描述新闻报道中包含来源的计划。然后，受贝叶斯潜在变量建模的启发，我们开发了指标来选择最可能的计划，或者说，支撑一个故事的框架，我们用这些指标来比较不同的框架。我们发现有两个框架：“立场”和“社会归属”，在大多数文件中最好地解释了来源计划。然而，其他如文本蕴含的框架，在事实丰富的主题如“科学”中解释来源计划。最后，我们发现仅凭文章的标题就能以合理的准确度预测出最合适的框架。我们视这为人类规划的一个重要案例研究，并提供了一个框架和方法来评估其他类型的计划。我们发布了一个语料库，NewsSources，其中包含了对400万篇文章的注释。
 ----------------------------------------------------------------------------------------------------
-[No.63] Fine-Tuning Large Language Models for Stock Return Prediction Using Newsflow
+[No.33] Fine-Tuning Large Language Models for Stock Return Prediction Using Newsflow
 来源: EMNLP 2024
 命中: news
 标题: 使用新闻流 Fine-Tuning 大型语言模型进行股票回报预测
@@ -753,9 +399,9 @@ arXi: https://arxiv.org/abs/2411.05192
 链接: https://aclanthology.org/2024.emnlp-industry.77/
 arXi: https://arxiv.org/abs/2407.18103
 英摘: Large language models (LLMs) and their fine-tuning techniques have demonstrated superior performance in various language understanding and generation tasks. This paper explores fine-tuning LLMs for stock return forecasting with financial newsflow. In quantitative investing, return forecasting is fundamental for subsequent tasks like stock picking, portfolio optimization, etc. We formulate the model to include text representation and forecasting modules. We propose to compare the encoder-only and decoder-only LLMs, considering they generate text representations in distinct ways. The impact of these different representations on forecasting performance remains an open question. Meanwhile, we compare two simple methods of integrating LLMs' token-level representations into the forecasting module. The experiments on real news and investment universes reveal that: (1) aggregated representations from LLMs' token-level embeddings generally produce return predictions that enhance the performance of long-only and long-short portfolios; (2) in the relatively large investment universe, the decoder LLMs-based prediction model leads to stronger portfolios, whereas in the small universes, there are no consistent winners. Among the three LLMs studied (DeBERTa, Mistral, Llama), Mistral performs more robustly across different universes; (3) return predictions derived from LLMs' text representations are a strong signal for portfolio construction, outperforming conventional sentiment scores.
-中摘: 大型语言模型（LLM）及其微调技术在各种语言理解和生成任务中展现出卓越的性能。本文探讨了利用金融新闻流对LLM进行微调以预测股票回报率。在量化投资中，回报预测对于后续任务如选股、组合优化等至关重要。我们设计的模型包括文本表示和预测模块。我们提出比较仅编码器和仅解码器的LLM，因为它们以不同的方式生成文本表示。这些不同表示对预测性能的影响仍然是一个未解决的问题。同时，我们比较了两种将LLM的词级别表示整合到预测模块中的简单方法。在真实新闻和投资范围上的实验表明：（1）从LLM的词级别嵌入汇总得到的表示通常能产生增强长仓和长短仓组合表现的回报预测；（2）在相对较大的投资范围内，基于解码器LLM的预测模型能构建更强的组合，而在较小的投资范围内，没有一致的优胜者。在研究的三个LLM（DeBERTa，Mistral，Llama）中，Mistral在不同投资范围的表现更为稳健；（3）从LLM文本表示衍生出的回报预测是组合构建的强烈信号，超越了传统的观点得分。
+中摘: 大型语言模型（LLM）及其微调技术在各种语言理解和生成任务中展现出卓越性能。本文探讨了利用金融新闻流对LLM进行微调以预测股票回报率。在量化投资中，回报预测对于后续任务如选股、组合优化等至关重要。我们构建的模型包括文本表示和预测模块。我们提出比较仅编码器和仅解码器的LLM，考虑到它们以不同方式生成文本表示。这些不同表示对预测性能的影响仍然是一个未解之谜。同时，我们比较了两种将LLM的词级别表示整合到预测模块中的简单方法。在真实新闻和投资范围上的实验揭示了：(1)从LLM的词级别嵌入中聚合的表示通常产生增强长线和长短组合表现的回报预测；(2)在相对较大的投资范围内，基于解码器LLM的预测模型导致更强的组合，而在小范围内，没有一致的胜者。在研究的三种LLM（DeBERTa、Mistral、Llama）中，Mistral在不同范围内表现更稳健；(3)源自LLM文本表示的回报预测是组合构建的强大信号，超越了传统的观点得分。
 ----------------------------------------------------------------------------------------------------
-[No.64] GlobeSumm: A Challenging Benchmark Towards Unifying Multi-lingual, Cross-lingual and Multi-document News Summarization
+[No.34] GlobeSumm: A Challenging Benchmark Towards Unifying Multi-lingual, Cross-lingual and Multi-document News Summarization
 来源: EMNLP 2024
 命中: news
 标题: GlobeSumm：统一多语言、跨语言和多文档新闻摘要的一个具有挑战性的基准
@@ -766,9 +412,9 @@ arXi: https://arxiv.org/abs/2407.18103
 链接: https://aclanthology.org/2024.emnlp-main.603/
 arXi: https://arxiv.org/abs/2410.04087
 英摘: News summarization in today's global scene can be daunting with its flood of multilingual content and varied viewpoints from different sources. However, current studies often neglect such real-world scenarios as they tend to focus solely on either single-language or single-document tasks. To bridge this gap, we aim to unify Multi-lingual, Cross-lingual and Multi-document Summarization into a novel task, i.e., MCMS, which encapsulates the real-world requirements all-in-one. Nevertheless, the lack of a benchmark inhibits researchers from adequately studying this invaluable problem. To tackle this, we have meticulously constructed the GLOBESUMM dataset by first collecting a wealth of multilingual news reports and restructuring them into event-centric format. Additionally, we introduce the method of protocol-guided prompting for high-quality and cost-effective reference annotation. In MCMS, we also highlight the challenge of conflicts between news reports, in addition to the issues of redundancies and omissions, further enhancing the complexity of GLOBESUMM. Through extensive experimental analysis, we validate the quality of our dataset and elucidate the inherent challenges of the task. We firmly believe that GLOBESUMM, given its challenging nature, will greatly contribute to the multilingual communities and the evaluation of LLMs.
-中摘: 在当今全球化的场景下，面对多语言内容的泛滥和来自不同来源的多样化观点，新闻摘要的制作可能令人望而生畏。然而，当前的研究往往忽视了这些现实世界的情况，它们倾向于仅仅专注于单一语言或单篇文档的任务。为了解决这一问题，我们旨在将多语言、跨语言和多文档摘要整合成一项新颖的任务，即MCMS（Multi-lingual, Cross-lingual, Multi-document Summarization），这项任务全面地封装了现实世界的全部需求。然而，缺乏基准数据集阻碍了研究者对这一宝贵问题进行充分的研究。为了解决这一难题，我们精心构建了GLOBESUMM数据集，首先收集了大量的多语言新闻报道，并将其重组为以事件为中心的格式。此外，我们引入了协议指导下的提示方法，用于高质量且成本效益高的参考注释。在MCMS中，我们不仅强调了新闻报道之间的冲突挑战，还关注了冗余和遗漏的问题，进一步增加了GLOBESUMM的复杂性。通过广泛的实验分析，我们验证了数据集的质量，并阐明了任务固有的挑战。我们坚信，鉴于其挑战性，GLOBESUMM将对多语言社区以及大型语言模型（LLMs）的评估做出重大贡献。
+中摘: 在当今全球化的场景下，面对多语言内容的洪流和来自不同来源的多样化观点，新闻摘要工作变得令人望而生畏。然而，当前的研究往往忽视了这些现实世界的情况，它们倾向于仅专注于单一语言或单篇文档的任务。为了弥合这一差距，我们旨在将多语言、跨语言和多文档摘要统一为一项新颖的任务，即MCMS，它在一个任务中囊括了所有现实世界的需要。然而，缺乏一个基准数据集阻碍了研究者对这一宝贵问题进行充分研究。为此，我们精心构建了GLOBESUMM数据集，首先收集了大量的多语言新闻报道，并将其重构为以事件为中心的格式。此外，我们引入了基于协议指导的提示方法，用于高质量且经济的参考注释。在MCMS中，除了冗余和遗漏的问题，我们还强调了新闻报道之间的冲突挑战，进一步增加了GLOBESUMM的复杂性。通过广泛的实验分析，我们验证了数据集的质量，并阐明了任务本身固有的挑战。我们坚信，鉴于其具有挑战性的特性，GLOBESUMM将对多语言社区以及大型语言模型（LLMs）的评估做出重大贡献。
 ----------------------------------------------------------------------------------------------------
-[No.65] Improving Factual Consistency of News Summarization by Contrastive Preference Optimization
+[No.35] Improving Factual Consistency of News Summarization by Contrastive Preference Optimization
 来源: EMNLP 2024
 命中: news
 标题: 通过对比偏好优化提高新闻摘要的事实一致性
@@ -779,9 +425,9 @@ arXi: https://arxiv.org/abs/2410.04087
 链接: https://aclanthology.org/2024.findings-emnlp.648/
 arXi: https://arxiv.org/abs/2310.19347
 英摘: Despite the recent progress in news summarization made by large language models (LLMs), they often generate summaries that are factually inconsistent with original articles, known as "hallucinations" in text generation. Unlike previous small models (e.g., BART, T5), current LLMs make fewer silly mistakes but more sophisticated ones, such as imposing cause and effect, adding false details, overgeneralizing, etc. These hallucinations are challenging to detect through traditional methods, which poses great challenges for improving the factual consistency of text summarization. In this paper, we propose Contrastive Preference Optimization (CPO) to disentangle the LLMs' propensities to generate faithful and fake content. Furthermore, we adopt a probing-based specific training method to improve their capacity of distinguishing two types of propensities. In this way, LLMs can execute the instructions more accurately and have enhanced perception of hallucinations. Experimental results show that CPO significantly improves the reliability of summarization based on LLMs.
-中摘: 尽管大型语言模型（LLMs）在新闻摘要方面取得了近期进展，它们经常生成与原始文章事实不符的摘要，这种现象在文本生成中被称为“幻觉”。与之前的较小模型（如BART、T5）不同，当前的LLMs减少了愚蠢错误，但产生了更复杂的问题，例如强加因果关系、添加虚假细节、过度泛化等。这些幻觉通过传统方法很难检测，这为提高文本摘要的事实一致性带来了巨大挑战。在这篇论文中，我们提出了对比偏好优化（CPO），以分解LLMs生成忠实内容和虚假内容的倾向。此外，我们采用基于探测的具体训练方法来增强它们区分这两种倾向的能力。这样，LLMs可以更准确地执行指令，并增强了对幻觉的感知。实验结果表明，CPO显著提高了基于LLMs的摘要可靠性。
+中摘: 尽管大型语言模型（LLMs）在新闻摘要方面取得了近期进展，它们经常生成与原始文章在事实上不一致的摘要，这种现象在文本生成中被称为“幻觉”。与之前的小型模型（如BART、T5）不同，当前的LLMs犯的愚蠢错误较少，但会产生更复杂的问题，例如强加因果关系、添加虚假细节、过度泛化等。这些幻觉通过传统方法难以检测，这给提高文本摘要的事实一致性带来了巨大挑战。在这篇论文中，我们提出了对比偏好优化（CPO），以分离LLMs生成忠实内容和虚假内容的倾向。此外，我们采用基于探查的具体训练方法来增强它们区分这两种倾向的能力。这样，LLMs可以更准确地执行指令，并提高了对幻觉的感知能力。实验结果表明，CPO显著提高了基于LLMs的摘要可靠性。
 ----------------------------------------------------------------------------------------------------
-[No.66] MiRAGeNews: Multimodal Realistic AI-Generated News Detection
+[No.36] MiRAGeNews: Multimodal Realistic AI-Generated News Detection
 来源: EMNLP 2024
 命中: news
 标题: MiRAGeNews：多模态现实AI生成新闻检测
@@ -792,9 +438,9 @@ arXi: https://arxiv.org/abs/2310.19347
 链接: https://aclanthology.org/2024.findings-emnlp.959/
 arXi: https://arxiv.org/abs/2410.09045
 英摘: The proliferation of inflammatory or misleading "fake" news content has become increasingly common in recent years. Simultaneously, it has become easier than ever to use AI tools to generate photorealistic images depicting any scene imaginable. Combining these two -- AI-generated fake news content -- is particularly potent and dangerous. To combat the spread of AI-generated fake news, we propose the MiRAGeNews Dataset, a dataset of 12,500 high-quality real and AI-generated image-caption pairs from state-of-the-art generators. We find that our dataset poses a significant challenge to humans (60% F-1) and state-of-the-art multi-modal LLMs (< 24% F-1). Using our dataset we train a multi-modal detector (MiRAGe) that improves by +5.1% F-1 over state-of-the-art baselines on image-caption pairs from out-of-domain image generators and news publishers. We release our code and data to aid future work on detecting AI-generated content.
-中摘: 近年来，煽动性或误导性的“虚假”新闻内容的泛滥变得越来越普遍。与此同时，使用人工智能工具生成逼真图像，描绘任何可以想象的场景，变得比以往任何时候都更加容易。将这两者结合起来——人工智能生成的虚假新闻内容——尤其具有强大且危险的潜力。为了对抗人工智能生成的虚假新闻的传播，我们提出了MiRAGeNews数据集，这是一个包含12,500个高质量真实和人工智能生成的图像-标题对的数据集，这些对来自最先进的生成器。我们发现，我们的数据集对人类（F-1值为60%）和最先进的多模态大型语言模型（F-1值小于24%）构成了重大挑战。利用我们的数据集，我们训练了一个多模态检测器（MiRAGe），在来自领域外图像生成器和新闻出版商的图像-标题对上，其性能比最先进的基线提高了+5.1%的F-1值。我们发布我们的代码和数据，以协助未来关于检测人工智能生成内容的工作。
+中摘: 近年来，煽动性或误导性的“虚假”新闻内容的泛滥变得越来越普遍。同时，利用人工智能工具生成逼真图像，描绘任何可想象的场景，变得比以往任何时候都更加容易。将这两者结合起来——人工智能生成的虚假新闻内容——尤其具有破坏性和危险。为了对抗人工智能生成的虚假新闻的传播，我们提出了MiRAGeNews数据集，这是一个包含12,500对高质量的真实和人工智能生成的图像与标题的数据集，来自最先进的生成器。我们发现，我们的数据集对人类（F-1值为60%）和最先进的多模态大型语言模型（F-1值小于24%）构成了重大挑战。利用我们的数据集，我们训练了一个多模态检测器（MiRAGe），在来自领域外图像生成器和新闻出版商的图像标题对上，其性能比最先进的基线提高了+5.1% F-1。我们发布我们的代码和数据，以协助未来关于检测人工智能生成内容的工作。
 ----------------------------------------------------------------------------------------------------
-[No.67] Modeling News Interactions and Influence for Financial Market Prediction
+[No.37] Modeling News Interactions and Influence for Financial Market Prediction
 来源: EMNLP 2024
 命中: news
 标题: 建模新闻互动与影响以预测金融市场
@@ -805,9 +451,9 @@ arXi: https://arxiv.org/abs/2410.09045
 链接: https://aclanthology.org/2024.findings-emnlp.189/
 arXi: https://arxiv.org/abs/2410.10614
 英摘: The diffusion of financial news into market prices is a complex process, making it challenging to evaluate the connections between news events and market movements. This paper introduces FININ (Financial Interconnected News Influence Network), a novel market prediction model that captures not only the links between news and prices but also the interactions among news items themselves. FININ effectively integrates multi-modal information from both market data and news articles. We conduct extensive experiments on two datasets, encompassing the S&P 500 and NASDAQ 100 indices over a 15-year period and over 2.7 million news articles. The results demonstrate FININ's effectiveness, outperforming advanced market prediction models with an improvement of 0.429 and 0.341 in the daily Sharpe ratio for the two markets respectively. Moreover, our results reveal insights into the financial news, including the delayed market pricing of news, the long memory effect of news, and the limitations of financial sentiment analysis in fully extracting predictive power from news data.
-中摘: 金融新闻在市场价格中的传播是一个复杂的过程，这使得评估新闻事件与市场变动之间的联系变得具有挑战性。本文介绍了一种名为FININ（金融互联新闻影响力网络）的新型市场预测模型，该模型不仅能捕捉新闻与价格之间的联系，还能捕捉新闻项目之间的相互作用。FININ有效地整合了来自市场数据和新闻文章的多模态信息。我们在两个数据集上进行了广泛实验，涵盖了15年间S&P 500和NASDAQ 100指数以及超过270万篇新闻文章。实验结果证明了FININ的有效性，在两个市场的日度夏普比率上分别提高了0.429和0.341，超越了先进的市场预测模型。此外，我们的结果揭示了对金融新闻的见解，包括新闻的延迟市场价格反应、新闻的长记忆效应，以及财务情绪分析在从新闻数据中充分提取预测能力方面的局限性。
+中摘: 金融新闻在市场价格中的传播是一个复杂的过程，这使得评估新闻事件与市场动态之间的联系变得具有挑战性。本文介绍了一种新型的市场预测模型——FININ（金融互联新闻影响力网络），它不仅能捕捉新闻与价格之间的关联，还能揭示新闻项目本身的相互作用。FININ有效地整合了来自市场数据和新闻文章的多模态信息。我们对两个数据集进行了广泛实验，包括15年期间的S&P 500和NASDAQ 100指数，以及超过270万篇新闻文章。实验结果证明了FININ的有效性，在两个市场的日夏普比率上分别超越了先进的市场预测模型，提高了0.429和0.341。此外，我们的研究结果还揭示了对金融新闻的洞见，包括新闻的延迟市场定价、新闻的长记忆效应，以及金融情绪分析在从新闻数据中完全提取预测能力方面的局限性。
 ----------------------------------------------------------------------------------------------------
-[No.68] Multi-News+: Cost-efficient Dataset Cleansing via LLM-based Data Annotation
+[No.38] Multi-News+: Cost-efficient Dataset Cleansing via LLM-based Data Annotation
 来源: EMNLP 2024
 命中: news
 标题: 多新闻+：通过基于LLM的数据标注实现高效的数据清洗
@@ -819,11 +465,11 @@ arXi: https://arxiv.org/abs/2410.10614
 arXi: https://arxiv.org/abs/2404.09682
 英摘: The quality of the dataset is crucial for ensuring optimal performance and reliability of downstream task models. However, datasets often contain noisy data inadvertently included during the construction process. Numerous attempts have been made to correct this issue through human annotators. However, hiring and managing human annotators is expensive and time-consuming. As an alternative, recent studies are exploring the use of large language models (LLMs) for data annotation.
   In this study, we present a case study that extends the application of LLM-based data annotation to enhance the quality of existing datasets through a cleansing strategy. Specifically, we leverage approaches such as chain-of-thought and majority voting to imitate human annotation and classify unrelated documents from the Multi-News dataset, which is widely used for the multi-document summarization task. Through our proposed cleansing method, we introduce an enhanced Multi-News+. By employing LLMs for data cleansing, we demonstrate an efficient and effective approach to improving dataset quality without relying on expensive human annotation efforts.
-中摘: 数据集的质量对于确保下游任务模型的最优性能和可靠性至关重要。然而，在构建过程中，数据集中往往不经意间包含了噪声数据。为了解决这一问题，人们尝试通过人工标注员进行修正。但是，雇佣和管理人工标注员既昂贵又耗时。作为替代方案，最近的研究开始探索使用大型语言模型（LLM）进行数据标注。
+中摘: 数据集的质量对于确保下游任务模型的最优性能和可靠性至关重要。然而，在构建过程中，数据集中往往不经意间包含了嘈杂的数据。为解决这一问题，人们曾多次尝试通过人工标注员进行修正。但是，雇用和管理人工标注员既昂贵又耗时。作为替代方案，近期的研究开始探索使用大型语言模型（LLM）进行数据标注。
 
-在本研究中，我们通过一个案例研究，将基于LLM的数据标注应用扩展至通过净化策略提升现有数据集质量。具体而言，我们利用链式思考和多数投票等方法来模拟人工标注，从广泛用于多文档摘要任务的Multi-News数据集中分类出不相关的文档。通过我们提出的净化方法，我们引入了增强版的Multi-News+。借助LLM进行数据净化，我们展示了一种高效且有效的方法来提高数据集质量，而无需依赖昂贵的人工标注工作。
+在本研究中，我们展示了一个案例研究，将基于LLM的数据标注应用扩展至通过净化策略提升现有数据集质量。具体而言，我们利用链式思考和多数投票等方法模仿人工标注，并从广泛用于多文档摘要任务的Multi-News数据集中分类出不相关的文档。通过我们提出的净化方法，我们引入了增强版的Multi-News+。借助LLM进行数据净化，我们展示了一种高效且有效的方法来提高数据集质量，而无需依赖昂贵的人工标注工作。
 ----------------------------------------------------------------------------------------------------
-[No.69] Multilingual Fine-Grained News Headline Hallucination Detection
+[No.39] Multilingual Fine-Grained News Headline Hallucination Detection
 来源: EMNLP 2024
 命中: news
 标题: 多语言细粒度新闻标题幻觉检测
@@ -834,9 +480,9 @@ arXi: https://arxiv.org/abs/2404.09682
 链接: https://aclanthology.org/2024.findings-emnlp.461/
 arXi: https://arxiv.org/abs/2407.15975
 英摘: The popularity of automated news headline generation has surged with advancements in pre-trained language models. However, these models often suffer from the ``hallucination'' problem, where the generated headline is not fully supported by its source article. Efforts to address this issue have predominantly focused on English, using over-simplistic classification schemes that overlook nuanced hallucination types. In this study, we introduce the first multilingual, fine-grained news headline hallucination detection dataset that contains over 11 thousand pairs in 5 languages, each annotated with detailed hallucination types by experts. We conduct extensive experiments on this dataset under two settings. First, we implement several supervised fine-tuning approaches as preparatory solutions and demonstrate this dataset's challenges and utilities. Second, we test various large language models' in-context learning abilities and propose two novel techniques, language-dependent demonstration selection and coarse-to-fine prompting, to boost the few-shot hallucination detection performance in terms of the example-F1 metric. We release this dataset to foster further research in multilingual, fine-grained headline hallucination detection.
-中摘: 随着预训练语言模型的进步，自动新闻标题生成的流行度激增。然而，这些模型常常受到“幻觉”问题的困扰，即生成的标题并未完全由其来源文章所支持。为解决这一问题的努力主要集中在英语上，采用过于简化的分类方案，忽略了微妙的幻觉类型。在这项研究中，我们引入了首个针对多语言、精细的新闻标题幻觉检测数据集，包含超过11,000对五个语言的数据，每一对都由专家标注了详细的幻觉类型。我们在该数据集上进行了广泛的实验，分为两种设置。首先，我们实施了几种监督微调方法作为预备解决方案，并展示了该数据集的挑战和实用性。其次，我们测试了各种大型语言模型的在情境学习能力，并提出了两种新颖的技术，即语言依赖性示例选择和粗到细的提示策略，以增强在示例F1指标下的少样本幻觉检测性能。我们发布此数据集以促进多语言、精细的标题幻觉检测领域的进一步研究。
+中摘: 随着预训练语言模型的进步，自动新闻标题生成的流行度激增。然而，这些模型常常受到“幻觉”问题的困扰，即生成的标题并未完全由其来源文章支持。为解决这一问题的努力主要集中在英语上，使用过于简化的分类方案，忽略了复杂的幻觉类型。在这项研究中，我们介绍了首个用于多语言、细粒度新闻标题幻觉检测的数据集，其中包含超过11,000对来自5种语言的样本，每对样本都由专家标注了详细的幻觉类型。我们在这个数据集上进行了广泛实验，分为两种设置。首先，我们实施了几种监督微调方法作为初步解决方案，并展示了该数据集的挑战和效用。其次，我们测试了多种大型语言模型的情境学习能力，并提出了两种新颖的技术，即语言依赖的示例选择和粗到细的提示策略，以提高在实例F1指标下的少样本幻觉检测性能。我们发布此数据集，旨在促进多语言、细粒度标题幻觉检测的进一步研究。
 ----------------------------------------------------------------------------------------------------
-[No.70] News Risk Alerting System (NRAS): A Data-Driven LLM Approach to Proactive Credit Risk Monitoring
+[No.40] News Risk Alerting System (NRAS): A Data-Driven LLM Approach to Proactive Credit Risk Monitoring
 来源: EMNLP 2024
 命中: news
 标题: 新闻风险预警系统（NRAS）：一种基于数据驱动的大语言模型方法，用于主动监控信用风险
@@ -846,7 +492,7 @@ arXi: https://arxiv.org/abs/2407.15975
 类型: Industry
 链接: https://aclanthology.org/2024.emnlp-industry.32/
 ----------------------------------------------------------------------------------------------------
-[No.71] On Fake News Detection with LLM Enhanced Semantics Mining
+[No.41] On Fake News Detection with LLM Enhanced Semantics Mining
 来源: EMNLP 2024
 命中: news
 标题: 基于LLM增强语义挖掘的假新闻检测
@@ -856,7 +502,7 @@ arXi: https://arxiv.org/abs/2407.15975
 类型: Main
 链接: https://aclanthology.org/2024.emnlp-main.31/
 ----------------------------------------------------------------------------------------------------
-[No.72] Quantifying Generative Media Bias with a Corpus of Real-world and Generated News Articles
+[No.42] Quantifying Generative Media Bias with a Corpus of Real-world and Generated News Articles
 来源: EMNLP 2024
 命中: news
 标题: 量化生成媒体的偏见：基于真实世界和生成新闻文章的语料库研究
@@ -867,9 +513,9 @@ arXi: https://arxiv.org/abs/2407.15975
 链接: https://aclanthology.org/2024.findings-emnlp.255/
 arXi: https://arxiv.org/abs/2406.10773
 英摘: Large language models (LLMs) are increasingly being utilised across a range of tasks and domains, with a burgeoning interest in their application within the field of journalism. This trend raises concerns due to our limited understanding of LLM behaviour in this domain, especially with respect to political bias. Existing studies predominantly focus on LLMs undertaking political questionnaires, which offers only limited insights into their biases and operational nuances. To address this gap, our study establishes a new curated dataset that contains 2,100 human-written articles and utilises their descriptions to generate 56,700 synthetic articles using nine LLMs. This enables us to analyse shifts in properties between human-authored and machine-generated articles, with this study focusing on political bias, detecting it using both supervised models and LLMs. Our findings reveal significant disparities between base and instruction-tuned LLMs, with instruction-tuned models exhibiting consistent political bias. Furthermore, we are able to study how LLMs behave as classifiers, observing their display of political bias even in this role. Overall, for the first time within the journalistic domain, this study outlines a framework and provides a structured dataset for quantifiable experiments, serving as a foundation for further research into LLM political bias and its implications.
-中摘: 大型语言模型（LLM）在各种任务和领域中的应用日益广泛，新闻业对其应用的兴趣也在不断增长。然而，由于我们对LLM在这个领域的行为理解有限，尤其是关于政治偏见的问题，这一趋势引发了担忧。现有的研究主要集中在LLM进行政治问卷调查上，这只能提供它们的偏见和操作细节的有限见解。为填补这一空白，我们的研究建立了一个新的精选数据集，其中包含2100篇人工撰写的新闻文章，并利用这些描述通过九个LLM生成了56700篇合成文章。这使我们能够分析人工撰写与机器生成文章之间的属性变化，本研究特别关注政治偏见，使用监督模型和LLM来检测它。我们的发现揭示了基础模型和指令调优的LLM之间存在显著差异，其中指令调优的模型表现出一贯的政治偏见。此外，我们还研究了LLM作为分类器的行为，观察到即使在这种角色下，它们也显示出政治偏见。总体而言，本研究首次在新闻业领域内提出一个框架并提供了结构化的数据集用于可量化的实验，为深入研究LLM的政治偏见及其影响奠定了基础。
+中摘: 大型语言模型（LLM）在各种任务和领域中的应用日益广泛，新闻界对其应用的兴趣也日益增长。这一趋势引发了担忧，因为我们对LLM在该领域的行为理解有限，特别是关于政治偏见的问题。现有的研究主要集中在LLM完成政治问卷上，这只能提供它们的偏见和操作细节的有限见解。为了解决这一空白，我们的研究建立了一个新的精心整理的数据集，其中包含2100篇人类撰写的新闻文章，并利用这些描述通过九个LLM生成了56700篇合成文章。这使我们能够分析人类撰写与机器生成的文章之间的属性变化，本研究特别关注政治偏见，使用监督模型和LLM来检测它。我们的发现揭示了基础模型和指令微调LLM之间的显著差异，指令微调模型表现出一致的政治偏见。此外，我们还研究了LLM作为分类器的行为，观察到即使在这种角色下，它们也会展示出政治偏见。总体而言，在新闻领域内，本研究首次概述了一个框架并提供了结构化的数据集用于可量化的实验，为深入研究LLM的政治偏见及其影响奠定了基础。
 ----------------------------------------------------------------------------------------------------
-[No.73] Reap the Wild Wind: Detecting Media Storms in Large-Scale News Corpora
+[No.43] Reap the Wild Wind: Detecting Media Storms in Large-Scale News Corpora
 来源: EMNLP 2024
 命中: news
 标题: 收割狂风：在大规模新闻语料中检测媒体风暴
@@ -880,9 +526,9 @@ arXi: https://arxiv.org/abs/2406.10773
 链接: https://aclanthology.org/2024.findings-emnlp.275/
 arXi: https://arxiv.org/abs/2404.09299
 英摘: Media Storms, dramatic outbursts of attention to a story, are central components of media dynamics and the attention landscape. Despite their significance, there has been little systematic and empirical research on this concept due to issues of measurement and operationalization. We introduce an iterative human-in-the-loop method to identify media storms in a large-scale corpus of news articles. The text is first transformed into signals of dispersion based on several textual characteristics. In each iteration, we apply unsupervised anomaly detection to these signals; each anomaly is then validated by an expert to confirm the presence of a storm, and those results are then used to tune the anomaly detection in the next iteration. We demonstrate the applicability of this method in two scenarios: first, supplementing an initial list of media storms within a specific time frame; and second, detecting media storms in new time periods. We make available a media storm dataset compiled using both scenarios. Both the method and dataset offer the basis for comprehensive empirical research into the concept of media storms, including characterizing them and predicting their outbursts and durations, in mainstream media or social media platforms.
-中摘: 媒体风暴，即对某个故事的注意力戏剧性爆发，是媒体动态和注意力景观的核心组成部分。尽管它们具有重要意义，但由于测量和操作化的问题，关于这一概念的系统性和实证研究却很少。我们介绍了一种迭代的人机交互方法，用于在大规模新闻文章语料库中识别媒体风暴。首先，根据几种文本特征将文本转换为分散度信号。在每一次迭代中，我们将无监督异常检测应用于这些信号；然后由专家验证每个异常情况，以确认风暴的存在，并将这些结果用于调整下一次迭代中的异常检测。我们在两种场景下展示了这种方法的应用：首先，在特定时间框架内补充初步的媒体风暴列表；其次，在新的时间范围内检测媒体风暴。我们提供了使用这两种场景编制的媒体风暴数据集。该方法和数据集为全面实证研究媒体风暴的概念奠定了基础，包括描述其特征、预测其爆发和持续时间，无论是主流媒体还是社交媒体平台。
+中摘: 媒体风暴，即对某个故事的戏剧性注意力爆发，是媒体动态和注意力景观的核心组成部分。尽管它们具有重要意义，但由于测量和操作化的问题，关于这一概念的系统性和实证研究却很少。我们引入了一种迭代的人工参与循环方法，用于在大规模新闻文章语料库中识别媒体风暴。首先，根据几种文本特征将文本转换为分散信号。在每次迭代中，我们将无监督异常检测应用于这些信号；然后由专家验证每个异常，以确认风暴的存在，并将这些结果用于调整下一次迭代中的异常检测。我们在两种场景中展示了这种方法的适用性：首先，补充特定时间框架内的初始媒体风暴列表；其次，在新的时间段内检测媒体风暴。我们提供了使用这两种场景编译的媒体风暴数据集。该方法和数据集为全面实证研究媒体风暴的概念奠定了基础，包括描述它们、预测其爆发和持续时间，无论是主流媒体还是社交媒体平台。
 ----------------------------------------------------------------------------------------------------
-[No.74] SAFARI: Cross-lingual Bias and Factuality Detection in News Media and News Articles
+[No.44] SAFARI: Cross-lingual Bias and Factuality Detection in News Media and News Articles
 来源: EMNLP 2024
 命中: news
 标题: SAFARI：跨语言偏见和事实性检测在新闻媒体和新闻文章中的应用
@@ -892,7 +538,7 @@ arXi: https://arxiv.org/abs/2404.09299
 类型: finding
 链接: https://aclanthology.org/2024.findings-emnlp.712/
 ----------------------------------------------------------------------------------------------------
-[No.75] Train Once, Use Flexibly: A Modular Framework for Multi-Aspect Neural News Recommendation
+[No.45] Train Once, Use Flexibly: A Modular Framework for Multi-Aspect Neural News Recommendation
 来源: EMNLP 2024
 命中: news
 标题: 一训多用：一种模块化框架实现多方面神经新闻推荐
@@ -903,9 +549,9 @@ arXi: https://arxiv.org/abs/2404.09299
 链接: https://aclanthology.org/2024.findings-emnlp.558/
 arXi: https://arxiv.org/abs/2307.16089
 英摘: Recent neural news recommenders (NNRs) extend content-based recommendation (1) by aligning additional aspects (e.g., topic, sentiment) between candidate news and user history or (2) by diversifying recommendations w.r.t. these aspects. This customization is achieved by ``hardcoding`` additional constraints into the NNR's architecture and/or training objectives: any change in the desired recommendation behavior thus requires retraining the model with a modified objective. This impedes widespread adoption of multi-aspect news recommenders. In this work, we introduce MANNeR, a modular framework for multi-aspect neural news recommendation that supports on-the-fly customization over individual aspects at inference time. With metric-based learning as its backbone, MANNeR learns aspect-specialized news encoders and then flexibly and linearly combines the resulting aspect-specific similarity scores into different ranking functions, alleviating the need for ranking function-specific retraining of the model. Extensive experimental results show that MANNeR consistently outperforms state-of-the-art NNRs on both standard content-based recommendation and single- and multi-aspect customization. Lastly, we validate that MANNeR's aspect-customization module is robust to language and domain transfer.
-中摘: 最近的神经新闻推荐系统（NNRs）通过两种方式扩展了基于内容的推荐：(1)在候选新闻和用户历史之间对齐额外的方面（例如，主题、情感），或(2)根据这些方面多样化推荐。这种定制是通过在NNR的架构和/或训练目标中“硬编码”额外约束来实现的：因此，任何期望的推荐行为的改变都需要使用修改后的目标重新训练模型。这阻碍了多方面新闻推荐系统的广泛采用。在本工作中，我们引入了MANNeR，这是一个用于多方面神经新闻推荐的模块化框架，支持在推理时间对个别方面进行即时定制。以度量学习为基础，MANNeR学习面向特定方面的新闻编码器，然后灵活且线性地将由此产生的面向方面的相似性分数组合成不同的排名函数，从而避免了针对特定排名函数重新训练模型的需求。广泛的实验结果表明，MANNeR在标准的基于内容的推荐以及单方面和多方面的定制上始终优于最先进的NNRs。最后，我们验证了MANNeR的面向方面定制模块在语言和领域转移方面具有鲁棒性。
+中摘: 最近的神经新闻推荐系统（NNRs）通过两种方式扩展了基于内容的推荐：(1) 在候选新闻与用户历史之间对齐额外的方面（如主题、情感）；或 (2) 根据这些方面多样化推荐。这种定制化是通过在NNR架构和/或训练目标中“硬编码”额外约束来实现的：任何所需推荐行为的改变都需要使用修改后的目标重新训练模型。这阻碍了多方面新闻推荐系统的广泛应用。在这项工作中，我们引入了MANNeR，一个多方面神经新闻推荐的模块化框架，支持在推理时针对各个方面的即时定制。以基于度量的学习为核心，MANNeR学习面向特定方面的新闻编码器，然后灵活且线性地将由此产生的特定于方面的相似性得分组合成不同的排名函数，从而避免了针对特定排名函数重新训练模型的需求。广泛的实验结果表明，MANNeR在标准的基于内容的推荐以及单方面和多方面的定制上始终优于最先进的NNRs。最后，我们验证了MANNeR的方面定制模块对于语言和领域迁移具有鲁棒性。
 ----------------------------------------------------------------------------------------------------
-[No.76] VIEWS: Entity-Aware News Video Captioning
+[No.46] VIEWS: Entity-Aware News Video Captioning
 来源: EMNLP 2024
 命中: news
 标题: 视角：实体感知新闻视频字幕生成
@@ -915,7 +561,7 @@ arXi: https://arxiv.org/abs/2307.16089
 类型: Main
 链接: https://aclanthology.org/2024.emnlp-main.1128/
 ----------------------------------------------------------------------------------------------------
-[No.77] What’s Mine becomes Yours: Defining, Annotating and Detecting Context-Dependent Paraphrases in News Interview Dialogs
+[No.47] What’s Mine becomes Yours: Defining, Annotating and Detecting Context-Dependent Paraphrases in News Interview Dialogs
 来源: EMNLP 2024
 命中: news
 标题: 我的变为你的：定义、标注和检测新闻访谈对话中的上下文依赖同义句
@@ -925,7 +571,7 @@ arXi: https://arxiv.org/abs/2307.16089
 类型: Main
 链接: https://aclanthology.org/2024.emnlp-main.52/
 ----------------------------------------------------------------------------------------------------
-[No.78] Identifying Informational Sources in News Articles
+[No.48] Identifying Informational Sources in News Articles
 来源: EMNLP 2023
 命中: news
 标题: 识别新闻文章中的信息来源
@@ -936,9 +582,9 @@ arXi: https://arxiv.org/abs/2307.16089
 链接: https://openreview.net/forum?id=lpyU0zyEsS
 arXi: https://arxiv.org/abs/2305.14904
 英摘: News articles are driven by the informational sources journalists use in reporting. Modeling when, how and why sources get used together in stories can help us better understand the information we consume and even help journalists with the task of producing it. In this work, we take steps toward this goal by constructing the largest and widest-ranging annotated dataset, to date, of informational sources used in news writing. We show that our dataset can be used to train high-performing models for information detection and source attribution. We further introduce a novel task, source prediction, to study the compositionality of sources in news articles. We show good performance on this task, which we argue is an important proof for narrative science exploring the internal structure of news articles and aiding in planning-based language generation, and an important step towards a source-recommendation system to aid journalists.
-中摘: 新闻文章由记者报道时使用的信息来源驱动。通过建模何时、如何以及为何在故事中共同使用这些来源，可以帮助我们更好地理解我们消费的信息，甚至帮助记者完成创作任务。在这项工作中，我们朝着这个目标迈出了步伐，构建了迄今为止最大、范围最广的注释数据集，涵盖了新闻写作中使用的信息来源。我们证明，我们的数据集可用于训练高性能模型，以进行信息检测和来源归因。此外，我们引入了一项新任务——来源预测，以研究新闻文章中来源的组合性。我们在该任务上表现出良好性能，我们认为这是叙事科学探索新闻文章内部结构和辅助基于规划的语言生成的重要证明，也是迈向为记者提供来源推荐系统的重要一步。
+中摘: 新闻文章的驱动因素是记者在报道中使用的信息来源。通过建模何时、如何以及为何在故事中共同使用这些来源，可以帮助我们更好地理解我们所消费的信息，甚至帮助记者完成创作任务。在这项工作中，我们朝着这一目标迈出了步伐，构建了迄今为止最大、最广泛的注释数据集，涵盖了新闻写作中使用的信息来源。我们展示了该数据集可用于训练高性能模型进行信息检测和来源归因。此外，我们引入了一项新任务，即来源预测，以研究新闻文章中来源的组合性。我们在这一任务上取得了良好表现，我们认为这是叙事科学探索新闻文章内部结构和辅助基于规划的语言生成的重要证明，也是迈向为记者提供来源推荐系统的重要一步。
 ----------------------------------------------------------------------------------------------------
-[No.79] WSDMS: Debunk Fake News via Weakly Supervised Detection of Misinforming Sentences with Contextualized Social Wisdom
+[No.49] WSDMS: Debunk Fake News via Weakly Supervised Detection of Misinforming Sentences with Contextualized Social Wisdom
 来源: EMNLP 2023
 命中: news
 标题: WSDMS：通过弱监督误信句子检测与情境化社会智慧相结合来揭穿假新闻
@@ -949,9 +595,9 @@ arXi: https://arxiv.org/abs/2305.14904
 链接: https://openreview.net/forum?id=t035Emm4Vt
 arXi: https://arxiv.org/abs/2310.16579
 英摘: In recent years, we witness the explosion of false and unconfirmed information (i.e., rumors) that went viral on social media and shocked the public. Rumors can trigger versatile, mostly controversial stance expressions among social media users. Rumor verification and stance detection are different yet relevant tasks. Fake news debunking primarily focuses on determining the truthfulness of news articles, which oversimplifies the issue as fake news often combines elements of both truth and falsehood. Thus, it becomes crucial to identify specific instances of misinformation within the articles. In this research, we investigate a novel task in the field of fake news debunking, which involves detecting sentence-level misinformation. One of the major challenges in this task is the absence of a training dataset with sentence-level annotations regarding veracity. Inspired by the Multiple Instance Learning (MIL) approach, we propose a model called Weakly Supervised Detection of Misinforming Sentences (WSDMS). This model only requires bag-level labels for training but is capable of inferring both sentence-level misinformation and article-level veracity, aided by relevant social media conversations that are attentively contextualized with news sentences. We evaluate WSDMS on three real-world benchmarks and demonstrate that it outperforms existing state-of-the-art baselines in debunking fake news at both the sentence and article levels.
-中摘: 近年来，我们目睹了未经证实的虚假信息（即谣言）在社交媒体上病毒式传播并震惊公众的现象。谣言能在社交媒体用户中引发多样的、大多具有争议性的立场表达。谣言验证和立场检测虽为不同的任务，但彼此相关。揭穿假新闻主要关注确定新闻文章的真实性，但这将问题过于简化，因为假新闻往往结合了真实与虚假的元素。因此，识别文章中具体错误信息实例变得至关重要。本研究探讨了一个在揭穿假新闻领域的新型任务，即检测句子级别的错误信息。该任务的主要挑战之一是缺乏关于句子级真实性的注释训练数据集。受多重实例学习（MIL）方法的启发，我们提出了一种名为“弱监督错误句子检测”（WSDMS）的模型。此模型仅需包级标签进行训练，却能推断出句子级别的错误信息和文章级别的真实性，借助与新闻句子紧密关联的社会媒体对话来辅助这一过程。我们在三个现实世界基准上评估了WSDMS，并证明它在句子和文章级别的假新闻揭穿方面超越了现有的最先进基线。
+中摘: 近年来，我们目睹了社交平台上未经证实的虚假信息（即谣言）的爆发，这些信息迅速传播并震惊了公众。谣言能在社交媒体用户中引发多样的、通常是争议性的立场表达。谣言验证和立场检测是不同的但相关的任务。辟谣假新闻主要集中在判断新闻文章的真实性上，这可能将问题过度简化，因为假新闻往往结合了真实与虚假的元素。因此，识别文章中特定的错误信息实例变得至关重要。在本研究中，我们探讨了假新闻辟谣领域的一个新任务，涉及检测句子级别的错误信息。这个任务的主要挑战之一是缺乏关于句子级真实性的标注训练数据集。受多重实例学习（MIL）方法的启发，我们提出了一种名为“弱监督错误信息句检测”（WSDMS）的模型。该模型仅需包级标签进行训练，却能推断出句子级别的错误信息和文章级别的真实性，借助与新闻句子紧密联系的相关社交媒体对话。我们在三个现实世界基准上评估了WSDMS，并证明它在句子和文章级别的假新闻辟谣方面超越了现有的最先进基线。
 ----------------------------------------------------------------------------------------------------
-[No.80] When it Rains, it Pours: Modeling Media Storms and the News Ecosystem
+[No.50] When it Rains, it Pours: Modeling Media Storms and the News Ecosystem
 来源: EMNLP 2023
 命中: news
 标题: 雨过洪峰：建模媒体风暴与新闻生态系统
@@ -962,9 +608,9 @@ arXi: https://arxiv.org/abs/2310.16579
 链接: https://openreview.net/forum?id=dFlGP1l65l
 arXi: https://arxiv.org/abs/2312.02118
 英摘: Most events in the world receive at most brief coverage by the news media. Occasionally, however, an event will trigger a media storm, with voluminous and widespread coverage lasting for weeks instead of days. In this work, we develop and apply a pairwise article similarity model, allowing us to identify story clusters in corpora covering local and national online news, and thereby create a comprehensive corpus of media storms over a nearly two year period. Using this corpus, we investigate media storms at a new level of granularity, allowing us to validate claims about storm evolution and topical distribution, and provide empirical support for previously hypothesized patterns of influence of storms on media coverage and intermedia agenda setting.
-中摘: 世界上大多数事件最多只能得到新闻媒体的简短报道。然而，偶尔会有事件引发媒体风暴，大量且广泛的报道会持续数周而非几天。在本研究中，我们开发并应用了一种文章对相似性模型，使我们能够在覆盖地方和国家在线新闻的语料库中识别故事集群，从而创建了一个近近两年时间的全面媒体风暴语料库。利用这个语料库，我们以前所未有的精细程度研究了媒体风暴，使我们能够验证关于风暴演变和主题分布的主张，并为先前假设的风暴对媒体报道的影响模式以及跨媒体议程设置提供了实证支持。
+中摘: 世界上大多数事件最多只能得到新闻媒体的简短报道。然而，偶尔会有一个事件触发一场媒体风暴，大量且广泛的报道会持续数周而非几天。在这项工作中，我们开发并应用了一种文章对相似性模型，使我们能够在涵盖地方和国家在线新闻的语料库中识别故事集群，从而创建了一个近近两年时间跨度的全面媒体风暴语料库。利用这个语料库，我们以一种前所未有的精细程度研究媒体风暴，这使我们能够验证关于风暴演变和主题分布的说法，并为之前假设的风暴对媒体报道和跨媒体议程设置的影响模式提供实证支持。
 ----------------------------------------------------------------------------------------------------
-[No.81] STINMatch: Semi-Supervised Semantic-Topological Iteration Network for Financial Risk Detection via News Label Diffusion
+[No.51] STINMatch: Semi-Supervised Semantic-Topological Iteration Network for Financial Risk Detection via News Label Diffusion
 来源: EMNLP 2023
 命中: news
 标题: 半监督语义-拓扑迭代网络：通过新闻标签扩散进行金融风险检测
@@ -974,7 +620,7 @@ arXi: https://arxiv.org/abs/2312.02118
 类型: Long Main
 链接: https://openreview.net/forum?id=R4N3RNBNzJ
 ----------------------------------------------------------------------------------------------------
-[No.82] Harnessing the power of LLMs: Evaluating human-AI text co-creation through the lens of news headline generation
+[No.52] Harnessing the power of LLMs: Evaluating human-AI text co-creation through the lens of news headline generation
 来源: EMNLP 2023
 命中: news
 标题: 利用大语言模型（LLMs）的力量：通过新闻标题生成的视角评估人类与AI的文本共创
@@ -985,9 +631,9 @@ arXi: https://arxiv.org/abs/2312.02118
 链接: https://openreview.net/forum?id=pPiJykFn0K
 arXi: https://arxiv.org/abs/2310.10706
 英摘: To explore how humans can best leverage LLMs for writing and how interacting with these models affects feelings of ownership and trust in the writing process, we compared common human-AI interaction types (e.g., guiding system, selecting from system outputs, post-editing outputs) in the context of LLM-assisted news headline generation. While LLMs alone can generate satisfactory news headlines, on average, human control is needed to fix undesirable model outputs. Of the interaction methods, guiding and selecting model output added the most benefit with the lowest cost (in time and effort). Further, AI assistance did not harm participants' perception of control compared to freeform editing.
-中摘: 为了探讨人类如何最有效地利用大型语言模型（LLMs）进行写作，以及与这些模型互动如何影响在写作过程中对所有权和信任的感受，我们在LLM辅助新闻标题生成的背景下比较了常见的人工智能交互类型（例如，指导系统、从系统输出中选择、后期编辑输出）。虽然大型语言模型单独可以生成令人满意的新闻标题，但平均而言，需要人类控制来修正不理想的模型输出。在所有交互方法中，指导和选择模型输出添加了最多的好处，同时成本最低（在时间和精力上）。此外，人工智能辅助并没有损害参与者相对于自由形式编辑的控制感。
+中摘: 为了探讨人类如何最有效地利用大型语言模型（LLM）进行写作，以及与这些模型互动如何影响人们在写作过程中的所有权感和信任度，我们在LLM辅助新闻标题生成的背景下，比较了常见的人工智能交互类型（例如，指导系统、从系统输出中选择、后期编辑输出）。虽然单独的LLM可以生成平均满意的新闻标题，但需要人类控制来修正模型不理想的输出。在各种交互方法中，指导和选择模型输出增加了最大的效益，同时成本（时间和精力）最低。此外，人工智能辅助并没有损害参与者相对于自由形式编辑的控制感。
 ----------------------------------------------------------------------------------------------------
-[No.83] PUNR: Pre-training with User Behavior Modeling for News Recommendation
+[No.53] PUNR: Pre-training with User Behavior Modeling for News Recommendation
 来源: EMNLP 2023
 命中: news
 标题: PUNR：基于用户行为建模的新闻推荐预训练
@@ -998,9 +644,9 @@ arXi: https://arxiv.org/abs/2310.10706
 链接: https://openreview.net/forum?id=Tpd5RuSzpq
 arXi: https://arxiv.org/abs/2304.12633
 英摘: News recommendation aims to predict click behaviors based on user behaviors. How to effectively model the user representations is the key to recommending preferred news. Existing works are mostly focused on improvements in the supervised fine-tuning stage. However, there is still a lack of PLM-based unsupervised pre-training methods optimized for user representations. In this work, we propose an unsupervised pre-training paradigm with two tasks, i.e. user behavior masking and user behavior generation, both towards effective user behavior modeling. Firstly, we introduce the user behavior masking pre-training task to recover the masked user behaviors based on their contextual behaviors. In this way, the model could capture a much stronger and more comprehensive user news reading pattern. Besides, we incorporate a novel auxiliary user behavior generation pre-training task to enhance the user representation vector derived from the user encoder. We use the above pre-trained user modeling encoder to obtain news and user representations in downstream fine-tuning. Evaluations on the real-world news benchmark show significant performance improvements over existing baselines.
-中摘: 新闻推荐旨在根据用户行为预测点击行为。如何有效地构建用户表示是推荐首选新闻的关键。现有工作主要集中在监督微调阶段的改进上。然而，仍然缺乏针对用户表示优化的基于预训练语言模型(PLM)的无监督预训练方法。在这项工作中，我们提出了一种包含两个任务的无监督预训练范式，即用户行为掩蔽和用户行为生成，这两个任务都旨在有效建模用户行为。首先，我们引入了用户行为掩蔽预训练任务，根据上下文行为恢复被掩蔽的用户行为。这样，模型可以捕捉到更强大、更全面的用户阅读模式。此外，我们结合了一个新颖的辅助用户行为生成预训练任务，以增强从用户编码器得出的用户表示向量。我们使用上述预训练的用户建模编码器，在下游微调中获取新闻和用户表示。在真实世界新闻基准上的评估显示，与现有基线相比，性能有显著提升。
+中摘: 新闻推荐旨在根据用户行为预测点击行为。如何有效地构建用户表示是推荐用户偏爱新闻的关键。现有工作主要集中在监督微调阶段的改进上。然而，仍然缺乏针对用户表示优化的基于预训练语言模型(PLM)的无监督预训练方法。在本工作中，我们提出了一种包含两个任务的无监督预训练范式，即用户行为掩码和用户行为生成，两者都旨在有效建模用户行为。首先，我们引入了用户行为掩码预训练任务，根据用户的行为上下文恢复被掩码的用户行为。这样，模型可以捕捉到更强、更全面的用户阅读新闻模式。此外，我们结合了一个新颖的辅助用户行为生成预训练任务，以增强从用户编码器得到的用户表示向量。我们使用上述预训练的用户建模编码器，在下游微调中获取新闻和用户表示。在真实世界新闻基准上的评估显示，与现有基线相比，性能有了显著提高。
 ----------------------------------------------------------------------------------------------------
-[No.84] All Things Considered: Detecting Partisan Events from News Media with Cross-Article Comparison
+[No.54] All Things Considered: Detecting Partisan Events from News Media with Cross-Article Comparison
 来源: EMNLP 2023
 命中: news
 标题: 《新闻与展望》：通过跨文章比较检测党派事件
@@ -1011,11 +657,9 @@ arXi: https://arxiv.org/abs/2304.12633
 链接: https://openreview.net/forum?id=1VsVZm4DLg
 arXi: https://arxiv.org/abs/2310.18827
 英摘: Public opinion is shaped by the information news media provide, and that information in turn may be shaped by the ideological preferences of media outlets. But while much attention has been devoted to media bias via overt ideological language or topic selection, a more unobtrusive way in which the media shape opinion is via the strategic inclusion or omission of partisan events that may support one side or the other. We develop a latent variable-based framework to predict the ideology of news articles by comparing multiple articles on the same story and identifying partisan events whose inclusion or omission reveals ideology. Our experiments first validate the existence of partisan event selection, and then show that article alignment and cross-document comparison detect partisan events and article ideology better than competitive baselines. Our results reveal the high-level form of media bias, which is present even among mainstream media with strong norms of objectivity and nonpartisanship. Our codebase and dataset are available at https://github.com/launchnlp/ATC.
-中摘: 公众舆论受到新闻媒体提供的信息的影响，而这些信息反过来可能受到媒体机构意识形态偏好的影响。尽管对通过明显的意识形态语言或话题选择的媒体报道偏见投入了大量关注，但媒体影响舆论的一种更为隐蔽的方式是通过战略性地包含或省略可能支持某一方立场的党派事件。我们开发了一个基于潜在变量的框架，通过比较同一事件的多篇报道并识别那些包含或省略的党派事件来预测新闻文章的意识形态。我们的实验首先验证了党派事件选择的存在，然后证明了文章对齐和跨文档比较在检测党派事件和文章意识形态方面优于竞争性基线方法。我们的结果揭示了高级形式的媒体偏见，这种偏见即使在具有强烈客观性和无党派规范的主流媒体中也存在。我们的代码库和数据集可在https://github.com/launchnlp/ATC获取。
-
-简而言之，本文研究了媒体如何通过选择性报道某些党派事件来影响公众舆论，并提出了一种基于潜在变量的方法来分析新闻报道的意识形态偏见。通过对比同事件的不同报道，该方法能够有效识别出报道中的党派倾向，从而揭示了媒体偏见的深层次表现。此外，研究指出即使在主张客观公正的主流媒体中，这种偏见依然存在。所有研究代码和数据均可在指定GitHub页面上找到。
+中摘: 公众舆论受到新闻媒体提供的信息的影响，而这些信息反过来可能受到媒体机构意识形态偏好的影响。尽管人们对于通过明显的意识形态语言或话题选择来体现的媒体偏见给予了大量关注，但媒体塑造舆论的一个更为微妙的方式是通过战略性地包含或省略可能支持某一方的党派事件。我们开发了一个基于潜在变量的框架，通过比较同一事件的多篇文章并识别那些通过包含或省略揭示意识形态的党派事件，来预测新闻文章的意识形态。我们的实验首先验证了党派事件选择的存在，然后表明，文章对齐和跨文档比较在检测党派事件和文章意识形态方面优于竞争性基线。我们的结果揭示了高级形式的媒体偏见，这种偏见即使在具有强烈客观性和无党派规范的主流媒体中也存在。我们的代码库和数据集可在https://github.com/launchnlp/ATC获取。
 ----------------------------------------------------------------------------------------------------
-[No.85] Identifying Conspiracy Theories News based on Event Relation Graph
+[No.55] Identifying Conspiracy Theories News based on Event Relation Graph
 来源: EMNLP 2023
 命中: news
 标题: 基于事件关系图识别阴谋理论新闻
@@ -1026,9 +670,9 @@ arXi: https://arxiv.org/abs/2310.18827
 链接: https://openreview.net/forum?id=OYWeQdQiIn
 arXi: https://arxiv.org/abs/2310.18545
 英摘: Conspiracy theories, as a type of misinformation, are narratives that explains an event or situation in an irrational or malicious manner. While most previous work examined conspiracy theory in social media short texts, limited attention was put on such misinformation in long news documents. In this paper, we aim to identify whether a news article contains conspiracy theories. We observe that a conspiracy story can be made up by mixing uncorrelated events together, or by presenting an unusual distribution of relations between events. Achieving a contextualized understanding of events in a story is essential for detecting conspiracy theories. Thus, we propose to incorporate an event relation graph for each article, in which events are nodes, and four common types of event relations, coreference, temporal, causal, and subevent relations, are considered as edges. Then, we integrate the event relation graph into conspiracy theory identification in two ways: an event-aware language model is developed to augment the basic language model with the knowledge of events and event relations via soft labels; further, a heterogeneous graph attention network is designed to derive a graph embedding based on hard labels. Experiments on a large benchmark dataset show that our approach based on event relation graph improves both precision and recall of conspiracy theory identification, and generalizes well for new unseen media sources.
-中摘: 阴谋论作为一种错误信息类型，以非理性或恶意的方式解释事件或情况。虽然之前的研究大多集中在社交媒体上的短文本阴谋论分析，但对长篇新闻文章中的此类错误信息关注较少。本文旨在识别新闻文章是否包含阴谋论。我们发现，一个阴谋故事可能是通过将不相关事件拼凑在一起，或是呈现出事件间异常的关系分布构成的。要检测阴谋论，实现对故事中事件的语境化理解至关重要。因此，我们提出为每篇文章构建一个事件关系图，其中事件作为节点，而四种常见的事件关系——共指关系、时间关系、因果关系和子事件关系，则作为边加以考虑。然后，我们以两种方式将事件关系图融入到阴谋论识别中：首先，开发了一个基于事件感知的语言模型，通过软标签将事件及其关系的知识添加到基础语言模型中；其次，设计了一种异构图注意力网络，根据硬标签推导出图嵌入。在大型基准数据集上的实验表明，我们的基于事件关系图的方法提高了阴谋论识别的精确度和召回率，并且对于新的未知媒体来源具有良好的泛化能力。
+中摘: 阴谋论作为一种错误信息类型，以非理性或恶意的方式解释事件或情况。虽然之前大多数研究集中在社交媒体短文本中的阴谋论分析，但对长篇新闻文档中的此类错误信息关注有限。本文旨在识别新闻文章是否包含阴谋论。我们观察到，一个阴谋故事可能通过将不相关事件拼凑在一起，或者展示事件间异常的关系分布来构成。为了检测阴谋论，实现对故事中事件情境化理解至关重要。因此，我们提出为每篇文章构建事件关系图，其中事件作为节点，四种常见类型的事件关系——共指、时间、因果和子事件关系——被视为边。然后，我们以两种方式将事件关系图整合进阴谋论识别：首先，开发一种事件感知语言模型，通过软标签增强基础语言模型，加入事件和事件关系的知识；其次，设计异质图注意力网络，基于硬标签推导出图嵌入。在大型基准数据集上的实验表明，基于事件关系图的方法提高了阴谋论识别的精确度和召回率，并对新的未见过的媒体来源具有良好的泛化能力。
 ----------------------------------------------------------------------------------------------------
-[No.86] TADI: Topic-aware Attention and Powerful Dual-encoder Interaction for Recall in News Recommendation
+[No.56] TADI: Topic-aware Attention and Powerful Dual-encoder Interaction for Recall in News Recommendation
 来源: EMNLP 2023
 命中: news
 标题: TADI：具有主题意识的注意力机制和强大的双编码器交互模型在新闻推荐中的召回应用
@@ -1038,7 +682,7 @@ arXi: https://arxiv.org/abs/2310.18545
 类型: Long Findings
 链接: https://openreview.net/forum?id=0hyn6MJmnP
 ----------------------------------------------------------------------------------------------------
-[No.87] Disentangling Structure and Style: Political Bias Detection in News by Inducing Document Hierarchy
+[No.57] Disentangling Structure and Style: Political Bias Detection in News by Inducing Document Hierarchy
 来源: EMNLP 2023
 命中: news
 标题: 拆解结构与风格：通过诱导文档层次进行新闻中的政治偏见检测
@@ -1049,9 +693,9 @@ arXi: https://arxiv.org/abs/2310.18545
 链接: https://openreview.net/forum?id=fhEkqMyvb0
 arXi: https://arxiv.org/abs/2304.02247
 英摘: We address an important gap in detecting political bias in news articles. Previous works that perform document classification can be influenced by the writing style of each news outlet, leading to overfitting and limited generalizability. Our approach overcomes this limitation by considering both the sentence-level semantics and the document-level rhetorical structure, resulting in a more robust and style-agnostic approach to detecting political bias in news articles. We introduce a novel multi-head hierarchical attention model that effectively encodes the structure of long documents through a diverse ensemble of attention heads. While journalism follows a formalized rhetorical structure, the writing style may vary by news outlet. We demonstrate that our method overcomes this domain dependency and outperforms previous approaches for robustness and accuracy. Further analysis and human evaluation demonstrate the ability of our model to capture common discourse structures in journalism. Our code is available at: https://github.com/xfactlab/emnlp2023-Document-Hierarchy
-中摘: 我们针对新闻文章中检测政治偏见的重要空白进行了研究。以往进行文档分类的工作可能会受到每个新闻机构写作风格的影响，导致过度拟合和泛化能力有限。我们的方法通过同时考虑句子级语义和文档级修辞结构克服了这一限制，从而在检测新闻文章中的政治偏见方面实现了更稳健且不受风格影响的方法。我们引入了一种新颖的多头层次注意力模型，该模型能够通过多样化的注意力头集合有效地编码长文档的结构。虽然新闻遵循正式的修辞结构，但写作风格可能因新闻机构而异。我们证明了我们的方法克服了这种领域依赖性，在稳健性和准确性上超越了之前的方法。进一步的分析和人工评估展示了我们的模型捕捉新闻业中常见论述结构的能力。我们的代码可在以下网址获取：https://github.com/xfactlab/emnlp2023-Document-Hierarchy
+中摘: 我们解决了一个在新闻文章中检测政治倾向的重要空白。以往进行文档分类的工作可能会受到每个新闻发布机构写作风格的影响，导致过度拟合和泛化能力有限。我们的方法通过同时考虑句子级语义和文档级修辞结构克服了这一限制，从而在检测新闻文章的政治偏见方面实现了更强大且不依赖风格的方法。我们引入了一种新颖的多头层级注意力模型，通过多样化的注意力头集合有效地编码长文档的结构。虽然新闻业遵循一种正式的修辞结构，但写作风格可能因新闻发布机构而异。我们证明了我们的方法克服了这种领域依赖性，在稳健性和准确性方面超越了之前的方法。进一步的分析和人工评估表明，我们的模型能够捕捉新闻业中的常见论述结构。我们的代码可在以下网址获取：https://github.com/xfactlab/emnlp2023-Document-Hierarchy
 ----------------------------------------------------------------------------------------------------
-[No.88] KAPALM: Knowledge grAPh enhAnced Language Models for Fake News Detection
+[No.58] KAPALM: Knowledge grAPh enhAnced Language Models for Fake News Detection
 来源: EMNLP 2023
 命中: news
 标题: 知识图谱增强语言模型用于假新闻检测
@@ -1061,9 +705,343 @@ arXi: https://arxiv.org/abs/2304.02247
 类型: Long Findings
 链接: https://openreview.net/forum?id=mQxqo1di63
 ----------------------------------------------------------------------------------------------------
+[No.59] Collaborative Evolution: Multi-Round Learning Between Large and Small Language Models for Emergent Fake News Detection
+来源: AAAI 2025
+命中: news
+标题: 协作进化：大型和小型语言模型多轮学习以实现新兴虚假新闻检测
+类别: application domains
+作者: Ziyi Zhou;Xiaoming Zhang;Shenghan Tan;Litian Zhang;Chaozhuo Li;
+机构: Beihang University;
+类型: Technical
+链接: https://ojs.aaai.org/index.php/AAAI/article/view/32109
+arXi: https://arxiv.org/abs/2503.21127
+英摘: The proliferation of fake news on social media platforms has exerted a substantial influence on society, leading to discernible impacts and deleterious consequences. Conventional deep learning methodologies employing small language models (SLMs) suffer from the necessity for extensive supervised training and the challenge of adapting to rapidly evolving circumstances. Large language models (LLMs), despite their robust zero-shot capabilities, have fallen short in effectively identifying fake news due to a lack of pertinent demonstrations and the dynamic nature of knowledge. In this paper, a novel framework Multi-Round Collaboration Detection (MRCD) is proposed to address these aforementioned limitations. The MRCD framework is capable of enjoying the merits from both LLMs and SLMs by integrating their generalization abilities and specialized functionalities, respectively. Our approach features a two-stage retrieval module that selects relevant and up-to-date demonstrations and knowledge, enhancing in-context learning for better detection of emerging news events. We further design a multi-round learning framework to ensure more reliable detection results. Our framework MRCD achieves SOTA results on two real-world datasets Pheme and Twitter16, with accuracy improvements of 7.4\% and 12.8\% compared to using only SLMs, which effectively addresses the limitations of current models and improves the detection of emergent fake news.
+中摘: 社交媒体平台上虚假新闻的泛滥对社会产生了重大影响，导致了可察觉的影响和有害后果。采用小型语言模型(SLMs)的传统深度学习方法面临着需要大量有监督训练的必要性以及适应快速变化环境的挑战。尽管大型语言模型(LLMs)具有强大的零样本能力，但由于缺乏相关示例和知识的动态性质，它们在有效识别虚假新闻方面表现不足。在这篇论文中，我们提出了一种新的框架——多轮协作检测(MRCD)，以解决上述限制。MRCD框架能够通过整合LLMs的泛化能力和SLMs的专业功能来享受两者的优势。我们的方法包括一个两阶段检索模块，该模块选择相关且最新的示例和知识，增强上下文学习，以便更好地检测新兴新闻事件。我们进一步设计了一个多轮学习框架，以确保更可靠的检测结果。我们的框架MRCD在两个真实世界数据集Pheme和Twitter16上实现了最先进的成果，与仅使用SLMs相比，准确率分别提高了7.4%和12.8%，这有效地解决了当前模型的局限性，并改善了新兴虚假新闻的检测。
+----------------------------------------------------------------------------------------------------
+[No.60] DAMMFND: Domain-Aware Multimodal Multi-view Fake News Detection
+来源: AAAI 2025
+命中: news
+标题: DAMMFND：领域意识多模态多视角假新闻检测
+类别: application domains
+作者: Weihai Lu;Yu Tong;Zhiqiu Ye;
+机构: Peking University;Wuhan University;Anhui University;
+类型: Technical
+链接: https://ojs.aaai.org/index.php/AAAI/article/view/32036
+----------------------------------------------------------------------------------------------------
+[No.61] Each Fake News Is Fake in Its Own Way: An Attribution Multi-Granularity Benchmark for Multimodal Fake News Detection
+来源: AAAI 2025
+命中: news
+标题: 每条假新闻都有其独特的虚假之处：一种多粒度基准，用于多媒体假新闻检测的归因
+类别: application domains
+作者: Hao Guo;Zihan Ma;Zhi Zeng;Minnan Luo;Weixin Zeng;Jiuyang Tang;Xiang Zhao;
+机构: Nation University of Defense Technology;Xi'an Jiao Tong University;
+类型: Technical
+链接: https://ojs.aaai.org/index.php/AAAI/article/view/31999
+arXi: https://arxiv.org/abs/2412.14686
+英摘: Social platforms, while facilitating access to information, have also become saturated with a plethora of fake news, resulting in negative consequences. Automatic multimodal fake news detection is a worthwhile pursuit. Existing multimodal fake news datasets only provide binary labels of real or fake. However, real news is alike, while each fake news is fake in its own way. These datasets fail to reflect the mixed nature of various types of multimodal fake news. To bridge the gap, we construct an attributing multi-granularity multimodal fake news detection dataset \amg, revealing the inherent fake pattern. Furthermore, we propose a multi-granularity clue alignment model \our to achieve multimodal fake news detection and attribution. Experimental results demonstrate that \amg is a challenging dataset, and its attribution setting opens up new avenues for future research.
+中摘: 虽然社交平台方便了信息获取，但也充斥着大量虚假新闻，导致负面后果。自动多模态虚假新闻检测是一项值得追求的目标。现有的多模态虚假新闻数据集仅提供真实或虚假的二元标签。然而，真实的新闻相似，而每条虚假新闻都有其独特的方式。这些数据集未能反映各种类型多模态虚假新闻的混合本质。为弥补这一空白，我们构建了一个归因于多层次的多模态虚假新闻检测数据集\amg，揭示了内在的虚假模式。此外，我们提出了一种多层次线索对齐模型\our，以实现多模态虚假新闻的检测和归因。实验结果表明，\amg是一个具有挑战性的数据集，其归因设置为未来研究开辟了新的方向。
+----------------------------------------------------------------------------------------------------
+[No.62] External Reliable Information-enhanced Multimodal Contrastive Learning for Fake News Detection
+来源: AAAI 2025
+命中: news
+标题: 基于外部可靠信息的多模态对比学习的假新闻检测方法
+类别: application domains
+作者: Biwei Cao;Qihang Wu;Jiuxin Cao;Bo Liu;Jie Gui;
+机构: Southeast University;Key Laboratory of Computer Network and Information;Purple Mountain Laboratories;
+类型: Technical
+链接: https://ojs.aaai.org/index.php/AAAI/article/view/31977
+arXi: https://arxiv.org/abs/2503.03107
+英摘: With the rapid development of the Internet, the information dissemination paradigm has changed and the efficiency has been improved greatly. While this also brings the quick spread of fake news and leads to negative impacts on cyberspace. Currently, the information presentation formats have evolved gradually, with the news formats shifting from texts to multimodal contents. As a result, detecting multimodal fake news has become one of the research hotspots. However, multimodal fake news detection research field still faces two main challenges: the inability to fully and effectively utilize multimodal information for detection, and the low credibility or static nature of the introduced external information, which limits dynamic updates. To bridge the gaps, we propose ERIC-FND, an external reliable information-enhanced multimodal contrastive learning framework for fake news detection. ERIC-FND strengthens the representation of news contents by entity-enriched external information enhancement method. It also enriches the multimodal news information via multimodal semantic interaction method where the multimodal constrative learning is employed to make different modality representations learn from each other. Moreover, an adaptive fusion method is taken to integrate the news representations from different dimensions for the eventual classification. Experiments are done on two commonly used datasets in different languages, X (Twitter) and Weibo. Experiment results demonstrate that our proposed model ERIC-FND outperforms existing state-of-the-art fake news detection methods under the same settings.
+中摘: 随着互联网的飞速发展，信息传播模式发生了变化，效率得到了极大的提升。然而，这也导致了假新闻的快速传播，对网络空间造成了负面影响。目前，信息展示格式逐渐演变，新闻形式从纯文本转向多模态内容。因此，检测多模态假新闻已成为研究热点之一。然而，多模态假新闻检测领域仍面临两大主要挑战：无法充分有效地利用多模态信息进行检测，以及引入的外部信息可信度低或静态性质，限制了动态更新。为了解决这些问题，我们提出了ERIC-FND，一种基于外部可靠信息增强的多模态对比学习框架，用于假新闻检测。ERIC-FND通过实体丰富型外部信息增强方法加强了新闻内容的表示，并通过多模态语义交互方法丰富了多模态新闻信息，在该方法中运用多模态对比学习使不同模态的表示相互学习。此外，采用自适应融合方法整合来自不同维度的新闻表示，以进行最终分类。实验在两种不同语言的常用数据集上进行，即X（Twitter）和微博。实验结果表明，我们提出的模型ERIC-FND在相同设置下优于现有的最先进假新闻检测方法。
+----------------------------------------------------------------------------------------------------
+[No.63] Is LLMs Hallucination Usable? LLM-based Negative Reasoning for Fake News Detection
+来源: AAAI 2025
+命中: news
+标题: 基于LLM的反向推理在虚假新闻检测中的可用性：LLM的幻觉是否可利用？
+类别: application domains
+作者: Chaowei Zhang;Zongling Feng;Zewei Zhang;Jipeng Qiang;Guandong Xu;Yun Li;
+机构: Yangzhou University;Auburn University;Education University of Hong Kong;
+类型: Technical
+链接: https://ojs.aaai.org/index.php/AAAI/article/view/32089
+arXi: https://arxiv.org/abs/2503.09153
+英摘: The questionable responses caused by knowledge hallucination may lead to LLMs' unstable ability in decision-making. However, it has never been investigated whether the LLMs' hallucination is possibly usable to generate negative reasoning for facilitating the detection of fake news. This study proposes a novel supervised self-reinforced reasoning rectification approach - SR$^3$ that yields both common reasonable reasoning and wrong understandings (negative reasoning) for news via LLMs reflection for semantic consistency learning. Upon that, we construct a negative reasoning-based news learning model called - \emph{NRFE}, which leverages positive or negative news-reasoning pairs for learning the semantic consistency between them. To avoid the impact of label-implicated reasoning, we deploy a student model - \emph{NRFE-D} that only takes news content as input to inspect the performance of our method by distilling the knowledge from \emph{NRFE}. The experimental results verified on three popular fake news datasets demonstrate the superiority of our method compared with three kinds of baselines including prompting on LLMs, fine-tuning on pre-trained SLMs, and other representative fake news detection methods.
+中摘: 由知识幻觉引起的不可靠响应可能导致大型语言模型（LLMs）在决策能力上的不稳定。然而，从未被研究过的是，这些模型的幻觉是否可能被利用来生成负面推理，从而有助于识别假新闻。本研究提出了一种新颖的监督自强化推理修正方法——SR³，它通过LLMs的反思来学习语义一致性，能够产生既普遍合理的推理和错误理解（负面推理）的新闻。基于此，我们构建了一个名为NRFE的基于负面推理的新闻学习模型，该模型利用正面或负面的新闻-推理对来学习它们之间的语义一致性。为了避免标签隐含推理的影响，我们部署了一个学生模型——NRFE-D，它仅将新闻内容作为输入，从NRFE中提炼知识，以此检验我们方法的性能。实验结果在三个流行的假新闻数据集上验证了与三种基线相比，包括在LLMs上提示、在预训练SLMs上微调和其他代表性假新闻检测方法，我们的方法具有优越性。
+----------------------------------------------------------------------------------------------------
+[No.64] Learning Complex Heterogeneous Multimodal Fake News via Social Latent Network Inference
+来源: AAAI 2025
+命中: news
+标题: 通过社会潜在网络推断学习复杂异构多模态假新闻
+类别: application domains
+作者: Mingxin Li;Yuchen Zhang;Haowei Xu;Xianghua Li;Chao Gao;Zhen Wang;
+机构: Northwestern Polytechnical University;
+类型: Technical
+链接: https://ojs.aaai.org/index.php/AAAI/article/view/32022
+arXi: https://arxiv.org/abs/2501.15508
+英摘: With the diversification of online social platforms, news dissemination has become increasingly complex, heterogeneous, and multimodal, making the fake news detection task more challenging and crucial. Previous works mainly focus on obtaining social relationships of news via retweets, limiting the accurate detection when real cascades are inaccessible. Given the proven assessment of the spreading influence of events, this paper proposes a method called HML (Complex Heterogeneous Multimodal Fake News Detection method via Latent Network Inference). Specifically, an improved social latent network inference strategy is designed to estimate the maximum likelihood of news influences under the same event. Meanwhile, a novel heterogeneous graph is built based on social attributes for multimodal news under different events. Further, to better aggregate the relationships among heterogeneous multimodal features, this paper proposes a self-supervised-based multimodal content learning strategy, to enhance, align, fuse and compare heterogeneous modal contents. Based above, a personalized heterogeneous graph representation learning is designed to classify fake news. Extensive experiments demonstrate that the proposed method outperforms the SOTA in real social media news datasets.
+中摘: 随着在线社交平台的多样化，新闻传播变得日益复杂、异构和多模态，这使得假新闻检测任务更具挑战性和关键性。先前的工作主要集中在通过转发来获取新闻的社会关系，当真实的传播链不可获取时，这限制了准确检测的能力。鉴于事件传播影响力评估的证明，本文提出了一种称为HML（通过潜在网络推断的复杂异构多模态假新闻检测方法）。具体而言，设计了一种改进的社会潜在网络推断策略，以估计在相同事件下新闻影响力的最大可能性。同时，基于社会属性构建了一个新型的异构图，用于不同事件下的多模态新闻。进一步地，为了更好地聚合异构多模态特征之间的关系，本文提出了一种基于自监督的多模态内容学习策略，以增强、对齐、融合和比较异构模式的内容。基于以上，设计了一种个性化异构图表示学习，用于分类假新闻。广泛的实验表明，在真实社交媒体新闻数据集上，所提出的方法优于最先进的技术。
+----------------------------------------------------------------------------------------------------
+[No.65] RaCMC: Residual-Aware Compensation Network with Multi-Granularity Constraints for Fake News Detection
+来源: AAAI 2025
+命中: news
+标题: 残差意识补偿网络：带有多粒度约束的假新闻检测模型
+类别: application domains
+作者: Xinquan Yu;Ziqi Sheng;Wei Lu;Xiangyang Luo;Jiantao Zhou;
+机构: Sun Yat-sen University;State Key Laboratory of Mathematical Engineering and Advanced Computing;University of Macau;
+类型: Technical
+链接: https://ojs.aaai.org/index.php/AAAI/article/view/32084
+arXi: https://arxiv.org/abs/2412.18254
+英摘: Multimodal fake news detection aims to automatically identify real or fake news, thereby mitigating the adverse effects caused by such misinformation. Although prevailing approaches have demonstrated their effectiveness, challenges persist in cross-modal feature fusion and refinement for classification. To address this, we present a residual-aware compensation network with multi-granularity constraints (RaCMC) for fake news detection, that aims to sufficiently interact and fuse cross-modal features while amplifying the differences between real and fake news. First, a multiscale residual-aware compensation module is designed to interact and fuse features at different scales, and ensure both the consistency and exclusivity of feature interaction, thus acquiring high-quality features. Second, a multi-granularity constraints module is implemented to limit the distribution of both the news overall and the image-text pairs within the news, thus amplifying the differences between real and fake news at the news and feature levels. Finally, a dominant feature fusion reasoning module is developed to comprehensively evaluate news authenticity from the perspectives of both consistency and inconsistency. Experiments on three public datasets, including Weibo17, Politifact and GossipCop, reveal the superiority of the proposed method.
+中摘: 多模态假新闻检测旨在自动识别真实或虚假新闻，从而减轻此类错误信息带来的不利影响。尽管现有方法已显示出其有效性，但在跨模态特征融合与精炼以进行分类方面仍存在挑战。为了解决这一问题，我们提出了一种带有多层次约束的残差感知补偿网络（RaCMC），用于假新闻检测，旨在充分交互和融合跨模态特征，同时放大真实新闻与虚假新闻之间的差异。首先，设计了一个多尺度残差感知补偿模块来在不同尺度上交互和融合特征，确保特征交互的一致性和排他性，从而获得高质量的特征。其次，实施了一个多层次约束模块来限制新闻整体以及新闻内的图文对的分布，从而在新闻和特征层面放大真实新闻与虚假新闻之间的差异。最后，开发了一个主导特征融合推理模块，从一致性和不一致性两个角度全面评估新闻的真实性。在包括Weibo17、Politifact和GossipCop在内的三个公开数据集上的实验揭示了所提出方法的优越性。
+----------------------------------------------------------------------------------------------------
+[No.66] Text-Guided Fine-grained Counterfactual Inference for Short Video Fake News Detection
+来源: AAAI 2025
+命中: news
+标题: 基于文本引导的细粒度反事实推理在短视频假新闻检测中的应用
+类别: application domains
+作者: Linlin Zong;Wenmin Lin;Jiahui Zhou;Xinyue Liu;Xianchao Zhang;Bo Xu;Shimin Wu;
+机构: Dalian University of Technology;
+类型: Technical
+链接: https://ojs.aaai.org/index.php/AAAI/article/view/32112
+----------------------------------------------------------------------------------------------------
+[No.67] ViFactCheck: A New Benchmark Dataset and Methods for Multi-Domain News Fact-Checking In Vietnamese
+来源: AAAI 2025
+命中: news
+标题: ViFactCheck：一种新的多领域越南语新闻事实核查基准数据集和方法
+类别: application domains
+作者: Tran Thai Hoa;Tran Quang Duy;Khanh Quoc Tran;Kiet Van Nguyen;
+机构: University of Information Technology;Vietnam National University;
+类型: Technical
+链接: https://ojs.aaai.org/index.php/AAAI/article/view/32008
+arXi: https://arxiv.org/abs/2412.15308
+英摘: The rapid spread of information in the digital age highlights the critical need for effective fact-checking tools, particularly for languages with limited resources, such as Vietnamese. In response to this challenge, we introduce ViFactCheck, the first publicly available benchmark dataset designed specifically for Vietnamese fact-checking across multiple online news domains. This dataset contains 7,232 human-annotated pairs of claim-evidence combinations sourced from reputable Vietnamese online news, covering 12 diverse topics. It has been subjected to a meticulous annotation process to ensure high quality and reliability, achieving a Fleiss Kappa inter-annotator agreement score of 0.83. Our evaluation leverages state-of-the-art pre-trained and large language models, employing fine-tuning and prompting techniques to assess performance. Notably, the Gemma model demonstrated superior effectiveness, with an impressive macro F1 score of 89.90%, thereby establishing a new standard for fact-checking benchmarks. This result highlights the robust capabilities of Gemma in accurately identifying and verifying facts in Vietnamese. To further promote advances in fact-checking technology and improve the reliability of digital media, we have made the ViFactCheck dataset, model checkpoints, fact-checking pipelines, and source code freely available on GitHub. This initiative aims to inspire further research and enhance the accuracy of information in low-resource languages.
+中摘: 数字时代信息的快速传播突显了对有效事实核查工具的迫切需求，特别是对于资源有限的语言，如越南语。为应对这一挑战，我们引入了ViFactCheck，这是首个公开可用的基准数据集，专门设计用于跨越多个在线新闻领域的越南语事实核查。该数据集包含7,232个人工注释的声明-证据组合，来源于信誉良好的越南在线新闻，覆盖了12个不同的主题。它经过了细致的注释过程以确保高质量和可靠性，达到了Fleiss Kappa注释者间一致性评分0.83分。我们的评估利用了最先进的预训练和大型语言模型，采用微调和提示技术来评估性能。值得注意的是，Gemma模型表现出卓越的有效性，取得了令人印象深刻的宏观F1分数89.90%，从而确立了事实核查基准的新标准。这一结果凸显了Gemma在准确识别和验证越南语事实方面的强大能力。为了进一步促进事实核查技术的发展并提高数字媒体的可靠性，我们已在GitHub上免费提供了ViFactCheck数据集、模型检查点、事实核查管道以及源代码。这一举措旨在激发更多的研究，并提升低资源语言信息的准确性。
+----------------------------------------------------------------------------------------------------
+[No.68] Towards S²-Challenges Underlying LLM-Based Augmentation for Personalized News Recommendation
+来源: AAAI 2025
+命中: news
+标题: 面向S²挑战：基于LLM的个性化新闻推荐增强技术
+类别: data mining knowledge management ii
+作者: Shicheng Wang;Hengzhu Tang;Li Gao;Shu Guo;Suqi Cheng;Junfeng Wang;Dawei Yin;Tingwen Liu;Lihong Wang;
+机构: Chinese Academy of Sciences;University of Chinese Academy of Sciences;Baidu;National Computer Network Emergency Response Technical Team/Coordination Center;
+类型: Technical
+链接: https://ojs.aaai.org/index.php/AAAI/article/view/33389
+----------------------------------------------------------------------------------------------------
+[No.69] Contradicted in Reliable, Replicated in Unreliable: Dual-Source Reference for Fake News Early Detection
+来源: AAAI 2025
+命中: news
+标题: 可信与不可信来源的双重参考：假新闻早期检测的矛盾验证和重复验证方法
+类别: natural language processing i
+作者: Yifan Feng;Weimin Li;Yue Wang;Jingchao Wang;Fangfang Liu;Zhongming Han;
+机构: Shanghai University;Beijing Technology and Business University;
+类型: Technical
+链接: https://ojs.aaai.org/index.php/AAAI/article/view/34562
+----------------------------------------------------------------------------------------------------
+[No.70] CROSSNEWS: A Cross-Genre Authorship Verification and Attribution Benchmark
+来源: AAAI 2025
+命中: news
+标题: 跨体裁作者身份验证和归属基准（CrossNews）
+类别: natural language processing ii
+作者: Marcus Ma;Duong Minh Le;Junmo Kang;Yao Dou;John Cadigan;Dayne Freitag;Alan Ritter;Wei Xu;
+机构: Georgia Institute of Technology;SRI International;
+类型: Technical
+链接: https://ojs.aaai.org/index.php/AAAI/article/view/34659
+----------------------------------------------------------------------------------------------------
+[No.71] EventSum: A Large-Scale Event-Centric Summarization Dataset for Chinese Multi-News Documents
+来源: AAAI 2025
+命中: news
+标题: 事件总结：面向中文多新闻文档的大规模事件中心总结数据集
+类别: natural language processing iii
+作者: Mengna Zhu;Kaisheng Zeng;Mao Wang;Kaiming Xiao;Lei Hou;Hongbin Huang;Juanzi Li;
+机构: National University of Defense Technology;Tsinghua University;
+类型: Technical
+链接: https://ojs.aaai.org/index.php/AAAI/article/view/34810
+arXi: https://arxiv.org/abs/2412.11814
+英摘: In real life, many dynamic events, such as major disasters and large-scale sports events, evolve continuously over time. Obtaining an overview of these events can help people quickly understand the situation and respond more effectively. This is challenging because the key information of the event is often scattered across multiple documents, involving complex event knowledge understanding and reasoning, which is under-explored in previous work. Therefore, we proposed the Event-Centric Multi-Document Summarization (ECS) task, which aims to generate concise and comprehensive summaries of a given event based on multiple related news documents. Based on this, we constructed the EventSum dataset, which was constructed using Baidu Baike entries and underwent extensive human annotation, to facilitate relevant research. It is the first large scale Chinese multi-document summarization dataset, containing 5,100 events and a total of 57,984 news documents, with an average of 11.4 input news documents and 13,471 characters per event. To ensure data quality and mitigate potential data leakage, we adopted a multi-stage annotation approach for manually labeling the test set. Given the complexity of event-related information, existing metrics struggle to comprehensively assess the quality of generated summaries. We designed specific metrics including Event Recall, Argument Recall, Causal Recall, and Temporal Recall along with corresponding calculation methods for evaluation. We conducted comprehensive experiments on EventSum to evaluate the performance of advanced long-context Large Language Models (LLMs) on this task. Our experimental results indicate that: 1) The event-centric multi-document summarization task remains challenging for existing long-context LLMs; 2) The recall metrics we designed are crucial for evaluating the comprehensiveness of the summary information.
+中摘: 在现实生活中，许多动态事件，如重大灾难和大型体育赛事，会随时间持续演变。获取这些事件的概览可以帮助人们快速理解情况并更有效地做出反应。这极具挑战性，因为事件的关键信息往往分散在多篇文档中，涉及复杂的事件知识理解和推理，而这些在先前的工作中研究得不够充分。因此，我们提出了以事件为中心的多文档摘要（ECS）任务，旨在根据多个相关的新闻文档为给定事件生成简洁且全面的摘要。基于此，我们构建了EventSum数据集，该数据集使用百度百科条目构建，并经过广泛的人工标注，以促进相关研究。这是首个大规模的中文多文档摘要数据集，包含5,100个事件和总计57,984篇新闻文档，每个事件平均有11.4篇输入新闻文档和13,471个字符。为了确保数据质量并减轻潜在的数据泄露问题，我们对测试集采用了多阶段标注方法进行人工标记。鉴于事件相关信息的复杂性，现有指标难以全面评估生成摘要的质量。我们设计了特定的指标，包括事件召回率、论据召回率、因果召回率和时间召回率，以及相应的计算方法来进行评价。我们在EventSum上进行了全面的实验，以评估先进的长上下文大语言模型（LLMs）在此任务上的表现。我们的实验结果表明：1）现有的长上下文LLMs对于以事件为中心的多文档摘要任务仍然存在挑战；2）我们设计的召回率指标对于评估摘要信息的全面性至关重要。
+----------------------------------------------------------------------------------------------------
+[No.72] Bad Actor, Good Advisor: Exploring the Role of Large Language Models in Fake News Detection
+来源: AAAI 2024
+命中: news
+标题: 恶意行为者，良师益友：探索大型语言模型在假新闻检测中的角色
+类别: ai for social impact track
+作者: Beizhe Hu;Qiang Sheng;Juan Cao;Yuhui Shi;Yang Li;Danding Wang;Peng Qi;
+机构: Chinese Academy of Sciences;University of Chinese Academy of Sciences;National University of Singapore;
+类型: Technical
+链接: https://ojs.aaai.org/index.php/AAAI/article/view/30214
+arXi: https://arxiv.org/abs/2309.12247
+英摘: Detecting fake news requires both a delicate sense of diverse clues and a profound understanding of the real-world background, which remains challenging for detectors based on small language models (SLMs) due to their knowledge and capability limitations. Recent advances in large language models (LLMs) have shown remarkable performance in various tasks, but whether and how LLMs could help with fake news detection remains underexplored. In this paper, we investigate the potential of LLMs in fake news detection. First, we conduct an empirical study and find that a sophisticated LLM such as GPT 3.5 could generally expose fake news and provide desirable multi-perspective rationales but still underperforms the basic SLM, fine-tuned BERT. Our subsequent analysis attributes such a gap to the LLM's inability to select and integrate rationales properly to conclude. Based on these findings, we propose that current LLMs may not substitute fine-tuned SLMs in fake news detection but can be a good advisor for SLMs by providing multi-perspective instructive rationales. To instantiate this proposal, we design an adaptive rationale guidance network for fake news detection (ARG), in which SLMs selectively acquire insights on news analysis from the LLMs' rationales. We further derive a rationale-free version of ARG by distillation, namely ARG-D, which services cost-sensitive scenarios without querying LLMs. Experiments on two real-world datasets demonstrate that ARG and ARG-D outperform three types of baseline methods, including SLM-based, LLM-based, and combinations of small and large language models.
+中摘: 检测假新闻需要对各种线索有敏锐的感觉，并深刻理解现实世界的背景，这对基于小型语言模型(SLMs)的检测器来说仍然具有挑战性，因为它们在知识和能力上存在局限。最近，大型语言模型(LLMs)在多种任务中展现出卓越的表现，但LLMs是否以及如何帮助检测假新闻仍有待探索。在这篇论文中，我们研究了LLMs在假新闻检测中的潜力。首先，我们进行了一项实证研究，发现像GPT 3.5这样的复杂LLM通常能够揭露假新闻并提供理想的多角度依据，但其性能仍不如基础的SLM，即微调后的BERT。随后的分析将这种差距归因于LLM无法正确选择和整合依据以得出结论。基于这些发现，我们认为当前的LLMs可能不会取代微调SLM在假新闻检测中的作用，但可以为SLMs提供多角度指导性的依据，作为良好的顾问。为了实现这一提议，我们设计了一个适用于假新闻检测的自适应依据引导网络(Adaptive Rationale Guidance，简称ARG)，在这个网络中，SLMs有选择地从LLMs的依据中获取新闻分析的见解。此外，我们通过蒸馏方法推导出一个无需依据的ARG版本，即ARG-D，它服务于那些成本敏感的场景，而无需查询LLMs。在两个真实世界数据集上的实验表明，ARG和ARG-D优于三类基线方法，包括基于SLM的、基于LLM的以及结合小型和大型语言模型的方法。
+----------------------------------------------------------------------------------------------------
+[No.73] Harnessing Network Effect for Fake News Mitigation: Selecting Debunkers via Self-Imitation Learning
+来源: AAAI 2024
+命中: news
+标题: 利用网络效应对抗假新闻：通过自我模仿学习选择辟谣者
+类别: ai for social impact track
+作者: Xiaofei Xu;Ke Deng;Michael Dann;Xiuzhen Zhang;
+机构: RMIT University;
+类型: Technical
+链接: https://ojs.aaai.org/index.php/AAAI/article/view/30252
+arXi: https://arxiv.org/abs/2402.03357
+英摘: This study aims to minimize the influence of fake news on social networks by deploying debunkers to propagate true news. This is framed as a reinforcement learning problem, where, at each stage, one user is selected to propagate true news. A challenging issue is episodic reward where the "net" effect of selecting individual debunkers cannot be discerned from the interleaving information propagation on social networks, and only the collective effect from mitigation efforts can be observed. Existing Self-Imitation Learning (SIL) methods have shown promise in learning from episodic rewards, but are ill-suited to the real-world application of fake news mitigation because of their poor sample efficiency. To learn a more effective debunker selection policy for fake news mitigation, this study proposes NAGASIL - Negative sampling and state Augmented Generative Adversarial Self-Imitation Learning, which consists of two improvements geared towards fake news mitigation: learning from negative samples, and an augmented state representation to capture the "real" environment state by integrating the current observed state with the previous state-action pairs from the same campaign. Experiments on two social networks show that NAGASIL yields superior performance to standard GASIL and state-of-the-art fake news mitigation models.
+中摘: 本研究旨在通过部署辟谣者传播真实新闻来最小化虚假新闻在社交网络上的影响。这被构架为一个强化学习问题，在每个阶段选择一个用户来传播真实新闻。一个具有挑战性的问题是分段奖励，即从社交网络上交织的信息传播中无法分辨出选择个别辟谣者的“净”效果，只能观察到缓解措施的集体效果。现有的自我模仿学习（SIL）方法在从分段奖励中学习方面显示出潜力，但它们的样本效率低下，不适合实际应用中的虚假新闻缓解工作。为了学习更有效的辟谣者选择策略以减轻虚假新闻的影响，本研究提出了NAGASIL - 负采样和状态增强的生成对抗性自我模仿学习，它包括两个针对虚假新闻缓解的改进：从负样本中学习，以及增强的状态表示，通过将当前观测状态与同一活动中的前一状态-动作对整合起来，捕捉“真实”的环境状态。在两个社交网络上的实验表明，NAGASIL的表现优于标准GASIL和其他最先进的虚假新闻缓解模型。
+----------------------------------------------------------------------------------------------------
+[No.74] GAMC: An Unsupervised Method for Fake News Detection Using Graph Autoencoder with Masking
+来源: AAAI 2024
+命中: news
+标题: GAMC：一种基于图自编码器掩码的无监督假新闻检测方法
+类别: application domains
+作者: Shu Yin;Peican Zhu;Lianwei Wu;Chao Gao;Zhen Wang;
+机构: Northwestern Polytechnical University;
+类型: Technical
+链接: https://ojs.aaai.org/index.php/AAAI/article/view/27788
+arXi: https://arxiv.org/abs/2312.05739
+英摘: With the rise of social media, the spread of fake news has become a significant concern, potentially misleading public perceptions and impacting social stability. Although deep learning methods like CNNs, RNNs, and Transformer-based models like BERT have enhanced fake news detection, they primarily focus on content, overlooking social context during news propagation. Graph-based techniques have incorporated this social context but are limited by the need for large labeled datasets. Addressing these challenges, this paper introduces GAMC, an unsupervised fake news detection technique using the Graph Autoencoder with Masking and Contrastive learning. By leveraging both the context and content of news propagation as self-supervised signals, our method negates the requirement for labeled datasets. We augment the original news propagation graph, encode these with a graph encoder, and employ a graph decoder for reconstruction. A unique composite loss function, including reconstruction error and contrast loss, is designed. The method's contributions are: introducing self-supervised learning to fake news detection, proposing a graph autoencoder integrating two distinct losses, and validating our approach's efficacy through real-world dataset experiments.
+中摘: 随着社交媒体的兴起，假新闻的传播已成为一个重大问题，可能误导公众认知并影响社会稳定性。尽管深度学习方法如卷积神经网络（CNN）、循环神经网络（RNN）以及基于Transformer的模型如BERT提高了假新闻检测的能力，但它们主要关注内容，忽略了新闻传播过程中的社交背景。图技术虽已将这种社交背景纳入考虑，但受限于需要大量标注数据集。为应对这些挑战，本文提出了一种名为GAMC的无监督假新闻检测技术，采用带有掩蔽和对比学习的图自编码器。通过利用新闻传播的内容和上下文作为自监督信号，我们的方法消除了对标注数据集的需求。我们增强了原始的新闻传播图，使用图编码器对其进行编码，并运用图解码器进行重构。设计了一个独特的复合损失函数，包括重构误差和对比损失。该方法的贡献在于：引入了自监督学习用于假新闻检测，提出了整合两种不同损失的图自编码器，并通过实际数据集实验验证了我们方法的有效性。
+----------------------------------------------------------------------------------------------------
+[No.75] Unveiling Implicit Deceptive Patterns in Multi-Modal Fake News via Neuro-Symbolic Reasoning
+来源: AAAI 2024
+命中: news
+标题: 通过神经符号推理揭示多模态假新闻中的隐含欺骗模式
+类别: data mining knowledge management
+作者: Yiqi Dong;Dongxiao He;Xiaobao Wang;Youzhu Jin;Meng Ge;Carl Yang;Di Jin;
+机构: Tianjin University;Beijing University of Technology;National University of Singapore;Emory University;
+类型: Technical
+链接: https://ojs.aaai.org/index.php/AAAI/article/view/28677
+----------------------------------------------------------------------------------------------------
+[No.76] Reinforced Adaptive Knowledge Learning for Multimodal Fake News Detection
+来源: AAAI 2024
+命中: news
+标题: 强化自适应多模态假新闻检测的知识学习
+类别: machine learning vi
+作者: Litian Zhang;Xiaoming Zhang;Ziyi Zhou;Feiran Huang;Chaozhuo Li;
+机构: Beihang University;Jinan University;Beijing University of Posts and Telecommunications;
+类型: Technical
+链接: https://ojs.aaai.org/index.php/AAAI/article/view/29618
+----------------------------------------------------------------------------------------------------
+[No.77] BAND: Biomedical Alert News Dataset
+来源: AAAI 2024
+命中: news
+标题: BAND：生物医学警报新闻数据集
+类别: natural language processing i
+作者: Zihao Fu;Meiru Zhang;Zaiqiao Meng;Yannan Shen;David Buckeridge;Nigel Collier;
+机构: University of Cambridge;University of Glasgow;McGill University;
+类型: Technical
+链接: https://ojs.aaai.org/index.php/AAAI/article/view/29757
+arXi: https://arxiv.org/abs/2305.14480
+英摘: Infectious disease outbreaks continue to pose a significant threat to human health and well-being. To improve disease surveillance and understanding of disease spread, several surveillance systems have been developed to monitor daily news alerts and social media. However, existing systems lack thorough epidemiological analysis in relation to corresponding alerts or news, largely due to the scarcity of well-annotated reports data. To address this gap, we introduce the Biomedical Alert News Dataset (BAND), which includes 1,508 samples from existing reported news articles, open emails, and alerts, as well as 30 epidemiology-related questions. These questions necessitate the model's expert reasoning abilities, thereby offering valuable insights into the outbreak of the disease. The BAND dataset brings new challenges to the NLP world, requiring better disguise capability of the content and the ability to infer important information. We provide several benchmark tasks, including Named Entity Recognition (NER), Question Answering (QA), and Event Extraction (EE), to show how existing models are capable of handling these tasks in the epidemiology domain. To the best of our knowledge, the BAND corpus is the largest corpus of well-annotated biomedical outbreak alert news with elaborately designed questions, making it a valuable resource for epidemiologists and NLP researchers alike.
+中摘: 传染病爆发持续对人类健康和福祉构成重大威胁。为了改进疾病监测并加深对疾病传播的理解，已经开发了多个监控系统来监视每日新闻警报和社会媒体。然而，现有系统在与相应警报或新闻相关的流行病学分析方面存在不足，这主要是由于缺乏良好标注的报告数据。为了解决这一差距，我们引入了生物医学警报新闻数据集（BAND），其中包含1508个样本，来自已报道的新闻文章、公开邮件和警报，以及30个与流行病学相关的问题。这些问题要求模型具备专家级别的推理能力，从而为疾病的爆发提供宝贵见解。BAND数据集为自然语言处理（NLP）领域带来了新的挑战，需要内容更好的伪装能力和推断重要信息的能力。我们提供了几个基准任务，包括命名实体识别（NER）、问题回答（QA）和事件抽取（EE），以展示现有模型如何在流行病学领域应对这些任务。据我们所知，BAND语料库是最大的、良好标注的生物医学疫情警报新闻语料库，设计了精心策划的问题，使其成为流行病学家和NLP研究者的宝贵资源。
+----------------------------------------------------------------------------------------------------
+[No.78] LANCER: A Lifetime-Aware News Recommender System
+来源: AAAI 2023
+命中: news
+标题: LANCER：一种具备生命周期意识的新闻推荐系统
+类别: data mining and knowledge management
+作者: Hong-Kyun Bae;Jeewon Ahn;Dongwon Lee;Sang-Wook Kim;
+机构: Hanyang University;Pennsylvania State University;
+类型: Technical
+链接: https://ojs.aaai.org/index.php/AAAI/article/view/25530
+----------------------------------------------------------------------------------------------------
+[No.79] Bootstrapping Multi-View Representations for Fake News Detection
+来源: AAAI 2023
+命中: news
+标题: 基于多视图表示的假新闻检测Bootstraping Multi-View Representations for Fake News Detection
+类别: domain s of application
+作者: Qichao Ying;Xiaoxiao Hu;Yangming Zhou;Zhenxing Qian;Dan Zeng;Shiming Ge;
+机构: Fudan University;Shanghai University;Chinese Academy of Sciences;
+类型: Technical
+链接: https://ojs.aaai.org/index.php/AAAI/article/view/25670
+arXi: https://arxiv.org/abs/2206.05741
+英摘: Previous researches on multimedia fake news detection include a series of complex feature extraction and fusion networks to gather useful information from the news. However, how cross-modal consistency relates to the fidelity of news and how features from different modalities affect the decision-making are still open questions. This paper presents a novel scheme of Bootstrapping Multi-view Representations (BMR) for fake news detection. Given a multi-modal news, we extract representations respectively from the views of the text, the image pattern and the image semantics. Improved Multi-gate Mixture-of-Expert networks (iMMoE) are proposed for feature refinement and fusion. Representations from each view are separately used to coarsely predict the fidelity of the whole news, and the multimodal representations are able to predict the cross-modal consistency. With the prediction scores, we reweigh each view of the representations and bootstrap them for fake news detection. Extensive experiments conducted on typical fake news detection datasets prove that the proposed BMR outperforms state-of-the-art schemes.
+中摘: 先前关于多媒体假新闻检测的研究包括一系列复杂的特征提取和融合网络，以从新闻中收集有用信息。然而，跨模态一致性与新闻真实性之间的关系，以及不同模态的特征如何影响决策仍然是开放性问题。本文提出了一种名为“引导多视图表示”（BMR）的新型方案用于假新闻检测。对于一个多模态新闻，我们分别从文本、图像模式和图像语义的角度提取表示。提出了改进的多门混合专家网络（iMMoE）进行特征细化和融合。来自每个视图的表示分别用于粗略预测整个新闻的真实性，而多模态表示能够预测跨模态的一致性。利用预测得分，我们重新加权每个视图的表示，并对其进行引导，用于假新闻检测。在典型假新闻检测数据集上进行的广泛实验证明，提出的BMR方案优于最先进的方法。
+----------------------------------------------------------------------------------------------------
+[No.80] HG-SL: Jointly Learning of Global and Local User Spreading Behavior for Fake News Early Detection
+来源: AAAI 2023
+命中: news
+标题: 联合学习全局和局部用户传播行为以实现虚假新闻早期检测
+类别: domain s of application
+作者: Ling Sun;Yuan Rao;Yuqian Lan;Bingcan Xia;Yangyang Li;
+机构: Xi'an Jiao Tong University;National Engineering Laboratory for Risk Perception and Prevention;
+类型: Technical
+链接: https://ojs.aaai.org/index.php/AAAI/article/view/25655
+----------------------------------------------------------------------------------------------------
+[No.81] See How You Read? Multi-Reading Habits Fusion Reasoning for Multi-Modal Fake News Detection
+来源: AAAI 2023
+命中: news
+标题: 你是如何阅读的？融合多读取习惯进行多模态假新闻检测的原因分析
+类别: speech natural language processing
+作者: Lianwei Wu;Pusheng Liu;Yanning Zhang;
+机构: Northwestern Polytechnical University;
+类型: Technical
+链接: https://ojs.aaai.org/index.php/AAAI/article/view/26609
+----------------------------------------------------------------------------------------------------
+[No.82] SumREN: Summarizing Reported Speech about Events in News
+来源: AAAI 2023
+命中: news
+标题: SumREN: 汇总新闻中关于事件的引语报道摘要
+类别: speech natural language processing
+作者: Revanth Gangi Reddy;Heba Elfardy;Hou Pong Chan;Kevin Small;Heng Ji;
+机构: University of Illinois Urbana-Champaign;Amazon;University of Macau;
+类型: Technical
+链接: https://ojs.aaai.org/index.php/AAAI/article/view/26506
+arXi: https://arxiv.org/abs/2212.01146
+英摘: A primary objective of news articles is to establish the factual record for an event, frequently achieved by conveying both the details of the specified event (i.e., the 5 Ws; Who, What, Where, When and Why regarding the event) and how people reacted to it (i.e., reported statements). However, existing work on news summarization almost exclusively focuses on the event details. In this work, we propose the novel task of summarizing the reactions of different speakers, as expressed by their reported statements, to a given event. To this end, we create a new multi-document summarization benchmark, SUMREN, comprising 745 summaries of reported statements from various public figures obtained from 633 news articles discussing 132 events. We propose an automatic silver training data generation approach for our task, which helps smaller models like BART achieve GPT-3 level performance on this task. Finally, we introduce a pipeline-based framework for summarizing reported speech, which we empirically show to generate summaries that are more abstractive and factual than baseline query-focused summarization approaches.
+中摘: 新闻文章的主要目标之一是为事件建立事实记录，这通常通过传达事件的具体细节（即5W：谁、什么、地点、时间以及关于事件的原因）和人们对此事件的反应（即报道的言论）来实现。然而，现有的新闻摘要工作几乎完全集中在事件的细节上。在这项工作中，我们提出了一个新颖的任务，即总结不同发言者对特定事件的反应，这些反应通过他们的报道言论表达。为此，我们创建了一个新的多文档摘要基准数据集SUMREN，其中包括从讨论132个事件的633篇新闻文章中获取的745个公共人物的报道言论摘要。我们为这项任务提出了一种自动银标准训练数据生成方法，这种方法帮助像BART这样的较小模型在该任务上达到GPT-3级别的性能。最后，我们引入了一个基于管道的框架用于报道言论的摘要，实证表明，与基线查询焦点摘要方法相比，该框架生成的摘要更具抽象性和事实性。
+----------------------------------------------------------------------------------------------------
+[No.83] A General Black-box Adversarial Attack on Graph-based Fake News Detectors
+来源: IJCAI 2024
+命中: news
+标题: 基于图的假新闻检测器的一般黑盒对抗攻击
+类别: AI Ethics, Trust, Fairness
+作者: Peican Zhu;Zechen Pan;Yang Liu;Jiwei Tian;Keke Tang;Zhen Wang;
+机构: Northwestern Polytechnical University;Air Force Engineering University;Guangzhou University;
+类型: Poster
+链接: https://www.ijcai.org/proceedings/2024/63
+arXi: https://arxiv.org/abs/2404.15744
+英摘: Graph Neural Network (GNN)-based fake news detectors apply various methods to construct graphs, aiming to learn distinctive news embeddings for classification. Since the construction details are unknown for attackers in a black-box scenario, it is unrealistic to conduct the classical adversarial attacks that require a specific adjacency matrix. In this paper, we propose the first general black-box adversarial attack framework, i.e., General Attack via Fake Social Interaction (GAFSI), against detectors based on different graph structures. Specifically, as sharing is an important social interaction for GNN-based fake news detectors to construct the graph, we simulate sharing behaviors to fool the detectors. Firstly, we propose a fraudster selection module to select engaged users leveraging local and global information. In addition, a post injection module guides the selected users to create shared relations by sending posts. The sharing records will be added to the social context, leading to a general attack against different detectors. Experimental results on empirical datasets demonstrate the effectiveness of GAFSI.
+中摘: 图神经网络（GNN）基于的假新闻检测器应用了多种方法来构建图，旨在学习有区分性的新闻嵌入以进行分类。由于在黑盒场景下攻击者无法得知构建细节，进行需要特定邻接矩阵的经典对抗性攻击并不现实。在这篇论文中，我们提出了首个通用的黑盒对抗性攻击框架，即通过虚假社交互动进行的通用攻击（GAFSI），针对基于不同图结构的检测器。具体而言，鉴于分享是GNN基假新闻检测器构建图的重要社交互动，我们模拟分享行为来误导这些检测器。首先，我们设计了一个欺诈者选择模块，利用局部和全局信息来挑选参与度高的用户。此外，一个发帖注入模块指导选定的用户通过发送帖子创建分享关系。分享记录将被加入社交情境中，从而对不同的检测器产生普遍的攻击。在经验数据集上的实验结果证明了GAFSI的有效性。
+----------------------------------------------------------------------------------------------------
+[No.84] Natural Language-centered Inference Network for Multi-modal Fake News Detection
+来源: IJCAI 2024
+命中: news
+标题: 基于自然语言的多模态假新闻检测推理网络
+类别: Data Mining
+作者: Qiang Zhang;Jiawei Liu;Fanrui Zhang;Jingyi Xie;Zheng-Jun Zha;
+机构: University of Science and Technology of China;
+类型: Poster
+链接: https://www.ijcai.org/proceedings/2024/281
+----------------------------------------------------------------------------------------------------
+[No.85] Unified Evidence Enhancement Inference Framework for Fake News Detection
+来源: IJCAI 2024
+命中: news
+标题: 统一证据增强推理框架以检测假新闻
+类别: Natural Language Processing
+作者: Lianwei Wu;Linyong Wang;Yongqiang Zhao;
+机构: Northwestern Polytechnical University;Peking University;
+类型: Poster
+链接: https://www.ijcai.org/proceedings/2024/723
+----------------------------------------------------------------------------------------------------
+[No.86] A Generalized Deep Markov Random Fields Framework for Fake News Detection
+来源: IJCAI 2023
+命中: news
+标题: 一种广义深度马尔可夫随机场框架用于假新闻检测
+类别: Multidisciplinary Topics and Applications
+作者: Yiqi Dong;Dongxiao He;Xiaobao Wang;Yawen Li;Xiaowen Su;Di Jin;
+机构: Tianjin University;Beijing University of Posts and Telecommunications;
+类型: Poster
+链接: https://www.ijcai.org/proceedings/2023/529
+----------------------------------------------------------------------------------------------------
+[No.87] Spotlight News Driven Quantitative Trading Based on Trajectory Optimization
+来源: IJCAI 2023
+命中: news
+标题: 聚光灯新闻驱动的基于轨迹优化的量化交易
+类别: Multidisciplinary Topics and Applications
+作者: Mengyuan Yang;Mengying Zhu;Qianqiao Liang;Xiaolin Zheng;MengHan Wang;
+机构: Zhejiang University;MYbank;eBay Inc.;
+类型: Poster
+链接: https://www.ijcai.org/proceedings/2023/548
+----------------------------------------------------------------------------------------------------
 ====================================================================================================
-共找到 88 篇论文
-其中 54 篇成功获取摘要并翻译
+共找到 87 篇论文
+其中 53 篇成功获取摘要并翻译
 报告生成完成
 ====================================================================================================
-
