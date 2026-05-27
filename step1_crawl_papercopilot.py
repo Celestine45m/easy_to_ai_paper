@@ -19,25 +19,26 @@ from bs4 import BeautifulSoup
 
 # 会议名称到URL路径的映射
 CONFERENCE_URL_MAP = {
-    "NeurIPS": "neurips-paper-list",
-    "ICLR": "iclr-paper-list",
-    "ICML": "icml-paper-list",
-    "AAAI": "aaai-paper-list",
-    "IJCAI": "ijcai-paper-list",
-    "ACL": "acl-paper-list",
-    "EMNLP": "emnlp-paper-list",
+    # "NeurIPS": "neurips-paper-list",
+    # "ICLR": "iclr-paper-list",
+    # "ICML": "icml-paper-list",
+    # "AAAI": "aaai-paper-list",
+    # "IJCAI": "ijcai-paper-list",
+    # "ACL": "acl-paper-list",
+    # "EMNLP": "emnlp-paper-list",
+    "CVPR": "cvpr-paper-list",
+    "ICCV": "iccv-paper-list",
+    "ECCV": "eccv-paper-list",
+
+    # "ICRA": "icra-paper-list",
+    # "IROS": "iros-paper-list",
 
     # "NAACL": "naacl-paper-list",
     # "COLING": "coling-paper-list",
-    # "CVPR": "cvpr-paper-list",
-    # "ICCV": "iccv-paper-list",
-    # "ECCV": "eccv-paper-list",
     # "WACV": "wacv-paper-list",
     # "KDD": "kdd-paper-list",
     # "WWW": "www-paper-list",
     # "SIGIR": "sigir-paper-list",
-    # "ICRA": "icra-paper-list",
-    # "IROS": "iros-paper-list",
     # "RSS": "rss-paper-list",
     # "CoRL": "corl-paper-list",
     # "AISTATS": "aistats-paper-list",
@@ -430,7 +431,7 @@ def main():
         # ("ICML", "2023"),
         
         # ("AAAI", "2025"),
-        ("AAAI", "2024"),
+        # ("AAAI", "2024"),
         # ("AAAI", "2023"),
         
         # ("IJCAI", "2024"),
@@ -441,6 +442,11 @@ def main():
 
         # ("EMNLP", "2024"),
         # ("EMNLP", "2023"),
+
+        # ("CVPR", "2025"),
+        # ("ICCV", "2025"),
+        ("ECCV", "2024"),
+        
     ]
 
     

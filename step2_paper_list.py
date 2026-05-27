@@ -520,11 +520,16 @@ if __name__ == "__main__":
         # ("IJCAI", "2024"),
         # ("IJCAI", "2023"),
         
-        ("ACL", "2024"),
-        ("ACL", "2023"),
+        # ("ACL", "2024"),
+        # ("ACL", "2023"),
 
-        ("EMNLP", "2024"),
-        ("EMNLP", "2023"),
+        # ("EMNLP", "2024"),
+        # ("EMNLP", "2023"),
+
+        
+        ("CVPR", "2025"),
+        ("ICCV", "2025"),
+        ("ECCV", "2024"),
     ]
 
     for conference, year in paper_list:

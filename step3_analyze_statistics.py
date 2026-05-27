@@ -326,30 +326,34 @@ def main():
     # 配置参数
         # 使用 (会议, 年份) 元组列表，避免 dict 中同会议多届被重复 key 覆盖
     paper_list = [
-        ("NeurIPS", "2025"),
-        ("NeurIPS", "2024"),
-        ("NeurIPS", "2023"),
+        # ("NeurIPS", "2025"),
+        # ("NeurIPS", "2024"),
+        # ("NeurIPS", "2023"),
         
-        ("ICLR", "2025"),
-        ("ICLR", "2024"),
-        ("ICLR", "2023"),
+        # ("ICLR", "2025"),
+        # ("ICLR", "2024"),
+        # ("ICLR", "2023"),
         
-        ("ICML", "2025"),
-        ("ICML", "2024"),
-        ("ICML", "2023"),
+        # ("ICML", "2025"),
+        # ("ICML", "2024"),
+        # ("ICML", "2023"),
         
-        ("AAAI", "2025"),
-        ("AAAI", "2024"),
-        ("AAAI", "2023"),
+        # ("AAAI", "2025"),
+        # ("AAAI", "2024"),
+        # ("AAAI", "2023"),
         
-        ("IJCAI", "2024"),
-        ("IJCAI", "2023"),
+        # ("IJCAI", "2024"),
+        # ("IJCAI", "2023"),
         
-        ("ACL", "2024"),
-        ("ACL", "2023"),
+        # ("ACL", "2024"),
+        # ("ACL", "2023"),
 
-        ("EMNLP", "2024"),
-        ("EMNLP", "2023"),
+        # ("EMNLP", "2024"),
+        # ("EMNLP", "2023"),
+
+        ("CVPR", "2025"),
+        ("ICCV", "2025"),
+        ("ECCV", "2024"),
     ]
 
     first_author_only = False  # 改为True只统计第一作者机构
@@ -387,7 +391,7 @@ def main():
                                      first_author_only=first_author_only, 
                                      conference_name=paper, year=year)
 
-        # ========== 保存汇总报告 ==========
+        # ========== 保存汇总报告 =========
         summary_output_file = f'{paper}/{paper}_{year}_statistics_summary.txt'
         save_summary_statistics(category_counter, affiliation_counter, total_papers,
                                summary_output_file, paper, year, first_author_only)
@@ -396,4 +400,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    main()09 
